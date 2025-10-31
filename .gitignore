@@ -1,0 +1,13 @@
+# Roblox
+/*.rbxm*
+/*.rbxl*
+*.rbxl*.lock
+
+# Other
+build/
+.DS_Store
+.vscode/**
+!.vscode/settings.json
+*.sublime-project
+*.sublime-workspace
+*.log

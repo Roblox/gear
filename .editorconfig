@@ -1,0 +1,17 @@
+# EditorConfig is a cross-editor configuration format for ensuring editors use
+# the right defaults for line endings, indentation, etc.
+#
+# https://editorconfig.org/
+
+root = true
+
+[*]
+indent_style = tab
+insert_final_newline = true
+trim_trailing_whitespace = true
+end_of_line = lf
+charset = utf-8
+
+[*.{yaml,yml,json,rbxp,robloxrc}]
+indent_style = space
+indent_size = 2
