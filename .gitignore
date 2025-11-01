@@ -11,3 +11,6 @@ build/
 *.sublime-project
 *.sublime-workspace
 *.log
+
+# Rojo
+sourcemap.json

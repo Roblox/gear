@@ -1,0 +1,11 @@
+{
+  "name": "GravityCoil",
+  "tree": {
+    "$className": "Tool",
+    "$path": "src",
+
+    "constants": {
+      "$path": "../../modules/constants.lua"
+    }
+  }
+}

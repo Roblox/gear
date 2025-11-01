@@ -1,0 +1,13 @@
+{
+  "name": "marketplace-gear",
+  "tree": {
+    "$className": "DataModel",
+    "ServerStorage": {
+      "$className": "ServerStorage",
+
+      "GravityCoil": {
+        "$path": "src/gear/GravityCoil/gear.project.json"
+      }
+    }
+  }
+}
