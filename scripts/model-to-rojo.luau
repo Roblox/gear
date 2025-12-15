@@ -8,17 +8,10 @@ local tool = game.StarterPack.GravityCoil
 
 local function diffProperties(instance: Instance)
 	local class = reflection:GetClass(instance.ClassName)
-	for name, prop in class.Properties do
-		if class.DefaultProperties[prop.Name] == nil then
+	for _name, prop in class.Properties do
+		if class.DefaultProperties[prop.Name] == nil or (instance.ClassName == "Script" and prop.Name == "Source") then
 			continue
 		end
-		-- local success, propertyValueOrErr = pcall(function()
-		-- 	return instance[prop.Name]
-		-- end)
-		-- if not success then
-		-- 	warn(propertyValueOrErr)
-		-- 	continue
-		-- end
 
 		local propertyValue = instance[prop.Name]
 		if propertyValue ~= class.DefaultProperties[prop.Name] then
