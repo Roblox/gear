@@ -6,7 +6,7 @@
       "$className": "ServerStorage",
 
       "GravityCoil": {
-        "$path": "src/gear/GravityCoil/gear.project.json"
+        "$path": "src/gear/GravityCoil"
       }
     }
   }
