@@ -1,0 +1,7 @@
+{
+  "name": "GravityCoil",
+  "tree": {
+    "$className": "Tool",
+    "$path": "src"
+  }
+}
