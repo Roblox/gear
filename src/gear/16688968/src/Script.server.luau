@@ -1,8 +1,12 @@
-local tool = script.Parent
-local handle = tool:WaitForChild("Handle")
+--Rescripted by Luckymaxer
+
+Tool = script.Parent
+Handle = Tool:WaitForChild("Handle")
+
+Players = game:GetService("Players")
 
 Sounds = {
-	CoilSound = handle:WaitForChild("CoilSound"),
+	CoilSound = Handle:WaitForChild("CoilSound"),
 }
 
 Gravity = 196.20
@@ -56,7 +60,7 @@ function HandleGravityEffect(Enabled)
 			v:Destroy()
 		end
 	end
-	for i, v in pairs({ ToolUnequipped, DescendantAdded, DescendantRemoving }) do
+	for i, v in pairs({ToolUnequipped, DescendantAdded, DescendantRemoving}) do
 		if v then
 			v:disconnect()
 		end
@@ -85,21 +89,7 @@ function HandleGravityEffect(Enabled)
 end
 
 function CheckIfAlive()
-	return (
-		(
-			(
-				Character
-				and Character.Parent
-				and Humanoid
-				and Humanoid.Parent
-				and Humanoid.Health > 0
-				and Torso
-				and Torso.Parent
-				and Player
-				and Player.Parent
-			) and true
-		) or false
-	)
+	return (((Character and Character.Parent and Humanoid and Humanoid.Parent and Humanoid.Health > 0 and Torso and Torso.Parent and Player and Player.Parent) and true) or false)
 end
 
 function Equipped(Mouse)

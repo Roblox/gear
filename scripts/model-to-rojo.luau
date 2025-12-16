@@ -1,26 +1,27 @@
+local process = require("@lune/process")
 local fs = require("@lune/fs")
 local roblox = require("@lune/roblox")
 
-local reflection = roblox.getReflectionDatabase()
+local project = require("@root/project")
+local dumpModel = require("@scripts/lib/roblox/dumpModel")
 
-local game = roblox.deserializePlace(fs.readFile("gravity_coil.rbxlx"))
-local tool = game.StarterPack.GravityCoil
+-- All arguments to this script are paths to the Gear under `assets`
+local modelPaths = process.args
 
-local function diffProperties(instance: Instance)
-	local class = reflection:GetClass(instance.ClassName)
-	for _name, prop in class.Properties do
-		if class.DefaultProperties[prop.Name] == nil or (instance.ClassName == "Script" and prop.Name == "Source") then
-			continue
-		end
+local all = process.args[1] == "--all"
 
-		local propertyValue = instance[prop.Name]
-		if propertyValue ~= class.DefaultProperties[prop.Name] then
-			print(`{instance:GetFullName()} has a modified {prop.Name} property: {propertyValue}`)
-		end
+if all then
+	local paths = {}
+	for _, modelFile in fs.readDir(project.RAW_GEAR_ASSETS_PATH) do
+		table.insert(paths, `{project.RAW_GEAR_ASSETS_PATH}/{modelFile}`)
 	end
+	modelPaths = paths
 end
 
-diffProperties(tool)
-for _, instance in tool:GetDescendants() do
-	diffProperties(instance)
+for _, modelFile in modelPaths do
+	local assetId = modelFile:match("(%d+)%.rbxm")
+	print("Dumping", modelFile)
+	local model = roblox.deserializeModel(fs.readFile(modelFile))[1]
+
+	dumpModel(model, assetId)
 end

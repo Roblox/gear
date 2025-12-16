@@ -1,0 +1,7 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "rbxasset://sounds/swoosh.wav",
+    "Volume": 0.699999988079071
+  }
+}
