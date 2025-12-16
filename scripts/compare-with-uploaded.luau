@@ -105,43 +105,53 @@ local function compareGear(gearId: number)
 	end
 
 	local function findDiffs(oldObject, newObject, reverseModification: boolean?)
-		local oldObjectsToCheck = { oldObject, table.unpack(oldObject:GetDescendants()) }
-		for _, objectToCheck in oldObjectsToCheck do
+		local function diffForObject(objectToCheck)
+			local creationDeletionStatus = if reverseModification then ObjectStatus.ADDED else ObjectStatus.REMOVED
 			local crossReferencedObjectToCheck = crossReferenceObject(objectToCheck, newObject)
 
 			if crossReferencedObjectToCheck == nil then
 				local path = objectToCheck:GetFullName()
 				addModification(path, {
 					path = path,
-					status = if reverseModification then ObjectStatus.ADDED else ObjectStatus.REMOVED,
+					status = creationDeletionStatus,
 				})
-				continue
+				if creationDeletionStatus == ObjectStatus.REMOVED then
+					return
+				end
 			end
 
-			local class = reflection:GetClass(objectToCheck.ClassName)
-			for _, prop in class.Properties do
-				if class.DefaultProperties[prop.Name] == nil then
-					-- Likely no property value should be set --
-					continue
-				end
+			if creationDeletionStatus == ObjectStatus.MODIFIED then
+				local class = reflection:GetClass(objectToCheck.ClassName)
+				for _, prop in class.Properties do
+					if class.DefaultProperties[prop.Name] == nil then
+						-- Likely no property value should be set --
+						continue
+					end
 
-				local oldPropertyValue = objectToCheck[prop.Name]
-				local newPropertyValue = crossReferencedObjectToCheck[prop.Name]
-				if oldPropertyValue ~= newPropertyValue then
-					local path = `{objectToCheck:GetFullName()}.{prop.Name}`
-					addModification(path, {
-						path = path,
-						status = ObjectStatus.MODIFIED,
-						oldValue = if prop.Name == "Source" and objectToCheck:IsA("Script")
-							then "[ SOURCE TRUNCATED ]"
-							else oldPropertyValue,
-						newValue = if prop.Name == "Source" and objectToCheck:IsA("Script")
-							then "[ SOURCE TRUNCATED ]"
-							else newPropertyValue,
-					})
+					local oldPropertyValue = objectToCheck[prop.Name]
+					local newPropertyValue = crossReferencedObjectToCheck[prop.Name]
+					if oldPropertyValue ~= newPropertyValue then
+						local path = `{objectToCheck:GetFullName()}.{prop.Name}`
+						addModification(path, {
+							path = path,
+							status = ObjectStatus.MODIFIED,
+							oldValue = if prop.Name == "Source" and objectToCheck:IsA("Script")
+								then "[ SOURCE TRUNCATED ]"
+								else oldPropertyValue,
+							newValue = if prop.Name == "Source" and objectToCheck:IsA("Script")
+								then "[ SOURCE TRUNCATED ]"
+								else newPropertyValue,
+						})
+					end
 				end
+			end
+
+			for _, childObject in objectToCheck:GetChildren() do
+				diffForObject(childObject)
 			end
 		end
+
+		diffForObject(oldObject)
 	end
 
 	findDiffs(uploadedGearObject, generatedGearObject)
