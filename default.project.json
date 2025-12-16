@@ -2,12 +2,9 @@
   "name": "marketplace-gear",
   "tree": {
     "$className": "DataModel",
-    "ServerStorage": {
-      "$className": "ServerStorage",
 
-      "GravityCoil": {
-        "$path": "src/gear/GravityCoil"
-      }
+    "StarterPack": {
+      "$path": "src/gear"
     }
   }
 }

@@ -2,9 +2,11 @@ local fs = require("@lute/fs")
 local task = require("@lute/task")
 local process = require("@lute/process")
 
+local project = require("@root/project")
+
 local tasks: { thread } = {}
 
-local INPUT_DIR = "assets"
+local INPUT_DIR = project.RAW_GEAR_ASSETS_PATH
 local OUTPUT_DIR = "gear"
 
 -- for _, file in fs.listdir(INPUT_DIR) do
