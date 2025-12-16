@@ -189,6 +189,10 @@ for gearId, gearModifications in allGearModifications do
 	print(`## [🔗 {getGearProjectNameFromId(gearId)}](https://roblox.com/catalog/{gearId}/)\n`)
 
 	for category, categoryModifications in gearModifications do
+		if #categoryModifications == 0 then
+			continue
+		end
+
 		print(`### {statusesToMarkdownText[category]}\n`)
 
 		for _, modification in categoryModifications do
