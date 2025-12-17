@@ -4,6 +4,7 @@
 *.rbxl*.lock
 
 # Other
+.env
 build/
 .DS_Store
 .vscode/**
@@ -11,6 +12,11 @@ build/
 *.sublime-project
 *.sublime-workspace
 *.log
+__pycache__
 
 # Rojo
 sourcemap.json
+
+# Third-party libraries
+Packages
+batteries
