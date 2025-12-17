@@ -1,0 +1,22 @@
+{
+  "name": "tests",
+  "tree": {
+    "$className": "DataModel",
+    "ServerScriptService": {
+      "$properties": {
+        "LoadStringEnabled": true
+      }
+    },
+    "ReplicatedStorage": {
+      "Packages": {
+        "$path": "Packages"
+      },
+      "Assets": {
+        "$path": "assets"
+      },
+      "Src": {
+        "$path": "src"
+      }
+    }
+  }
+}
