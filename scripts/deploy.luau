@@ -37,11 +37,21 @@ local projectPaths = {}
 
 if args:has("all") then
 	for _, dir in fs.listdir(project.GEAR_PATH) do
-		table.insert(projectPaths, `{project.GEAR_PATH}/{dir.name}`)
+		local path = `{project.GEAR_PATH}/{dir.name}`
+
+		if not fs.exists(`{path}/rbxasset.toml`) then
+			print(`no rbxasset.toml found in {dir.name}. skipping...`)
+			continue
+		end
+
+		table.insert(projectPaths, path)
 	end
 else
 	local projectPath = args:get("projectPath")
+
 	assert(projectPath ~= nil, "--projectPath must be supplied when --all is not passed")
+	assert(fs.exists(`{projectPath}/rbxasset.toml`), `no rbxasset.toml found in {projectPath}`)
+
 	table.insert(projectPaths, projectPath)
 end
 
