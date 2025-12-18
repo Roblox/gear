@@ -2,6 +2,10 @@
   "ClassName": "Sound",
   "Properties": {
     "AudioContent": "http://www.roblox.com/asset/?id=16211041",
+    "ClassName": "Sound",
+    "Name": "Fire",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
     "Volume": 1
   }
 }

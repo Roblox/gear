@@ -1,4 +1,9 @@
 {
   "ClassName": "StringValue",
-  "Properties": {}
+  "Properties": {
+    "ClassName": "StringValue",
+    "Name": "Track",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
 }

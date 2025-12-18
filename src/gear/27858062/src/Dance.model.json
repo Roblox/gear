@@ -1,6 +1,10 @@
 {
   "ClassName": "Animation",
   "Properties": {
-    "AnimationId": "http://www.roblox.com/Asset?ID=27789359"
+    "AnimationId": "http://www.roblox.com/Asset?ID=27789359",
+    "ClassName": "Animation",
+    "Name": "Dance",
+    "Sandboxed": false,
+    "SourceAssetId": -1
   }
 }

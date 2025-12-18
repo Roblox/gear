@@ -16,6 +16,7 @@
       -0.999092161655426
     ],
     "CameraType": "Custom",
+    "ClassName": "Camera",
     "Focus": [
       0.053723543882369995,
       5.793301582336426,
@@ -29,6 +30,9 @@
       0,
       0,
       1
-    ]
+    ],
+    "Name": "ThumbnailCamera",
+    "Sandboxed": false,
+    "SourceAssetId": -1
   }
 }

@@ -22,6 +22,6 @@ for _, modelFile in modelPaths do
 	local assetId = modelFile:match("(%d+)%.rbxm")
 	print("Dumping", modelFile)
 	local model = roblox.deserializeModel(fs.readFile(modelFile))[1]
-
+	model.Name = assetId
 	dumpModel(model, assetId)
 end

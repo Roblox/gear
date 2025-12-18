@@ -1,4 +1,9 @@
 {
   "ClassName": "NumberValue",
-  "Properties": {}
+  "Properties": {
+    "ClassName": "NumberValue",
+    "Name": "Time",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
 }

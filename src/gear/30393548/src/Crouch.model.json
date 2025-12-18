@@ -1,6 +1,10 @@
 {
   "ClassName": "Animation",
   "Properties": {
-    "AnimationId": "http://www.roblox.com/asset/?id=287325678"
+    "AnimationId": "http://www.roblox.com/asset/?id=287325678",
+    "ClassName": "Animation",
+    "Name": "Crouch",
+    "Sandboxed": false,
+    "SourceAssetId": -1
   }
 }

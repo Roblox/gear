@@ -1,6 +1,10 @@
 {
   "ClassName": "Animation",
   "Properties": {
-    "AnimationId": "http://www.roblox.com/Asset?ID=54673790"
+    "AnimationId": "http://www.roblox.com/Asset?ID=54673790",
+    "ClassName": "Animation",
+    "Name": "HomeRun",
+    "Sandboxed": false,
+    "SourceAssetId": -1
   }
 }
