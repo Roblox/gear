@@ -15,6 +15,7 @@
       0.025310460478067398,
       0.9665158987045288
     ],
+    "ClassName": "Camera",
     "Focus": [
       39.31391525268555,
       21.167709350585938,
@@ -28,6 +29,9 @@
       0,
       0,
       1
-    ]
+    ],
+    "Name": "ThumbnailCamera",
+    "Sandboxed": false,
+    "SourceAssetId": -1
   }
 }

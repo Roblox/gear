@@ -2,6 +2,10 @@
   "ClassName": "Sound",
   "Properties": {
     "AudioContent": "rbxasset://sounds/swoosh.wav",
+    "ClassName": "Sound",
+    "Name": "Fire",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
     "Volume": 0.699999988079071
   }
 }

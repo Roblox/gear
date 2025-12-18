@@ -1,6 +1,10 @@
 {
   "ClassName": "Animation",
   "Properties": {
-    "AnimationId": "http://www.roblox.com/Asset?ID=32659706"
+    "AnimationId": "http://www.roblox.com/Asset?ID=32659706",
+    "ClassName": "Animation",
+    "Name": "Whack",
+    "Sandboxed": false,
+    "SourceAssetId": -1
   }
 }

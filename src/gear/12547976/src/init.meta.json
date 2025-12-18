@@ -1,6 +1,7 @@
 {
   "className": "Tool",
   "properties": {
+    "ClassName": "Tool",
     "Grip": [
       0.30000001192092896,
       0,
@@ -14,6 +15,10 @@
       -0.9761635065078735,
       0,
       0.21703636646270752
-    ]
+    ],
+    "Name": "12547976",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=12510145"
   }
 }

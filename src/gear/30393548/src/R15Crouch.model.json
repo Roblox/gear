@@ -1,6 +1,10 @@
 {
   "ClassName": "Animation",
   "Properties": {
-    "AnimationId": "rbxassetid://537260400"
+    "AnimationId": "rbxassetid://537260400",
+    "ClassName": "Animation",
+    "Name": "R15Crouch",
+    "Sandboxed": false,
+    "SourceAssetId": -1
   }
 }

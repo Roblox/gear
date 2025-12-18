@@ -1,4 +1,12 @@
 {
   "className": "Pose",
-  "properties": {}
+  "properties": {
+    "ClassName": "Pose",
+    "EasingDirection": "Out",
+    "EasingStyle": "Linear",
+    "Name": "UpperTorso",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Weight": 0
+  }
 }

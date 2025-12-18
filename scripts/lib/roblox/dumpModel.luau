@@ -31,10 +31,18 @@ local function dumpModel(model: Instance, assetId: string)
 		local path = getInstancePath(instance)
 
 		local hasChildren = #instance:GetChildren() > 0
-
 		local basename = if hasChildren then "init" else instance.Name
-		local ext = ""
-		local content = ""
+
+		local function writeFile(ext: string, content: string)
+			local dest = ""
+			if hasChildren then
+				dest = `{src}/{path}/{basename}{ext}`
+			else
+				dest = `{src}/{path}{ext}`
+			end
+			print("write", dest)
+			fs.writeFile(dest, content)
+		end
 
 		if hasChildren then
 			mkdir(`{src}/{path}`)
@@ -43,41 +51,42 @@ local function dumpModel(model: Instance, assetId: string)
 			end
 		end
 
+		local diff = diffProperties(instance)
+
 		if instance:IsA("LuaSourceContainer") then
-			ext = ".luau"
+			local ext = ".luau"
 			if instance:IsA("LocalScript") then
-				ext = `.client{ext}`
+				writeFile(`.client{ext}`, (instance :: any).Source)
 			elseif instance:IsA("Script") then
-				ext = `.server{ext}`
+				writeFile(`.server{ext}`, (instance :: any).Source)
 			end
 
-			content = (instance :: any).Source
-		else
-			local diff = diffProperties(instance)
-
-			if hasChildren then
-				ext = ".meta.json"
-				content = serde.encode("json", {
-					["className"] = instance.ClassName,
+			diff.Source = nil
+			writeFile(
+				".meta.json",
+				serde.encode("json", {
 					["properties"] = diff,
 				}, true)
+			)
+		else
+			if hasChildren then
+				writeFile(
+					".meta.json",
+					serde.encode("json", {
+						["className"] = instance.ClassName,
+						["properties"] = diff,
+					}, true)
+				)
 			else
-				ext = ".model.json"
-				content = serde.encode("json", {
-					["ClassName"] = instance.ClassName,
-					["Properties"] = diff,
-				}, true)
+				writeFile(
+					".model.json",
+					serde.encode("json", {
+						["ClassName"] = instance.ClassName,
+						["Properties"] = diff,
+					}, true)
+				)
 			end
 		end
-
-		local dest = ""
-		if hasChildren then
-			dest = `{src}/{path}/{basename}{ext}`
-		else
-			dest = `{src}/{path}{ext}`
-		end
-		print("write", dest)
-		fs.writeFile(dest, content)
 	end
 
 	local rojoProject = {

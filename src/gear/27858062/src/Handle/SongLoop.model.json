@@ -2,6 +2,10 @@
   "ClassName": "Sound",
   "Properties": {
     "AudioContent": "http://www.roblox.com/asset/?id=27808972",
-    "Looped": true
+    "ClassName": "Sound",
+    "Looped": true,
+    "Name": "SongLoop",
+    "Sandboxed": false,
+    "SourceAssetId": -1
   }
 }

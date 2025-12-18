@@ -20,4 +20,7 @@ sourcemap.json
 
 # Third-party libraries
 Packages
+
+# Lute
+gear_diffs.md
 LuauPackages

@@ -1,4 +1,9 @@
 {
   "ClassName": "ObjectValue",
-  "Properties": {}
+  "Properties": {
+    "ClassName": "ObjectValue",
+    "Name": "DiscoBall",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
 }

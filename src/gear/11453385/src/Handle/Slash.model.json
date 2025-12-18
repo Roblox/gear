@@ -2,6 +2,10 @@
   "ClassName": "Sound",
   "Properties": {
     "AudioContent": "http://www.roblox.com/asset/?id=12222216",
-    "RollOffMinDistance": 0
+    "ClassName": "Sound",
+    "Name": "Slash",
+    "RollOffMinDistance": 0,
+    "Sandboxed": false,
+    "SourceAssetId": -1
   }
 }
