@@ -58,8 +58,7 @@ end
 print(`using project paths: {pp(projectPaths)}`)
 
 for _, projectPath in projectPaths do
-	process.run({ "rojo", "build", "-o", "build.rbxm" }, {
-		cwd = projectPath,
+	process.run({ "lune", "run", "scripts/build-rojo-project.luau", projectPath, `{projectPath}/build.rbxm` }, {
 		stdio = "inherit",
 	})
 

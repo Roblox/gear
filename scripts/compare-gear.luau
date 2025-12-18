@@ -34,13 +34,7 @@ if outputFile then
 	print("Building & running comparison...")
 end
 
-process.run({
-	"rojo",
-	"build",
-	"tests.project.json",
-	"-o",
-	"tests.rbxl",
-}, {
+process.run({ "lune", "run", "scripts/build-rojo-project.luau", "tests.project.json", "tests.rbxl" }, {
 	stdio = "inherit",
 })
 

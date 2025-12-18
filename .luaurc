@@ -5,6 +5,7 @@
 		"lune": "~/.lune/.typedefs/0.10.4/",
 		"scripts": "scripts",
 		"luaupkg": "LuauPackages",
+		"gear": "src/gear",
 		"root": "."
 	}
 }
