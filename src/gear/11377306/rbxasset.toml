@@ -1,0 +1,11 @@
+[assets.default]
+name = "Silver Ninja Star of the Brilliant Light"
+description = ""
+model = "build.rbxm"
+environment = "prod"
+
+[environments.prod]
+creatorId = 8701739411
+creatorType = "User"
+universeId = 8046529594
+placeId = 87060735635538
