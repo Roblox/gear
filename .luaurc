@@ -3,8 +3,8 @@
 		"lute": "~/.lute/typedefs/0.1.0/lute/",
 		"std": "~/.lute/typedefs/0.1.0/std/",
 		"lune": "~/.lune/.typedefs/0.10.4/",
-		"batteries": "batteries",
 		"scripts": "scripts",
+		"luaupkg": "LuauPackages",
 		"root": "."
 	}
 }

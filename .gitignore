@@ -2,6 +2,7 @@
 /*.rbxm*
 /*.rbxl*
 *.rbxl*.lock
+build.rbxm
 
 # Other
 .env
@@ -19,4 +20,4 @@ sourcemap.json
 
 # Third-party libraries
 Packages
-batteries
+LuauPackages

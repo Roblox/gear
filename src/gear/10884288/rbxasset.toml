@@ -1,0 +1,11 @@
+[assets.default]
+name = "War Rock"
+description = ""
+model = "build.rbxm"
+environment = "prod"
+
+[environments.prod]
+creatorId = 8701739411
+creatorType = "User"
+universeId = 8046529594
+placeId = 87060735635538
