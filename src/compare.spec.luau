@@ -1,6 +1,7 @@
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 local JestGlobals = require(ReplicatedStorage.Packages.JestGlobals)
+local GearMap = require(ReplicatedStorage.Src.GearMap)
 
 local describe = JestGlobals.describe
 local test = JestGlobals.test
@@ -19,7 +20,15 @@ end
 -- assets. This is all to make sure that the newly exported files map
 -- 1:1 with the raw asset rbxm
 
-describe.each(ReplicatedStorage.Src.gear:GetChildren())("%s", function(gear)
+local gearToTest = {}
+for _, gear in ReplicatedStorage.Src.gear:GetChildren() do
+	table.insert(gearToTest, {
+		gear = gear,
+		gearName = GearMap[gear.Name],
+	})
+end
+describe.each(gearToTest)("$gearName", function(args)
+	local gear = args.gear
 	local rawGear = getRawAssetForComparison(gear)
 
 	test("counterpart exists in `assets`", function()

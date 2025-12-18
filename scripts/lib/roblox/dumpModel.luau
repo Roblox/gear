@@ -81,7 +81,6 @@ local function dumpModel(model: Instance, assetId: string)
 	end
 
 	local rojoProject = {
-		name = model.Name,
 		tree = {
 			["$path"] = "src",
 		},
