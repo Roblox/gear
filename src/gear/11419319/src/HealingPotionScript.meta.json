@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "HealingPotionScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{02C5D3C7-2252-47CC-A7DA-CE7AFD57D1D9}",
+    "SourceAssetId": -1
+  }
+}

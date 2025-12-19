@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "DarkEffect",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{A8C6ECAC-706D-4512-8F2F-9ACB490FF9B0}",
+    "SourceAssetId": -1
+  }
+}
