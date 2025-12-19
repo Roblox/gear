@@ -16,7 +16,7 @@ if status == "Rejected" then
 end
 
 if status ~= "Resolved" or result.results.numFailedTestSuites > 0 or result.results.numFailedTests > 0 then
-	error(1)
+	return false
 end
 
-return nil
+return true
