@@ -2,8 +2,10 @@ local process = require("@lute/process")
 local fs = require("@lute/fs")
 
 local cli = require("@luaupkg/batteries/cli")
+local pp = require("@luaupkg/batteries/pp")
 local project = require("@root/project")
 local dotenv = require("@scripts/lib/dotenv")
+local executeLuauTaskAsync = require("@scripts/lib/luau-execution/executeLuauTaskAsync")
 
 dotenv()
 
@@ -38,22 +40,21 @@ process.run({ "lune", "run", "scripts/build-rojo-project.luau", "tests.project.j
 	stdio = "inherit",
 })
 
-local result = process.run({
-	"python3",
-	"scripts/lib/python/upload_and_run_task.py",
-	"tests.rbxl",
-	"scripts/tasks/run-gear-comparison.luau",
-}, {
-	stdio = if outputFile == nil then "inherit" else nil,
-	env = {
-		ROBLOX_UNIVERSE_ID = project.ROBLOX_UNIT_TESTING_UNIVERSE_ID,
-		ROBLOX_PLACE_ID = project.ROBLOX_UNIT_TESTING_PLACE_ID,
-		ROBLOX_API_KEY = tostring(apiKey),
-	},
-})
+local runGearComparisonsTaskHandle = fs.open("scripts/tasks/run-gear-comparison.luau")
+local runGearComparisonsTask = fs.read(runGearComparisonsTaskHandle)
+fs.close(runGearComparisonsTaskHandle)
 
-if result.ok and outputFile ~= nil then
-	local markdown = result.stdout:gsub("^(.*)Executing Luau task\n", ""):gsub("### END OF COMPARISON(.+)$", "")
+local results = executeLuauTaskAsync(
+	"tests.rbxl",
+	runGearComparisonsTask,
+	project.ROBLOX_UNIT_TESTING_UNIVERSE_ID,
+	project.ROBLOX_UNIT_TESTING_PLACE_ID,
+	apiKey
+)
+
+local markdown = results[1]
+
+if markdown and outputFile ~= nil then
 	local fd = fs.open(outputFile, "w+")
 	fs.write(fd, markdown)
 end

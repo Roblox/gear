@@ -1,7 +1,9 @@
 local cli = require("@luaupkg/batteries/cli")
+local pp = require("@luaupkg/batteries/pp")
 local fs = require("@lute/fs")
 local process = require("@lute/process")
 
+local executeLuauTaskAsync = require("@scripts/lib/luau-execution/executeLuauTaskAsync")
 local project = require("@root/project")
 local dotenv = require("@scripts/lib/dotenv")
 
@@ -28,20 +30,20 @@ process.run({ "lune", "run", "scripts/build-rojo-project.luau", "tests.project.j
 	stdio = "inherit",
 })
 
-local result = process.run({
-	"python3",
-	"scripts/lib/python/upload_and_run_task.py",
+local runTestsTaskHandle = fs.open("scripts/tasks/run-tests.luau")
+local runTestsTask = fs.read(runTestsTaskHandle)
+fs.close(runTestsTaskHandle)
+
+local results = executeLuauTaskAsync(
 	"tests.rbxl",
-	"scripts/tasks/run-tests.luau",
-}, {
-	stdio = "inherit",
-	env = {
-		ROBLOX_UNIVERSE_ID = project.ROBLOX_UNIT_TESTING_UNIVERSE_ID,
-		ROBLOX_PLACE_ID = project.ROBLOX_UNIT_TESTING_PLACE_ID,
-		ROBLOX_API_KEY = tostring(apiKey),
-	},
-})
+	runTestsTask,
+	project.ROBLOX_UNIT_TESTING_UNIVERSE_ID,
+	project.ROBLOX_UNIT_TESTING_PLACE_ID,
+	apiKey
+)
+
+local success = results[1]
 
 fs.remove("tests.rbxl")
 
-process.exit(result.exitcode)
+process.exit(if success == true then 0 else 1)
