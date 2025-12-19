@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "Glass",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{FF1A7629-A0FB-44AA-93F5-3F6913ECBD3A}",
+    "SourceAssetId": -1
+  }
+}

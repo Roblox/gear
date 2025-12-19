@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "BlowDryer",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{A56F4B6E-1AF5-4A66-855F-CDEA9104C78A}",
+    "SourceAssetId": -1
+  }
+}
