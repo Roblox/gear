@@ -23,8 +23,9 @@ local function dumpModel(model: Instance, assetId: string)
 	local root = `{project.GEAR_PATH}/{assetId}`
 	local src = `{root}/src`
 
-	if fs.isDir(root) then
-		fs.removeDir(root)
+	-- Only clear `src/` so sibling files (rbxasset.toml, post_build.luau) survive.
+	if fs.isDir(src) then
+		fs.removeDir(src)
 	end
 
 	local function dumpInstance(instance: Instance)
@@ -55,10 +56,13 @@ local function dumpModel(model: Instance, assetId: string)
 
 		if instance:IsA("LuaSourceContainer") then
 			local ext = ".luau"
+			local source = (instance :: any).Source
 			if instance:IsA("LocalScript") then
-				writeFile(`.client{ext}`, (instance :: any).Source)
+				writeFile(`.client{ext}`, source)
 			elseif instance:IsA("Script") then
-				writeFile(`.server{ext}`, (instance :: any).Source)
+				writeFile(`.server{ext}`, source)
+			elseif instance:IsA("ModuleScript") then
+				writeFile(ext, source)
 			end
 
 			diff.Source = nil

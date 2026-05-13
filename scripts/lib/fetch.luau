@@ -12,7 +12,7 @@ type FetchOptions = {
 local function fetch(url: string, options: FetchOptions)
 	local method: HttpMethod = options.method or "GET"
 
-	local res = net.request(url, {
+	local res = net.client.request(url, {
 		method = method,
 		headers = options.headers,
 		body = options.body,
