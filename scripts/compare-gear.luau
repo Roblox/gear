@@ -53,8 +53,12 @@ local results = executeLuauTaskAsync(
 )
 
 local markdown = results[1]
+if markdown == nil then
+	error("the comparison task returned no output")
+end
 
-if markdown and outputFile ~= nil then
+if outputFile ~= nil then
 	local fd = fs.open(outputFile, "w+")
 	fs.write(fd, markdown)
+	fs.close(fd)
 end
