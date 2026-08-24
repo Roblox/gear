@@ -25,15 +25,16 @@ local function executeLuauTaskAsync(
 	luauTask = waitForTaskCompletionAsync(luauTask.path, apiKey)
 	print(`task is now in {luauTask.state} state`)
 
+	-- Logs are diagnostics only. A task that never prints still returns
+	-- results, so an empty log must not short-circuit the payload.
 	local logs = getLuauTaskLogsAsync(luauTask.path, apiKey)
 	if #logs == 0 then
 		print("the task did not produce any logs")
-		return {}
-	end
-
-	print("task output:")
-	for _, l in logs do
-		print(`  {l}`)
+	else
+		print("task output:")
+		for _, l in logs do
+			print(`  {l}`)
+		end
 	end
 
 	if luauTask.state == "COMPLETE" then
