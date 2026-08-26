@@ -110,6 +110,12 @@ test.suite("serializeProperty", function(suite: TestSuite)
 		asserts.eq({ 0.25, 0.5, 0.75 }, v)
 	end)
 
+	suite:case("BrickColor", function(asserts: Asserts)
+		local v, status = serializeProperty("BrickColor", { Number = 194 })
+		asserts.eq("ok", status)
+		asserts.eq({ BrickColor = 194 }, v)
+	end)
+
 	suite:case("ColorSequence", function(asserts: Asserts)
 		local v, status = serializeProperty("ColorSequence", {
 			Keypoints = {
@@ -194,6 +200,7 @@ test.suite("serializeProperty", function(suite: TestSuite)
 			Vector3 = true,
 			NumberRange = true,
 			NumberSequence = true,
+			BrickColor = true,
 			Color3 = true,
 			ColorSequence = true,
 			CFrame = true,
