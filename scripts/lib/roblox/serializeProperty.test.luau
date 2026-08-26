@@ -104,6 +104,24 @@ test.suite("serializeProperty", function(suite: TestSuite)
 		asserts.eq({ 0.25, 0.5, 0.75 }, v)
 	end)
 
+	suite:case("ColorSequence", function(asserts: Asserts)
+		local v, status = serializeProperty("ColorSequence", {
+			Keypoints = {
+				{ Time = 0, Value = { R = 1, G = 1, B = 0.5 } },
+				{ Time = 1, Value = { R = 0, G = 0.25, B = 0.75 } },
+			},
+		})
+		asserts.eq("ok", status)
+		asserts.eq({
+			ColorSequence = {
+				keypoints = {
+					{ time = 0, color = { 1, 1, 0.5 } },
+					{ time = 1, color = { 0, 0.25, 0.75 } },
+				},
+			},
+		}, v)
+	end)
+
 	suite:case("CFrame flat 12-element list", function(asserts: Asserts)
 		local v, status = serializeProperty("CFrame", fakeCFrame({ 1, 2, 3, 1, 0, 0, 0, 1, 0, 0, 0, 1 }))
 		asserts.eq("ok", status)
@@ -170,6 +188,7 @@ test.suite("serializeProperty", function(suite: TestSuite)
 			Vector3 = true,
 			NumberSequence = true,
 			Color3 = true,
+			ColorSequence = true,
 			CFrame = true,
 			Content = true,
 			ContentId = true,

@@ -48,6 +48,16 @@ local SERIALIZERS: { [string]: Serializer } = {
 	Color3 = function(v)
 		return { v.R, v.G, v.B }
 	end,
+	ColorSequence = function(v)
+		local keypoints = {}
+		for _, keypoint in v.Keypoints do
+			table.insert(keypoints, {
+				time = keypoint.Time,
+				color = { keypoint.Value.R, keypoint.Value.G, keypoint.Value.B },
+			})
+		end
+		return { ColorSequence = { keypoints = keypoints } }
+	end,
 	CFrame = function(v)
 		return { v:GetComponents() }
 	end,
