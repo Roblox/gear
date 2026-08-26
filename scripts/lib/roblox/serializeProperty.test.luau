@@ -80,6 +80,12 @@ test.suite("serializeProperty", function(suite: TestSuite)
 		asserts.eq({ 1, 2, 3 }, v)
 	end)
 
+	suite:case("NumberRange", function(asserts: Asserts)
+		local v, status = serializeProperty("NumberRange", { Min = -36, Max = 94 })
+		asserts.eq("ok", status)
+		asserts.eq({ NumberRange = { -36, 94 } }, v)
+	end)
+
 	suite:case("NumberSequence", function(asserts: Asserts)
 		local v, status = serializeProperty("NumberSequence", {
 			Keypoints = {
@@ -186,6 +192,7 @@ test.suite("serializeProperty", function(suite: TestSuite)
 			Float64 = true,
 			Vector2 = true,
 			Vector3 = true,
+			NumberRange = true,
 			NumberSequence = true,
 			Color3 = true,
 			ColorSequence = true,

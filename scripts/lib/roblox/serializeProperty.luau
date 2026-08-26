@@ -34,6 +34,9 @@ local SERIALIZERS: { [string]: Serializer } = {
 	Vector3 = function(v)
 		return { v.X, v.Y, v.Z }
 	end,
+	NumberRange = function(v)
+		return { NumberRange = { v.Min, v.Max } }
+	end,
 	NumberSequence = function(v)
 		local keypoints = {}
 		for _, keypoint in v.Keypoints do
