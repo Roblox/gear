@@ -1,0 +1,194 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "ClassName": "ParticleEmitter",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              0.6666669845581055,
+              0,
+              1
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              0,
+              0,
+              0
+            ],
+            "time": 0.36605700850486755
+          },
+          {
+            "color": [
+              0.6666669845581055,
+              0,
+              1
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "Enabled": false,
+    "Lifetime": {
+      "NumberRange": [
+        4,
+        4
+      ]
+    },
+    "LockedToPart": true,
+    "Name": "Vortex",
+    "Rate": 50,
+    "RotSpeed": {
+      "NumberRange": [
+        360,
+        360
+      ]
+    },
+    "Rotation": {
+      "NumberRange": [
+        -180,
+        180
+      ]
+    },
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 45
+          },
+          {
+            "envelope": 0,
+            "time": 0.05550000071525574,
+            "value": 33.82379913330078
+          },
+          {
+            "envelope": 0,
+            "time": 0.11100000143051147,
+            "value": 24.98740005493164
+          },
+          {
+            "envelope": 0,
+            "time": 0.1665000021457672,
+            "value": 18.10260009765625
+          },
+          {
+            "envelope": 0,
+            "time": 0.22200000286102295,
+            "value": 12.826600074768066
+          },
+          {
+            "envelope": 0,
+            "time": 0.2775000035762787,
+            "value": 8.859350204467773
+          },
+          {
+            "envelope": 0,
+            "time": 0.3330000042915344,
+            "value": 5.940760135650635
+          },
+          {
+            "envelope": 0,
+            "time": 0.38850000500679016,
+            "value": 3.847640037536621
+          },
+          {
+            "envelope": 0,
+            "time": 0.4440000057220459,
+            "value": 2.391040086746216
+          },
+          {
+            "envelope": 0,
+            "time": 0.49950000643730164,
+            "value": 1.4133000373840332
+          },
+          {
+            "envelope": 0,
+            "time": 0.5550000071525574,
+            "value": 0.7852579951286316
+          },
+          {
+            "envelope": 0,
+            "time": 0.6104999780654907,
+            "value": 0.40341299772262573
+          },
+          {
+            "envelope": 0,
+            "time": 0.6660000085830688,
+            "value": 0.18704399466514587
+          },
+          {
+            "envelope": 0,
+            "time": 0.7214999794960022,
+            "value": 0.07539430260658264
+          },
+          {
+            "envelope": 0,
+            "time": 0.7770000100135803,
+            "value": 0.024816300719976425
+          },
+          {
+            "envelope": 0,
+            "time": 0.8324999809265137,
+            "value": 0.005933170206844807
+          },
+          {
+            "envelope": 0,
+            "time": 0.8880000114440918,
+            "value": 0.0007930540014058352
+          },
+          {
+            "envelope": 0,
+            "time": 0.9434999823570251,
+            "value": 0.000025909199393936433
+          },
+          {
+            "envelope": 0,
+            "time": 0.9990000128746033,
+            "value": 4.6629400915574465e-14
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        0,
+        0
+      ]
+    },
+    "TextureContent": "rbxassetid://2650753181",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 1
+          },
+          {
+            "envelope": 0,
+            "time": 0.30000001192092896,
+            "value": 0.5
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0.5
+          }
+        ]
+      }
+    }
+  }
+}
