@@ -34,5 +34,10 @@
     "Name": "Weld",
     "Sandboxed": false,
     "SourceAssetId": -1
+  },
+  "attributes": {
+    "Rojo_Target_Part0": "g11419319_2",
+    "Rojo_Target_Part1": "g11419319_2",
+    "__MarketplaceGear_OriginalName": "Weld"
   }
 }
