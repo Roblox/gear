@@ -51,6 +51,9 @@ local SERIALIZERS: { [string]: Serializer } = {
 	Color3 = function(v)
 		return { v.R, v.G, v.B }
 	end,
+	BrickColor = function(v)
+		return { BrickColor = v.Number }
+	end,
 	ColorSequence = function(v)
 		local keypoints = {}
 		for _, keypoint in v.Keypoints do
