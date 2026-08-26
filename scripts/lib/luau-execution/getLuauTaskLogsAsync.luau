@@ -2,6 +2,14 @@ local json = require("@std/json")
 
 local fetch = require("@scripts/lib/fetch")
 
+type TaskLogsResponse = {
+	luauExecutionSessionTaskLogs: {
+		{
+			messages: { string },
+		}
+	},
+}
+
 local function getLuauTaskLogsAsync(taskPath: string, apiKey: string): { string }
 	local res = fetch(`https://apis.roblox.com/cloud/v2/{taskPath}/logs`, {
 		headers = {
@@ -9,12 +17,13 @@ local function getLuauTaskLogsAsync(taskPath: string, apiKey: string): { string 
 		},
 	})
 
-	local logs = json.deserialize(res.body)
+	local logs = json.deserialize(res.body) :: TaskLogsResponse
 
-	if #logs["luauExecutionSessionTaskLogs"] == 0 then
+	local pages = logs.luauExecutionSessionTaskLogs
+	if #pages == 0 then
 		return {} -- no logs found
 	end
-	return logs["luauExecutionSessionTaskLogs"][1]["messages"]
+	return pages[1].messages
 end
 
 return getLuauTaskLogsAsync

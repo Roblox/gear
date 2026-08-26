@@ -40,8 +40,23 @@ local function installRbxasset()
 	fs.remove(`{project.LUAU_PACKAGES_PATH}/rbxasset.zip`)
 end
 
+-- The `@lute`, `@std`, and `@lune` aliases in .luaurc resolve to type
+-- definitions that each toolchain generates into its own versioned home
+-- directory. Without these, analysis reports every runtime require as unknown.
+local function installTypeDefinitions()
+	process.run({ "lute", "setup" })
+
+	-- `lune setup` rewrites the .luaurc of its working directory, so run it
+	-- somewhere disposable to leave ours alone.
+	local scratch = `{process.cwd()}/.lune-setup`
+	process.run({ "mkdir", "-p", scratch })
+	process.run({ "lune", "setup" }, { cwd = scratch })
+	process.run({ "rm", "-rf", scratch })
+end
+
 process.run({ "rm", "-rf", project.LUAU_PACKAGES_PATH })
 
+installTypeDefinitions()
 installWallyPackages()
 installLuteBatteries()
 installRbxasset()

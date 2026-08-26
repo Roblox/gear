@@ -1,22 +1,9 @@
 local json = require("@std/json")
 
 local fetch = require("@scripts/lib/fetch")
+local types = require("./types")
 
-type LuauTaskResponse = {
-	binaryInput: string,
-	binaryOutputUri: string,
-	createTime: string,
-	enableBinaryOutput: boolean,
-	output: {
-		results: { any },
-	},
-	path: string,
-	script: string,
-	state: string,
-	updateTime: string,
-	user: string,
-	error: { [string]: any }?,
-}
+type LuauTaskResponse = types.LuauTaskResponse
 
 local function createLuauTaskAsync(
 	scriptContent: string,
@@ -36,7 +23,7 @@ local function createLuauTaskAsync(
 			}),
 		})
 
-	return json.deserialize(res.body)
+	return json.deserialize(res.body) :: LuauTaskResponse
 end
 
 return createLuauTaskAsync

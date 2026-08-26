@@ -2,7 +2,6 @@ local process = require("@lute/process")
 local fs = require("@lute/fs")
 
 local cli = require("@luaupkg/batteries/cli")
-local pp = require("@luaupkg/batteries/pp")
 local project = require("@root/project")
 local dotenv = require("@scripts/lib/dotenv")
 local executeLuauTaskAsync = require("@scripts/lib/luau-execution/executeLuauTaskAsync")

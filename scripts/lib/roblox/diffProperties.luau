@@ -5,11 +5,17 @@ local serializeProperty = serializePropertyModule.serializeProperty
 
 local reflection = roblox.getReflectionDatabase()
 
+type Instance = roblox.Instance
+
 local function diffProperties(instance: Instance)
 	local diff: { [string]: any } = {}
 
+	-- Properties are read by name from reflection data, which the type checker
+	-- cannot verify against a concrete instance.
+	local dynamicInstance = instance :: any
+
 	local class = reflection:GetClass(instance.ClassName)
-	while true do
+	while class ~= nil do
 		for _, prop in class.Properties do
 			-- Script.Source is dumped to its own `.luau` file by dumpModel.
 			if prop.Datatype == "OptionalCFrame" or (instance.ClassName == "Script" and prop.Name == "Source") then
@@ -18,7 +24,7 @@ local function diffProperties(instance: Instance)
 
 			local propertyValue
 			local propertyReadSuccess = pcall(function()
-				propertyValue = instance[prop.Name]
+				propertyValue = dynamicInstance[prop.Name]
 			end)
 			if not propertyReadSuccess then
 				continue
@@ -36,11 +42,8 @@ local function diffProperties(instance: Instance)
 			end
 		end
 
-		if class.Superclass ~= nil then
-			class = reflection:GetClass(class.Superclass)
-		else
-			break
-		end
+		local superclass = class.Superclass
+		class = if superclass ~= nil then reflection:GetClass(superclass) else nil
 	end
 
 	return diff

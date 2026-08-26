@@ -45,7 +45,7 @@ local function executeLuauTaskAsync(
 			end
 		end
 	else
-		print(`Task failed, error:\n{json.serialize(luauTask.error)}`)
+		print(`Task failed, error:\n{json.serialize(luauTask.error :: any)}`)
 	end
 
 	return {}

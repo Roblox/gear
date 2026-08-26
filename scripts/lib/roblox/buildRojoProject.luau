@@ -5,7 +5,9 @@ local roblox = require("@lune/roblox")
 local stripRojoTargetAttributes = require("@scripts/lib/roblox/stripRojoTargetAttributes")
 local restoreFilesystemNames = require("@scripts/lib/roblox/restoreFilesystemNames")
 
-local function postProcessGearDataModel(gearInstance)
+type Instance = roblox.Instance
+
+local function postProcessGearDataModel(gearInstance: Instance)
 	local gearId = gearInstance.Name
 	local gearDir = `src/gear/{gearId}`
 	assert(gearId:match("^%d+$"), `gearId must be fully numeric, received {gearId}`)
@@ -24,7 +26,10 @@ local function postProcessGearDataModel(gearInstance)
 	end
 
 	print(`Running post-process script for gear {gearId}...`)
-	local postBuildFunction = require(`@gear/{gearId}/post_build`)
+	-- The gear id is only known at runtime, so this require cannot be resolved
+	-- statically.
+	local dynamicRequire = require :: (string) -> (Instance) -> ()
+	local postBuildFunction = dynamicRequire(`@gear/{gearId}/post_build`)
 	postBuildFunction(gearInstance)
 end
 
@@ -75,6 +80,7 @@ local function buildRojoProject(opts: {
 		fs.writeFile(outputPath, roblox.serializePlace(game))
 	elseif outputPath:match("%.rbxm") then
 		local gearInstance = roblox.deserializeModel(buildFile)[1]
+		assert(gearInstance, "Rojo built an empty model")
 
 		postProcessGearDataModel(gearInstance)
 

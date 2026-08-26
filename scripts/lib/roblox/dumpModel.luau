@@ -1,5 +1,9 @@
 local fs = require("@lune/fs")
+local roblox = require("@lune/roblox")
 local serde = require("@lune/serde")
+
+type Instance = roblox.Instance
+type RojoDocument = { [string]: any }
 
 local project = require("@root/project")
 local diffProperties = require("@scripts/lib/roblox/diffProperties")
@@ -7,15 +11,9 @@ local assignFilesystemNames = require("@scripts/lib/roblox/assignFilesystemNames
 local planReferences = require("@scripts/lib/roblox/planReferences")
 
 local function mkdir(path: string)
-	local parts = path:split("/")
-	local current
-	for _, part in parts do
-		if current then
-			current ..= `/{part}`
-		else
-			current = part
-		end
-
+	local current = ""
+	for _, part in path:split("/") do
+		current = if current == "" then part else `{current}/{part}`
 		fs.writeDir(current)
 	end
 end
@@ -44,7 +42,7 @@ local function dumpModel(model: Instance, assetId: string)
 			attributes[assignFilesystemNames.ORIGINAL_NAME_ATTRIBUTE] = originalName
 		end
 
-		local function addMetadata(document)
+		local function addMetadata(document: RojoDocument): RojoDocument
 			if metadata.id then
 				document.id = metadata.id
 			end
@@ -65,11 +63,13 @@ local function dumpModel(model: Instance, assetId: string)
 
 		if hasChildren then
 			mkdir(if path == "" then src else `{src}/{path}`)
-			for _, assignment in
-				assignFilesystemNames.assign(instance:GetChildren(), function(child)
+			local assignments: { assignFilesystemNames.Assignment<Instance> } = assignFilesystemNames.assign(
+				instance:GetChildren(),
+				function(child: Instance): string
 					return child.Name
-				end)
-			do
+				end
+			)
+			for _, assignment in assignments do
 				local childPath = if path == "" then assignment.filesystemName else `{path}/{assignment.filesystemName}`
 				dumpInstance(assignment.instance, childPath, assignment.originalName)
 			end

@@ -6,6 +6,12 @@
 -- without dragging in `@lune/roblox`.
 
 local test = require("@std/test")
+local testTypes = require("@std/test/types")
+
+-- Annotating the callbacks keeps each `asserts.eq` call generic. Without it the
+-- inferred parameter gets a single `eq` signature shared by every comparison.
+type Asserts = testTypes.Asserts
+type TestSuite = testTypes.TestSuite
 
 local serializePropertyModule = require("@scripts/lib/roblox/serializeProperty")
 local serializeProperty = serializePropertyModule.serializeProperty
@@ -19,122 +25,122 @@ local function fakeCFrame(components: { number })
 	}
 end
 
-test.suite("serializeProperty", function(suite)
-	suite:case("Bool true", function(asserts)
+test.suite("serializeProperty", function(suite: TestSuite)
+	suite:case("Bool true", function(asserts: Asserts)
 		local v, status = serializeProperty("Bool", true)
 		asserts.eq("ok", status)
 		asserts.eq(true, v)
 	end)
 
-	suite:case("Bool false", function(asserts)
+	suite:case("Bool false", function(asserts: Asserts)
 		local v, status = serializeProperty("Bool", false)
 		asserts.eq("ok", status)
 		asserts.eq(false, v)
 	end)
 
-	suite:case("String", function(asserts)
+	suite:case("String", function(asserts: Asserts)
 		local v, status = serializeProperty("String", "hello")
 		asserts.eq("ok", status)
 		asserts.eq("hello", v)
 	end)
 
-	suite:case("Int32", function(asserts)
+	suite:case("Int32", function(asserts: Asserts)
 		local v, status = serializeProperty("Int32", 42)
 		asserts.eq("ok", status)
 		asserts.eq(42, v)
 	end)
 
-	suite:case("Int64", function(asserts)
+	suite:case("Int64", function(asserts: Asserts)
 		local v, status = serializeProperty("Int64", 9999999999)
 		asserts.eq("ok", status)
 		asserts.eq(9999999999, v)
 	end)
 
-	suite:case("Float32", function(asserts)
+	suite:case("Float32", function(asserts: Asserts)
 		local v, status = serializeProperty("Float32", 1.5)
 		asserts.eq("ok", status)
 		asserts.eq(1.5, v)
 	end)
 
-	suite:case("Float64", function(asserts)
+	suite:case("Float64", function(asserts: Asserts)
 		local v, status = serializeProperty("Float64", 2.25)
 		asserts.eq("ok", status)
 		asserts.eq(2.25, v)
 	end)
 
-	suite:case("Vector2", function(asserts)
+	suite:case("Vector2", function(asserts: Asserts)
 		local v, status = serializeProperty("Vector2", { X = 3, Y = 4 })
 		asserts.eq("ok", status)
 		asserts.eq({ 3, 4 }, v)
 	end)
 
-	suite:case("Vector3", function(asserts)
+	suite:case("Vector3", function(asserts: Asserts)
 		local v, status = serializeProperty("Vector3", { X = 1, Y = 2, Z = 3 })
 		asserts.eq("ok", status)
 		asserts.eq({ 1, 2, 3 }, v)
 	end)
 
-	suite:case("Color3", function(asserts)
+	suite:case("Color3", function(asserts: Asserts)
 		local v, status = serializeProperty("Color3", { R = 0.25, G = 0.5, B = 0.75 })
 		asserts.eq("ok", status)
 		asserts.eq({ 0.25, 0.5, 0.75 }, v)
 	end)
 
-	suite:case("CFrame flat 12-element list", function(asserts)
+	suite:case("CFrame flat 12-element list", function(asserts: Asserts)
 		local v, status = serializeProperty("CFrame", fakeCFrame({ 1, 2, 3, 1, 0, 0, 0, 1, 0, 0, 0, 1 }))
 		asserts.eq("ok", status)
 		asserts.eq({ 1, 2, 3, 1, 0, 0, 0, 1, 0, 0, 0, 1 }, v)
 	end)
 
-	suite:case("Content userdata uses .Uri", function(asserts)
+	suite:case("Content userdata uses .Uri", function(asserts: Asserts)
 		local v, status = serializeProperty("Content", { Uri = "rbxassetid://12345" })
 		asserts.eq("ok", status)
 		asserts.eq("rbxassetid://12345", v)
 	end)
 
-	suite:case("ContentId aliases Content", function(asserts)
+	suite:case("ContentId aliases Content", function(asserts: Asserts)
 		local v, status = serializeProperty("ContentId", { Uri = "rbxassetid://67890" })
 		asserts.eq("ok", status)
 		asserts.eq("rbxassetid://67890", v)
 	end)
 
-	suite:case("ContentId tolerates raw string default", function(asserts)
+	suite:case("ContentId tolerates raw string default", function(asserts: Asserts)
 		local v, status = serializeProperty("ContentId", "")
 		asserts.eq("ok", status)
 		asserts.eq("", v)
 	end)
 
-	suite:case("Enum.NormalId serializes to its Name", function(asserts)
+	suite:case("Enum.NormalId serializes to its Name", function(asserts: Asserts)
 		local v, status = serializeProperty("Enum.NormalId", { Name = "Top" })
 		asserts.eq("ok", status)
 		asserts.eq("Top", v)
 	end)
 
-	suite:case("Enum.SurfaceType", function(asserts)
+	suite:case("Enum.SurfaceType", function(asserts: Asserts)
 		local v, status = serializeProperty("Enum.SurfaceType", { Name = "Smooth" })
 		asserts.eq("ok", status)
 		asserts.eq("Smooth", v)
 	end)
 
-	suite:case("Enum.Material", function(asserts)
+	suite:case("Enum.Material", function(asserts: Asserts)
 		local v, status = serializeProperty("Enum.Material", { Name = "Plastic" })
 		asserts.eq("ok", status)
 		asserts.eq("Plastic", v)
 	end)
 
-	suite:case("Ref skipped silently", function(asserts)
+	suite:case("Ref skipped silently", function(asserts: Asserts)
 		local v, status = serializeProperty("Ref", { ClassName = "Part" })
 		asserts.eq("skipped", status)
 		asserts.eq(nil, v)
 	end)
 
-	suite:case("Unknown datatype reports unsupported", function(asserts)
+	suite:case("Unknown datatype reports unsupported", function(asserts: Asserts)
 		local v, status = serializeProperty("UDim2", { X = { Scale = 0.5 } })
 		asserts.eq("unsupported", status)
 		asserts.eq(nil, v)
 	end)
 
-	suite:case("Every SERIALIZERS entry has a matching test case", function(asserts)
+	suite:case("Every SERIALIZERS entry has a matching test case", function(asserts: Asserts)
 		local tested = {
 			Bool = true,
 			String = true,

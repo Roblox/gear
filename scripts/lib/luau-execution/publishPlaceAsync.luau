@@ -3,6 +3,10 @@ local json = require("@std/json")
 
 local fetch = require("@scripts/lib/fetch")
 
+type PlaceVersionResponse = {
+	versionNumber: number,
+}
+
 local function publishPlaceAsync(
 	placePath: string,
 	universeId: string,
@@ -29,8 +33,8 @@ local function publishPlaceAsync(
 		})
 
 	if res.ok then
-		local body = json.deserialize(res.body)
-		return body.versionNumber :: number
+		local body = json.deserialize(res.body) :: PlaceVersionResponse
+		return body.versionNumber
 	end
 	return -1
 end

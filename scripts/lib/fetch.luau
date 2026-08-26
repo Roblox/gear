@@ -3,6 +3,11 @@ local net = require("@lute/net")
 
 type HttpMethod = "GET" | "POST" | "PATCH"
 
+type ErrorBody = {
+	errors: { { message: string } }?,
+	message: string?,
+}
+
 type FetchOptions = {
 	method: HttpMethod?,
 	headers: { [string]: string }?,
@@ -21,7 +26,7 @@ local function fetch(url: string, options: FetchOptions)
 	if res.ok then
 		return res
 	else
-		local body = json.deserialize(res.body)
+		local body = json.deserialize(res.body) :: ErrorBody
 
 		local problems: { string } = {}
 		if body.errors then
