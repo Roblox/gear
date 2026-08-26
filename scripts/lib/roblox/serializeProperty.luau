@@ -34,6 +34,17 @@ local SERIALIZERS: { [string]: Serializer } = {
 	Vector3 = function(v)
 		return { v.X, v.Y, v.Z }
 	end,
+	NumberSequence = function(v)
+		local keypoints = {}
+		for _, keypoint in v.Keypoints do
+			table.insert(keypoints, {
+				time = keypoint.Time,
+				value = keypoint.Value,
+				envelope = keypoint.Envelope,
+			})
+		end
+		return { NumberSequence = { keypoints = keypoints } }
+	end,
 	Color3 = function(v)
 		return { v.R, v.G, v.B }
 	end,

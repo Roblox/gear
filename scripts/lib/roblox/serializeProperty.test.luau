@@ -80,6 +80,24 @@ test.suite("serializeProperty", function(suite: TestSuite)
 		asserts.eq({ 1, 2, 3 }, v)
 	end)
 
+	suite:case("NumberSequence", function(asserts: Asserts)
+		local v, status = serializeProperty("NumberSequence", {
+			Keypoints = {
+				{ Time = 0, Value = 5, Envelope = 2 },
+				{ Time = 1, Value = 22, Envelope = 0 },
+			},
+		})
+		asserts.eq("ok", status)
+		asserts.eq({
+			NumberSequence = {
+				keypoints = {
+					{ time = 0, value = 5, envelope = 2 },
+					{ time = 1, value = 22, envelope = 0 },
+				},
+			},
+		}, v)
+	end)
+
 	suite:case("Color3", function(asserts: Asserts)
 		local v, status = serializeProperty("Color3", { R = 0.25, G = 0.5, B = 0.75 })
 		asserts.eq("ok", status)
@@ -150,6 +168,7 @@ test.suite("serializeProperty", function(suite: TestSuite)
 			Float64 = true,
 			Vector2 = true,
 			Vector3 = true,
+			NumberSequence = true,
 			Color3 = true,
 			CFrame = true,
 			Content = true,
