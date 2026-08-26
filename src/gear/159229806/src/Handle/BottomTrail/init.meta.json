@@ -1,0 +1,24 @@
+{
+  "className": "Attachment",
+  "id": "g159229806_17",
+  "properties": {
+    "CFrame": [
+      2.5257468223571777e-6,
+      4.506808437554355e-8,
+      -0.699998140335083,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "ClassName": "Attachment",
+    "Name": "BottomTrail",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

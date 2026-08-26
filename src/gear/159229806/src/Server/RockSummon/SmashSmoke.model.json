@@ -1,0 +1,112 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "Acceleration": [
+      0,
+      10,
+      0
+    ],
+    "ClassName": "ParticleEmitter",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              0.5098040103912354,
+              0.5098040103912354,
+              0.5098040103912354
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              0.5098040103912354,
+              0.5098040103912354,
+              0.5098040103912354
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "Drag": 3,
+    "EmissionDirection": "Bottom",
+    "Enabled": false,
+    "Lifetime": {
+      "NumberRange": [
+        1,
+        3
+      ]
+    },
+    "LightInfluence": 1,
+    "Name": "SmashSmoke",
+    "Rate": 200,
+    "RotSpeed": {
+      "NumberRange": [
+        -200,
+        200
+      ]
+    },
+    "Rotation": {
+      "NumberRange": [
+        -180,
+        180
+      ]
+    },
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 1
+          },
+          {
+            "envelope": 0,
+            "time": 0.30000001192092896,
+            "value": 10
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 10
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        80,
+        80
+      ]
+    },
+    "SpreadAngle": [
+      180,
+      180
+    ],
+    "TextureContent": "rbxassetid://528256032",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 1
+          },
+          {
+            "envelope": 0.20758900046348572,
+            "time": 0.10000000149011612,
+            "value": 0.46299999952316284
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "RockSummon",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{95BECE6C-68CF-4D24-88FF-B42D6E96DE55}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "RocketLauncherScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{AF444F9A-7864-4F69-B47D-D7619541898C}",
+    "SourceAssetId": -1
+  }
+}

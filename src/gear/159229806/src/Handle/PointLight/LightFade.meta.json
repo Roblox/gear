@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "LightFade",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{148320EA-16E0-4BBA-86B7-27B0C12DA477}",
+    "SourceAssetId": -1
+  }
+}

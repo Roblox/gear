@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "RainBeam",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{308DFF20-6C98-4E5E-99BF-95C7CDC14D22}",
+    "SourceAssetId": -1
+  }
+}

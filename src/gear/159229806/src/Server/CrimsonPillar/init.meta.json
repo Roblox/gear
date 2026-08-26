@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "CrimsonPillar",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{D9AD814C-5174-4863-B864-112D68EE68A4}",
+    "SourceAssetId": -1
+  }
+}

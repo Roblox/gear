@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "rbxassetid://1682505361",
+    "ClassName": "Sound",
+    "Name": "Crumble",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 2
+  }
+}

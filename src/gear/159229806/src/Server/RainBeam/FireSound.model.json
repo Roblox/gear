@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "rbxassetid://1899276280",
+    "ClassName": "Sound",
+    "Name": "FireSound",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 2
+  }
+}
