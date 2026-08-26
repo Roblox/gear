@@ -2,6 +2,9 @@ local fs = require("@lune/fs")
 local process = require("@lune/process")
 local roblox = require("@lune/roblox")
 
+local stripRojoTargetAttributes = require("@scripts/lib/roblox/stripRojoTargetAttributes")
+local restoreFilesystemNames = require("@scripts/lib/roblox/restoreFilesystemNames")
+
 local function postProcessGearDataModel(gearInstance)
 	local gearId = gearInstance.Name
 	local gearDir = `src/gear/{gearId}`
@@ -9,6 +12,13 @@ local function postProcessGearDataModel(gearInstance)
 	if not fs.isDir(gearDir) then
 		error(`No gear found at {gearDir}`)
 	end
+
+	-- Rojo first builds unique filesystem names and resolves cross-file
+	-- references. Restore duplicate Instance names only after that work
+	-- is complete, then remove the temporary reference attributes.
+	restoreFilesystemNames(gearInstance)
+	stripRojoTargetAttributes(gearInstance)
+
 	if not fs.isFile(`{gearDir}/post_build.luau`) then
 		return
 	end
@@ -64,11 +74,11 @@ local function buildRojoProject(opts: {
 
 		fs.writeFile(outputPath, roblox.serializePlace(game))
 	elseif outputPath:match("%.rbxm") then
-		local gearInstance = roblox.deserializeModel(buildFile)
+		local gearInstance = roblox.deserializeModel(buildFile)[1]
 
 		postProcessGearDataModel(gearInstance)
 
-		fs.writeFile(outputPath, roblox.serializeModel(gearInstance))
+		fs.writeFile(outputPath, roblox.serializeModel({ gearInstance }))
 	end
 end
 

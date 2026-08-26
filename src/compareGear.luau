@@ -20,15 +20,101 @@ local function getFullNameFromGearCollectionRoot(instance: Instance?): string
 	return fullName
 end
 
+-- For instances with duplicate-named siblings (e.g. BloxyCola's 73 Welds),
+-- a Name-only path is ambiguous and `FindFirstChild` silently collapses
+-- them. We instead encode each path segment as `Name` (when unique) or
+-- `Name#index` (1-based, when duplicates exist), so siblings are paired
+-- positionally between the two trees being compared.
+local function indexAmongSameNamedSiblings(object: Instance): number?
+	local parent = object.Parent
+	if parent == nil then
+		return nil
+	end
+	local matches = 0
+	local index = nil
+	for _, sibling in parent:GetChildren() do
+		if sibling.Name == object.Name then
+			matches += 1
+			if sibling == object then
+				index = matches
+			end
+		end
+	end
+	if matches > 1 then
+		return index
+	end
+	return nil
+end
+
 local function getObjectPathFromRoot(object: Instance?): { string }
 	local objectPath: { string } = {}
 
 	while object ~= nil and getFullNameFromGearCollectionRoot(object) ~= "" do
-		table.insert(objectPath, 1, object.Name)
+		local idx = indexAmongSameNamedSiblings(object)
+		local segment = if idx then `{object.Name}#{idx}` else object.Name
+		table.insert(objectPath, 1, segment)
 		object = object.Parent
 	end
 
 	return objectPath
+end
+
+local function findChildByNameAndIndex(parent: Instance, name: string, index: number): Instance?
+	local seen = 0
+	for _, sibling in parent:GetChildren() do
+		if sibling.Name == name then
+			seen += 1
+			if seen == index then
+				return sibling
+			end
+		end
+	end
+	return nil
+end
+
+-- Path-from-gear-root for any in-gear Instance (e.g. "11419319.Handle").
+-- Used to compare Ref-typed properties across the source-asset tree and
+-- the built-gear tree without relying on Instance identity (two Refs to
+-- "the corresponding Handle" are different Instance objects but logically
+-- equivalent).
+local function refPathDescriptor(value: any): string
+	if value == nil then
+		return "<nil>"
+	end
+	if typeof(value) ~= "Instance" then
+		return tostring(value)
+	end
+	local segments = getObjectPathFromRoot(value)
+	if #segments == 0 then
+		return `<{value:GetFullName()}>` -- Ref points outside the gear scope
+	end
+	return table.concat(segments, ".")
+end
+
+local function valuesEquivalent(a: any, b: any): boolean
+	if a == b then
+		return true
+	end
+	-- Two Refs are equivalent if they resolve to the same path within
+	-- their respective gear tree. Catches every Weld.Part0/Part1 case
+	-- as well as deprecated lowercase aliases (e.g. `part1`) which
+	-- ReflectionService lists separately but share the underlying value.
+	if typeof(a) == "Instance" or typeof(b) == "Instance" then
+		return refPathDescriptor(a) == refPathDescriptor(b)
+	end
+	return false
+end
+
+local function describeForDiff(value: any, propName: string, instance: Instance): any
+	if propName == "Source" and instance:IsA("Script") then
+		return "[ SOURCE TRUNCATED ]"
+	end
+	if typeof(value) == "Instance" or value == nil then
+		-- Always serialize Refs as path strings so the diff output is
+		-- legible even when both sides happen to share a Name.
+		return refPathDescriptor(value)
+	end
+	return value
 end
 
 local function crossReferenceObject(referenceObject: Instance, targetTree: Instance)
@@ -36,8 +122,12 @@ local function crossReferenceObject(referenceObject: Instance, targetTree: Insta
 	local object = targetTree
 	for pathIndex = 2, #referenceObjectPath do
 		local pathNode = referenceObjectPath[pathIndex]
-
-		object = object:FindFirstChild(pathNode)
+		local name, indexStr = string.match(pathNode, "^(.-)#(%d+)$")
+		if name and indexStr then
+			object = findChildByNameAndIndex(object, name, tonumber(indexStr) :: number)
+		else
+			object = object:FindFirstChild(pathNode)
+		end
 		if object == nil then
 			return nil
 		end
@@ -96,19 +186,13 @@ local function compareGear(
 						-- Error reading property, probably shouldn't be read --
 						continue
 					end
-					if oldPropertyValue ~= newPropertyValue then
+					if not valuesEquivalent(oldPropertyValue, newPropertyValue) then
 						local path = `{getFullNameFromGearCollectionRoot(objectToCheck)}.{prop.Name}`
-						local oldValue = if prop.Name == "Source" and objectToCheck:IsA("Script")
-							then "[ SOURCE TRUNCATED ]"
-							else oldPropertyValue
-						local newValue = if prop.Name == "Source" and objectToCheck:IsA("Script")
-							then "[ SOURCE TRUNCATED ]"
-							else newPropertyValue
 						addModification(path, {
 							path = path,
 							status = ObjectStatus.MODIFIED,
-							oldValue = oldValue,
-							newValue = newValue,
+							oldValue = describeForDiff(oldPropertyValue, prop.Name, objectToCheck),
+							newValue = describeForDiff(newPropertyValue, prop.Name, objectToCheck),
 						})
 					end
 				end
