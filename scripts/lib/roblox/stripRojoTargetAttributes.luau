@@ -11,9 +11,12 @@
 
 local PREFIX = "Rojo_Target_"
 
-local function stripRojoTargetAttributes(root: Instance): number
+-- Left generic rather than tied to a concrete Instance: this walks Lune
+-- instances during a build but runs against lightweight fakes under
+-- `lute test`, which cannot require `@lune/roblox`.
+local function stripRojoTargetAttributes<T>(root: T): number
 	local stripped = 0
-	local function visit(instance: Instance)
+	local function visit(instance: any)
 		local attrs = instance:GetAttributes()
 		for name in attrs do
 			if string.sub(name, 1, #PREFIX) == PREFIX then

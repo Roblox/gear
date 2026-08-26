@@ -14,6 +14,12 @@ export type Plan<T> = {
 	referenceCount: number,
 }
 
+type ResolvedReference = {
+	sourceIndex: number,
+	propertyName: string,
+	targetIndex: number,
+}
+
 local function findIndex<T>(instances: { T }, target: T): number?
 	for index, instance in instances do
 		if instance == target then
@@ -31,10 +37,11 @@ local function planReferences<T>(
 ): Plan<T>
 	local metadata: { Metadata } = {}
 	for _ in instances do
-		table.insert(metadata, { attributes = {} })
+		local entry: Metadata = { attributes = {} }
+		table.insert(metadata, entry)
 	end
 
-	local resolved = {}
+	local resolved: { ResolvedReference } = {}
 	local targeted: { [number]: boolean } = {}
 	for _, reference in references do
 		local sourceIndex = findIndex(instances, reference.source)

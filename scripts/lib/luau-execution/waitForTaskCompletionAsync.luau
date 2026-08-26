@@ -2,8 +2,11 @@ local task = require("@lute/task")
 local json = require("@std/json")
 
 local fetch = require("@scripts/lib/fetch")
+local types = require("./types")
 
-local function waitForTaskCompletionAsync(operationPath: string, apiKey: string)
+type LuauTaskResponse = types.LuauTaskResponse
+
+local function waitForTaskCompletionAsync(operationPath: string, apiKey: string): LuauTaskResponse
 	while true do
 		local res = fetch(`https://apis.roblox.com/cloud/v2/{operationPath}`, {
 			headers = {
@@ -11,7 +14,7 @@ local function waitForTaskCompletionAsync(operationPath: string, apiKey: string)
 			},
 		})
 
-		local luauTask = json.deserialize(res.body)
+		local luauTask = json.deserialize(res.body) :: LuauTaskResponse
 
 		if luauTask.state ~= "PROCESSING" then
 			return luauTask

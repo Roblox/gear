@@ -19,6 +19,8 @@ local defaultArgs = {
 	"--settings=./.vscode/settings.json",
 	`--ignore="**/_Index/**"`,
 	`--ignore="**/LuauPackages/**"`,
+	-- Dumped catalog scripts are not ours to type-check yet.
+	`--ignore="src/gear/**"`,
 }
 
 local failureCount = 0
@@ -39,8 +41,11 @@ do
 end
 
 do
+	-- `src` requires resolve through the tests place, which is the only project
+	-- that mounts src and Packages under ReplicatedStorage.
 	run("rojo", {
 		"sourcemap",
+		project.TESTS_PROJECT_PATH,
 		"-o",
 		"sourcemap.json",
 	})

@@ -1,13 +1,17 @@
 local test = require("@std/test")
+local testTypes = require("@std/test/types")
 
 local planReferences = require("@scripts/lib/roblox/planReferencesLogic")
+
+type TestSuite = testTypes.TestSuite
+type Asserts = testTypes.Asserts
 
 local function node(name: string)
 	return { name = name }
 end
 
-test.suite("planReferencesLogic", function(suite)
-	suite:case("leaves unreferenced instances without metadata", function(asserts)
+test.suite("planReferencesLogic", function(suite: TestSuite)
+	suite:case("leaves unreferenced instances without metadata", function(asserts: Asserts)
 		local root = node("Root")
 		local child = node("Child")
 		local plan = planReferences({ root, child }, {}, "gear")
@@ -17,7 +21,7 @@ test.suite("planReferencesLogic", function(suite)
 		asserts.eq({}, plan.getMetadata(child).attributes)
 	end)
 
-	suite:case("assigns one stable id to a shared target", function(asserts)
+	suite:case("assigns one stable id to a shared target", function(asserts: Asserts)
 		local root = node("Root")
 		local firstWeld = node("FirstWeld")
 		local secondWeld = node("SecondWeld")
@@ -42,7 +46,7 @@ test.suite("planReferencesLogic", function(suite)
 		}, plan.getMetadata(secondWeld).attributes)
 	end)
 
-	suite:case("supports self references", function(asserts)
+	suite:case("supports self references", function(asserts: Asserts)
 		local objectValue = node("ObjectValue")
 		local plan = planReferences({ objectValue }, {
 			{ source = objectValue, propertyName = "Value", target = objectValue },
@@ -54,7 +58,7 @@ test.suite("planReferencesLogic", function(suite)
 		}, plan.getMetadata(objectValue).attributes)
 	end)
 
-	suite:case("ids follow model order rather than reference order", function(asserts)
+	suite:case("ids follow model order rather than reference order", function(asserts: Asserts)
 		local root = node("Root")
 		local earlyTarget = node("Early")
 		local lateTarget = node("Late")
@@ -68,7 +72,7 @@ test.suite("planReferencesLogic", function(suite)
 		asserts.eq("gear_3", plan.getMetadata(lateTarget).id)
 	end)
 
-	suite:case("errors instead of dropping an out-of-model target", function(asserts)
+	suite:case("errors instead of dropping an out-of-model target", function(asserts: Asserts)
 		local source = node("Source")
 		local external = node("External")
 		local ok, message = pcall(function()
@@ -82,30 +86,33 @@ test.suite("planReferencesLogic", function(suite)
 					return instance.name
 				end
 			)
+			return ""
 		end)
 
 		asserts.eq(false, ok)
 		asserts.eq(true, string.find(message, "Source.Value points outside the dumped model", 1, true) ~= nil)
 	end)
 
-	suite:case("rejects a source outside the model", function(asserts)
+	suite:case("rejects a source outside the model", function(asserts: Asserts)
 		local root = node("Root")
 		local externalSource = node("External")
 		local ok, message = pcall(function()
 			planReferences({ root }, {
 				{ source = externalSource, propertyName = "Value", target = root },
 			}, "gear")
+			return ""
 		end)
 
 		asserts.eq(false, ok)
 		asserts.eq(true, string.find(message, "reference source is not part of the model", 1, true) ~= nil)
 	end)
 
-	suite:case("rejects metadata lookups outside the model", function(asserts)
+	suite:case("rejects metadata lookups outside the model", function(asserts: Asserts)
 		local root = node("Root")
 		local plan = planReferences({ root }, {}, "gear")
 		local ok, message = pcall(function()
 			plan.getMetadata(node("External"))
+			return ""
 		end)
 
 		asserts.eq(false, ok)

@@ -1,3 +1,7 @@
+local roblox = require("@lune/roblox")
+
+type Instance = roblox.Instance
+
 local PATH_SEPARATOR = "/"
 
 local function getInstancePath(instance: Instance, pathSeparator: string?): string

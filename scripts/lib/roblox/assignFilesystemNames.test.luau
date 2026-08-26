@@ -1,6 +1,10 @@
 local test = require("@std/test")
+local testTypes = require("@std/test/types")
 
 local assignFilesystemNames = require("@scripts/lib/roblox/assignFilesystemNames")
+
+type TestSuite = testTypes.TestSuite
+type Asserts = testTypes.Asserts
 
 local function assign(names: { string })
 	return assignFilesystemNames.assign(names, function(name)
@@ -8,8 +12,8 @@ local function assign(names: { string })
 	end)
 end
 
-test.suite("assignFilesystemNames", function(suite)
-	suite:case("leaves unique names unchanged", function(asserts)
+test.suite("assignFilesystemNames", function(suite: TestSuite)
+	suite:case("leaves unique names unchanged", function(asserts: Asserts)
 		local assignments = assign({ "Handle", "Mesh", "Sound" })
 
 		asserts.eq("Handle", assignments[1].filesystemName)
@@ -18,7 +22,7 @@ test.suite("assignFilesystemNames", function(suite)
 		asserts.eq(nil, assignments[2].originalName)
 	end)
 
-	suite:case("encodes every member of a duplicate group", function(asserts)
+	suite:case("encodes every member of a duplicate group", function(asserts: Asserts)
 		local assignments = assign({ "Weld", "Weld", "Weld" })
 
 		asserts.eq("Weld__1", assignments[1].filesystemName)
@@ -29,7 +33,7 @@ test.suite("assignFilesystemNames", function(suite)
 		asserts.eq("Weld", assignments[3].originalName)
 	end)
 
-	suite:case("treats case-only names as filesystem collisions", function(asserts)
+	suite:case("treats case-only names as filesystem collisions", function(asserts: Asserts)
 		local assignments = assign({ "Part", "part" })
 
 		asserts.eq("Part__1", assignments[1].filesystemName)
@@ -38,7 +42,7 @@ test.suite("assignFilesystemNames", function(suite)
 		asserts.eq("part", assignments[2].originalName)
 	end)
 
-	suite:case("does not collide with a genuine suffixed sibling", function(asserts)
+	suite:case("does not collide with a genuine suffixed sibling", function(asserts: Asserts)
 		local assignments = assign({ "Weld", "Weld", "Weld__1" })
 
 		asserts.eq("Weld__2", assignments[1].filesystemName)

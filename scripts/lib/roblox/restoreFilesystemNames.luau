@@ -1,10 +1,14 @@
+local roblox = require("@lune/roblox")
+
 local assignFilesystemNames = require("@scripts/lib/roblox/assignFilesystemNames")
 local restoreFilesystemNamesLogic = require("@scripts/lib/roblox/restoreFilesystemNamesLogic")
+
+type Instance = roblox.Instance
 
 local ORIGINAL_NAME_ATTRIBUTE = assignFilesystemNames.ORIGINAL_NAME_ATTRIBUTE
 
 local function restoreFilesystemNames(root: Instance): number
-	return restoreFilesystemNamesLogic(root, {
+	local adapter: restoreFilesystemNamesLogic.Adapter<Instance> = {
 		getChildren = function(instance)
 			return instance:GetChildren()
 		end,
@@ -36,7 +40,8 @@ local function restoreFilesystemNames(root: Instance): number
 				instance.Parent = parent
 			end
 		end,
-	})
+	}
+	return restoreFilesystemNamesLogic(root, adapter)
 end
 
 return restoreFilesystemNames

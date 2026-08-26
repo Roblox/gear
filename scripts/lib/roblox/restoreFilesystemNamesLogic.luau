@@ -11,6 +11,11 @@ export type Adapter<T> = {
 	reparentInOrder: (T, { T }) -> (),
 }
 
+type OrderedEntry<T> = {
+	instance: T,
+	order: number,
+}
+
 local function restoreFilesystemNames<T>(root: T, adapter: Adapter<T>): number
 	local restored = 0
 
@@ -22,7 +27,7 @@ local function restoreFilesystemNames<T>(root: T, adapter: Adapter<T>): number
 			restored += 1
 		end
 
-		local duplicateGroups: { [string]: { { instance: T, order: number } } } = {}
+		local duplicateGroups: { [string]: { OrderedEntry<T> } } = {}
 		for _, child in adapter.getChildren(instance) do
 			local childOriginalName = adapter.getOriginalName(child)
 			if childOriginalName ~= nil then
@@ -45,10 +50,10 @@ local function restoreFilesystemNames<T>(root: T, adapter: Adapter<T>): number
 			if #group < 2 then
 				continue
 			end
-			table.sort(group, function(a, b)
+			table.sort(group, function(a: OrderedEntry<T>, b: OrderedEntry<T>)
 				return a.order < b.order
 			end)
-			local ordered = {}
+			local ordered: { T } = {}
 			for _, entry in group do
 				table.insert(ordered, entry.instance)
 			end

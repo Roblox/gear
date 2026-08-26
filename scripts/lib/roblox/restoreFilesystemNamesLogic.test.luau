@@ -1,6 +1,10 @@
 local test = require("@std/test")
+local testTypes = require("@std/test/types")
 
 local restoreFilesystemNames = require("@scripts/lib/roblox/restoreFilesystemNamesLogic")
+
+type TestSuite = testTypes.TestSuite
+type Asserts = testTypes.Asserts
 
 type Node = {
 	id: string,
@@ -53,8 +57,8 @@ local adapter: restoreFilesystemNames.Adapter<Node> = {
 	end,
 }
 
-test.suite("restoreFilesystemNamesLogic", function(suite)
-	suite:case("does nothing to ordinary names", function(asserts)
+test.suite("restoreFilesystemNamesLogic", function(suite: TestSuite)
+	suite:case("does nothing to ordinary names", function(asserts: Asserts)
 		local root = node("root", "Root", nil, {
 			node("handle", "Handle"),
 		})
@@ -63,7 +67,7 @@ test.suite("restoreFilesystemNamesLogic", function(suite)
 		asserts.eq("Handle", root.children[1].name)
 	end)
 
-	suite:case("restores names and clears temporary metadata", function(asserts)
+	suite:case("restores names and clears temporary metadata", function(asserts: Asserts)
 		local weld = node("1", "Weld__1", "Weld")
 		local root = node("root", "Root", nil, { weld })
 
@@ -72,7 +76,7 @@ test.suite("restoreFilesystemNamesLogic", function(suite)
 		asserts.eq(nil, weld.originalName)
 	end)
 
-	suite:case("repairs lexical ordering numerically", function(asserts)
+	suite:case("repairs lexical ordering numerically", function(asserts: Asserts)
 		local weld1 = node("1", "Weld__1", "Weld")
 		local weld10 = node("10", "Weld__10", "Weld")
 		local weld2 = node("2", "Weld__2", "Weld")
@@ -94,7 +98,7 @@ test.suite("restoreFilesystemNamesLogic", function(suite)
 		asserts.eq("Weld", root.children[4].name)
 	end)
 
-	suite:case("restores nested duplicate groups", function(asserts)
+	suite:case("restores nested duplicate groups", function(asserts: Asserts)
 		local child2 = node("child2", "Part__2", "Part")
 		local child1 = node("child1", "Part__1", "Part")
 		local folder2 = node("folder2", "Folder__2", "Folder", { child2, child1 })
@@ -108,7 +112,7 @@ test.suite("restoreFilesystemNamesLogic", function(suite)
 		asserts.eq("child2", folder2.children[2].id)
 	end)
 
-	suite:case("does not combine case-distinct original names", function(asserts)
+	suite:case("does not combine case-distinct original names", function(asserts: Asserts)
 		local upper = node("upper", "Part__1", "Part")
 		local lower = node("lower", "part__2", "part")
 		local root = node("root", "Root", nil, { upper, lower })
@@ -118,24 +122,26 @@ test.suite("restoreFilesystemNamesLogic", function(suite)
 		asserts.eq("part", root.children[2].name)
 	end)
 
-	suite:case("rejects a malformed prefix", function(asserts)
+	suite:case("rejects a malformed prefix", function(asserts: Asserts)
 		local root = node("root", "Root", nil, {
 			node("weld", "Other__1", "Weld"),
 		})
 		local ok, message = pcall(function()
 			restoreFilesystemNames(root, adapter)
+			return ""
 		end)
 
 		asserts.eq(false, ok)
 		asserts.eq(true, string.find(message, "does not start with expected prefix Weld__", 1, true) ~= nil)
 	end)
 
-	suite:case("rejects a non-numeric suffix", function(asserts)
+	suite:case("rejects a non-numeric suffix", function(asserts: Asserts)
 		local root = node("root", "Root", nil, {
 			node("weld", "Weld__first", "Weld"),
 		})
 		local ok, message = pcall(function()
 			restoreFilesystemNames(root, adapter)
+			return ""
 		end)
 
 		asserts.eq(false, ok)

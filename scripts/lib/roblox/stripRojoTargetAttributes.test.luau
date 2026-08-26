@@ -1,6 +1,10 @@
 local test = require("@std/test")
+local testTypes = require("@std/test/types")
 
 local stripRojoTargetAttributes = require("@scripts/lib/roblox/stripRojoTargetAttributes")
+
+type TestSuite = testTypes.TestSuite
+type Asserts = testTypes.Asserts
 
 type Node = {
 	attributes: { [string]: any },
@@ -28,11 +32,11 @@ local function node(attributes: { [string]: any }?, children: { Node }?): Node
 		return self.children
 	end
 
-	return instance
+	return instance :: any
 end
 
-test.suite("stripRojoTargetAttributes", function(suite)
-	suite:case("removes target attributes throughout the tree", function(asserts)
+test.suite("stripRojoTargetAttributes", function(suite: TestSuite)
+	suite:case("removes target attributes throughout the tree", function(asserts: Asserts)
 		local weld = node({
 			Rojo_Target_Part0 = "handle",
 			Rojo_Target_Part1 = "handle",
@@ -47,7 +51,7 @@ test.suite("stripRojoTargetAttributes", function(suite)
 		asserts.eq({}, objectValue.attributes)
 	end)
 
-	suite:case("preserves unrelated and original-name attributes", function(asserts)
+	suite:case("preserves unrelated and original-name attributes", function(asserts: Asserts)
 		local root = node({
 			Rojo_Id = "handle",
 			__MarketplaceGear_OriginalName = "Weld",
@@ -64,7 +68,7 @@ test.suite("stripRojoTargetAttributes", function(suite)
 		asserts.eq(nil, root.attributes.Rojo_Target_Part0)
 	end)
 
-	suite:case("returns zero for a clean tree", function(asserts)
+	suite:case("returns zero for a clean tree", function(asserts: Asserts)
 		local root = node({ UserAttribute = true }, {
 			node(),
 		})

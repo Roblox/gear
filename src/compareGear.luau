@@ -11,6 +11,12 @@ type PathModification = {
 	newValue: any?,
 }
 
+type ModificationsByCategory = {
+	ADDED: { PathModification },
+	MODIFIED: { PathModification },
+	REMOVED: { PathModification },
+}
+
 local function getFullNameFromGearCollectionRoot(instance: Instance?): string
 	if typeof(instance) ~= "Instance" then
 		return tostring(instance)
@@ -117,10 +123,14 @@ local function describeForDiff(value: any, propName: string, instance: Instance)
 	return value
 end
 
-local function crossReferenceObject(referenceObject: Instance, targetTree: Instance)
+local function crossReferenceObject(referenceObject: Instance, targetTree: Instance?): Instance?
 	local referenceObjectPath = getObjectPathFromRoot(referenceObject)
 	local object = targetTree
 	for pathIndex = 2, #referenceObjectPath do
+		if object == nil then
+			return nil
+		end
+
 		local pathNode = referenceObjectPath[pathIndex]
 		local name, indexStr = string.match(pathNode, "^(.-)#(%d+)$")
 		if name and indexStr then
@@ -128,21 +138,11 @@ local function crossReferenceObject(referenceObject: Instance, targetTree: Insta
 		else
 			object = object:FindFirstChild(pathNode)
 		end
-		if object == nil then
-			return nil
-		end
 	end
 	return object
 end
 
-local function compareGear(
-	oldGear: Instance?,
-	newGear: Instance?
-): ({
-	ADDED: { PathModification },
-	MODIFIED: { PathModification },
-	REMOVED: { PathModification },
-}, boolean)
+local function compareGear(oldGear: Instance?, newGear: Instance?): (ModificationsByCategory, boolean)
 	local modificationsByPath: {
 		[string]: PathModification,
 	} = {}
@@ -153,9 +153,11 @@ local function compareGear(
 		modificationsByPath[path] = modification
 	end
 
-	local function findDiffs(oldObject, newObject, reverseModification: boolean?)
-		local function diffForObject(objectToCheck)
-			local creationDeletionStatus = if reverseModification then ObjectStatus.ADDED else ObjectStatus.REMOVED
+	local function findDiffs(oldObject: Instance?, newObject: Instance?, reverseModification: boolean?)
+		local function diffForObject(objectToCheck: Instance)
+			local creationDeletionStatus: ObjectStatus = if reverseModification
+				then ObjectStatus.ADDED
+				else ObjectStatus.REMOVED
 			local crossReferencedObjectToCheck = crossReferenceObject(objectToCheck, newObject)
 
 			if crossReferencedObjectToCheck == nil then
@@ -173,14 +175,19 @@ local function compareGear(
 						continue
 					end
 
+					-- Properties are looked up by name from reflection data, which
+					-- the type checker cannot verify against a plain Instance.
+					local checked = objectToCheck :: any
+					local crossReferenced = crossReferencedObjectToCheck :: any
+
 					local oldPropertyValue, newPropertyValue
 					local propertyReadSuccess = pcall(function()
 						oldPropertyValue = if reverseModification
-							then crossReferencedObjectToCheck[prop.Name]
-							else objectToCheck[prop.Name]
+							then crossReferenced[prop.Name]
+							else checked[prop.Name]
 						newPropertyValue = if reverseModification
-							then objectToCheck[prop.Name]
-							else crossReferencedObjectToCheck[prop.Name]
+							then checked[prop.Name]
+							else crossReferenced[prop.Name]
 					end)
 					if not propertyReadSuccess then
 						-- Error reading property, probably shouldn't be read --
@@ -211,16 +218,18 @@ local function compareGear(
 			end
 		end
 
-		diffForObject(oldObject)
+		if oldObject ~= nil then
+			diffForObject(oldObject)
+		end
 	end
 
 	findDiffs(oldGear, newGear)
 	findDiffs(newGear, oldGear, true)
 
-	local modificationsByCategory = {
-		[ObjectStatus.ADDED] = {},
-		[ObjectStatus.MODIFIED] = {},
-		[ObjectStatus.REMOVED] = {},
+	local modificationsByCategory: ModificationsByCategory = {
+		ADDED = {},
+		MODIFIED = {},
+		REMOVED = {},
 	}
 
 	local modificationsPresent = false
@@ -233,8 +242,10 @@ local function compareGear(
 			table.insert(modificationsByCategory[modification.status], modification)
 		end
 
-		-- Sort each category alphabetically by path
-		for _, modifications in modificationsByCategory do
+		-- Sort each category alphabetically by path. Iterating the record
+		-- directly yields `unknown`, so view it as a uniform map first.
+		local categories = modificationsByCategory :: { [ObjectStatus]: { PathModification } }
+		for _, modifications in categories do
 			table.sort(modifications, function(a, b)
 				return a.path < b.path
 			end)

@@ -5,6 +5,8 @@ return {
 	SCRIPTS_PATH = "scripts",
 	SOURCE_PATH = "src",
 
+	TESTS_PROJECT_PATH = "tests.project.json",
+
 	LUAU_PACKAGES_PATH = "LuauPackages",
 
 	LUTE_BATTERIES = {

@@ -1,5 +1,4 @@
 local cli = require("@luaupkg/batteries/cli")
-local pp = require("@luaupkg/batteries/pp")
 local fs = require("@lute/fs")
 local process = require("@lute/process")
 
