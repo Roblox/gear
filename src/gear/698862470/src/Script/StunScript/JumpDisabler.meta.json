@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "JumpDisabler",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{F32C458A-2FFB-4018-AC87-CD6B6BBE5E0D}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "ClassName": "Trail",
+  "Properties": {
+    "ClassName": "Trail",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              0.33333298563957214,
+              0.6666669845581055,
+              1
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "Lifetime": 0.10000000149011612,
+    "LightEmission": 1,
+    "MinLength": 1,
+    "Name": "Trail",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "rbxassetid://719379528",
+    "TextureMode": "Wrap"
+  },
+  "attributes": {
+    "Rojo_Target_Attachment0": "g743691009_8",
+    "Rojo_Target_Attachment1": "g743691009_7"
+  }
+}

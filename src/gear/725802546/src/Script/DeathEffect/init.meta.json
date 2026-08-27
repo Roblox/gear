@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "DeathEffect",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{4B6A54CF-D0DC-43A0-9DA9-FAE4F7F9E500}",
+    "SourceAssetId": -1
+  }
+}
