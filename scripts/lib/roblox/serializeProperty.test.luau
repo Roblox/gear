@@ -183,6 +183,20 @@ test.suite("serializeProperty", function(suite: TestSuite)
 		asserts.eq("", v)
 	end)
 
+	suite:case("Font", function(asserts: Asserts)
+		local v, status = serializeProperty("Font", {
+			Family = "rbxasset://fonts/families/LegacyArial.json",
+			Weight = { Name = "Regular" },
+			Style = { Name = "Normal" },
+		})
+		asserts.eq("ok", status)
+		asserts.eq({
+			family = "rbxasset://fonts/families/LegacyArial.json",
+			weight = "Regular",
+			style = "Normal",
+		}, v)
+	end)
+
 	suite:case("Enum.NormalId serializes to its Name", function(asserts: Asserts)
 		local v, status = serializeProperty("Enum.NormalId", { Name = "Top" })
 		asserts.eq("ok", status)
@@ -233,6 +247,7 @@ test.suite("serializeProperty", function(suite: TestSuite)
 			OptionalCFrame = true,
 			Content = true,
 			ContentId = true,
+			Font = true,
 		}
 		for datatype in SERIALIZERS do
 			asserts.eq(true, tested[datatype])
