@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=297233472",
+    "ClassName": "Sound",
+    "Name": "Alarm",
+    "PlaybackSpeed": 0.75,
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

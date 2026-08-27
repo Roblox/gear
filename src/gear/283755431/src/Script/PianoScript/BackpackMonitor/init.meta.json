@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "BackpackMonitor",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{8AE833F4-499D-41BB-BAD3-C56B58080058}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "BlackHoleScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{E31DF7D9-9DAF-4A46-939F-3E81D426A079}",
+    "SourceAssetId": -1
+  }
+}

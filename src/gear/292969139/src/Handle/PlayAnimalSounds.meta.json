@@ -1,0 +1,11 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "PlayAnimalSounds",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "ClassName": "ParticleEmitter",
+    "Enabled": false,
+    "Lifetime": {
+      "NumberRange": [
+        0.6499999761581421,
+        0.6499999761581421
+      ]
+    },
+    "LightEmission": 0.25,
+    "Name": "Smoke",
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 2.5
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        10,
+        10
+      ]
+    },
+    "TextureContent": "rbxasset://textures/particles/smoke_main.dds",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0.75
+          }
+        ]
+      }
+    }
+  }
+}

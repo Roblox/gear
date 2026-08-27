@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=297233448",
+    "ClassName": "Sound",
+    "Name": "SystemShutDown",
+    "PlaybackSpeed": 0.75,
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

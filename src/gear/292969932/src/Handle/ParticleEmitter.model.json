@@ -1,0 +1,75 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "Acceleration": [
+      0,
+      -1,
+      0
+    ],
+    "ClassName": "ParticleEmitter",
+    "Enabled": false,
+    "Lifetime": {
+      "NumberRange": [
+        4,
+        4
+      ]
+    },
+    "Name": "ParticleEmitter",
+    "Rate": 50,
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 1
+          },
+          {
+            "envelope": 0,
+            "time": 0.8379049897193909,
+            "value": 9.0625
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        3,
+        3
+      ]
+    },
+    "SpreadAngle": [
+      50,
+      50
+    ],
+    "TextureContent": "rbxasset://textures/particles/smoke_main.dds",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 0.5623440146446228,
+            "value": 0.1875
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1
+          }
+        ]
+      }
+    }
+  }
+}

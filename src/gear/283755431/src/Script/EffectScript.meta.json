@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "EffectScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{13FF54F2-C8A6-446B-8380-39573A6514CE}",
+    "SourceAssetId": -1
+  }
+}

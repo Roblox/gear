@@ -1,0 +1,52 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Enabled": false,
+    "Grip": [
+      0,
+      -0.15000000596046448,
+      2,
+      1,
+      0,
+      0,
+      -0.0,
+      0.007518584839999676,
+      0.9999718070030212,
+      0,
+      -0.9999718070030212,
+      0.007518584839999676
+    ],
+    "Name": "268586231",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=268484192",
+    "ToolTip": "Send your opponents to the realm of shadows...",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            -0.7071073651313782,
+            -0.707106351852417
+          ],
+          [
+            0,
+            0.707106351852417,
+            -0.7071073651313782
+          ]
+        ],
+        "position": [
+          -118.09999084472656,
+          15.065746307373047,
+          -37.8641242980957
+        ]
+      }
+    }
+  }
+}
