@@ -1,0 +1,20 @@
+{
+  "ClassName": "SurfaceLight",
+  "Properties": {
+    "Angle": 180,
+    "Brightness": 50,
+    "ClassName": "SurfaceLight",
+    "Color": [
+      0.3333333432674408,
+      1,
+      1
+    ],
+    "Enabled": false,
+    "Face": "Bottom",
+    "Name": "Light",
+    "Range": 4,
+    "Sandboxed": false,
+    "Shadows": false,
+    "SourceAssetId": -1
+  }
+}

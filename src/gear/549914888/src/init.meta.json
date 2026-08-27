@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0.27000001072883606,
+      -1,
+      0.20000000298023224,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "Name": "549914888",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "rbxassetid://1086414199",
+    "ToolTip": "2017 Bloxy Award",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1.000000238418579,
+            0
+          ],
+          [
+            0,
+            0,
+            -1.000000238418579
+          ]
+        ],
+        "position": [
+          -7.239998817443848,
+          4.066535949707031,
+          15.59000015258789
+        ]
+      }
+    }
+  }
+}
