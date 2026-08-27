@@ -1,0 +1,10 @@
+{
+  "ClassName": "UITextSizeConstraint",
+  "Properties": {
+    "ClassName": "UITextSizeConstraint",
+    "MaxTextSize": 50,
+    "Name": "UITextSizeConstraint",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

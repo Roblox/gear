@@ -1,0 +1,84 @@
+{
+  "className": "ViewportFrame",
+  "properties": {
+    "Active": false,
+    "AnchorPoint": [
+      0.5,
+      0.5
+    ],
+    "AutoLocalize": true,
+    "AutomaticSize": "None",
+    "BackgroundColor3": [
+      0.03921568766236305,
+      0.24705882370471954,
+      0.32156863808631897
+    ],
+    "BackgroundTransparency": 1,
+    "BorderColor3": [
+      0.10588236153125763,
+      0.16470588743686676,
+      0.20784315466880798
+    ],
+    "BorderMode": "Outline",
+    "BorderSizePixel": 1,
+    "CameraCFrame": [
+      2.391622543334961,
+      0.1141928881406784,
+      -0.16462798416614532,
+      -0.068672776222229,
+      -0.047468047589063644,
+      0.9965093731880188,
+      -0.0,
+      0.9988675117492676,
+      0.04758036881685257,
+      -0.9976392984390259,
+      0.003267476102337241,
+      -0.06859499216079712
+    ],
+    "CameraFieldOfView": 1.3962634801864624,
+    "ClassName": "ViewportFrame",
+    "ClipsDescendants": false,
+    "Draggable": false,
+    "InputSink": "None",
+    "Interactable": true,
+    "LayoutOrder": 0,
+    "Name": "ViewportFrame",
+    "Position": {
+      "UDim2": [
+        [
+          0.5,
+          0
+        ],
+        [
+          0.5,
+          0
+        ]
+      ]
+    },
+    "Rotation": 0,
+    "Sandboxed": false,
+    "Selectable": false,
+    "SelectionBehaviorDown": "Escape",
+    "SelectionBehaviorLeft": "Escape",
+    "SelectionBehaviorRight": "Escape",
+    "SelectionBehaviorUp": "Escape",
+    "SelectionGroup": false,
+    "SelectionOrder": 0,
+    "Size": {
+      "UDim2": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    "SizeConstraint": "RelativeXY",
+    "SourceAssetId": -1,
+    "Visible": true,
+    "ZIndex": 1
+  }
+}
