@@ -11,11 +11,14 @@ preloadSounds({ ReplicatedStorage.Src.gear, ReplicatedStorage.Assets })
 
 local allGearModifications = {}
 local gearModificationCount = 0
-for _, generatedGear in ReplicatedStorage.Src.gear:GetChildren() do
+for index, generatedGear in ReplicatedStorage.Src.gear:GetChildren() do
 	local modifications, modificationsPresent = compareGear(getUploadedAssetForComparison(generatedGear), generatedGear)
 	if modificationsPresent then
 		allGearModifications[generatedGear.Name] = modifications
 		gearModificationCount += 1
+	end
+	if index % 25 == 0 then
+		task.wait()
 	end
 end
 
