@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "StopHittingYourself",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{A80CEB5C-231F-4E44-B080-AA268DE5D95F}",
+    "SourceAssetId": -1
+  }
+}

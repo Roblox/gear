@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "MotherRocket",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{25604E31-DB8B-41A4-8F93-ED6B61A9CB74}",
+    "SourceAssetId": -1
+  }
+}

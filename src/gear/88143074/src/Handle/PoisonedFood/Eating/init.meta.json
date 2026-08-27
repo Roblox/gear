@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "Eating",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{CC5D6604-410F-4CEE-A88E-43C844267C64}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "grappleScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{F46986E8-C121-4D83-B1BD-5F0B1DB7CE7B}",
+    "SourceAssetId": -1
+  }
+}

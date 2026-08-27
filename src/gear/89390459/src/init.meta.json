@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0.10000000894069672,
+      -0.29999998211860657,
+      0.699999988079071,
+      1.0000001192092896,
+      0,
+      -4.656612873077393e-10,
+      0,
+      1,
+      0,
+      -4.656612873077393e-10,
+      0,
+      0.9999999403953552
+    ],
+    "Name": "89390459",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=88546751",
+    "ToolTip": "Plasma Gun",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "position": [
+          1.399999976158142,
+          -0.4824959933757782,
+          -1.8625010251998901
+        ]
+      }
+    }
+  }
+}

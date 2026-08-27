@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "GloveScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{3FAFE76D-1E59-4F0C-95AF-408C43DDADC2}",
+    "SourceAssetId": -1
+  }
+}

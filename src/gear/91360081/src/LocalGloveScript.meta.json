@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "LocalGloveScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{023F7E24-2076-40A8-B8E6-A41DFB434F64}",
+    "SourceAssetId": -1
+  }
+}

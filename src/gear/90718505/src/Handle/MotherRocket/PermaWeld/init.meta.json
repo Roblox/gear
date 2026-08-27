@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "PermaWeld",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{026DAD5B-90D9-4A39-A940-DF366EE6310C}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "ClassName": "StringValue",
+  "Properties": {
+    "ClassName": "StringValue",
+    "Name": "NEXTLEVEL",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Value": "GameLevel1"
+  }
+}

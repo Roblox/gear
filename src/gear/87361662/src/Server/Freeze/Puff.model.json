@@ -1,0 +1,125 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "ClassName": "ParticleEmitter",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              0.6666669845581055,
+              1,
+              1
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "Enabled": false,
+    "Lifetime": {
+      "NumberRange": [
+        1,
+        2
+      ]
+    },
+    "LightInfluence": 0.5,
+    "Name": "Puff",
+    "Rate": 10,
+    "RotSpeed": {
+      "NumberRange": [
+        -60,
+        60
+      ]
+    },
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 2.75
+          },
+          {
+            "envelope": 0.5625,
+            "time": 1,
+            "value": 1.9375
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        1,
+        2
+      ]
+    },
+    "SpreadAngle": [
+      -180,
+      180
+    ],
+    "TextureContent": "rbxassetid://258128463",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 1
+          },
+          {
+            "envelope": 0,
+            "time": 0.19959700107574463,
+            "value": 0.4935060143470764
+          },
+          {
+            "envelope": 0,
+            "time": 0.502016007900238,
+            "value": 0.4935060143470764
+          },
+          {
+            "envelope": 0,
+            "time": 0.6411290168762207,
+            "value": 0.5238100290298462
+          },
+          {
+            "envelope": 0,
+            "time": 0.747983992099762,
+            "value": 0.5497840046882629
+          },
+          {
+            "envelope": 0,
+            "time": 0.8366940021514893,
+            "value": 0.6233770251274109
+          },
+          {
+            "envelope": 0,
+            "time": 0.9102820158004761,
+            "value": 0.7099570035934448
+          },
+          {
+            "envelope": 0,
+            "time": 0.957660973072052,
+            "value": 0.8008660078048706
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "VelocityInheritance": 0.5
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "GunCursor",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{EA3DBCF9-EF31-4EA0-B87C-4D35AC2C2EB3}",
+    "SourceAssetId": -1
+  }
+}

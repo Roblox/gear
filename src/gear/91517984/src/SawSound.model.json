@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=91449347",
+    "ClassName": "Sound",
+    "Name": "SawSound",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 0.800000011920929
+  }
+}

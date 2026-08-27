@@ -1,0 +1,10 @@
+{
+  "ClassName": "Animation",
+  "Properties": {
+    "AnimationContent": "rbxassetid://2410315272",
+    "ClassName": "Animation",
+    "Name": "ChargeAnim",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

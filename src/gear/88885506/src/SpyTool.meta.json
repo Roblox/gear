@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "SpyTool",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{7BE04BDB-46D6-4B8B-8819-F7352C3695F3}",
+    "SourceAssetId": -1
+  }
+}

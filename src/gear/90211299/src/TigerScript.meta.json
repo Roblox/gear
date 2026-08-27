@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "TigerScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{FCD740DC-DF2C-4ECD-8E33-0C7B0048994D}",
+    "SourceAssetId": -1
+  }
+}

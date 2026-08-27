@@ -1,0 +1,42 @@
+{
+  "ClassName": "Beam",
+  "Properties": {
+    "ClassName": "Beam",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              1,
+              0,
+              0
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              1,
+              0,
+              0
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "FaceCamera": true,
+    "LightEmission": 0.10000000149011612,
+    "Name": "RayBeam",
+    "Sandboxed": false,
+    "Segments": 1,
+    "SourceAssetId": -1,
+    "TextureContent": "rbxassetid://2382169232",
+    "TextureMode": "Wrap",
+    "TextureSpeed": 3,
+    "Width0": 0.20000000298023224,
+    "Width1": 0.20000000298023224
+  },
+  "attributes": {
+    "Rojo_Target_Attachment0": "g91360104_11"
+  }
+}

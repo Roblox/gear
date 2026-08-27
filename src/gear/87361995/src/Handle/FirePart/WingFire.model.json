@@ -1,0 +1,114 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "ClassName": "ParticleEmitter",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              0,
+              0.33333298563957214,
+              1
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              0.05229119956493378,
+              0.3278909921646118,
+              0.9540240168571472
+            ],
+            "time": 0.597458004951477
+          },
+          {
+            "color": [
+              0.9872589707374573,
+              0.23057900369167328,
+              0.131974995136261
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "Lifetime": {
+      "NumberRange": [
+        0.10000000149011612,
+        1
+      ]
+    },
+    "LightEmission": 0.75,
+    "LockedToPart": true,
+    "Name": "WingFire",
+    "Rate": 100,
+    "RotSpeed": {
+      "NumberRange": [
+        -45,
+        45
+      ]
+    },
+    "Rotation": {
+      "NumberRange": [
+        -90,
+        90
+      ]
+    },
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0.33333298563957214,
+            "time": 0,
+            "value": 1.4942500591278076
+          },
+          {
+            "envelope": 0.17241400480270386,
+            "time": 1,
+            "value": 0.6321840286254883
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        6,
+        6
+      ]
+    },
+    "TextureContent": "rbxassetid://341300088",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 1
+          },
+          {
+            "envelope": 0,
+            "time": 0.03333330154418945,
+            "value": 0.4175820052623749
+          },
+          {
+            "envelope": 0,
+            "time": 0.4862070083618164,
+            "value": 0.22527499496936798
+          },
+          {
+            "envelope": 0,
+            "time": 0.8402299880981445,
+            "value": 0.4230769872665405
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1
+          }
+        ]
+      }
+    }
+  }
+}

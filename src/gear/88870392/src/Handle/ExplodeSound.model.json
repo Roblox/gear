@@ -1,0 +1,10 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "rbxasset://sounds//Rocket shot.wav",
+    "ClassName": "Sound",
+    "Name": "ExplodeSound",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}
