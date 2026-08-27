@@ -1,0 +1,84 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "ClassName": "ParticleEmitter",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              0,
+              0.6666669845581055,
+              1
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              0,
+              0.33333298563957214,
+              1
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "Enabled": false,
+    "Lifetime": {
+      "NumberRange": [
+        0.10000000149011612,
+        0.10000000149011612
+      ]
+    },
+    "LightEmission": 1,
+    "LockedToPart": true,
+    "Name": "Tint",
+    "Rate": 60,
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 10
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 10
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        1,
+        1
+      ]
+    },
+    "SpreadAngle": [
+      0,
+      360
+    ],
+    "TextureContent": "rbxassetid://214269134",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0.75
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1
+          }
+        ]
+      }
+    }
+  }
+}

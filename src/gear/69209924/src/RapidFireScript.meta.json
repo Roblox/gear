@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "RapidFireScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{CE8AF727-9252-4ADE-A73C-AAA9E1BFFC6A}",
+    "SourceAssetId": -1
+  }
+}

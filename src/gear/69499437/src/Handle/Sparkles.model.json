@@ -1,0 +1,14 @@
+{
+  "ClassName": "Sparkles",
+  "Properties": {
+    "ClassName": "Sparkles",
+    "Name": "Sparkles",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "SparkleColor": [
+      0,
+      0.3333333432674408,
+      1
+    ]
+  }
+}

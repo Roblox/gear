@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "OrbScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{FFB0D388-8898-4478-8397-B8B889AEB5A0}",
+    "SourceAssetId": -1
+  }
+}

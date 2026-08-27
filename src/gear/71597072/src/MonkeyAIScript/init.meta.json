@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "MonkeyAIScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{6DCE081F-9CEE-41E0-94B3-6E4C4AD706A9}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "GrayScale",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{996FFB6E-383D-481A-BD0B-8EA4A7E841F6}",
+    "SourceAssetId": -1
+  }
+}

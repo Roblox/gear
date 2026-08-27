@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0.4000000059604645,
+      0,
+      -0.5,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "Name": "71037056",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=71005120",
+    "ToolTip": "Summon the genie to grant your wishes!",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            -0.9902172088623047,
+            -0.13953419029712677,
+            0.000014454126358032227
+          ],
+          [
+            -4.172325134277344e-6,
+            0.00013315677642822266,
+            1
+          ],
+          [
+            -0.13953419029712677,
+            0.9902172088623047,
+            -0.0001323223114013672
+          ]
+        ],
+        "position": [
+          -8.648072242736816,
+          9.256584167480469,
+          3.9541280269622803
+        ]
+      }
+    }
+  }
+}

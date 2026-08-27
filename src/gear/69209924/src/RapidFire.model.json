@@ -1,0 +1,10 @@
+{
+  "ClassName": "BoolValue",
+  "Properties": {
+    "ClassName": "BoolValue",
+    "Name": "RapidFire",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Value": true
+  }
+}

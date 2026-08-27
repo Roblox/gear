@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "FlightControl",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{EB4F88E9-751B-4E16-B241-536D3E16494E}",
+    "SourceAssetId": -1
+  }
+}

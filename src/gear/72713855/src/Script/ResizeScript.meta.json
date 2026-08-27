@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "ResizeScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{EDD7F29D-A84B-4F61-B22B-F677DFC039FC}",
+    "SourceAssetId": -1
+  }
+}
