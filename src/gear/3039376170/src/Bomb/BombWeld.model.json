@@ -1,0 +1,42 @@
+{
+  "ClassName": "Weld",
+  "Properties": {
+    "C0": [
+      0,
+      0.125,
+      0.42500001192092896,
+      1,
+      0,
+      0,
+      0,
+      0.4999999701976776,
+      -0.866025447845459,
+      0,
+      0.866025447845459,
+      0.4999999701976776
+    ],
+    "C1": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "ClassName": "Weld",
+    "Enabled": true,
+    "Name": "BombWeld",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  },
+  "attributes": {
+    "Rojo_Target_Part0": "g3039376170_4",
+    "Rojo_Target_Part1": "g3039376170_5"
+  }
+}

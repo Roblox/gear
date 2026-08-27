@@ -1,0 +1,10 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "rbxassetid://2190287438",
+    "ClassName": "Sound",
+    "Name": "HeavyWind",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}
