@@ -1,0 +1,12 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "rbxassetid://144309123",
+    "ClassName": "Sound",
+    "Looped": true,
+    "Name": "Rustle",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 2
+  }
+}

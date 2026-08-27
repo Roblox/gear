@@ -1,0 +1,35 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Name": "3381451677",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            -0.19895587861537933,
+            0,
+            0.9800084233283997
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            -0.9800084233283997,
+            0,
+            -0.19895587861537933
+          ]
+        ],
+        "position": [
+          -8.64998722076416,
+          9.249992370605469,
+          3.9599993228912354
+        ]
+      }
+    }
+  }
+}

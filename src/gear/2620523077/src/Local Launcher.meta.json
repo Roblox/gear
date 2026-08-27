@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "Local Launcher",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{DC59A021-3B06-461F-B8CB-E059B0F8307E}",
+    "SourceAssetId": -1
+  }
+}
