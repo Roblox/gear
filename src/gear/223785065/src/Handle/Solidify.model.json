@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=203936153",
+    "ClassName": "Sound",
+    "Name": "Solidify",
+    "PlaybackSpeed": 1.899999976158142,
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

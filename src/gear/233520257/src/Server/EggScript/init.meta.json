@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "EggScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{EE2B8F9E-268B-4A9F-916D-A4F1F346C62A}",
+    "SourceAssetId": -1
+  }
+}

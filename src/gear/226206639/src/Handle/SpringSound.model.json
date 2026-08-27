@@ -1,0 +1,12 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=225051559",
+    "ClassName": "Sound",
+    "Name": "SpringSound",
+    "PlaybackSpeed": 1.2200000286102295,
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "rbxassetid://225627419",
+    "ClassName": "Sound",
+    "Name": "Warning",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

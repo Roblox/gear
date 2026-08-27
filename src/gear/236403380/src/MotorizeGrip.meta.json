@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "MotorizeGrip",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{724537EC-6B49-4D00-AB20-4DCA6FDD5122}",
+    "SourceAssetId": -1
+  }
+}

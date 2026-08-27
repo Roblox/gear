@@ -1,0 +1,10 @@
+{
+  "ClassName": "Animation",
+  "Properties": {
+    "AnimationContent": "rbxassetid://855685476",
+    "ClassName": "Animation",
+    "Name": "JumpAttack",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}
