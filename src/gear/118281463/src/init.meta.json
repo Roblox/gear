@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0,
+      -0.75,
+      0.699999988079071,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "Name": "118281463",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=118269682",
+    "ToolTip": "The danger that lurks below..",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            0,
+            0.5735768675804138,
+            0.8191518187522888
+          ],
+          [
+            0,
+            0.8191518187522888,
+            -0.5735768675804138
+          ],
+          [
+            -1,
+            0,
+            0
+          ]
+        ],
+        "position": [
+          -94.5,
+          9.699999809265137,
+          17.899999618530273
+        ]
+      }
+    }
+  }
+}

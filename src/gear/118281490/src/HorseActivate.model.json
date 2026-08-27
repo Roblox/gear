@@ -1,0 +1,9 @@
+{
+  "ClassName": "BoolValue",
+  "Properties": {
+    "ClassName": "BoolValue",
+    "Name": "HorseActivate",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

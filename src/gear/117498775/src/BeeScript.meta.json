@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "BeeScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{B2DDE9E0-9044-43C7-B781-314DAB3D720B}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Name": "116040807",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=115985616",
+    "ToolTip": "TARANCHULA 4 LIFE!",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            -0.5422940850257874,
+            0.6849265098571777,
+            0.4866137206554413
+          ],
+          [
+            0.5097790360450745,
+            0.7286123037338257,
+            -0.45743808150291443
+          ],
+          [
+            -0.6678640842437744,
+            -4.975974547960504e-7,
+            -0.7442833185195923
+          ]
+        ],
+        "position": [
+          -4.920000076293945,
+          13.789999961853027,
+          17.549999237060547
+        ]
+      }
+    }
+  }
+}

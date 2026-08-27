@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "Bomb",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{1CBD9048-E1F2-4DF5-A413-644F350534DC}",
+    "SourceAssetId": -1
+  }
+}

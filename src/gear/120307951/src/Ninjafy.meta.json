@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "Ninjafy",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{F695D4B6-A99C-4788-B0F3-07CE1AEE7BC2}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "ClassName": "ManualWeld",
+  "Properties": {
+    "C0": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "C1": [
+      0.19934260845184326,
+      0.3327007293701172,
+      0.1231842041015625,
+      0.11886950582265854,
+      -0.9919289350509644,
+      0.04412518069148064,
+      0.9914183020591736,
+      0.11613870412111282,
+      -0.06001260504126549,
+      0.05440359562635422,
+      0.050880178809165955,
+      0.9972219467163086
+    ],
+    "ClassName": "ManualWeld",
+    "Enabled": true,
+    "Name": "WeldToRightWall",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  },
+  "attributes": {
+    "Rojo_Target_Part0": "g119917513_11",
+    "Rojo_Target_Part1": "g119917513_90",
+    "__MarketplaceGear_OriginalName": "WeldToRightWall"
+  }
+}

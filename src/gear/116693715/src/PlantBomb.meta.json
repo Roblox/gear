@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "PlantBomb",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{7098FBE4-71DA-468F-8ADA-2D7053BFA056}",
+    "SourceAssetId": -1
+  }
+}
