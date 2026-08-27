@@ -1,0 +1,13 @@
+{
+  "ClassName": "UIListLayout",
+  "Properties": {
+    "ClassName": "UIListLayout",
+    "FillDirection": "Horizontal",
+    "HorizontalAlignment": "Left",
+    "Name": "UIListLayout",
+    "Sandboxed": false,
+    "SortOrder": "LayoutOrder",
+    "SourceAssetId": -1,
+    "VerticalAlignment": "Top"
+  }
+}
