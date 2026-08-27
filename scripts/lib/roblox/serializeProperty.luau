@@ -34,6 +34,14 @@ local SERIALIZERS: { [string]: Serializer } = {
 	Vector3 = function(v)
 		return { v.X, v.Y, v.Z }
 	end,
+	UDim2 = function(v)
+		return {
+			UDim2 = {
+				{ v.X.Scale, v.X.Offset },
+				{ v.Y.Scale, v.Y.Offset },
+			},
+		}
+	end,
 	NumberRange = function(v)
 		return { NumberRange = { v.Min, v.Max } }
 	end,
