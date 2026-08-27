@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0,
+      -1.5,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "Name": "383609201",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=376899523",
+    "ToolTip": "Egg Beater",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0.7755250334739685,
+            -0.6313169598579407
+          ],
+          [
+            0,
+            0.6313169598579407,
+            0.7755250334739685
+          ]
+        ],
+        "position": [
+          0,
+          17.329998016357422,
+          22.010000228881836
+        ]
+      }
+    }
+  }
+}

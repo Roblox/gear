@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "BunnyTransform",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{3FE18BA6-3DBD-4A0F-93BF-DE9009418BEB}",
+    "SourceAssetId": -1
+  }
+}

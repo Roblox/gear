@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "Animate",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{3E6E4973-F295-47B6-8D3F-0A1389322E50}",
+    "SourceAssetId": -1
+  }
+}

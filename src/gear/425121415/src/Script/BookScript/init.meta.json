@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "BookScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{96C0AEEC-78C0-4822-BC79-1A1076A104AD}",
+    "SourceAssetId": -1
+  }
+}
