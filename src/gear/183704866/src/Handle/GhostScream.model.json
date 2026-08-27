@@ -1,0 +1,10 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset?id=183657145",
+    "ClassName": "Sound",
+    "Name": "GhostScream",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

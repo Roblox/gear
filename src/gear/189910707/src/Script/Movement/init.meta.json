@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "Movement",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{4E93C2E9-4332-4521-B426-C51091B9A070}",
+    "SourceAssetId": -1
+  }
+}

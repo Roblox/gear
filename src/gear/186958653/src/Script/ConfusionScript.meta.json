@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "ConfusionScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{15C91FAB-B109-4BAB-92A6-98320FA65DD6}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "FixCamera",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{F19DBD3E-F63F-4F8B-BECA-5DDD1AE42341}",
+    "SourceAssetId": -1
+  }
+}
