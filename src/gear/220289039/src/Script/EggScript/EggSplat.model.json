@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=168192032",
+    "ClassName": "Sound",
+    "Name": "EggSplat",
+    "PlaybackSpeed": 1.5,
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

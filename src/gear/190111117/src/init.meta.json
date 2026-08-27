@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0,
+      0,
+      0.25,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "Name": "190111117",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id= 190110323",
+    "ToolTip": "Inifinite Worlds Book",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            -1
+          ]
+        ],
+        "position": [
+          0,
+          0.9999977946281433,
+          22.000001907348633
+        ]
+      }
+    }
+  }
+}

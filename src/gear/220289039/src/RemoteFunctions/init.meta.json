@@ -1,0 +1,9 @@
+{
+  "className": "Folder",
+  "properties": {
+    "ClassName": "Folder",
+    "Name": "RemoteFunctions",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

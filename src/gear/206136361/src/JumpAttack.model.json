@@ -1,0 +1,10 @@
+{
+  "ClassName": "Animation",
+  "Properties": {
+    "AnimationContent": "http://www.roblox.com/asset/?id=204295235",
+    "ClassName": "Animation",
+    "Name": "JumpAttack",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "EggSplatScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{C7C381DA-6F4E-40C3-BAB3-60C945DE64F3}",
+    "SourceAssetId": -1
+  }
+}

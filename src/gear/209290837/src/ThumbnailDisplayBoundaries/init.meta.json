@@ -1,0 +1,35 @@
+{
+  "className": "Model",
+  "properties": {
+    "ClassName": "Model",
+    "Name": "ThumbnailDisplayBoundaries",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "position": [
+          -96.20000457763672,
+          19.399551391601562,
+          -15
+        ]
+      }
+    }
+  }
+}

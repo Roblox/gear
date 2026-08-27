@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=228103284",
+    "ClassName": "Sound",
+    "Name": "SlingRelease",
+    "PlaybackSpeed": 1.1740000247955322,
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}
