@@ -1,0 +1,12 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=13510352",
+    "ClassName": "Sound",
+    "Name": "PewPew",
+    "PlaybackSpeed": 0.8500000238418579,
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 1
+  }
+}

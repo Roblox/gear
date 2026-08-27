@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "FoodScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{18030541-BD9E-4857-AFA3-535E9ADABCCD}",
+    "SourceAssetId": -1
+  }
+}

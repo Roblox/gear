@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0,
+      -1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "Name": "162857357",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=162383641",
+    "ToolTip": "Portable Beach",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            -0.8628069758415222,
+            0,
+            -0.5055296421051025
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0.5055296421051025,
+            0,
+            -0.8628069758415222
+          ]
+        ],
+        "position": [
+          1.3579206466674805,
+          17.280006408691406,
+          21.34025764465332
+        ]
+      }
+    }
+  }
+}

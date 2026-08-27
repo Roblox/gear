@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      -0.6000000238418579,
+      -1.100000023841858,
+      -0.10000000149011612,
+      -1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      -1
+    ],
+    "Name": "161282711",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=160233825",
+    "ToolTip": "American Monster Truck",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            0.8660215139389038,
+            0,
+            -0.4999977648258209
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0.4999977648258209,
+            0,
+            0.8660215139389038
+          ]
+        ],
+        "position": [
+          -8.471104621887207,
+          90.99998474121094,
+          115.78241729736328
+        ]
+      }
+    }
+  }
+}

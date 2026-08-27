@@ -1,0 +1,8 @@
+script.Parent.Equipped:connect(function(mouse)
+	mouse.Button1Down:connect(function()
+		script.Parent.Input:FireServer('Mouse1Down')
+	end)
+	mouse.KeyDown:connect(function(key)
+		script.Parent.Input:FireServer('KeyDown', key)
+	end)
+end)

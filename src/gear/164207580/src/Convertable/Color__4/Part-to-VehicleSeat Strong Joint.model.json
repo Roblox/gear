@@ -1,0 +1,38 @@
+{
+  "ClassName": "ManualWeld",
+  "Properties": {
+    "C0": [
+      0.5,
+      -1.5,
+      0.5,
+      1,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      1,
+      0
+    ],
+    "C1": [
+      -1.5000076293945312,
+      0.49962520599365234,
+      2.4925057888031006,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      -1,
+      1,
+      0,
+      0
+    ],
+    "ClassName": "ManualWeld",
+    "Enabled": true,
+    "Name": "Part-to-VehicleSeat Strong Joint",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

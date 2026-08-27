@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=153828145",
+    "ClassName": "Sound",
+    "Name": "ConnectSound",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 0.4000000059604645
+  }
+}

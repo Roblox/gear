@@ -1,0 +1,9 @@
+{
+  "ClassName": "RemoteEvent",
+  "Properties": {
+    "ClassName": "RemoteEvent",
+    "Name": "UpdateShoot",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}
