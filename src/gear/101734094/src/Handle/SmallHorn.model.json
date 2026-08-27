@@ -1,0 +1,10 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=101725785",
+    "ClassName": "Sound",
+    "Name": "SmallHorn",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

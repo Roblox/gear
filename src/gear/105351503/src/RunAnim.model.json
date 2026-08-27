@@ -1,0 +1,9 @@
+{
+  "ClassName": "StringValue",
+  "Properties": {
+    "ClassName": "StringValue",
+    "Name": "RunAnim",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "KnightSwordScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{2C6F01A3-E679-4223-A47C-10C2DB6B3089}",
+    "SourceAssetId": -1
+  }
+}

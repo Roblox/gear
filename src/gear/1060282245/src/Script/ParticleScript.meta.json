@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "ParticleScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{FC4F3419-BE9D-4E9C-8368-1E2FF15FDE08}",
+    "SourceAssetId": -1
+  }
+}

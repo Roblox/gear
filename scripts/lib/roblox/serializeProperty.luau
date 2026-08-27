@@ -67,6 +67,17 @@ local SERIALIZERS: { [string]: Serializer } = {
 	CFrame = function(v)
 		return { v:GetComponents() }
 	end,
+	-- Rojo rejects the flat twelve-number shorthand here and only accepts a
+	-- tagged CFrame in its explicit position/orientation form.
+	OptionalCFrame = function(v)
+		local x, y, z, r00, r01, r02, r10, r11, r12, r20, r21, r22 = v:GetComponents()
+		return {
+			OptionalCFrame = {
+				position = { x, y, z },
+				orientation = { { r00, r01, r02 }, { r10, r11, r12 }, { r20, r21, r22 } },
+			},
+		}
+	end,
 	Content = function(v)
 		return if type(v) == "string" then v else v.Uri
 	end,

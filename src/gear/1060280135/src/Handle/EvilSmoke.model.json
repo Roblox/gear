@@ -1,0 +1,88 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "ClassName": "ParticleEmitter",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              0.17254899442195892,
+              0.17254899442195892,
+              0.17254899442195892
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              0.17254899442195892,
+              0.17254899442195892,
+              0.17254899442195892
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "Lifetime": {
+      "NumberRange": [
+        0.5,
+        0.5
+      ]
+    },
+    "LightInfluence": 1,
+    "LockedToPart": true,
+    "Name": "EvilSmoke",
+    "RotSpeed": {
+      "NumberRange": [
+        -5,
+        5
+      ]
+    },
+    "Rotation": {
+      "NumberRange": [
+        -5,
+        5
+      ]
+    },
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 1.5
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1.5
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "SpreadAngle": [
+      -2,
+      -2
+    ],
+    "TextureContent": "rbxasset://textures/particles/smoke_main.dds",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0.5
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1
+          }
+        ]
+      }
+    }
+  }
+}

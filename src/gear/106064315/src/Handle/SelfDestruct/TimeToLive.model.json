@@ -1,0 +1,10 @@
+{
+  "ClassName": "NumberValue",
+  "Properties": {
+    "ClassName": "NumberValue",
+    "Name": "TimeToLive",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Value": 5
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "DuckScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{BFD3C807-FDBE-4315-8768-BD2F4EAC78B0}",
+    "SourceAssetId": -1
+  }
+}

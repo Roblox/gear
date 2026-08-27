@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "SummonOnce",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{0B3B6C2D-671C-4221-906E-DBB9E7A0AB8F}",
+    "SourceAssetId": -1
+  }
+}

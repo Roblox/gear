@@ -17,6 +17,16 @@ type ModificationsByCategory = {
 	REMOVED: { PathModification },
 }
 
+-- `Parent` is covered by walking the tree, so comparing it only restates the
+-- structural diff. `WorldPivot` is a derived view of the stored
+-- `WorldPivotData`: with no pivot stored the engine computes one from the
+-- model's bounding box, so a difference there describes engine-side geometry
+-- rather than anything the dump can round-trip.
+local IGNORED_PROPERTIES: { [string]: true } = {
+	Parent = true,
+	WorldPivot = true,
+}
+
 local function getFullNameFromGearCollectionRoot(instance: Instance?): string
 	if typeof(instance) ~= "Instance" then
 		return tostring(instance)
@@ -171,7 +181,7 @@ local function compareGear(oldGear: Instance?, newGear: Instance?): (Modificatio
 
 			if objectToCheck.ClassName == crossReferencedObjectToCheck.ClassName then
 				for _, prop in ReflectionService:GetPropertiesOfClass(objectToCheck.ClassName) do
-					if prop.Name == "Parent" then
+					if IGNORED_PROPERTIES[prop.Name] then
 						continue
 					end
 

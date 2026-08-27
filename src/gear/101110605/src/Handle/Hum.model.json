@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=101158613",
+    "ClassName": "Sound",
+    "Looped": true,
+    "Name": "Hum",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "RemovalMonitor",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{34CB0347-F5E0-4DE0-BFA6-FE2292CE2F41}",
+    "SourceAssetId": -1
+  }
+}

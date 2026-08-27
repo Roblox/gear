@@ -1,0 +1,24 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      -1.5,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      -1,
+      0.00008901549153961241,
+      0,
+      0.00008901549153961241,
+      1,
+      0
+    ],
+    "Name": "1016183873",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "rbxassetid://1014109561"
+  }
+}
