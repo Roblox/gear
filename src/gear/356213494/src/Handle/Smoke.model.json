@@ -1,0 +1,108 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "ClassName": "ParticleEmitter",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              0.3921569883823395,
+              0.3921569883823395,
+              0.3921569883823395
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "Lifetime": {
+      "NumberRange": [
+        1.75,
+        1.75
+      ]
+    },
+    "LightEmission": -0.05000000074505806,
+    "Name": "Smoke",
+    "Rate": 10,
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0
+          },
+          {
+            "envelope": 0.25,
+            "time": 0.25,
+            "value": 0.5
+          },
+          {
+            "envelope": 0.13500000536441803,
+            "time": 0.5,
+            "value": 0.5
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0.75
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        1,
+        1
+      ]
+    },
+    "SpreadAngle": [
+      15,
+      15
+    ],
+    "TextureContent": "http://www.roblox.com/asset/?id=292289455",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0.6000000238418579
+          },
+          {
+            "envelope": 0,
+            "time": 0.6000000238418579,
+            "value": 0.609000027179718
+          },
+          {
+            "envelope": 0,
+            "time": 0.800000011920929,
+            "value": 0.75
+          },
+          {
+            "envelope": 0,
+            "time": 0.8999999761581421,
+            "value": 0.75
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "VelocityInheritance": 0.20000000298023224
+  }
+}

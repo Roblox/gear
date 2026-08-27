@@ -1,0 +1,94 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "ClassName": "ParticleEmitter",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              0,
+              1,
+              1
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              0,
+              1,
+              1
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "Lifetime": {
+      "NumberRange": [
+        1,
+        1
+      ]
+    },
+    "LightEmission": 0.75,
+    "Name": "TinySparks",
+    "Rate": 30,
+    "RotSpeed": {
+      "NumberRange": [
+        -5,
+        5
+      ]
+    },
+    "Rotation": {
+      "NumberRange": [
+        -360,
+        360
+      ]
+    },
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0.05000000074505806
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0.05000000074505806
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        2.5,
+        2.5
+      ]
+    },
+    "SpreadAngle": [
+      250,
+      250
+    ],
+    "TextureContent": "http://www.roblox.com/asset/?id=277951744",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0.5
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0.5
+          }
+        ]
+      }
+    }
+  }
+}

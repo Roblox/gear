@@ -1,0 +1,10 @@
+{
+  "ClassName": "BoolValue",
+  "Properties": {
+    "ClassName": "BoolValue",
+    "Name": "Shrink",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Value": true
+  }
+}

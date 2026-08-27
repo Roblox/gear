@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "PianoScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{1F29A608-3E2D-450D-BCDE-9AA18A211D61}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "ClassName": "ParticleEmitter",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              0.9372550249099731,
+              0.450980007648468,
+              0
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              0.8980389833450317,
+              0.023529399186372757,
+              0.03921569883823395
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "Enabled": false,
+    "Lifetime": {
+      "NumberRange": [
+        0.6000000238418579,
+        0.6000000238418579
+      ]
+    },
+    "Name": "Sparkles",
+    "Rate": 15,
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0.30000001192092896
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0.30000001192092896
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        -0.75,
+        0.75
+      ]
+    },
+    "TextureContent": "http://www.roblox.com/asset/?id=277951744",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 0.9675809741020203,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "VelocityInheritance": 0.15000000596046448
+  },
+  "attributes": {
+    "__MarketplaceGear_OriginalName": "Sparkles"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "ClassName": "Smoke",
+  "Properties": {
+    "ClassName": "Smoke",
+    "Enabled": false,
+    "Name": "Smoke",
+    "RiseVelocity": 10,
+    "Sandboxed": false,
+    "Size": 2,
+    "SourceAssetId": -1
+  }
+}
