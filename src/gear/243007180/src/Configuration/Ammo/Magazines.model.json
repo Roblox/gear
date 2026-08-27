@@ -1,0 +1,11 @@
+{
+  "ClassName": "IntConstrainedValue",
+  "Properties": {
+    "ClassName": "IntConstrainedValue",
+    "MaxValue": 35,
+    "Name": "Magazines",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "value": 35
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "ClassName": "DoubleConstrainedValue",
+  "Properties": {
+    "ClassName": "DoubleConstrainedValue",
+    "MaxValue": 13,
+    "MinValue": 13,
+    "Name": "Damage",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "value": 13
+  }
+}

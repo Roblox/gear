@@ -1,0 +1,9 @@
+{
+  "ClassName": "BindableEvent",
+  "Properties": {
+    "ClassName": "BindableEvent",
+    "Name": "PlayAnimation",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "ClassName": "BindableEvent",
+  "Properties": {
+    "ClassName": "BindableEvent",
+    "Name": "PlaySound",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

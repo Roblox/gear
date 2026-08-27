@@ -1,0 +1,12 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=152768755",
+    "ClassName": "Sound",
+    "Name": "WizardLaugh",
+    "PlaybackSpeed": 1.100000023841858,
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 1
+  }
+}

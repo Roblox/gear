@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "TripScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{29DA07FF-DA73-4E3C-8B95-C105953C3108}",
+    "SourceAssetId": -1
+  }
+}

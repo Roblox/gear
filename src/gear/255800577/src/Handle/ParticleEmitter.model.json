@@ -1,0 +1,79 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "Acceleration": [
+      0,
+      8,
+      0
+    ],
+    "ClassName": "ParticleEmitter",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              1,
+              1,
+              0
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              1,
+              0.33333298563957214,
+              0
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "Lifetime": {
+      "NumberRange": [
+        0.20000000298023224,
+        0.30000001192092896
+      ]
+    },
+    "LightEmission": 1,
+    "Name": "ParticleEmitter",
+    "Rate": 1000,
+    "RotSpeed": {
+      "NumberRange": [
+        5,
+        25
+      ]
+    },
+    "Rotation": {
+      "NumberRange": [
+        0,
+        5
+      ]
+    },
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0.6000000238418579
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0.6000000238418579
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        0,
+        0
+      ]
+    },
+    "TextureContent": "rbxasset://textures/particles/fire_main.dds"
+  }
+}

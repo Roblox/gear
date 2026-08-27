@@ -1,0 +1,9 @@
+{
+  "ClassName": "BindableEvent",
+  "Properties": {
+    "ClassName": "BindableEvent",
+    "Name": "StopAnimation",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}
