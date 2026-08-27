@@ -1,0 +1,10 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=54612598",
+    "ClassName": "Sound",
+    "Name": "SpikePunchSound",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

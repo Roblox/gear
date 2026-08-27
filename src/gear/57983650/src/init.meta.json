@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0,
+      -0.5,
+      -0.5,
+      1,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      1,
+      0
+    ],
+    "Name": "57983650",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=57809682 ",
+    "ToolTip": "Sapphire showdown!",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0.5735768675804138,
+            0.8191518187522888
+          ],
+          [
+            0,
+            -0.8191518187522888,
+            0.5735768675804138
+          ]
+        ],
+        "position": [
+          1.5000009536743164,
+          4.717500686645508,
+          0.6875090003013611
+        ]
+      }
+    }
+  }
+}

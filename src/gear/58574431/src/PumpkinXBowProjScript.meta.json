@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "PumpkinXBowProjScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{4B50AA52-2104-4469-B9F2-B11E81771A7C}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "VoodooScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{F72957AD-3EF9-4046-B6B9-3D69BEBED2FA}",
+    "SourceAssetId": -1
+  }
+}

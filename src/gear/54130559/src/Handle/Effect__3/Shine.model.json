@@ -1,0 +1,63 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "ClassName": "ParticleEmitter",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              0,
+              1,
+              0
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              0,
+              1,
+              0
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "Enabled": false,
+    "Lifetime": {
+      "NumberRange": [
+        1,
+        1
+      ]
+    },
+    "LightEmission": 1,
+    "LockedToPart": true,
+    "Name": "Shine",
+    "Rate": 5,
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0.5625,
+            "time": 0,
+            "value": 0.5625
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0.20000000298023224
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        0,
+        0
+      ]
+    }
+  }
+}

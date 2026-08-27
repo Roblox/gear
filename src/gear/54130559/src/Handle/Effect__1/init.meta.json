@@ -1,0 +1,26 @@
+{
+  "attributes": {
+    "__MarketplaceGear_OriginalName": "Effect"
+  },
+  "className": "Attachment",
+  "properties": {
+    "CFrame": [
+      -0.3000006079673767,
+      -2.1024607121944427e-7,
+      0.600000262260437,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "ClassName": "Attachment",
+    "Name": "Effect",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

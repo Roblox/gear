@@ -1,0 +1,10 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=53593789 ",
+    "ClassName": "Sound",
+    "Name": "SpiderGunSound",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

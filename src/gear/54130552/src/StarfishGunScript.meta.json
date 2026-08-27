@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "StarfishGunScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{B11E26E4-AB5D-480F-BAB7-4DED16765889}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "ClassName": "BoolValue",
+  "Properties": {
+    "ClassName": "BoolValue",
+    "Name": "ShowAdminCategories",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

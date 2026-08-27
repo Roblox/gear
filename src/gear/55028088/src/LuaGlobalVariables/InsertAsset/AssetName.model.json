@@ -1,0 +1,9 @@
+{
+  "ClassName": "StringValue",
+  "Properties": {
+    "ClassName": "StringValue",
+    "Name": "AssetName",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

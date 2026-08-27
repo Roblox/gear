@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "Walrus Script",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{F504496C-C208-48A8-ACE7-FDFBE5ABC91D}",
+    "SourceAssetId": -1
+  }
+}
