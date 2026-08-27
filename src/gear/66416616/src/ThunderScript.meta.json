@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "ThunderScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{883F13AE-02B2-47F0-A9B7-06CD6FB9CC36}",
+    "SourceAssetId": -1
+  }
+}

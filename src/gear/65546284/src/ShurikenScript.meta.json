@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "ShurikenScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{F5E4DF54-8481-4E17-A3BD-189FC277A963}",
+    "SourceAssetId": -1
+  }
+}

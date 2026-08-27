@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "rbxassetid://46153268",
+    "ClassName": "Sound",
+    "Name": "SlapSound",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 1
+  }
+}

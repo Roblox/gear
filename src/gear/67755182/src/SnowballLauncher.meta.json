@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "SnowballLauncher",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{16E962C2-BF02-4E61-95C9-FD544366B78E}",
+    "SourceAssetId": -1
+  }
+}

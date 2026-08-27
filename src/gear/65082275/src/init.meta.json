@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0,
+      -0.800000011920929,
+      -0.5,
+      1,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      1,
+      0
+    ],
+    "Name": "65082275",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=65014882 ",
+    "ToolTip": "Shoot 'em tw",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0.6427880525588989,
+            0.7660441398620605
+          ],
+          [
+            0,
+            -0.7660441398620605,
+            0.6427880525588989
+          ]
+        ],
+        "position": [
+          1.5000009536743164,
+          3.4175028800964355,
+          0.38750898838043213
+        ]
+      }
+    }
+  }
+}

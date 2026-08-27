@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "Game Script",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{9FFD7DF0-07B7-481E-8811-CD4C41EF35EC}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "ProjectileScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{EE45ACA1-1717-4C29-AB29-C9C6751DA69D}",
+    "SourceAssetId": -1
+  }
+}

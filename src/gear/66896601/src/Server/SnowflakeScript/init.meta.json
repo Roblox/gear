@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "SnowflakeScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{0B7F1952-FEBF-4184-8238-722AD10D8BA0}",
+    "SourceAssetId": -1
+  }
+}

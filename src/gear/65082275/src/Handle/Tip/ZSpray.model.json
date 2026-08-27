@@ -1,0 +1,92 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "Acceleration": [
+      0,
+      5,
+      0
+    ],
+    "ClassName": "ParticleEmitter",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              0,
+              0,
+              1
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              0.33333298563957214,
+              1,
+              0
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "Enabled": false,
+    "Lifetime": {
+      "NumberRange": [
+        1,
+        1
+      ]
+    },
+    "LightEmission": 0.5,
+    "Name": "ZSpray",
+    "Rate": 10,
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0
+          },
+          {
+            "envelope": 0.375,
+            "time": 1,
+            "value": 0.375
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "SpreadAngle": [
+      -180,
+      180
+    ],
+    "TextureContent": "http://www.roblox.com/asset/?id=77146622",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 1
+          },
+          {
+            "envelope": 0,
+            "time": 0.10000000149011612,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 0.5,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1
+          }
+        ]
+      }
+    }
+  }
+}

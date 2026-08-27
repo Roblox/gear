@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "DropBrainScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{591066DA-AA8D-469B-847B-147D2946B2DD}",
+    "SourceAssetId": -1
+  }
+}

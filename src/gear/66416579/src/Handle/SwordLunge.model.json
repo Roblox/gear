@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=11998796",
+    "ClassName": "Sound",
+    "Name": "SwordLunge",
+    "PlaybackSpeed": 0.699999988079071,
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

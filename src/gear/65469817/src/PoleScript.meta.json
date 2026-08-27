@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "PoleScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{5E94043E-8E7E-4702-AD7E-14AF5675D391}",
+    "SourceAssetId": -1
+  }
+}

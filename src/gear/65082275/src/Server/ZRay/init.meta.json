@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "ZRay",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{16E34F8C-A8E0-4062-BACC-BB19D91531DE}",
+    "SourceAssetId": -1
+  }
+}

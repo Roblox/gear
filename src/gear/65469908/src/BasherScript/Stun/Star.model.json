@@ -1,0 +1,105 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "ClassName": "ParticleEmitter",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              1,
+              1,
+              0
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              1,
+              1,
+              0
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "Enabled": false,
+    "Lifetime": {
+      "NumberRange": [
+        0.5,
+        1
+      ]
+    },
+    "LightEmission": 0.20000000298023224,
+    "Name": "Star",
+    "Rate": 5,
+    "RotSpeed": {
+      "NumberRange": [
+        -200,
+        200
+      ]
+    },
+    "Rotation": {
+      "NumberRange": [
+        -360,
+        360
+      ]
+    },
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0.1875,
+            "time": 0,
+            "value": 0.1875
+          },
+          {
+            "envelope": 0.1875,
+            "time": 1,
+            "value": 0.1875
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        2,
+        2.5
+      ]
+    },
+    "SpreadAngle": [
+      100,
+      100
+    ],
+    "TextureContent": "rbxassetid://65982508",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 1
+          },
+          {
+            "envelope": 0,
+            "time": 0.10000000149011612,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 0.9002019762992859,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1
+          }
+        ]
+      }
+    }
+  }
+}

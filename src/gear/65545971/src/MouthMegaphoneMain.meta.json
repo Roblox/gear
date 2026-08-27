@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "MouthMegaphoneMain",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{D8F739AC-44BA-4C6A-9F39-23EF6B1B82DA}",
+    "SourceAssetId": -1
+  }
+}

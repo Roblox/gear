@@ -1,0 +1,12 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "rbxassetid://32786031",
+    "ClassName": "Sound",
+    "Looped": true,
+    "Name": "FrostLoop",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 0.05000000074505806
+  }
+}

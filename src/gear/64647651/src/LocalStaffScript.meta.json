@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "LocalStaffScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{3922BB4E-83F2-45BF-8774-BEB6D3912859}",
+    "SourceAssetId": -1
+  }
+}
