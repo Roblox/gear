@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "TeddyScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{63798AB1-F2C3-477E-AB1C-DCA2BB5274BA}",
+    "SourceAssetId": -1
+  }
+}
