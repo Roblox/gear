@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "PuppyScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{76C0BF35-0ED0-430C-9DD2-02E783B7381C}",
+    "SourceAssetId": -1
+  }
+}

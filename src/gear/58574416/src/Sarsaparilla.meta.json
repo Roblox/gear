@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "Sarsaparilla",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{956DEB25-6601-486F-B4C4-099A31A38A44}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=57723734",
+    "ClassName": "Sound",
+    "Name": "LickSound",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

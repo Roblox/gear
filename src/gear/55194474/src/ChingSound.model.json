@@ -1,0 +1,10 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=54516144",
+    "ClassName": "Sound",
+    "Name": "ChingSound",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

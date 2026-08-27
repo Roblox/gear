@@ -1,0 +1,12 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=50909479 ",
+    "ClassName": "Sound",
+    "Name": "GunSound",
+    "PlaybackSpeed": 0.699999988079071,
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 1
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "ClassName": "ParticleEmitter",
+    "Enabled": false,
+    "Lifetime": {
+      "NumberRange": [
+        0.4000000059604645,
+        0.4000000059604645
+      ]
+    },
+    "LightEmission": 1,
+    "LockedToPart": true,
+    "Name": "FlashCircle",
+    "Rate": 1,
+    "Rotation": {
+      "NumberRange": [
+        0,
+        135
+      ]
+    },
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 2
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 3
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        0,
+        0
+      ]
+    },
+    "SpreadAngle": [
+      0,
+      360
+    ],
+    "TextureContent": "rbxassetid://483229625",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 1
+          },
+          {
+            "envelope": 0,
+            "time": 0.20000000298023224,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "VelocityInheritance": 1
+  }
+}

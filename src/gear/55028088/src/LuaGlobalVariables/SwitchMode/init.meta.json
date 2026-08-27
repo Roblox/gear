@@ -1,0 +1,9 @@
+{
+  "className": "BoolValue",
+  "properties": {
+    "ClassName": "BoolValue",
+    "Name": "SwitchMode",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

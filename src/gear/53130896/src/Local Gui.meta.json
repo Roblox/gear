@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "Local Gui",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{6E6118DA-6E08-4BAE-BB75-96BC6E6040D2}",
+    "SourceAssetId": -1
+  }
+}

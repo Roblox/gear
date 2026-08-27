@@ -1,0 +1,77 @@
+{
+  "ClassName": "TextLabel",
+  "Properties": {
+    "Active": false,
+    "AnchorPoint": [
+      0,
+      0
+    ],
+    "AutoLocalize": true,
+    "AutomaticSize": "None",
+    "BackgroundColor3": [
+      0,
+      0.40000003576278687,
+      0
+    ],
+    "BackgroundTransparency": 0.699999988079071,
+    "BorderColor3": [
+      0.10588236153125763,
+      0.16470588743686676,
+      0.20784315466880798
+    ],
+    "BorderMode": "Outline",
+    "BorderSizePixel": 0,
+    "ClassName": "TextLabel",
+    "ClipsDescendants": false,
+    "Draggable": false,
+    "InputSink": "None",
+    "Interactable": true,
+    "LayoutOrder": 0,
+    "Name": "PressXToSwitch",
+    "Position": {
+      "UDim2": [
+        [
+          0.5,
+          -225
+        ],
+        [
+          0,
+          10
+        ]
+      ]
+    },
+    "Rotation": 0,
+    "Sandboxed": false,
+    "Selectable": false,
+    "SelectionBehaviorDown": "Escape",
+    "SelectionBehaviorLeft": "Escape",
+    "SelectionBehaviorRight": "Escape",
+    "SelectionBehaviorUp": "Escape",
+    "SelectionGroup": false,
+    "SelectionOrder": 0,
+    "Size": {
+      "UDim2": [
+        [
+          0,
+          450
+        ],
+        [
+          0,
+          30
+        ]
+      ]
+    },
+    "SizeConstraint": "RelativeXY",
+    "SourceAssetId": -1,
+    "Text": "Press X to switch between offensive and defensive modes.",
+    "TextColor3": [
+      0,
+      0,
+      0
+    ],
+    "TextSize": 12,
+    "TextWrapped": true,
+    "Visible": true,
+    "ZIndex": 1
+  }
+}

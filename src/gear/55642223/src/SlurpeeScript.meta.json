@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "SlurpeeScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{B37BFAFB-236D-4E8E-B8A0-DB7DD8757000}",
+    "SourceAssetId": -1
+  }
+}

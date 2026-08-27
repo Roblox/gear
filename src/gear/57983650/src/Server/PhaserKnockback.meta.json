@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "PhaserKnockback",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{E0157437-27C6-4E49-BE95-90F5951AE8C7}",
+    "SourceAssetId": -1
+  }
+}

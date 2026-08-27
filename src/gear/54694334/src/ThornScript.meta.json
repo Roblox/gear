@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "ThornScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{D3A0CB6B-BF22-4DD8-934A-8C153FE2D93F}",
+    "SourceAssetId": -1
+  }
+}

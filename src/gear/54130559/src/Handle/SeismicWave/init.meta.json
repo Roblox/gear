@@ -1,0 +1,23 @@
+{
+  "className": "Attachment",
+  "properties": {
+    "CFrame": [
+      -1.8253922462463379e-6,
+      -2.093147486448288e-7,
+      1.0999997854232788,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "ClassName": "Attachment",
+    "Name": "SeismicWave",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

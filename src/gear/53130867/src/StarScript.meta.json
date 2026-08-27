@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "StarScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{3DD69805-66E9-4BFF-80FC-DD9D01D33D4D}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "PumpkinXBow LS",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{4E2067F8-C057-445F-BECC-0F342CBBAAC2}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "StarPoisonScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{7A7200CC-8A66-44B2-87DA-E9AAF631B52D}",
+    "SourceAssetId": -1
+  }
+}

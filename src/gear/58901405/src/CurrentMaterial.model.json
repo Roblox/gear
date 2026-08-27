@@ -1,0 +1,10 @@
+{
+  "ClassName": "StringValue",
+  "Properties": {
+    "ClassName": "StringValue",
+    "Name": "CurrentMaterial",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Value": "Plastic"
+  }
+}

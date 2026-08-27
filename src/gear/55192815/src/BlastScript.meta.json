@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "BlastScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{84D98ED9-2A8E-439C-8012-FFAF578D3A3B}",
+    "SourceAssetId": -1
+  }
+}
