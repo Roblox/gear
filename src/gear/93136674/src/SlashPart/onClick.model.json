@@ -1,0 +1,9 @@
+{
+  "ClassName": "BindableEvent",
+  "Properties": {
+    "ClassName": "BindableEvent",
+    "Name": "onClick",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

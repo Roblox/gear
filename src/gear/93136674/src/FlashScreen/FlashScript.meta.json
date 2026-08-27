@@ -1,0 +1,11 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "FlashScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "RaiseSkeletons",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{F6D5F68F-6809-4C2E-AFBA-373EF3669A8E}",
+    "SourceAssetId": -1
+  }
+}

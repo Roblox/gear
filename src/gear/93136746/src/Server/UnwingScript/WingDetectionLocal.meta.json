@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "WingDetectionLocal",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{501D0EAD-1DD7-491E-BCC3-263637762D2E}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "ClassName": "SpecialMesh",
+  "Properties": {
+    "ClassName": "SpecialMesh",
+    "MeshContent": "http://www.roblox.com/asset/?id=25212400",
+    "MeshType": "FileMesh",
+    "Name": "FireMesh",
+    "Offset": [
+      0,
+      0,
+      0
+    ],
+    "Sandboxed": false,
+    "Scale": [
+      1.2000000476837158,
+      3.5,
+      1.2000000476837158
+    ],
+    "SourceAssetId": -1,
+    "VertexColor": [
+      1,
+      1,
+      1
+    ]
+  }
+}

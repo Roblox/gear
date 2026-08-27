@@ -1,0 +1,13 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "rbxasset://sounds/swoosh.wav",
+    "ClassName": "Sound",
+    "Name": "Swoosh",
+    "PlayOnRemove": true,
+    "PlaybackSpeed": 1.2000000476837158,
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 1
+  }
+}

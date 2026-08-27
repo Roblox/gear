@@ -1,0 +1,52 @@
+{
+  "className": "Tool",
+  "properties": {
+    "CanBeDropped": false,
+    "ClassName": "Tool",
+    "Grip": [
+      0.6000000238418579,
+      -1.5,
+      -0.30000001192092896,
+      0.47139662504196167,
+      0,
+      -0.8819211721420288,
+      0,
+      1,
+      0,
+      0.8819211721420288,
+      0,
+      0.47139662504196167
+    ],
+    "Name": "92627975",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset?id=92634639",
+    "ToolTip": "Click to direct Falcon",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ]
+        ],
+        "position": [
+          -22.000022888183594,
+          0.5000038146972656,
+          -61.097503662109375
+        ]
+      }
+    }
+  }
+}

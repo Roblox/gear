@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "CometScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{1400B45F-D615-477D-9C5A-B5EA3F1D5D08}",
+    "SourceAssetId": -1
+  }
+}

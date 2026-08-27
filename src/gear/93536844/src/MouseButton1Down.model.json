@@ -1,0 +1,9 @@
+{
+  "ClassName": "RemoteEvent",
+  "Properties": {
+    "ClassName": "RemoteEvent",
+    "Name": "MouseButton1Down",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

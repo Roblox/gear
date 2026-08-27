@@ -1,0 +1,52 @@
+{
+  "className": "Tool",
+  "properties": {
+    "CanBeDropped": false,
+    "ClassName": "Tool",
+    "Grip": [
+      0.6000000238418579,
+      -1.5,
+      -0.30000001192092896,
+      0.47139662504196167,
+      0,
+      -0.8819211721420288,
+      0,
+      1,
+      0,
+      0.8819211721420288,
+      0,
+      0.47139662504196167
+    ],
+    "Name": "92142799",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset?id=92135863",
+    "ToolTip": "Click to direct Phoenix",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            -1,
+            0,
+            0
+          ]
+        ],
+        "position": [
+          0.400001585483551,
+          12.425007820129395,
+          -0.29999732971191406
+        ]
+      }
+    }
+  }
+}

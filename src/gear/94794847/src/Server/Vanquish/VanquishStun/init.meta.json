@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "VanquishStun",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{B5681F5B-2F36-4D6C-8B39-93FDF5476E9D}",
+    "SourceAssetId": -1
+  }
+}

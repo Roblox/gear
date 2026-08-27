@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "ToolScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{EBA608CC-3C43-47E0-9E2E-F23256710AEC}",
+    "SourceAssetId": -1
+  }
+}

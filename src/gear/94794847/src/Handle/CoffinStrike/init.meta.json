@@ -1,0 +1,12 @@
+{
+  "className": "Sound",
+  "properties": {
+    "AudioContent": "rbxassetid://201972868",
+    "ClassName": "Sound",
+    "Name": "CoffinStrike",
+    "RollOffMaxDistance": 300,
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 3
+  }
+}

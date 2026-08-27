@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "ChaosExplosion",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{B49A0BA4-D303-48C2-880D-BF72594E591F}",
+    "SourceAssetId": -1
+  }
+}

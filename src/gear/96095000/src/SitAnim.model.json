@@ -1,0 +1,10 @@
+{
+  "ClassName": "Animation",
+  "Properties": {
+    "AnimationContent": "http://www.roblox.com/Asset?ID=96090042",
+    "ClassName": "Animation",
+    "Name": "SitAnim",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

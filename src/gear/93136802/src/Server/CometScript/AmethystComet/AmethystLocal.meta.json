@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "AmethystLocal",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{1DDC93FA-CD75-4656-9CFD-D47C1BFBF82A}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "Despawn",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{770C857B-8561-4414-8146-9C7F24D893C0}",
+    "SourceAssetId": -1
+  }
+}

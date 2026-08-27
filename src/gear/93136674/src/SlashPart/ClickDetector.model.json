@@ -1,0 +1,10 @@
+{
+  "ClassName": "ClickDetector",
+  "Properties": {
+    "ClassName": "ClickDetector",
+    "MaxActivationDistance": 10,
+    "Name": "ClickDetector",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

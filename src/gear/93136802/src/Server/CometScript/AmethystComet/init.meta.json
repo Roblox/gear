@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "AmethystComet",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{33B89CF2-EA6A-4A36-BB32-737ED94B58A6}",
+    "SourceAssetId": -1
+  }
+}

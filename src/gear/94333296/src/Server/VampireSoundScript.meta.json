@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "VampireSoundScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{799ED20C-1F31-48FB-96AA-3CE9DB47B12E}",
+    "SourceAssetId": -1
+  }
+}

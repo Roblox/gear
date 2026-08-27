@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0,
+      -1.7000000476837158,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "Name": "94794847",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=94751561",
+    "ToolTip": "Vanquish those Vampires!",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            0.707106351852417,
+            -0.7071073651313782,
+            0
+          ],
+          [
+            0.7071073651313782,
+            0.707106351852417,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "position": [
+          19.42828369140625,
+          3.9717113971710205,
+          -12.979100227355957
+        ]
+      }
+    }
+  }
+}

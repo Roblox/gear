@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "rbxasset://sounds/unsheath.wav",
+    "ClassName": "Sound",
+    "Name": "Equip",
+    "PlaybackSpeed": 1.5,
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

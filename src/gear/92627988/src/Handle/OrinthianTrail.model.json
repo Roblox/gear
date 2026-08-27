@@ -1,0 +1,63 @@
+{
+  "ClassName": "Trail",
+  "Properties": {
+    "ClassName": "Trail",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              0,
+              0.6666669845581055,
+              1
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              0,
+              0.6666669845581055,
+              1
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "FaceCamera": true,
+    "LightInfluence": 1,
+    "Name": "OrinthianTrail",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 1
+          },
+          {
+            "envelope": 0,
+            "time": 0.05000000074505806,
+            "value": 0.5
+          },
+          {
+            "envelope": 0,
+            "time": 0.949999988079071,
+            "value": 0.5
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1
+          }
+        ]
+      }
+    }
+  },
+  "attributes": {
+    "Rojo_Target_Attachment0": "g92627988_13",
+    "Rojo_Target_Attachment1": "g92627988_12"
+  }
+}

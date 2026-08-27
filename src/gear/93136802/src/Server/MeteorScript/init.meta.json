@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "MeteorScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{4D0312E3-0A72-4F06-AA3B-6322DED2BC43}",
+    "SourceAssetId": -1
+  }
+}
