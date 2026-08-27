@@ -1,0 +1,25 @@
+{
+  "ClassName": "SpecialMesh",
+  "Properties": {
+    "ClassName": "SpecialMesh",
+    "MeshType": "Brick",
+    "Name": "Mesh",
+    "Offset": [
+      0,
+      0,
+      0
+    ],
+    "Sandboxed": false,
+    "Scale": [
+      1.3333333730697632,
+      0.6666666865348816,
+      0.6666666865348816
+    ],
+    "SourceAssetId": -1,
+    "VertexColor": [
+      1,
+      1,
+      1
+    ]
+  }
+}

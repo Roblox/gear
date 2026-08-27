@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "PieScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{0EB4107C-2D54-4DDD-A50C-0E67CBC59E40}",
+    "SourceAssetId": -1
+  }
+}

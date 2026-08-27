@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "DarkLaserBlast",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{79848A2B-6AF8-4C59-AC21-AB37C1139003}",
+    "SourceAssetId": -1
+  }
+}

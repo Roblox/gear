@@ -1,0 +1,101 @@
+{
+  "attributes": {
+    "__MarketplaceGear_OriginalName": "Part"
+  },
+  "className": "Part",
+  "properties": {
+    "Anchored": true,
+    "AudioCanCollide": true,
+    "BackParamA": -0.5,
+    "BackParamB": 0.5,
+    "BackSurface": "Smooth",
+    "BackSurfaceInput": "NoInput",
+    "BottomParamA": -0.5,
+    "BottomParamB": 0.5,
+    "BottomSurface": "Smooth",
+    "BottomSurfaceInput": "NoInput",
+    "CFrame": [
+      -3.333374261856079,
+      39.70021057128906,
+      -114.55541229248047,
+      -0.8314697742462158,
+      -8.37001667974846e-9,
+      0.555570125579834,
+      2.980256752493915e-8,
+      1,
+      5.966835914250623e-8,
+      -0.555570125579834,
+      6.616986070184794e-8,
+      -0.8314697742462158
+    ],
+    "CanCollide": false,
+    "CanQuery": true,
+    "CanTouch": true,
+    "CastShadow": true,
+    "ClassName": "Part",
+    "CollisionGroup": "Default",
+    "CollisionGroupId": 0,
+    "Color": [
+      1,
+      1,
+      0
+    ],
+    "EnableFluidForces": true,
+    "FormFactor": "Plate",
+    "FrontParamA": -0.5,
+    "FrontParamB": 0.5,
+    "FrontSurface": "Smooth",
+    "FrontSurfaceInput": "NoInput",
+    "LeftParamA": -0.5,
+    "LeftParamB": 0.5,
+    "LeftSurface": "Smooth",
+    "LeftSurfaceInput": "NoInput",
+    "Locked": false,
+    "Massless": false,
+    "Material": "Plastic",
+    "MaterialVariant": "",
+    "Name": "Part",
+    "PivotOffset": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "Reflectance": 0.12999999523162842,
+    "RightParamA": -0.5,
+    "RightParamB": 0.5,
+    "RightSurface": "Smooth",
+    "RightSurfaceInput": "NoInput",
+    "RootPriority": 0,
+    "RotVelocity": [
+      0.007741399575024843,
+      0.0001709865318844095,
+      3.15478777885437
+    ],
+    "Sandboxed": false,
+    "Size": [
+      1,
+      0.4000000059604645,
+      1
+    ],
+    "SourceAssetId": -1,
+    "TopParamA": -0.5,
+    "TopParamB": 0.5,
+    "TopSurface": "Smooth",
+    "TopSurfaceInput": "NoInput",
+    "Transparency": 1,
+    "Velocity": [
+      7.693763732910156,
+      3.8377702236175537,
+      -0.012210365384817123
+    ]
+  }
+}

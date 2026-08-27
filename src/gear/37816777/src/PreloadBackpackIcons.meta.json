@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "PreloadBackpackIcons",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{CA4F5229-FB5C-405B-B737-F9051F4581D0}",
+    "SourceAssetId": -1
+  }
+}

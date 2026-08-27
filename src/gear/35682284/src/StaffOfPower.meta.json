@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "StaffOfPower",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{7D96F382-446F-4E7E-BCDB-E4CDBF096B3D}",
+    "SourceAssetId": -1
+  }
+}

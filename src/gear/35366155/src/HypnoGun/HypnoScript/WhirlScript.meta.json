@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "WhirlScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{F34DB18A-8725-4C55-B2B1-219970E728B2}",
+    "SourceAssetId": -1
+  }
+}

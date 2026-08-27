@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "StormBlast",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{6C705C12-A855-4F71-949D-B732BDEA4AD8}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "HypnoGun",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{BB89A34F-C999-4D51-87FA-89835FF7F125}",
+    "SourceAssetId": -1
+  }
+}
