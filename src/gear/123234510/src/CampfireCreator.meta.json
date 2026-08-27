@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "CampfireCreator",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{7F433835-82B1-4588-9287-4BFE81A82FC2}",
+    "SourceAssetId": -1
+  }
+}

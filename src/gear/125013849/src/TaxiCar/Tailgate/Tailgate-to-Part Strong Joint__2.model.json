@@ -1,0 +1,43 @@
+{
+  "ClassName": "ManualWeld",
+  "Properties": {
+    "C0": [
+      -0.5,
+      -1.4999998807907104,
+      -3.0000009536743164,
+      0,
+      0,
+      -1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "C1": [
+      -3.0025177001953125,
+      -2.86102294921875e-6,
+      -2.4999759197235107,
+      0.9999996423721313,
+      -2.920709903264651e-6,
+      0.0008349917479790747,
+      2.9218022064014804e-6,
+      1,
+      -1.3071751254756236e-6,
+      -0.0008349917479790747,
+      1.309614276578941e-6,
+      0.9999996423721313
+    ],
+    "ClassName": "ManualWeld",
+    "Enabled": true,
+    "Name": "Tailgate-to-Part Strong Joint",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  },
+  "attributes": {
+    "Rojo_Target_Part0": "g125013849_28",
+    "Rojo_Target_Part1": "g125013849_30",
+    "__MarketplaceGear_OriginalName": "Tailgate-to-Part Strong Joint"
+  }
+}

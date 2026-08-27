@@ -1,0 +1,104 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "ClassName": "ParticleEmitter",
+    "Enabled": false,
+    "Lifetime": {
+      "NumberRange": [
+        0.25,
+        0.25
+      ]
+    },
+    "LightEmission": 0.5,
+    "LockedToPart": true,
+    "Name": "Ring",
+    "Rate": 1,
+    "RotSpeed": {
+      "NumberRange": [
+        -360,
+        360
+      ]
+    },
+    "Rotation": {
+      "NumberRange": [
+        -180,
+        180
+      ]
+    },
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 1
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 10
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        0,
+        0
+      ]
+    },
+    "SpreadAngle": [
+      360,
+      360
+    ],
+    "TextureContent": "rbxassetid://144580273",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 0.10000000149011612,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 0.30040299892425537,
+            "value": 0.07359310239553452
+          },
+          {
+            "envelope": 0,
+            "time": 0.46068501472473145,
+            "value": 0.19047600030899048
+          },
+          {
+            "envelope": 0,
+            "time": 0.6260079741477966,
+            "value": 0.31168800592422485
+          },
+          {
+            "envelope": 0,
+            "time": 0.7600809931755066,
+            "value": 0.4372290074825287
+          },
+          {
+            "envelope": 0,
+            "time": 0.8931450247764587,
+            "value": 0.6839830279350281
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1
+          }
+        ]
+      }
+    }
+  }
+}

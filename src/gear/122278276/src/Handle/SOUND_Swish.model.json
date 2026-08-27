@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=120766256",
+    "ClassName": "Sound",
+    "Name": "SOUND_Swish",
+    "PlaybackSpeed": 0.5,
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

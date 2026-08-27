@@ -1,0 +1,42 @@
+{
+  "ClassName": "ManualWeld",
+  "Properties": {
+    "C0": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "C1": [
+      0.0149688720703125,
+      -1.2800226211547852,
+      0.13934326171875,
+      -0.9999998807907104,
+      0,
+      0,
+      0,
+      0,
+      -0.9999998807907104,
+      0,
+      -0.9999999403953552,
+      0
+    ],
+    "ClassName": "ManualWeld",
+    "Enabled": true,
+    "Name": "MuzzleWeld",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  },
+  "attributes": {
+    "Rojo_Target_Part0": "g124126871_2",
+    "Rojo_Target_Part1": "g124126871_7"
+  }
+}

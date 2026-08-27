@@ -1,0 +1,42 @@
+{
+  "ClassName": "ManualWeld",
+  "Properties": {
+    "C0": [
+      0.5,
+      -1,
+      -0.5,
+      -1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      -1
+    ],
+    "C1": [
+      2.9999561309814453,
+      -0.3000006675720215,
+      0.5001277923583984,
+      -1,
+      3.4073158183822727e-10,
+      0.000020074110580026172,
+      3.407195359184101e-10,
+      1,
+      -5.99822025382224e-10,
+      -0.000020074110580026172,
+      -5.998151975106225e-10,
+      -1
+    ],
+    "ClassName": "ManualWeld",
+    "Enabled": true,
+    "Name": "Bumper_Front-to-Bumper_Front Strong Joint",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  },
+  "attributes": {
+    "Rojo_Target_Part0": "g125013849_33",
+    "Rojo_Target_Part1": "g125013849_66"
+  }
+}

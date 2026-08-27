@@ -1,0 +1,43 @@
+{
+  "ClassName": "ManualWeld",
+  "Properties": {
+    "C0": [
+      5,
+      -1.5,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      1,
+      0
+    ],
+    "C1": [
+      -2.5000314712524414,
+      -0.19999933242797852,
+      0.49858954548835754,
+      -0.9999997615814209,
+      5.2319521159915894e-8,
+      0.0006901149172335863,
+      5.2194049970921697e-8,
+      1,
+      -1.8182770133989834e-7,
+      -0.0006901149172335863,
+      -1.8179163419063116e-7,
+      -0.9999997615814209
+    ],
+    "ClassName": "ManualWeld",
+    "Enabled": true,
+    "Name": "Part-to-Bumper_Front Strong Joint",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  },
+  "attributes": {
+    "Rojo_Target_Part0": "g125013849_67",
+    "Rojo_Target_Part1": "g125013849_72",
+    "__MarketplaceGear_OriginalName": "Part-to-Bumper_Front Strong Joint"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=129425637",
+    "ClassName": "Sound",
+    "Name": "WooshStart",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

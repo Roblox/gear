@@ -1,0 +1,9 @@
+{
+  "ClassName": "BoolValue",
+  "Properties": {
+    "ClassName": "BoolValue",
+    "Name": "CreateAura",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

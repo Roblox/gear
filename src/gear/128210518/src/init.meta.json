@@ -1,0 +1,37 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Name": "128210518",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset?id=128122097",
+    "ToolTip": "Get mad.",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            -1,
+            8.745870871962325e-8,
+            -7.768562682031188e-8
+          ],
+          [
+            8.74587158250506e-8,
+            0.9999999403953552,
+            0
+          ],
+          [
+            7.768562682031188e-8,
+            0,
+            -0.9999999403953552
+          ]
+        ],
+        "position": [
+          -0.18000000715255737,
+          17.144624710083008,
+          22.032299041748047
+        ]
+      }
+    }
+  }
+}

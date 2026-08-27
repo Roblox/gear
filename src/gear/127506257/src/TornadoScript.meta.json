@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "TornadoScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{55D493D0-A783-4C2F-B2CF-0BD46571AE7F}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0,
+      -1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "Name": "125859385",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=125762514",
+    "ToolTip": "I BELIEVE YA, BUT MY APPLE GUN DONT",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            0,
+            -0.6130789518356323,
+            -0.7900217771530151
+          ],
+          [
+            0,
+            0.7900217771530151,
+            -0.6130789518356323
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "position": [
+          -1.825000286102295,
+          43.820003509521484,
+          -42.86000061035156
+        ]
+      }
+    }
+  }
+}

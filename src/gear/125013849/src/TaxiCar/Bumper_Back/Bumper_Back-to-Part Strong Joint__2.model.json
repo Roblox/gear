@@ -1,0 +1,43 @@
+{
+  "ClassName": "ManualWeld",
+  "Properties": {
+    "C0": [
+      4.999998569488525,
+      -0.5,
+      -0.5000001192092896,
+      -1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      -1
+    ],
+    "C1": [
+      1.0000128746032715,
+      0.500523567199707,
+      -8.494144439697266,
+      -9.02020588000596e-7,
+      -1,
+      -4.2802599864444346e-7,
+      -0.00006852857768535614,
+      4.280878158624546e-7,
+      -1,
+      1,
+      -9.019912567964639e-7,
+      -0.00006852857768535614
+    ],
+    "ClassName": "ManualWeld",
+    "Enabled": true,
+    "Name": "Bumper_Back-to-Part Strong Joint",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  },
+  "attributes": {
+    "Rojo_Target_Part0": "g125013849_12",
+    "Rojo_Target_Part1": "g125013849_21",
+    "__MarketplaceGear_OriginalName": "Bumper_Back-to-Part Strong Joint"
+  }
+}

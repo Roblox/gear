@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=126741401",
+    "ClassName": "Sound",
+    "Name": "SOUND_Laugh",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 0.6000000238418579
+  }
+}

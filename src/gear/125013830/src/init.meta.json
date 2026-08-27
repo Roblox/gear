@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0,
+      0.10000000149011612,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "Name": "125013830",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=125025209 ",
+    "ToolTip": "Click to summon a massive balefire",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            -0.9999999403953552,
+            0,
+            0
+          ],
+          [
+            -0.0,
+            -4.371138828673793e-8,
+            1
+          ],
+          [
+            0,
+            1,
+            4.371138828673793e-8
+          ]
+        ],
+        "position": [
+          43.05000686645508,
+          3.4999992847442627,
+          -6.8599982261657715
+        ]
+      }
+    }
+  }
+}

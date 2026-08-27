@@ -1,0 +1,42 @@
+{
+  "ClassName": "ManualWeld",
+  "Properties": {
+    "C0": [
+      -4.999998569488525,
+      0.5,
+      0.5000001192092896,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "C1": [
+      8.999006271362305,
+      -0.5,
+      -0.500516414642334,
+      1,
+      -0.0001491252041887492,
+      2.043631184278638e-7,
+      -2.0435892622572283e-7,
+      2.8106686755791088e-8,
+      1,
+      -0.00014912518963683397,
+      -1,
+      2.8076211577854338e-8
+    ],
+    "ClassName": "ManualWeld",
+    "Enabled": true,
+    "Name": "Bumper_Back-to-Brakelight_Right Strong Joint",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  },
+  "attributes": {
+    "Rojo_Target_Part0": "g125013849_12",
+    "Rojo_Target_Part1": "g125013849_39"
+  }
+}

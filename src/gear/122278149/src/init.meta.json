@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      1.399999976158142,
+      2,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      -3.9340253010777815e-7,
+      0,
+      3.9340253010777815e-7,
+      1
+    ],
+    "Name": "122278149",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=122306779",
+    "ToolTip": "LOOK'N FOR ADVENTURE",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            -1,
+            0,
+            0
+          ]
+        ],
+        "position": [
+          0,
+          17,
+          22
+        ]
+      }
+    }
+  }
+}
