@@ -1,0 +1,172 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "ClassName": "ParticleEmitter",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              1,
+              0,
+              0
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              1,
+              0.6666669845581055,
+              0
+            ],
+            "time": 0.13477499783039093
+          },
+          {
+            "color": [
+              1,
+              1,
+              0
+            ],
+            "time": 0.26955100893974304
+          },
+          {
+            "color": [
+              0,
+              1,
+              0
+            ],
+            "time": 0.45257899165153503
+          },
+          {
+            "color": [
+              0,
+              0.33333298563957214,
+              1
+            ],
+            "time": 0.6356070041656494
+          },
+          {
+            "color": [
+              0,
+              0,
+              1
+            ],
+            "time": 0.8119800090789795
+          },
+          {
+            "color": [
+              0.6666669845581055,
+              0,
+              1
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "Enabled": false,
+    "LightEmission": 0.5,
+    "Name": "EffectRainbow",
+    "Rate": 10,
+    "RotSpeed": {
+      "NumberRange": [
+        -180,
+        180
+      ]
+    },
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0
+          },
+          {
+            "envelope": 1.5,
+            "time": 0.10000000149011612,
+            "value": 2.5
+          },
+          {
+            "envelope": 0,
+            "time": 0.20000000298023224,
+            "value": 0
+          },
+          {
+            "envelope": 1.5,
+            "time": 0.30000001192092896,
+            "value": 2.5
+          },
+          {
+            "envelope": 0,
+            "time": 0.4000000059604645,
+            "value": 0
+          },
+          {
+            "envelope": 1.5,
+            "time": 0.5,
+            "value": 2.5
+          },
+          {
+            "envelope": 0,
+            "time": 0.6000000238418579,
+            "value": 0
+          },
+          {
+            "envelope": 1.5,
+            "time": 0.699999988079071,
+            "value": 2.5
+          },
+          {
+            "envelope": 0,
+            "time": 0.800000011920929,
+            "value": 0
+          },
+          {
+            "envelope": 1.5,
+            "time": 0.8999999761581421,
+            "value": 2.5
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        0.10000000149011612,
+        0.5
+      ]
+    },
+    "SpreadAngle": [
+      -180,
+      180
+    ],
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0.25
+          },
+          {
+            "envelope": 0,
+            "time": 0.8980000019073486,
+            "value": 0.25
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1
+          }
+        ]
+      }
+    }
+  }
+}

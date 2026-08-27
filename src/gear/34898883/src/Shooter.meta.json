@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "Shooter",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{745856BE-DC5E-4452-BEC2-2269BAE4A5C1}",
+    "SourceAssetId": -1
+  }
+}

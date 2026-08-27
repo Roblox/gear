@@ -1,0 +1,73 @@
+{
+  "ClassName": "ImageLabel",
+  "Properties": {
+    "Active": false,
+    "AnchorPoint": [
+      0,
+      0
+    ],
+    "AutoLocalize": true,
+    "AutomaticSize": "None",
+    "BackgroundColor3": [
+      0.7411764860153198,
+      0.7372549176216125,
+      0.7490196228027344
+    ],
+    "BackgroundTransparency": 0,
+    "BorderColor3": [
+      0.10588236153125763,
+      0.16470588743686676,
+      0.20784315466880798
+    ],
+    "BorderMode": "Outline",
+    "BorderSizePixel": 0,
+    "ClassName": "ImageLabel",
+    "ClipsDescendants": false,
+    "Draggable": false,
+    "ImageContent": "http://www.roblox.com/asset/?id=32197031",
+    "InputSink": "None",
+    "Interactable": true,
+    "LayoutOrder": 0,
+    "Name": "Platform",
+    "Position": {
+      "UDim2": [
+        [
+          0,
+          250
+        ],
+        [
+          0,
+          60
+        ]
+      ]
+    },
+    "Rotation": 0,
+    "Sandboxed": false,
+    "Selectable": false,
+    "SelectionBehaviorDown": "Escape",
+    "SelectionBehaviorLeft": "Escape",
+    "SelectionBehaviorRight": "Escape",
+    "SelectionBehaviorUp": "Escape",
+    "SelectionGroup": false,
+    "SelectionOrder": 0,
+    "Size": {
+      "UDim2": [
+        [
+          0,
+          150
+        ],
+        [
+          0,
+          16
+        ]
+      ]
+    },
+    "SizeConstraint": "RelativeXY",
+    "SourceAssetId": -1,
+    "Visible": true,
+    "ZIndex": 1
+  },
+  "attributes": {
+    "__MarketplaceGear_OriginalName": "Platform"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "MonkeyScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{14A77E32-D21F-4A0B-97FD-5CB79EBA43D4}",
+    "SourceAssetId": -1
+  }
+}

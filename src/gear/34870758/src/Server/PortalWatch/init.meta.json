@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "PortalWatch",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{3BE5823E-6881-40DF-861F-7DB8630DAA93}",
+    "SourceAssetId": -1
+  }
+}

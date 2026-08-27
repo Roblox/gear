@@ -1,0 +1,14 @@
+{
+  "ClassName": "BodyGyro",
+  "Properties": {
+    "ClassName": "BodyGyro",
+    "MaxTorque": [
+      0,
+      0,
+      0
+    ],
+    "Name": "Bank",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

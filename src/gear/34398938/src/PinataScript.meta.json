@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "PinataScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{AC70D55A-6AD7-4436-B388-58EFDEE72B7D}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=30624357",
+    "ClassName": "Sound",
+    "Looped": true,
+    "Name": "LowFuelWarning",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

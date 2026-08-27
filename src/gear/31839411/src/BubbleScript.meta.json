@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "BubbleScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{CE8C4EC0-449E-48B2-8A27-93509E6E63B7}",
+    "SourceAssetId": -1
+  }
+}

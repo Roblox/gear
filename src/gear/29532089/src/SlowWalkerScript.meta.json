@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "SlowWalkerScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{6FFA2120-8928-49C0-A319-531CA94ACA97}",
+    "SourceAssetId": -1
+  }
+}

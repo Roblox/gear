@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "Welder",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{F208C850-2CC2-48BF-9D4C-D1CA8BC40D55}",
+    "SourceAssetId": -1
+  }
+}

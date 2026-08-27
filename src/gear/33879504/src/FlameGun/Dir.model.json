@@ -1,0 +1,9 @@
+{
+  "ClassName": "Vector3Value",
+  "Properties": {
+    "ClassName": "Vector3Value",
+    "Name": "Dir",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

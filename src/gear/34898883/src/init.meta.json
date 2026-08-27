@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0,
+      -1.5,
+      -0.4000000059604645,
+      1,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      1,
+      0
+    ],
+    "Name": "34898883",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=34813669",
+    "ToolTip": "Positronic Platform Producer",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            -0.638007402420044,
+            -0.7601866126060486,
+            0.12271685898303986
+          ],
+          [
+            -0.04688500985503197,
+            0.19742144644260406,
+            0.9791968464851379
+          ],
+          [
+            -0.7685999870300293,
+            0.6189823746681213,
+            -0.1615976095199585
+          ]
+        ],
+        "position": [
+          0,
+          0.9000000357627869,
+          0
+        ]
+      }
+    }
+  }
+}

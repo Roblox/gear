@@ -1,0 +1,10 @@
+{
+  "ClassName": "BoolValue",
+  "Properties": {
+    "ClassName": "BoolValue",
+    "Name": "Lunge",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Value": true
+  }
+}

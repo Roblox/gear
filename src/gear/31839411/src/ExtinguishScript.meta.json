@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "ExtinguishScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{6A5F3052-77AF-45BC-93AE-40687C8672BC}",
+    "SourceAssetId": -1
+  }
+}

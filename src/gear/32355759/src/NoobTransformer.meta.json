@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "NoobTransformer",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{96C259A6-3AD0-4E8B-A67E-7BB35CBFF086}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "CloakingScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{639779B1-F217-4BB7-868F-F1C25939FE99}",
+    "SourceAssetId": -1
+  }
+}
