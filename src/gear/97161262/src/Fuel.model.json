@@ -1,0 +1,9 @@
+{
+  "ClassName": "DoubleConstrainedValue",
+  "Properties": {
+    "ClassName": "DoubleConstrainedValue",
+    "Name": "Fuel",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

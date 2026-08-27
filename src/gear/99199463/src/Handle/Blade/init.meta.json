@@ -1,0 +1,23 @@
+{
+  "className": "Attachment",
+  "properties": {
+    "CFrame": [
+      9.325449354946613e-7,
+      -1.2000001668930054,
+      -7.82310962677002e-8,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "ClassName": "Attachment",
+    "Name": "Blade",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/Asset?ID=92597296",
+    "ClassName": "Sound",
+    "Name": "BashMiss",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 0.30000001192092896
+  }
+}

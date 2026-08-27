@@ -1,0 +1,52 @@
+{
+  "className": "Tool",
+  "properties": {
+    "CanBeDropped": false,
+    "ClassName": "Tool",
+    "Grip": [
+      0.05000000074505806,
+      -1.3195569515228271,
+      -0.9414276480674744,
+      1,
+      0,
+      0,
+      0,
+      0.9063077569007874,
+      0.42261824011802673,
+      0,
+      -0.42261824011802673,
+      0.9063077569007874
+    ],
+    "Name": "98346415",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=98345995",
+    "ToolTip": "Carnagecopia",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "position": [
+          23.920000076293945,
+          78.125,
+          -45.125
+        ]
+      }
+    }
+  }
+}

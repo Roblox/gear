@@ -1,0 +1,129 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "ClassName": "ParticleEmitter",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              0.6666669845581055,
+              1,
+              1
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "Lifetime": {
+      "NumberRange": [
+        2,
+        2
+      ]
+    },
+    "LightInfluence": 0.5,
+    "Name": "Puff",
+    "Rate": 5,
+    "RotSpeed": {
+      "NumberRange": [
+        -100,
+        100
+      ]
+    },
+    "Rotation": {
+      "NumberRange": [
+        -180,
+        180
+      ]
+    },
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0.625
+          },
+          {
+            "envelope": 0.4375,
+            "time": 1,
+            "value": 0.4375
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        1,
+        2
+      ]
+    },
+    "SpreadAngle": [
+      -20,
+      20
+    ],
+    "TextureContent": "http://www.roblox.com/asset/?id=258128463",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 1
+          },
+          {
+            "envelope": 0,
+            "time": 0.10000000149011612,
+            "value": 0.5
+          },
+          {
+            "envelope": 0,
+            "time": 0.5,
+            "value": 0.5
+          },
+          {
+            "envelope": 0,
+            "time": 0.645160973072052,
+            "value": 0.5454549789428711
+          },
+          {
+            "envelope": 0,
+            "time": 0.7419350147247314,
+            "value": 0.6060609817504883
+          },
+          {
+            "envelope": 0,
+            "time": 0.8296369910240173,
+            "value": 0.692641019821167
+          },
+          {
+            "envelope": 0,
+            "time": 0.8921369910240173,
+            "value": 0.7835500240325928
+          },
+          {
+            "envelope": 0,
+            "time": 0.9506049752235413,
+            "value": 0.8831170201301575
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1
+          }
+        ]
+      }
+    }
+  }
+}

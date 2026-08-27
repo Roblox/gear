@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "Vaporize",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{68A64C73-1716-4B5C-B9BB-DB6D134089FA}",
+    "SourceAssetId": -1
+  }
+}

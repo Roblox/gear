@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "SpeedBoostScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{61D76164-913D-4AA0-924B-4622B1E9783A}",
+    "SourceAssetId": -1
+  }
+}

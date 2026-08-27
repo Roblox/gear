@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "Firescript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{C72F8AF7-F438-425F-8CCF-FD4D19AC5A33}",
+    "SourceAssetId": -1
+  }
+}
