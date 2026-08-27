@@ -1,0 +1,101 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "ClassName": "ParticleEmitter",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              0.5843139886856079,
+              1,
+              0.1450980007648468
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              0.003921569790691137,
+              0.6196079850196838,
+              0.011764699593186378
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "Lifetime": {
+      "NumberRange": [
+        0.30000001192092896,
+        0.5
+      ]
+    },
+    "LightEmission": 1,
+    "LockedToPart": true,
+    "Name": "LeftParticle",
+    "Rate": 500,
+    "RotSpeed": {
+      "NumberRange": [
+        -500,
+        -500
+      ]
+    },
+    "Rotation": {
+      "NumberRange": [
+        -15,
+        15
+      ]
+    },
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0.3954800069332123
+          },
+          {
+            "envelope": 0,
+            "time": 0.749576985836029,
+            "value": 1.073449969291687
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0.5649719834327698
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        0,
+        0
+      ]
+    },
+    "TextureContent": "rbxasset://textures/particles/fire_main.dds",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 0.6507940292358398,
+            "value": 0.4086019992828369
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0
+          }
+        ]
+      }
+    }
+  }
+}

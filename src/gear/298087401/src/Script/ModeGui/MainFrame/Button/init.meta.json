@@ -1,0 +1,81 @@
+{
+  "className": "TextButton",
+  "properties": {
+    "Active": true,
+    "AnchorPoint": [
+      0,
+      0
+    ],
+    "AutoButtonColor": false,
+    "AutoLocalize": true,
+    "AutomaticSize": "None",
+    "BackgroundColor3": [
+      0,
+      0.40000003576278687,
+      0
+    ],
+    "BackgroundTransparency": 0.699999988079071,
+    "BorderColor3": [
+      0.10588236153125763,
+      0.16470588743686676,
+      0.20784315466880798
+    ],
+    "BorderMode": "Outline",
+    "BorderSizePixel": 0,
+    "ClassName": "TextButton",
+    "ClipsDescendants": false,
+    "Draggable": false,
+    "FontFace": {
+      "family": "rbxasset://fonts/families/SourceSansPro.json",
+      "style": "Normal",
+      "weight": "Regular"
+    },
+    "InputSink": "None",
+    "Interactable": true,
+    "LayoutOrder": 0,
+    "Modal": false,
+    "Name": "Button",
+    "Position": {
+      "UDim2": [
+        [
+          0.5,
+          -225
+        ],
+        [
+          0,
+          10
+        ]
+      ]
+    },
+    "Rotation": 0,
+    "Sandboxed": false,
+    "Selectable": true,
+    "Selected": false,
+    "SelectionBehaviorDown": "Escape",
+    "SelectionBehaviorLeft": "Escape",
+    "SelectionBehaviorRight": "Escape",
+    "SelectionBehaviorUp": "Escape",
+    "SelectionGroup": false,
+    "SelectionOrder": 0,
+    "Size": {
+      "UDim2": [
+        [
+          0,
+          450
+        ],
+        [
+          0,
+          60
+        ]
+      ]
+    },
+    "SizeConstraint": "RelativeXY",
+    "SourceAssetId": -1,
+    "Style": "Custom",
+    "Text": "",
+    "TextSize": 14,
+    "TextTransparency": 1,
+    "Visible": true,
+    "ZIndex": 2
+  }
+}

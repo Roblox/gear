@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0.574999988079071,
+      0,
+      -1,
+      0,
+      -1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "Name": "330296114",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=329865611",
+    "ToolTip": "Somebody asks for a Christmas tree, give it to em'!",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            -0.062390465289354324,
+            0.20509333908557892,
+            -0.9767511487007141
+          ],
+          [
+            -0.9487264752388,
+            0.2916702926158905,
+            0.1218438595533371
+          ],
+          [
+            0.3098788261413574,
+            0.9342724680900574,
+            0.17638038098812103
+          ]
+        ],
+        "position": [
+          -0.31323128938674927,
+          19.534547805786133,
+          -0.12316001206636429
+        ]
+      }
+    }
+  }
+}

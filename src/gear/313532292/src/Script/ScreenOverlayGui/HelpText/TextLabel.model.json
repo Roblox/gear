@@ -1,0 +1,84 @@
+{
+  "ClassName": "TextLabel",
+  "Properties": {
+    "Active": false,
+    "AnchorPoint": [
+      0,
+      0
+    ],
+    "AutoLocalize": true,
+    "AutomaticSize": "None",
+    "BackgroundColor3": [
+      1,
+      1,
+      1
+    ],
+    "BackgroundTransparency": 1,
+    "BorderColor3": [
+      0.10588236153125763,
+      0.16470588743686676,
+      0.20784315466880798
+    ],
+    "BorderMode": "Outline",
+    "BorderSizePixel": 0,
+    "ClassName": "TextLabel",
+    "ClipsDescendants": false,
+    "Draggable": false,
+    "FontFace": {
+      "family": "rbxasset://fonts/families/SourceSansPro.json",
+      "style": "Normal",
+      "weight": "Regular"
+    },
+    "InputSink": "None",
+    "Interactable": true,
+    "LayoutOrder": 0,
+    "Name": "TextLabel",
+    "Position": {
+      "UDim2": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "Rotation": 0,
+    "Sandboxed": false,
+    "Selectable": false,
+    "SelectionBehaviorDown": "Escape",
+    "SelectionBehaviorLeft": "Escape",
+    "SelectionBehaviorRight": "Escape",
+    "SelectionBehaviorUp": "Escape",
+    "SelectionGroup": false,
+    "SelectionOrder": 0,
+    "Size": {
+      "UDim2": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    "SizeConstraint": "RelativeXY",
+    "SourceAssetId": -1,
+    "Text": "Zoom In To View Image",
+    "TextScaled": true,
+    "TextSize": 14,
+    "TextStrokeColor3": [
+      0.10588236153125763,
+      0.16470588743686676,
+      0.20784315466880798
+    ],
+    "TextStrokeTransparency": 0.8999999761581421,
+    "TextWrapped": true,
+    "Visible": true,
+    "ZIndex": 1
+  }
+}

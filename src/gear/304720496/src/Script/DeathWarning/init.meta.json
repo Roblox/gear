@@ -1,0 +1,36 @@
+{
+  "className": "BillboardGui",
+  "properties": {
+    "AlwaysOnTop": true,
+    "AutoLocalize": true,
+    "ClassName": "BillboardGui",
+    "Enabled": false,
+    "Name": "DeathWarning",
+    "ResetOnSpawn": true,
+    "Sandboxed": false,
+    "SelectionBehaviorDown": "Escape",
+    "SelectionBehaviorLeft": "Escape",
+    "SelectionBehaviorRight": "Escape",
+    "SelectionBehaviorUp": "Escape",
+    "SelectionGroup": false,
+    "Size": {
+      "UDim2": [
+        [
+          0.699999988079071,
+          0
+        ],
+        [
+          0.699999988079071,
+          0
+        ]
+      ]
+    },
+    "SourceAssetId": -1,
+    "StudsOffset": [
+      0,
+      1,
+      0
+    ],
+    "ZIndexBehavior": "Global"
+  }
+}

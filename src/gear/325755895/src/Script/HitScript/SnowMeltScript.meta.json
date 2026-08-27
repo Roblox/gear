@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "SnowMeltScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{06EA91C9-BCCF-4738-B015-25B893E04D11}",
+    "SourceAssetId": -1
+  }
+}

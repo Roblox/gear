@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "BallScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{B230384D-4472-4CE5-9B5C-3BA0C97FF2C4}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "CobWebShot",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{7C84F63A-BF79-4938-8668-D77A750442F9}",
+    "SourceAssetId": -1
+  }
+}

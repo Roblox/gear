@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "AxeManager",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{73BB3076-0358-4575-8C5B-9A85D6B8188F}",
+    "SourceAssetId": -1
+  }
+}

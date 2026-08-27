@@ -1,0 +1,13 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=120767420",
+    "ClassName": "Sound",
+    "Name": "HitGround",
+    "PlaybackSpeed": 0.6000000238418579,
+    "RollOffMinDistance": 0,
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 1
+  }
+}

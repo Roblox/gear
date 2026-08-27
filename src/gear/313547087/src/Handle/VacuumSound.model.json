@@ -1,0 +1,13 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=313155372",
+    "ClassName": "Sound",
+    "Looped": true,
+    "Name": "VacuumSound",
+    "PlaybackSpeed": 0,
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 0
+  }
+}

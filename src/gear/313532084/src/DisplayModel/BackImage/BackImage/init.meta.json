@@ -1,0 +1,27 @@
+{
+  "attributes": {
+    "Rojo_Target_Adornee": "g313532084_16"
+  },
+  "className": "SurfaceGui",
+  "properties": {
+    "Active": true,
+    "AutoLocalize": true,
+    "CanvasSize": [
+      10000,
+      10000
+    ],
+    "ClassName": "SurfaceGui",
+    "Enabled": true,
+    "Face": "Front",
+    "Name": "BackImage",
+    "ResetOnSpawn": true,
+    "Sandboxed": false,
+    "SelectionBehaviorDown": "Escape",
+    "SelectionBehaviorLeft": "Escape",
+    "SelectionBehaviorRight": "Escape",
+    "SelectionBehaviorUp": "Escape",
+    "SelectionGroup": false,
+    "SourceAssetId": -1,
+    "ZIndexBehavior": "Global"
+  }
+}

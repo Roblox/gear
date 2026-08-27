@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "BoothManager",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{620D4904-4919-4BA1-9E74-53A8B6CE3560}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "ClassName": "ParticleEmitter",
+    "Enabled": false,
+    "Lifetime": {
+      "NumberRange": [
+        1,
+        3
+      ]
+    },
+    "LightEmission": 1,
+    "Name": "SoulEffect",
+    "Rate": 150,
+    "RotSpeed": {
+      "NumberRange": [
+        -15,
+        15
+      ]
+    },
+    "Rotation": {
+      "NumberRange": [
+        -15,
+        15
+      ]
+    },
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 1.1875
+          },
+          {
+            "envelope": 0,
+            "time": 0.2747249901294708,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 0.6300370097160339,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        -4,
+        -4
+      ]
+    },
+    "SpreadAngle": [
+      25,
+      25
+    ],
+    "TextureContent": "rbxassetid://292289455",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 0.05982910096645355,
+            "value": 0.8225809931755066
+          },
+          {
+            "envelope": 0,
+            "time": 0.6642249822616577,
+            "value": 0.8118280172348022
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "rbxasset://sounds/impact_water.mp3",
+    "ClassName": "Sound",
+    "Name": "SplashWater",
+    "PlaybackSpeed": 1.5,
+    "RollOffMinDistance": 0,
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 1
+  }
+}

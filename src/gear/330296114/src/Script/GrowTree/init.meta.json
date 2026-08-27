@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "GrowTree",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{F5C43AE7-DA79-4EBE-A60E-802DC5840345}",
+    "SourceAssetId": -1
+  }
+}
