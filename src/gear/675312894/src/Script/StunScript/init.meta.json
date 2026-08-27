@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "StunScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{AFEAA428-C14E-4CC1-B52D-080D20B2D504}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "HitScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{EC6735F4-ECA9-410E-960A-A0478A50DE59}",
+    "SourceAssetId": -1
+  }
+}

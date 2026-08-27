@@ -1,0 +1,12 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=12222216",
+    "ClassName": "Sound",
+    "Name": "Lunge",
+    "PlaybackSpeed": 0.949999988079071,
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 0.6000000238418579
+  }
+}
