@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "BoltScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{D43FD978-63F6-4A2F-917E-B7667A3111CF}",
+    "SourceAssetId": -1
+  }
+}

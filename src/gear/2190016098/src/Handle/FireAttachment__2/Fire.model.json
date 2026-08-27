@@ -1,0 +1,12 @@
+{
+  "ClassName": "Fire",
+  "Properties": {
+    "ClassName": "Fire",
+    "Enabled": false,
+    "Heat": 6,
+    "Name": "Fire",
+    "Sandboxed": false,
+    "Size": 2,
+    "SourceAssetId": -1
+  }
+}

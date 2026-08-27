@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "FairyToolScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{D39D8B4F-823D-4A15-BCAF-760A1A29D7BF}",
+    "SourceAssetId": -1
+  }
+}
