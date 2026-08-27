@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "SpeedEffect",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{DA5EF01D-5A40-4392-A7A2-FD68D6E0E727}",
+    "SourceAssetId": -1
+  }
+}

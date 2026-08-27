@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "HugScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{3CFC667B-8A33-4AAF-A136-1D402FEB3C79}",
+    "SourceAssetId": -1
+  }
+}

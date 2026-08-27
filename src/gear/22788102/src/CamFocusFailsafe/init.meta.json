@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "CamFocusFailsafe",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{DB3CB6F4-61A1-4039-AB09-4B1DEA01562B}",
+    "SourceAssetId": -1
+  }
+}

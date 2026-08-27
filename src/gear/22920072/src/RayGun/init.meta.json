@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "RayGun",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{65005BE3-4980-4674-9E49-D8B8D0BCC39A}",
+    "SourceAssetId": -1
+  }
+}

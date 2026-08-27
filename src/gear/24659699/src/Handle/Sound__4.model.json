@@ -1,0 +1,13 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=24483366",
+    "ClassName": "Sound",
+    "Name": "Sound",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  },
+  "attributes": {
+    "__MarketplaceGear_OriginalName": "Sound"
+  }
+}

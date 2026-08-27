@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": false,
+    "LinkedSource": "http://www.roblox.com/asset/?id=1014476",
+    "Name": "Local Gui",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{0E964F84-3446-4706-8415-8467D223DBC0}",
+    "SourceAssetId": -1
+  }
+}

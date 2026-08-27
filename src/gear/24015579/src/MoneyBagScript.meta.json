@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "MoneyBagScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{992EBE8F-9309-4310-94AD-69C4D99043C0}",
+    "SourceAssetId": -1
+  }
+}

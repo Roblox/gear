@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "Icicle",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{4A307249-DAA5-4E21-872A-6A849771A003}",
+    "SourceAssetId": -1
+  }
+}
