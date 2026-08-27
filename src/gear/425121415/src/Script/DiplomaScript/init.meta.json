@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "DiplomaScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{56D6A75C-E5D8-433C-A4D1-6BEE54368CB4}",
+    "SourceAssetId": -1
+  }
+}

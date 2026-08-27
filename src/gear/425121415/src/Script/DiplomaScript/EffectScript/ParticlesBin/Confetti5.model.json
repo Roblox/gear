@@ -1,0 +1,82 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "Acceleration": [
+      0,
+      -8,
+      0
+    ],
+    "ClassName": "ParticleEmitter",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              0,
+              0,
+              1
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              0,
+              0,
+              1
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "Enabled": false,
+    "LightEmission": 0.25,
+    "Name": "Confetti5",
+    "Rotation": {
+      "NumberRange": [
+        -360,
+        360
+      ]
+    },
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0.10000000149011612
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0.10000000149011612
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "SpreadAngle": [
+      25,
+      25
+    ],
+    "TextureContent": "http://www.roblox.com/asset/?id=420397550",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0.10000000149011612
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0.10000000149011612
+          }
+        ]
+      }
+    },
+    "ZOffset": 2
+  }
+}

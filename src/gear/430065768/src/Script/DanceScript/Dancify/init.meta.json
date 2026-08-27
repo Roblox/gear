@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "Dancify",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{28839063-6EED-4861-B589-8563C758E479}",
+    "SourceAssetId": -1
+  }
+}

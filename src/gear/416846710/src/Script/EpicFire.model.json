@@ -1,0 +1,98 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "ClassName": "ParticleEmitter",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              1,
+              1,
+              0
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              1,
+              1,
+              0.49803900718688965
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "Enabled": false,
+    "Lifetime": {
+      "NumberRange": [
+        0.20000000298023224,
+        0.30000001192092896
+      ]
+    },
+    "LightEmission": 1,
+    "LockedToPart": true,
+    "Name": "EpicFire",
+    "Rate": 1000,
+    "RotSpeed": {
+      "NumberRange": [
+        15,
+        25
+      ]
+    },
+    "Rotation": {
+      "NumberRange": [
+        0,
+        5
+      ]
+    },
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0.3199999928474426
+          },
+          {
+            "envelope": 0,
+            "time": 0.7900000214576721,
+            "value": 1.1799999475479126
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1.25
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        -0.25,
+        -0.25
+      ]
+    },
+    "TextureContent": "rbxasset://textures/particles/fire_main.dds",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0.30000001192092896
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0.30000001192092896
+          }
+        ]
+      }
+    },
+    "ZOffset": 2
+  }
+}

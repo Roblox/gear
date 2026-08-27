@@ -1,0 +1,10 @@
+{
+  "ClassName": "Animation",
+  "Properties": {
+    "AnimationContent": "http://www.roblox.com/asset/?id=420461070",
+    "ClassName": "Animation",
+    "Name": "LookAt",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

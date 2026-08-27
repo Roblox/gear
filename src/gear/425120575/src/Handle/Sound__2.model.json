@@ -1,0 +1,15 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "rbxassetid://387806727",
+    "ClassName": "Sound",
+    "Name": "Sound",
+    "Playing": true,
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TimePosition": 30.166465121441888
+  },
+  "attributes": {
+    "__MarketplaceGear_OriginalName": "Sound"
+  }
+}
