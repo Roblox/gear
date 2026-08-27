@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=181453492",
+    "ClassName": "Sound",
+    "Name": "Slap",
+    "PlaybackSpeed": 1.25,
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

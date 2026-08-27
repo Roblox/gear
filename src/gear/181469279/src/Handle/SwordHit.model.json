@@ -1,0 +1,10 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/Asset?ID=180702938",
+    "ClassName": "Sound",
+    "Name": "SwordHit",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

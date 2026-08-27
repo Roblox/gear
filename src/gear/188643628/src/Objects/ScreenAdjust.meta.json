@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "ScreenAdjust",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{1C4CF206-798A-4421-BD42-D20CC7C57C26}",
+    "SourceAssetId": -1
+  }
+}

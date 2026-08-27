@@ -1,0 +1,10 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset?id=183657592",
+    "ClassName": "Sound",
+    "Name": "PumpkinSplat",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}
