@@ -80,6 +80,20 @@ test.suite("serializeProperty", function(suite: TestSuite)
 		asserts.eq({ 1, 2, 3 }, v)
 	end)
 
+	suite:case("UDim2", function(asserts: Asserts)
+		local v, status = serializeProperty("UDim2", {
+			X = { Scale = 0.5, Offset = 12 },
+			Y = { Scale = 1, Offset = -24 },
+		})
+		asserts.eq("ok", status)
+		asserts.eq({
+			UDim2 = {
+				{ 0.5, 12 },
+				{ 1, -24 },
+			},
+		}, v)
+	end)
+
 	suite:case("NumberRange", function(asserts: Asserts)
 		local v, status = serializeProperty("NumberRange", { Min = -36, Max = 94 })
 		asserts.eq("ok", status)
@@ -194,7 +208,7 @@ test.suite("serializeProperty", function(suite: TestSuite)
 	end)
 
 	suite:case("Unknown datatype reports unsupported", function(asserts: Asserts)
-		local v, status = serializeProperty("UDim2", { X = { Scale = 0.5 } })
+		local v, status = serializeProperty("Unknown", { Something = 0.5 })
 		asserts.eq("unsupported", status)
 		asserts.eq(nil, v)
 	end)
@@ -209,6 +223,7 @@ test.suite("serializeProperty", function(suite: TestSuite)
 			Float64 = true,
 			Vector2 = true,
 			Vector3 = true,
+			UDim2 = true,
 			NumberRange = true,
 			NumberSequence = true,
 			BrickColor = true,
