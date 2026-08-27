@@ -1,0 +1,10 @@
+{
+  "ClassName": "Animation",
+  "Properties": {
+    "AnimationContent": "rbxassetid://73033645",
+    "ClassName": "Animation",
+    "Name": "Equip",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

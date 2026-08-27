@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "Rescale",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{6E66A408-A1AF-480F-943D-07F438D4F50C}",
+    "SourceAssetId": -1
+  }
+}

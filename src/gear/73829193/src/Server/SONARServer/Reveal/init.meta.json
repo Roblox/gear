@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "Reveal",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{429405F9-5663-497D-93D4-F383E76F20A3}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "ClassName": "BoolValue",
+  "Properties": {
+    "ClassName": "BoolValue",
+    "Name": "Accept",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

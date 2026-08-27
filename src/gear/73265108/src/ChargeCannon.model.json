@@ -1,0 +1,9 @@
+{
+  "ClassName": "BoolValue",
+  "Properties": {
+    "ClassName": "BoolValue",
+    "Name": "ChargeCannon",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

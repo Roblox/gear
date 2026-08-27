@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "LocalFlakScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{48DD0F84-3ED2-4299-82B4-E364FADA06A6}",
+    "SourceAssetId": -1
+  }
+}

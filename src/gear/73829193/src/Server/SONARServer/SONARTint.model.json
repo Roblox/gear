@@ -1,0 +1,15 @@
+{
+  "ClassName": "ColorCorrectionEffect",
+  "Properties": {
+    "ClassName": "ColorCorrectionEffect",
+    "Enabled": true,
+    "Name": "SONARTint",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TintColor": [
+      1,
+      0.6666666865348816,
+      0
+    ]
+  }
+}

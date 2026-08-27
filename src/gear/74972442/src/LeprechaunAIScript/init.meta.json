@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "LeprechaunAIScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{1F8F910B-9B81-42F4-B668-B11D46BA95A4}",
+    "SourceAssetId": -1
+  }
+}

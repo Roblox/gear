@@ -1,0 +1,23 @@
+{
+  "className": "Attachment",
+  "properties": {
+    "CFrame": [
+      4.187226295471191e-6,
+      0,
+      -1.100000023841858,
+      1,
+      0,
+      0,
+      0,
+      5.960464477539063e-8,
+      -1,
+      0,
+      1,
+      5.960464477539063e-8
+    ],
+    "ClassName": "Attachment",
+    "Name": "SmokePart",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

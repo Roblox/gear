@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0.5,
+      0,
+      0,
+      0.7648422122001648,
+      0,
+      0.6442176699638367,
+      0.19037935137748718,
+      0.9553365111351013,
+      -0.22602634131908417,
+      -0.6154446601867676,
+      0.29552021622657776,
+      0.7306817173957825
+    ],
+    "Name": "78005082",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=75322835",
+    "ToolTip": "High tech group healing device.",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "position": [
+          -0.20000000298023224,
+          0.6999999284744263,
+          0.5
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0,
+      0,
+      -2,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "Name": "77443491",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=77241917",
+    "ToolTip": "Summon the Darkness!",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            0.7071068286895752,
+            0,
+            -0.7071068286895752
+          ],
+          [
+            0.7071068286895752,
+            0,
+            0.7071068286895752
+          ],
+          [
+            0,
+            -1,
+            0
+          ]
+        ],
+        "position": [
+          -28.799999237060547,
+          2.299999952316284,
+          -0.20000000298023224
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "SONARServer",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{EFBBDA68-F697-4E27-B478-B1F479C65534}",
+    "SourceAssetId": -1
+  }
+}
