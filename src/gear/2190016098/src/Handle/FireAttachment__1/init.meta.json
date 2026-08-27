@@ -1,0 +1,26 @@
+{
+  "attributes": {
+    "__MarketplaceGear_OriginalName": "FireAttachment"
+  },
+  "className": "Attachment",
+  "properties": {
+    "CFrame": [
+      1.0500001907348633,
+      -1.1500016450881958,
+      0.9000002145767212,
+      1,
+      1.7654937209954369e-6,
+      -1.0044134342024336e-6,
+      1.7654938346822746e-6,
+      -1,
+      8.851350941085911e-8,
+      -1.0044133205155958e-6,
+      -8.851528576769851e-8,
+      -1
+    ],
+    "ClassName": "Attachment",
+    "Name": "FireAttachment",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

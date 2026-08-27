@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "RemoverScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{92F66B10-BFC4-489F-9FA8-2BCD0AB5D33A}",
+    "SourceAssetId": -1
+  }
+}

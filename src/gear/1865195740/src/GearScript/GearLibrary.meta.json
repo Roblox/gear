@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "GearLibrary",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{0DF75C4A-1152-4E8B-ADB3-AB31E98EF88B}",
+    "SourceAssetId": -1
+  }
+}

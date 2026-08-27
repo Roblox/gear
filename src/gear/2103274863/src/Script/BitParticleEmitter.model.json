@@ -1,0 +1,81 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "ClassName": "ParticleEmitter",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              0.23529399931430817,
+              0.4117650091648102,
+              1
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              0.23529399931430817,
+              0.4117650091648102,
+              1
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "Lifetime": {
+      "NumberRange": [
+        1,
+        2
+      ]
+    },
+    "LightInfluence": 1,
+    "Name": "BitParticleEmitter",
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0.12237799912691116,
+            "time": 0,
+            "value": 0.20000000298023224
+          },
+          {
+            "envelope": 0.08741260319948196,
+            "time": 0.5992580056190491,
+            "value": 0.1923079937696457
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "TextureContent": "rbxassetid://2070896802",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 0.7972090244293213,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "Acceleration": [
+      0,
+      1,
+      0
+    ],
+    "ClassName": "ParticleEmitter",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              0.23921599984169006,
+              1,
+              0.36470600962638855
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              0.18431399762630463,
+              1,
+              0.34509798884391785
+            ],
+            "time": 0.8219630122184753
+          },
+          {
+            "color": [
+              0.6745100021362305,
+              1,
+              0.8274509906768799
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "Drag": 2,
+    "Enabled": false,
+    "Lifetime": {
+      "NumberRange": [
+        2,
+        4
+      ]
+    },
+    "LightEmission": 0.20000000298023224,
+    "LightInfluence": 1,
+    "Name": "BitHealingParticleEmitter",
+    "Rate": 10,
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0.07012610137462616,
+            "time": 0,
+            "value": 0.1542779952287674
+          },
+          {
+            "envelope": 0.042076099663972855,
+            "time": 0.598330020904541,
+            "value": 0.1402530074119568
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        2,
+        2
+      ]
+    },
+    "SpreadAngle": [
+      -180,
+      180
+    ],
+    "TextureContent": "rbxassetid://2102160916",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 0.79967200756073,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "VelocityInheritance": 0.5
+  }
+}

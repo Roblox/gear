@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "DisplayWeld",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{F042D225-D2B6-43D4-A703-1AF928B1AF8F}",
+    "SourceAssetId": -1
+  }
+}

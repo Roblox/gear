@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "CrossbowLauncher",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{E3E3F99B-CA29-4D24-94F2-FB6D504E5333}",
+    "SourceAssetId": -1
+  }
+}

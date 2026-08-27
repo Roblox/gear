@@ -1,0 +1,191 @@
+Tool = script.Parent
+Handle = Tool:WaitForChild("Handle")
+
+Players = game:GetService("Players")
+InsertService = game:GetService("InsertService")
+
+NPCModule = require(191816425)
+
+BaseUrl = "rbxassetid://"
+
+RemoverScript = script:WaitForChild("RemoverScript")
+
+NPCModel = InsertService:LoadAsset(1981293602)
+NPC = NPCModel:GetChildren()[1]:Clone()
+if NPCModel and NPCModel.Parent then
+	NPCModel:Destroy()
+end
+
+local NPCModelFollower = InsertService:LoadAsset(1981342871)
+local FollowerNPC = NPCModelFollower:GetChildren()[1]:Clone()
+if NPCModelFollower and NPCModelFollower.Parent then
+	NPCModelFollower:Destroy()
+end
+
+ReloadTime = 5
+
+ToolEquipped = false
+
+DisplayModel = Tool:FindFirstChild("DisplayModel")
+if DisplayModel then
+	DisplayModel:Destroy()
+end
+
+Handle.Transparency = 0
+Tool.Enabled = true
+
+function MakeNPC()
+	if PlayerNPC and PlayerNPC.Parent then
+		PlayerNPC:Destroy()
+	end
+
+	PlayerNPC = NPC:Clone()
+	local Data = NPCModule.GetTable({Key = "MakeNPC", Player = Player})
+	if not Data then
+		return
+	end
+	local NPCData = Data.GetData({Player = Player, Tool = Tool})
+	NPCData.MakeNPC({
+		NPC = PlayerNPC, AIControl = {
+			Creator = Player,
+			Mode = "Follow",
+			MaxDistance = math.hgue,
+			Follow = Player,
+			Offset = Vector3.new(-4.5, 2.05, -0.5),
+			Chase = false,
+			ChaseDistance = 0,
+			ChaseRange = 0,
+			Target = nil,
+			TargetPos = Vector3.new(0, 0, 0),
+			Damage = 0,
+			NormalSpeed = 16,
+			ChaseSpeed = 16, SelfSufficient = true
+		}
+	})
+	
+	NPCHumanoid = PlayerNPC:FindFirstChild("Humanoid")
+	NPCHead = PlayerNPC:FindFirstChild("Head")
+	NPCTorso = PlayerNPC:FindFirstChild("Torso")
+
+	if not NPCHumanoid or not NPCHead or not NPCTorso then
+		return
+	end
+	local RemoverScriptCopy = RemoverScript:Clone()
+	RemoverScriptCopy.Disabled = false
+--	RemoverScriptCopy.Parent = PlayerNPC
+	PlayerNPC.Parent = workspace
+	NPCTorso.CFrame = (Torso.CFrame * CFrame.new(PlayerNPC.Offset.Value))
+	NPCHumanoid:ChangeState(Enum.HumanoidStateType.Freefall)
+end
+
+function MakeMiniNPC()
+	if PlayerFollowerNPC and PlayerFollowerNPC.Parent then
+		PlayerFollowerNPC:Destroy()
+	end
+	PlayerFollowerNPC = FollowerNPC:Clone() 
+	local Data = NPCModule.GetTable({Key = "MakeNPC", Player = Player})
+	if not Data then
+		return
+	end
+	local NPCData = Data.GetData({Player = Player, Tool = Tool})	
+	NPCData.MakeNPC({
+		NPC = PlayerFollowerNPC, AIControl = {
+			Creator = Player,
+			Mode = "Follow",
+			MaxDistance = math.hgue,
+			Follow = Player,
+			Offset = Vector3.new(-4.5, 2.05, 6.5),
+			Chase = false,
+			ChaseDistance = 0,
+			ChaseRange = 0,
+			Target = nil,
+			TargetPos = Vector3.new(0, 0, 0),
+			Damage = 0,
+			NormalSpeed = 16,
+			ChaseSpeed = 16, SelfSufficient = true
+		}
+	})
+	
+	NPCFollowerTorso = PlayerFollowerNPC:FindFirstChild("Torso")
+	NPCFollowerHumanoid = PlayerFollowerNPC:FindFirstChild("Humanoid")
+
+	if not NPCFollowerTorso or not NPCFollowerHumanoid then
+		return
+	end
+	local RemoverScriptCopy = RemoverScript:Clone()
+	RemoverScriptCopy.Disabled = false
+	PlayerFollowerNPC.Parent = workspace
+	NPCFollowerTorso.CFrame = (Torso.CFrame * CFrame.new(PlayerFollowerNPC.Offset.Value))
+	NPCFollowerHumanoid:ChangeState(Enum.HumanoidStateType.Freefall)	
+end
+
+function Activated()
+	if not Tool.Enabled or not CheckIfAlive() or PlayerFollowerNPC then
+		return
+	end
+	
+	MakeMiniNPC()
+end
+
+function CheckIfAlive()
+	return (((Player and Player.Parent and Character and Character.Parent and Humanoid and Humanoid.Parent and Humanoid.Health > 0 and Torso and Torso.Parent) and true) or false)
+end
+
+function Equipped()
+	Handle.Transparency = 1
+	Character = Tool.Parent
+	Player = Players:GetPlayerFromCharacter(Character)
+	Humanoid = Character:FindFirstChild("Humanoid")
+	Torso = Character:FindFirstChild("Torso") or Character:FindFirstChild("UpperTorso")
+	if not CheckIfAlive() then
+		return
+	end
+	if Tool.Enabled then
+		Spawn(function()
+			MakeNPC()
+		end)
+	end
+	ToolEquipped = true
+end
+
+function Unequipped()
+	if PlayerNPC then
+		for i, v in pairs({PlayerNPC}) do
+			if v and v.Parent then
+				v:Destroy()
+			end
+		end
+		PlayerNPC = nil
+		Spawn(function()
+			Tool.Enabled = false
+			wait(ReloadTime)
+			Tool.Enabled = true
+			if not ToolEquipped then
+				Handle.Transparency = 0
+			end
+		end)
+	end
+	
+	if PlayerFollowerNPC then
+		for i, v in pairs({PlayerFollowerNPC}) do
+			if v and v.Parent then
+				v:Destroy()
+			end
+		end
+		PlayerFollowerNPC = nil
+	end
+
+	ToolEquipped = false
+end
+
+Tool.Changed:connect(function(Property)
+	if Property == "Enabled" and Tool.Enabled and ToolEquipped and Tool.Parent then
+		MakeNPC()
+	elseif Property == "Parent" and Tool.Parent and not Tool.Parent:IsA("Backpack") and not Players:GetPlayerFromCharacter(Tool.Parent) then
+		Handle.Transparency = 0
+	end
+end)
+
+Tool.Activated:connect(Activated)
+Tool.Equipped:connect(Equipped)
+Tool.Unequipped:connect(Unequipped)

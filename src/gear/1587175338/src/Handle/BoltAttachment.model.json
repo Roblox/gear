@@ -1,0 +1,23 @@
+{
+  "ClassName": "Attachment",
+  "Properties": {
+    "CFrame": [
+      -1.2914824765175581e-8,
+      0.40000006556510925,
+      -4.470348358154297e-8,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "ClassName": "Attachment",
+    "Name": "BoltAttachment",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}
