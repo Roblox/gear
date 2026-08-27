@@ -1,0 +1,42 @@
+{
+  "ClassName": "Weld",
+  "Properties": {
+    "C0": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "C1": [
+      -1.399999976158142,
+      1,
+      -0.5,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "ClassName": "Weld",
+    "Enabled": true,
+    "Name": "CannonPartWeld",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  },
+  "attributes": {
+    "Rojo_Target_Part0": "g73265108_2",
+    "Rojo_Target_Part1": "g73265108_13"
+  }
+}

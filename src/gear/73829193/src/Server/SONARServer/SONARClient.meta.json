@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "SONARClient",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{18CE2BC9-E810-4799-B801-14D51BDE58FE}",
+    "SourceAssetId": -1
+  }
+}

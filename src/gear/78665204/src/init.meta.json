@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0,
+      0,
+      0.8999999761581421,
+      -4.371138828673793e-8,
+      0,
+      1,
+      -1,
+      -4.371138828673793e-8,
+      -4.371138828673793e-8,
+      4.371138828673793e-8,
+      -1,
+      1.910685465164705e-15
+    ],
+    "Name": "78665204",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=75347190",
+    "ToolTip": "Dragon Sword",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "position": [
+          0.40000009536743164,
+          5.200000762939453,
+          0.1999988555908203
+        ]
+      }
+    }
+  }
+}

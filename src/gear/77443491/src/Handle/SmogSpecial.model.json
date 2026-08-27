@@ -1,0 +1,104 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "ClassName": "ParticleEmitter",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              0,
+              0,
+              0
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              0,
+              0,
+              0
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "Lifetime": {
+      "NumberRange": [
+        1,
+        3
+      ]
+    },
+    "Name": "SmogSpecial",
+    "Rate": 10,
+    "RotSpeed": {
+      "NumberRange": [
+        -180,
+        180
+      ]
+    },
+    "Rotation": {
+      "NumberRange": [
+        -180,
+        180
+      ]
+    },
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 1
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        1,
+        2
+      ]
+    },
+    "SpreadAngle": [
+      -90,
+      90
+    ],
+    "TextureContent": "http://www.roblox.com/asset/?id=254711773",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 1
+          },
+          {
+            "envelope": 0.04650000110268593,
+            "time": 0.10000000149011612,
+            "value": 0.5580000281333923
+          },
+          {
+            "envelope": 0.14300000667572021,
+            "time": 0.699999988079071,
+            "value": 0.6489999890327454
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "ZOffset": 0.5
+  }
+}

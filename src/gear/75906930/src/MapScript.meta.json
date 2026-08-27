@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "MapScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{70B78DD2-91BA-4012-A9C2-0033F741AF7F}",
+    "SourceAssetId": -1
+  }
+}

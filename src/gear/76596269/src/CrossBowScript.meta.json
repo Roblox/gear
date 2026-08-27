@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "CrossBowScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{FE109AD8-F2CE-4845-8053-CC752EA47D01}",
+    "SourceAssetId": -1
+  }
+}

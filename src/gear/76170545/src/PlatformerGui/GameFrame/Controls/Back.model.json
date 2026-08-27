@@ -1,0 +1,85 @@
+{
+  "ClassName": "TextButton",
+  "Properties": {
+    "Active": true,
+    "AnchorPoint": [
+      0,
+      0
+    ],
+    "AutoButtonColor": true,
+    "AutoLocalize": true,
+    "AutomaticSize": "None",
+    "BackgroundColor3": [
+      0.6392157077789307,
+      0.6352941393852234,
+      0.6470588445663452
+    ],
+    "BackgroundTransparency": 0,
+    "BorderColor3": [
+      0.10588236153125763,
+      0.16470588743686676,
+      0.20784315466880798
+    ],
+    "BorderMode": "Outline",
+    "BorderSizePixel": 1,
+    "ClassName": "TextButton",
+    "ClipsDescendants": false,
+    "Draggable": false,
+    "FontFace": {
+      "family": "rbxasset://fonts/families/Arial.json",
+      "style": "Normal",
+      "weight": "Bold"
+    },
+    "InputSink": "None",
+    "Interactable": true,
+    "LayoutOrder": 0,
+    "Modal": false,
+    "Name": "Back",
+    "Position": {
+      "UDim2": [
+        [
+          0.5,
+          -100
+        ],
+        [
+          0,
+          345
+        ]
+      ]
+    },
+    "Rotation": 0,
+    "Sandboxed": false,
+    "Selectable": true,
+    "Selected": false,
+    "SelectionBehaviorDown": "Escape",
+    "SelectionBehaviorLeft": "Escape",
+    "SelectionBehaviorRight": "Escape",
+    "SelectionBehaviorUp": "Escape",
+    "SelectionGroup": false,
+    "SelectionOrder": 0,
+    "Size": {
+      "UDim2": [
+        [
+          0,
+          200
+        ],
+        [
+          0,
+          40
+        ]
+      ]
+    },
+    "SizeConstraint": "RelativeXY",
+    "SourceAssetId": -1,
+    "Style": "RobloxButton",
+    "Text": "Back",
+    "TextColor3": [
+      1,
+      1,
+      1
+    ],
+    "TextSize": 24,
+    "Visible": true,
+    "ZIndex": 9
+  }
+}

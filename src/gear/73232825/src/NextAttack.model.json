@@ -1,0 +1,9 @@
+{
+  "ClassName": "NumberValue",
+  "Properties": {
+    "ClassName": "NumberValue",
+    "Name": "NextAttack",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

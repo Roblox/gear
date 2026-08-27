@@ -1,0 +1,9 @@
+{
+  "ClassName": "IntValue",
+  "Properties": {
+    "ClassName": "IntValue",
+    "Name": "Reload",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

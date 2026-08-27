@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "FlakCannonScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{141A7511-D1C7-4FAB-ABEB-D17116A3657E}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "rbxasset://sounds/collide.wav",
+    "ClassName": "Sound",
+    "Name": "Boom",
+    "RollOffMinDistance": 30,
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 2.5
+  }
+}

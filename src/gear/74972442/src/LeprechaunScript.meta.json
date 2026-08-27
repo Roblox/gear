@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "LeprechaunScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{9BF11B7B-572B-4C13-9404-88C0DC0DC3FD}",
+    "SourceAssetId": -1
+  }
+}

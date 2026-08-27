@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "AnimateScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{E4AF1DA7-2FAC-4DB4-85F1-DBB69E15A38D}",
+    "SourceAssetId": -1
+  }
+}

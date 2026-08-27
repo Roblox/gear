@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "SwordScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{AB3E8B03-0DAE-4190-AB85-D6A88B904B3D}",
+    "SourceAssetId": -1
+  }
+}

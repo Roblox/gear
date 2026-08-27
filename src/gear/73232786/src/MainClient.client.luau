@@ -1,0 +1,8 @@
+script.Parent.Equipped:connect(function(mouse)
+	mouse.Button1Down:connect(function()
+		script.Parent.Remote:FireServer('MB1Down')
+	end)
+	mouse.Button1Up:connect(function()
+		script.Parent.Remote:FireServer('MB1Up')
+	end)
+end)
