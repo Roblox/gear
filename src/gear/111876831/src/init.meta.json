@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      -1.500000238418579,
+      -3.7999985218048096,
+      -1.4000002145767212,
+      -4.371138828673793e-8,
+      0,
+      1,
+      0,
+      1,
+      0,
+      -1,
+      0,
+      -4.371138828673793e-8
+    ],
+    "Name": "111876831",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=111821665",
+    "ToolTip": "Bring May flowers",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            -1
+          ]
+        ],
+        "position": [
+          2.559999942779541,
+          2.890001058578491,
+          1.9900020360946655
+        ]
+      }
+    }
+  }
+}

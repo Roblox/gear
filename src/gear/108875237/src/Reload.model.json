@@ -1,0 +1,9 @@
+{
+  "ClassName": "BoolValue",
+  "Properties": {
+    "ClassName": "BoolValue",
+    "Name": "Reload",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0,
+      -1.9000002145767212,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "Name": "107458531",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=107458455",
+    "ToolTip": "Go big or go grim.",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0.7355261445045471,
+            0.6774962544441223
+          ],
+          [
+            0,
+            -0.6774962544441223,
+            0.7355261445045471
+          ]
+        ],
+        "position": [
+          46.64200210571289,
+          26.229001998901367,
+          1.090000033378601
+        ]
+      }
+    }
+  }
+}

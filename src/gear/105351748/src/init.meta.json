@@ -1,0 +1,52 @@
+{
+  "className": "Tool",
+  "properties": {
+    "CanBeDropped": false,
+    "ClassName": "Tool",
+    "Grip": [
+      0.05000000074505806,
+      -0.31955695152282715,
+      0.15857243537902832,
+      1,
+      0,
+      0,
+      0,
+      0.9999998807907104,
+      -1.4901161193847656e-8,
+      0,
+      1.4901161193847656e-8,
+      0.9999998807907104
+    ],
+    "Name": "105351748",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=105333318",
+    "ToolTip": "Kittypult",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "position": [
+          0.5999994277954102,
+          0,
+          0
+        ]
+      }
+    }
+  }
+}

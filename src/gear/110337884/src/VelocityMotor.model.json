@@ -1,0 +1,38 @@
+{
+  "ClassName": "VelocityMotor",
+  "Properties": {
+    "C0": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "C1": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "ClassName": "VelocityMotor",
+    "Enabled": true,
+    "Name": "VelocityMotor",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

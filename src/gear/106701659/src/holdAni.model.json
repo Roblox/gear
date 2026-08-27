@@ -1,0 +1,10 @@
+{
+  "ClassName": "Animation",
+  "Properties": {
+    "AnimationContent": "http://www.roblox.com/Asset?ID=106772613",
+    "ClassName": "Animation",
+    "Name": "holdAni",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "StarShard",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{1F3E30E1-5A84-4F7B-8B0B-2D2F54964445}",
+    "SourceAssetId": -1
+  }
+}
