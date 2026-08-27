@@ -1,0 +1,12 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "rbxassetid://277352807",
+    "ClassName": "Sound",
+    "Name": "Neigh",
+    "PlaybackSpeed": 1.2999999523162842,
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 1
+  }
+}

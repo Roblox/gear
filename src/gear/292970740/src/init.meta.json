@@ -1,0 +1,37 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Name": "292970740",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "rbxassetid://273348910",
+    "ToolTip": "Click to summon the horde!",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            0.9557057023048401,
+            0,
+            0.2943239212036133
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            -0.2943239212036133,
+            0,
+            0.9557057023048401
+          ]
+        ],
+        "position": [
+          -1.8020737171173096,
+          5.179983139038086,
+          -1.4417622089385986
+        ]
+      }
+    }
+  }
+}

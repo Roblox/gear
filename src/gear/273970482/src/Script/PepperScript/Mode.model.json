@@ -1,0 +1,12 @@
+{
+  "ClassName": "IntConstrainedValue",
+  "Properties": {
+    "ClassName": "IntConstrainedValue",
+    "MaxValue": 3,
+    "MinValue": 1,
+    "Name": "Mode",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "value": 1
+  }
+}

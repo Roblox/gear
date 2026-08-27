@@ -1,0 +1,12 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=268942903",
+    "ClassName": "Sound",
+    "Looped": true,
+    "Name": "BlackHole",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 1.5
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "ClassName": "ParticleEmitter",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              0,
+              0.6666669845581055,
+              1
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              1,
+              0,
+              0
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "Enabled": false,
+    "Lifetime": {
+      "NumberRange": [
+        1,
+        1.100000023841858
+      ]
+    },
+    "LightEmission": 0.20000000298023224,
+    "Name": "Particles",
+    "Rate": 250,
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0
+          },
+          {
+            "envelope": 0.25,
+            "time": 0.25,
+            "value": 0.75
+          },
+          {
+            "envelope": 0.13500000536441803,
+            "time": 0.5,
+            "value": 0.75
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0.5
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=262362794",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 1
+          },
+          {
+            "envelope": 0,
+            "time": 0.25,
+            "value": 0.25
+          },
+          {
+            "envelope": 0,
+            "time": 0.42518699169158936,
+            "value": 1
+          },
+          {
+            "envelope": 0.06490019708871841,
+            "time": 0.5673320293426514,
+            "value": 0.15642499923706055
+          },
+          {
+            "envelope": 0.005590000189840794,
+            "time": 0.800000011920929,
+            "value": 0.5
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1
+          }
+        ]
+      }
+    }
+  }
+}

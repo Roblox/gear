@@ -1,0 +1,12 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "rbxassetid://277352870",
+    "ClassName": "Sound",
+    "Name": "Oink",
+    "PlaybackSpeed": 1.2999999523162842,
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 1
+  }
+}

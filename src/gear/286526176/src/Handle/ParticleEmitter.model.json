@@ -1,0 +1,99 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "ClassName": "ParticleEmitter",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              1,
+              0,
+              0.01568629965186119
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              0.6274510025978088,
+              0,
+              0
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "Lifetime": {
+      "NumberRange": [
+        0.20000000298023224,
+        0.4000000059604645
+      ]
+    },
+    "LightEmission": 0.5,
+    "Name": "ParticleEmitter",
+    "Rate": 40,
+    "RotSpeed": {
+      "NumberRange": [
+        20,
+        20
+      ]
+    },
+    "Rotation": {
+      "NumberRange": [
+        0,
+        360
+      ]
+    },
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0
+          },
+          {
+            "envelope": 0.1875,
+            "time": 0.5075299739837646,
+            "value": 0.75
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        -0.75,
+        0.75
+      ]
+    },
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 0.9675809741020203,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1
+          }
+        ]
+      }
+    }
+  }
+}

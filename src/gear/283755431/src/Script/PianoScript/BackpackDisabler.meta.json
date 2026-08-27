@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "BackpackDisabler",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{9A4D166B-4B0D-4778-AD91-FF51955C0313}",
+    "SourceAssetId": -1
+  }
+}

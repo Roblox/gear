@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "rbxassetid://111124523",
+    "ClassName": "Sound",
+    "Name": "Pop",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 0.20000000298023224
+  }
+}

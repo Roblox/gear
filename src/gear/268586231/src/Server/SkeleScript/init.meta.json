@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "SkeleScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{7DDE2076-1A28-4E86-8AD0-AC247E8DFC19}",
+    "SourceAssetId": -1
+  }
+}
