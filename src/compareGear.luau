@@ -17,14 +17,10 @@ type ModificationsByCategory = {
 	REMOVED: { PathModification },
 }
 
--- `Parent` is covered by walking the tree, so comparing it only restates the
--- structural diff. `WorldPivot` is a derived view of the stored
--- `WorldPivotData`: with no pivot stored the engine computes one from the
--- model's bounding box, so a difference there describes engine-side geometry
--- rather than anything the dump can round-trip.
-local IGNORED_PROPERTIES: { [string]: true } = {
-	Parent = true,
-	WorldPivot = true,
+local IGNORED_PROPERTIES: { [string]: string } = {
+	IsLoaded = "runtime sound loading state",
+	Parent = "covered by walking the tree",
+	WorldPivot = "derived from WorldPivotData / bounding box",
 }
 
 local function getFullNameFromGearCollectionRoot(instance: Instance?): string
