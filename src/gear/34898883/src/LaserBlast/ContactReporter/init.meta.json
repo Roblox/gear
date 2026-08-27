@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "ContactReporter",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{96E53F60-8FA0-4227-9199-C5CCC1044BBE}",
+    "SourceAssetId": -1
+  }
+}

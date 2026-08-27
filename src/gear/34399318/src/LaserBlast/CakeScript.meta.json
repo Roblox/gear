@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "CakeScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{9DAD806C-B8E9-44D2-8664-81C3476B419D}",
+    "SourceAssetId": -1
+  }
+}

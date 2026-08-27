@@ -1,0 +1,69 @@
+{
+  "className": "Frame",
+  "properties": {
+    "Active": false,
+    "AnchorPoint": [
+      0,
+      0
+    ],
+    "AutoLocalize": true,
+    "AutomaticSize": "None",
+    "BackgroundColor3": [
+      0.20000001788139343,
+      0.874509871006012,
+      1
+    ],
+    "BackgroundTransparency": 0.30000001192092896,
+    "BorderColor3": [
+      1,
+      0,
+      0
+    ],
+    "BorderMode": "Outline",
+    "BorderSizePixel": 1,
+    "ClassName": "Frame",
+    "ClipsDescendants": false,
+    "Draggable": false,
+    "InputSink": "None",
+    "Interactable": true,
+    "LayoutOrder": 0,
+    "Name": "StarterFrame",
+    "Position": {
+      "UDim2": [
+        [
+          0.009999999776482582,
+          -10
+        ],
+        [
+          0.5,
+          100
+        ]
+      ]
+    },
+    "Rotation": 0,
+    "Sandboxed": false,
+    "Selectable": false,
+    "SelectionBehaviorDown": "Escape",
+    "SelectionBehaviorLeft": "Escape",
+    "SelectionBehaviorRight": "Escape",
+    "SelectionBehaviorUp": "Escape",
+    "SelectionGroup": false,
+    "SelectionOrder": 0,
+    "Size": {
+      "UDim2": [
+        [
+          0,
+          200
+        ],
+        [
+          0,
+          64
+        ]
+      ]
+    },
+    "SizeConstraint": "RelativeXY",
+    "SourceAssetId": -1,
+    "Visible": true,
+    "ZIndex": 1
+  }
+}

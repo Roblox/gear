@@ -1,0 +1,14 @@
+{
+  "attributes": {
+    "__MarketplaceGear_OriginalName": "ToolScript"
+  },
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "ToolScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "ClassName": "TextLabel",
+  "Properties": {
+    "Active": false,
+    "AnchorPoint": [
+      0,
+      0
+    ],
+    "AutoLocalize": true,
+    "AutomaticSize": "None",
+    "BackgroundColor3": [
+      1,
+      1,
+      1
+    ],
+    "BackgroundTransparency": 1,
+    "BorderColor3": [
+      0.06666667014360428,
+      0.06666667014360428,
+      0.06666667014360428
+    ],
+    "BorderMode": "Outline",
+    "BorderSizePixel": 1,
+    "ClassName": "TextLabel",
+    "ClipsDescendants": false,
+    "Draggable": false,
+    "InputSink": "None",
+    "Interactable": true,
+    "LayoutOrder": 0,
+    "Name": "TXT",
+    "Position": {
+      "UDim2": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "Rotation": 0,
+    "Sandboxed": false,
+    "Selectable": false,
+    "SelectionBehaviorDown": "Escape",
+    "SelectionBehaviorLeft": "Escape",
+    "SelectionBehaviorRight": "Escape",
+    "SelectionBehaviorUp": "Escape",
+    "SelectionGroup": false,
+    "SelectionOrder": 0,
+    "Size": {
+      "UDim2": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          16
+        ]
+      ]
+    },
+    "SizeConstraint": "RelativeXY",
+    "SourceAssetId": -1,
+    "Text": "OK",
+    "Visible": true,
+    "ZIndex": 10
+  }
+}

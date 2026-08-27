@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "rbxassetid://34320976",
+    "ClassName": "Sound",
+    "Name": "Teleport",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 5
+  }
+}

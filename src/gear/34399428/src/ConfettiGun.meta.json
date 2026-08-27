@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "ConfettiGun",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{53308371-C0B3-41B8-BA77-D7B2BFE48A9F}",
+    "SourceAssetId": -1
+  }
+}

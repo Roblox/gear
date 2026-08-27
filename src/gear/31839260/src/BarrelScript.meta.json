@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "BarrelScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{28CD7C18-7DF9-40D9-90C9-31FD9B5D7E8F}",
+    "SourceAssetId": -1
+  }
+}

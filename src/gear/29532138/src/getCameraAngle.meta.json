@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "getCameraAngle",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{1F441C06-360E-4712-9C06-647A457878F1}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "ThrowScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{E04CFC1D-31A8-4036-8E6F-5E71FA6EBE61}",
+    "SourceAssetId": -1
+  }
+}

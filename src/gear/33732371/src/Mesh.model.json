@@ -1,0 +1,24 @@
+{
+  "ClassName": "FileMesh",
+  "Properties": {
+    "ClassName": "FileMesh",
+    "Name": "Mesh",
+    "Offset": [
+      0,
+      0,
+      0
+    ],
+    "Sandboxed": false,
+    "Scale": [
+      1,
+      1,
+      1
+    ],
+    "SourceAssetId": -1,
+    "VertexColor": [
+      1,
+      1,
+      1
+    ]
+  }
+}

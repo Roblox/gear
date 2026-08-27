@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0,
+      -0.800000011920929,
+      0.8999999761581421,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "Name": "34901961",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=34302761",
+    "ToolTip": "Screw Gravity!",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0.7660441398620605,
+            -0.6427880525588989
+          ],
+          [
+            0,
+            0.6427880525588989,
+            0.7660441398620605
+          ]
+        ],
+        "position": [
+          1.5000009536743164,
+          4.700008869171143,
+          -0.7999979853630066
+        ]
+      }
+    }
+  }
+}

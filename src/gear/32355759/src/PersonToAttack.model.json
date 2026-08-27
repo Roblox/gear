@@ -1,0 +1,9 @@
+{
+  "ClassName": "ObjectValue",
+  "Properties": {
+    "ClassName": "ObjectValue",
+    "Name": "PersonToAttack",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

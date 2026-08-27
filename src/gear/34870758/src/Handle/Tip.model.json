@@ -1,0 +1,23 @@
+{
+  "ClassName": "Attachment",
+  "Properties": {
+    "CFrame": [
+      0.1999950259923935,
+      0.14999908208847046,
+      -0.6999987363815308,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "ClassName": "Attachment",
+    "Name": "Tip",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

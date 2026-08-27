@@ -1,0 +1,70 @@
+{
+  "className": "ImageLabel",
+  "properties": {
+    "Active": false,
+    "AnchorPoint": [
+      0,
+      0
+    ],
+    "AutoLocalize": true,
+    "AutomaticSize": "None",
+    "BackgroundColor3": [
+      0.9372549653053284,
+      0.9333333969116211,
+      0.9450981020927429
+    ],
+    "BackgroundTransparency": 1,
+    "BorderColor3": [
+      0.10588236153125763,
+      0.16470588743686676,
+      0.20784315466880798
+    ],
+    "BorderMode": "Outline",
+    "BorderSizePixel": 0,
+    "ClassName": "ImageLabel",
+    "ClipsDescendants": false,
+    "Draggable": false,
+    "ImageContent": "http://www.roblox.com/asset/?id=29330191",
+    "InputSink": "None",
+    "Interactable": true,
+    "LayoutOrder": 0,
+    "Name": "PlayerEaten",
+    "Position": {
+      "UDim2": [
+        [
+          0,
+          120
+        ],
+        [
+          0,
+          40
+        ]
+      ]
+    },
+    "Rotation": 0,
+    "Sandboxed": false,
+    "Selectable": false,
+    "SelectionBehaviorDown": "Escape",
+    "SelectionBehaviorLeft": "Escape",
+    "SelectionBehaviorRight": "Escape",
+    "SelectionBehaviorUp": "Escape",
+    "SelectionGroup": false,
+    "SelectionOrder": 0,
+    "Size": {
+      "UDim2": [
+        [
+          0,
+          106
+        ],
+        [
+          0,
+          53
+        ]
+      ]
+    },
+    "SizeConstraint": "RelativeXY",
+    "SourceAssetId": -1,
+    "Visible": true,
+    "ZIndex": 1
+  }
+}

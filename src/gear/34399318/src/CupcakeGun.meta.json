@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "CupcakeGun",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{2CAF5E05-A823-46B1-B222-9D9236E0ADE0}",
+    "SourceAssetId": -1
+  }
+}
