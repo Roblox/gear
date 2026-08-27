@@ -1,0 +1,12 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=99205747",
+    "ClassName": "Sound",
+    "Name": "ArrowSound",
+    "PlaybackSpeed": 0.699999988079071,
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 0.30000001192092896
+  }
+}

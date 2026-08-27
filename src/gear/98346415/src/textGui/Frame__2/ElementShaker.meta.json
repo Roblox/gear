@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "ElementShaker",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{C80B227A-F22D-4BA3-A57F-28FEE3D27DF5}",
+    "SourceAssetId": -1
+  }
+}

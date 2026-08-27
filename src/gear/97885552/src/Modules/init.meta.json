@@ -1,0 +1,9 @@
+{
+  "className": "Configuration",
+  "properties": {
+    "ClassName": "Configuration",
+    "Name": "Modules",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

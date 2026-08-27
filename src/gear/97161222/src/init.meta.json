@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0.05000000447034836,
+      1.9371509552001953e-7,
+      -1.9000003337860107,
+      0,
+      0,
+      -1,
+      -1,
+      1.3113415775478643e-7,
+      0,
+      1.3113415775478643e-7,
+      1,
+      0
+    ],
+    "Name": "97161222",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=104413780",
+    "ToolTip": "Bluesteel Sword",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "position": [
+          0.4000000059604645,
+          2,
+          0
+        ]
+      }
+    }
+  }
+}
