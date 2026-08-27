@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0,
+      0,
+      -0.1599999964237213,
+      0.7071334719657898,
+      0,
+      -0.707080066204071,
+      0,
+      -1,
+      -0.0,
+      -0.707080066204071,
+      0,
+      -0.7071334719657898
+    ],
+    "Name": "142498104",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/Asset?ID=142495390",
+    "ToolTip": "Click to shoot pucks. Right click to check someone!",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            4.15188111446696e-7,
+            8.940696716308594e-8,
+            0.9999997615814209
+          ],
+          [
+            -0.707105815410614,
+            0.7071071863174438,
+            2.384185791015625e-7
+          ],
+          [
+            -0.7071073651313782,
+            -0.7071057558059692,
+            2.980232238769531e-7
+          ]
+        ],
+        "position": [
+          1,
+          16,
+          22
+        ]
+      }
+    }
+  }
+}

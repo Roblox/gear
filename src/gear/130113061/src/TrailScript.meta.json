@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "TrailScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{A38AAEF5-028F-4B6F-B8D3-F081B3AA6FDB}",
+    "SourceAssetId": -1
+  }
+}

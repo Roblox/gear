@@ -1,0 +1,5 @@
+script.Parent.Equipped:connect(function(mouse)
+	mouse.Button1Down:connect(function()
+		script.Parent.Click:FireServer(mouse.Hit.p)
+	end)
+end)

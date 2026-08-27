@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "SleepScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{DFF0A810-BCB4-47F1-ACE7-20AEF77D2E43}",
+    "SourceAssetId": -1
+  }
+}

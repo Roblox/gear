@@ -1,0 +1,9 @@
+{
+  "className": "Configuration",
+  "properties": {
+    "ClassName": "Configuration",
+    "Name": "ObjectsBin",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

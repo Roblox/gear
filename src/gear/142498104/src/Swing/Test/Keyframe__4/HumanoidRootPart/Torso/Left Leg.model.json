@@ -1,0 +1,26 @@
+{
+  "ClassName": "Pose",
+  "Properties": {
+    "CFrame": [
+      0,
+      0,
+      0,
+      0.9884979724884033,
+      0.15123413503170013,
+      5.027693816828105e-10,
+      -0.15123413503170013,
+      0.9884978532791138,
+      6.610653802141542e-9,
+      5.027693816828105e-10,
+      -6.610654246230752e-9,
+      1
+    ],
+    "ClassName": "Pose",
+    "EasingDirection": "In",
+    "EasingStyle": "Linear",
+    "Name": "Left Leg",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Weight": 1
+  }
+}

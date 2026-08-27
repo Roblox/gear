@@ -1,0 +1,9 @@
+{
+  "className": "Attachment",
+  "properties": {
+    "ClassName": "Attachment",
+    "Name": "Particle",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

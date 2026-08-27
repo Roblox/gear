@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "OrnamentCleanup",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{231E7AF5-2186-448D-8029-616BF0D7AF1C}",
+    "SourceAssetId": -1
+  }
+}

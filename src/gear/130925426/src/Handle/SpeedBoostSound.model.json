@@ -1,0 +1,12 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=31760113",
+    "ClassName": "Sound",
+    "Looped": true,
+    "Name": "SpeedBoostSound",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 0.4000000059604645
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "CrystalSword",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{D5C54342-B28D-4D0E-BDA3-64191229701F}",
+    "SourceAssetId": -1
+  }
+}

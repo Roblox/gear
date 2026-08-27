@@ -1,0 +1,14 @@
+{
+  "ClassName": "BodyAngularVelocity",
+  "Properties": {
+    "AngularVelocity": [
+      20,
+      5,
+      5
+    ],
+    "ClassName": "BodyAngularVelocity",
+    "Name": "BAV",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "className": "KeyframeSequence",
+  "properties": {
+    "ClassName": "KeyframeSequence",
+    "GuidBinaryString": {
+      "BinaryString": "AAAAAAAAAAAAAAAAAAAAAA=="
+    },
+    "Loop": true,
+    "Name": "Test",
+    "Priority": "Movement",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

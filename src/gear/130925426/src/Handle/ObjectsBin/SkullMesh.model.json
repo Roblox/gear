@@ -1,0 +1,27 @@
+{
+  "ClassName": "SpecialMesh",
+  "Properties": {
+    "ClassName": "SpecialMesh",
+    "MeshContent": "http://www.roblox.com/asset/?id=4770583",
+    "MeshType": "FileMesh",
+    "Name": "SkullMesh",
+    "Offset": [
+      0,
+      0,
+      0
+    ],
+    "Sandboxed": false,
+    "Scale": [
+      3.200000047683716,
+      3.200000047683716,
+      3.200000047683716
+    ],
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=4770560",
+    "VertexColor": [
+      1,
+      1,
+      1
+    ]
+  }
+}

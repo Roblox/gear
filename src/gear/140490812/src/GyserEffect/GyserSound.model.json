@@ -1,0 +1,12 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/Asset?ID=97179386",
+    "ClassName": "Sound",
+    "Name": "GyserSound",
+    "PlaybackSpeed": 0.3499999940395355,
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 1
+  }
+}
