@@ -1,0 +1,10 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/Asset?ID=85714741",
+    "ClassName": "Sound",
+    "Name": "lineExplosion",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

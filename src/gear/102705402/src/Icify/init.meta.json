@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "Icify",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{84E2D089-1113-45DA-B5F1-7DFBAFFA3166}",
+    "SourceAssetId": -1
+  }
+}

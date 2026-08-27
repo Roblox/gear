@@ -1,0 +1,26 @@
+{
+  "className": "Tool",
+  "properties": {
+    "CanBeDropped": false,
+    "ClassName": "Tool",
+    "Grip": [
+      0.30000001192092896,
+      -0.20000000298023224,
+      0.4000000059604645,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "Name": "101110605",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=101002061",
+    "ToolTip": "Gravity Disruptor"
+  }
+}

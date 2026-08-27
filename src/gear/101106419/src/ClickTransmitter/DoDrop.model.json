@@ -1,0 +1,9 @@
+{
+  "ClassName": "BoolValue",
+  "Properties": {
+    "ClassName": "BoolValue",
+    "Name": "DoDrop",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "ClassName": "Animation",
+  "Properties": {
+    "AnimationContent": "http://www.roblox.com/Asset?ID=100998342",
+    "ClassName": "Animation",
+    "Name": "FireAnim",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

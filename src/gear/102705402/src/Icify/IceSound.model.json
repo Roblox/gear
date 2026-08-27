@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=12222005",
+    "ClassName": "Sound",
+    "Name": "IceSound",
+    "PlaybackSpeed": 2.5,
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

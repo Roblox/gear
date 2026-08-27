@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/Asset?ID=106676979",
+    "ClassName": "Sound",
+    "Name": "Summon3",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 0.800000011920929
+  }
+}

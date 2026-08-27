@@ -1,0 +1,3 @@
+script.Parent:remove()
+
+

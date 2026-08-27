@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "DragonScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{73C5AF54-C4C6-4BD2-B78D-533763BB4A30}",
+    "SourceAssetId": -1
+  }
+}

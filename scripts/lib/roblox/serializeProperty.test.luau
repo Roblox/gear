@@ -140,6 +140,17 @@ test.suite("serializeProperty", function(suite: TestSuite)
 		asserts.eq({ 1, 2, 3, 1, 0, 0, 0, 1, 0, 0, 0, 1 }, v)
 	end)
 
+	suite:case("OptionalCFrame uses Rojo's tagged explicit form", function(asserts: Asserts)
+		local v, status = serializeProperty("OptionalCFrame", fakeCFrame({ 0, -1, 0, 1, 0, 0, 0, 0, -1, 0, 1, 0 }))
+		asserts.eq("ok", status)
+		asserts.eq({
+			OptionalCFrame = {
+				position = { 0, -1, 0 },
+				orientation = { { 1, 0, 0 }, { 0, 0, -1 }, { 0, 1, 0 } },
+			},
+		}, v)
+	end)
+
 	suite:case("Content userdata uses .Uri", function(asserts: Asserts)
 		local v, status = serializeProperty("Content", { Uri = "rbxassetid://12345" })
 		asserts.eq("ok", status)
@@ -204,6 +215,7 @@ test.suite("serializeProperty", function(suite: TestSuite)
 			Color3 = true,
 			ColorSequence = true,
 			CFrame = true,
+			OptionalCFrame = true,
 			Content = true,
 			ContentId = true,
 		}

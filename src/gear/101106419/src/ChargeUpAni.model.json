@@ -1,0 +1,10 @@
+{
+  "ClassName": "Animation",
+  "Properties": {
+    "AnimationContent": "http://www.roblox.com/Asset?ID=100348530",
+    "ClassName": "Animation",
+    "Name": "ChargeUpAni",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "MinifigureScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{D9470B31-C4EC-4EAE-A7CD-BCBDDB3A911C}",
+    "SourceAssetId": -1
+  }
+}

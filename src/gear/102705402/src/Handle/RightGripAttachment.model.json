@@ -1,0 +1,23 @@
+{
+  "ClassName": "Attachment",
+  "Properties": {
+    "CFrame": [
+      1.1920928955078125e-7,
+      -0.4999999403953552,
+      1,
+      1,
+      -2.6226840077470115e-7,
+      -1.7484552472524229e-7,
+      2.622683723529917e-7,
+      1,
+      -1.3113420038735057e-7,
+      1.7484555314695172e-7,
+      1.3113415775478643e-7,
+      1
+    ],
+    "ClassName": "Attachment",
+    "Name": "RightGripAttachment",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

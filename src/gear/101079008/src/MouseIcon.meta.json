@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "MouseIcon",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{3596C0C0-D9C2-4BD1-B3D1-2D93E8DB66B0}",
+    "SourceAssetId": -1
+  }
+}

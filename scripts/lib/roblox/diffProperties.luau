@@ -18,7 +18,7 @@ local function diffProperties(instance: Instance)
 	while class ~= nil do
 		for _, prop in class.Properties do
 			-- Script.Source is dumped to its own `.luau` file by dumpModel.
-			if prop.Datatype == "OptionalCFrame" or (instance.ClassName == "Script" and prop.Name == "Source") then
+			if instance.ClassName == "Script" and prop.Name == "Source" then
 				continue
 			end
 

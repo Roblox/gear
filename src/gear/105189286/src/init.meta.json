@@ -1,0 +1,27 @@
+{
+  "className": "Tool",
+  "properties": {
+    "CanBeDropped": false,
+    "ClassName": "Tool",
+    "Enabled": false,
+    "Grip": [
+      0.10000000149011612,
+      -1.5,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "Name": "105189286",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=105178804",
+    "ToolTip": "Fight like Furno!"
+  }
+}

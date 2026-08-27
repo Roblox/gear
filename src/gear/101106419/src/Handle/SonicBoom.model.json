@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=101084318",
+    "ClassName": "Sound",
+    "Name": "SonicBoom",
+    "PlaybackSpeed": 0.800000011920929,
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}
