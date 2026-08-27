@@ -1,0 +1,43 @@
+{
+  "ClassName": "ManualWeld",
+  "Properties": {
+    "C0": [
+      0.5,
+      -1.5,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      1,
+      0
+    ],
+    "C1": [
+      -4.012294769287109,
+      0.9998183250427246,
+      2.5001492500305176,
+      1,
+      0.000053748728532809764,
+      0.00001977610372705385,
+      0.000019776198314502835,
+      -1.767884327819047e-6,
+      -1,
+      -0.00005374869215302169,
+      1,
+      -1.7689471860649064e-6
+    ],
+    "ClassName": "ManualWeld",
+    "Enabled": true,
+    "Name": "Wedge-to-Part Strong Joint",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  },
+  "attributes": {
+    "Rojo_Target_Part0": "g125013849_9",
+    "Rojo_Target_Part1": "g125013849_22",
+    "__MarketplaceGear_OriginalName": "Wedge-to-Part Strong Joint"
+  }
+}

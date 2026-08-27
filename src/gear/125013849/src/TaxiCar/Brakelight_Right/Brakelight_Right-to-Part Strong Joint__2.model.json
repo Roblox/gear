@@ -1,0 +1,43 @@
+{
+  "ClassName": "ManualWeld",
+  "Properties": {
+    "C0": [
+      -1,
+      -0.5,
+      0.5000001192092896,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "C1": [
+      -0.00007581710815429688,
+      0.5033555030822754,
+      -1.4984970092773438,
+      5.810800303152064e-7,
+      -1,
+      -7.026644652796676e-6,
+      0.000012493986105255317,
+      7.0266519287542906e-6,
+      -1,
+      1,
+      5.809922640764853e-7,
+      0.000012493991562223528
+    ],
+    "ClassName": "ManualWeld",
+    "Enabled": true,
+    "Name": "Brakelight_Right-to-Part Strong Joint",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  },
+  "attributes": {
+    "Rojo_Target_Part0": "g125013849_39",
+    "Rojo_Target_Part1": "g125013849_14",
+    "__MarketplaceGear_OriginalName": "Brakelight_Right-to-Part Strong Joint"
+  }
+}

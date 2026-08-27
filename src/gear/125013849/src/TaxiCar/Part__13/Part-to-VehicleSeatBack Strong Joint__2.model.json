@@ -1,0 +1,43 @@
+{
+  "ClassName": "ManualWeld",
+  "Properties": {
+    "C0": [
+      0.5,
+      -3,
+      -0.5,
+      -1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      -1
+    ],
+    "C1": [
+      -3.9980363845825195,
+      0.8030738830566406,
+      4.89998197555542,
+      0.0006979817990213633,
+      8.341784223375726e-7,
+      0.9999998211860657,
+      -0.9999997615814209,
+      -2.4533094347134465e-6,
+      0.0006979818572290242,
+      2.4538910565752303e-6,
+      -1,
+      8.32465900657553e-7
+    ],
+    "ClassName": "ManualWeld",
+    "Enabled": true,
+    "Name": "Part-to-VehicleSeatBack Strong Joint",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  },
+  "attributes": {
+    "Rojo_Target_Part0": "g125013849_50",
+    "Rojo_Target_Part1": "g125013849_43",
+    "__MarketplaceGear_OriginalName": "Part-to-VehicleSeatBack Strong Joint"
+  }
+}

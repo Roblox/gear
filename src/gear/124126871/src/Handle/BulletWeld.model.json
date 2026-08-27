@@ -1,0 +1,42 @@
+{
+  "ClassName": "ManualWeld",
+  "Properties": {
+    "C0": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "C1": [
+      -0.0199432373046875,
+      -0.1248779296875,
+      0.8850154876708984,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "ClassName": "ManualWeld",
+    "Enabled": true,
+    "Name": "BulletWeld",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  },
+  "attributes": {
+    "Rojo_Target_Part0": "g124126871_2",
+    "Rojo_Target_Part1": "g124126871_8"
+  }
+}

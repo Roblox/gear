@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0,
+      -0.800000011920929,
+      -0.20000000298023224,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "Name": "121385193",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=121389160",
+    "ToolTip": "I BELIEVE YA, BUT MY CHICKEN GUN DONT",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            2.72134830225923e-8,
+            -0.40766170620918274,
+            -0.9131335020065308
+          ],
+          [
+            1.2149265593563996e-8,
+            0.9131329655647278,
+            -0.4076617956161499
+          ],
+          [
+            1.0000005960464478,
+            0,
+            2.9802322387695312e-8
+          ]
+        ],
+        "position": [
+          0.7827337384223938,
+          42.8799934387207,
+          -45.71900939941406
+        ]
+      }
+    }
+  }
+}

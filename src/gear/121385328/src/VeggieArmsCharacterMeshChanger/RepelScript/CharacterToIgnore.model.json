@@ -1,0 +1,9 @@
+{
+  "ClassName": "ObjectValue",
+  "Properties": {
+    "ClassName": "ObjectValue",
+    "Name": "CharacterToIgnore",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0,
+      0.30000001192092896,
+      0.30000001192092896,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "Name": "128162713",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=128851111 ",
+    "ToolTip": "A WIZARD IS NEVER LATE",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            0,
+            0.6957119703292847,
+            -0.7183206677436829
+          ],
+          [
+            0,
+            0.7183206677436829,
+            0.6957119703292847
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "position": [
+          17.386001586914062,
+          35.63002014160156,
+          -26.117000579833984
+        ]
+      }
+    }
+  }
+}

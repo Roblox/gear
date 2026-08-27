@@ -1,0 +1,43 @@
+{
+  "ClassName": "ManualWeld",
+  "Properties": {
+    "C0": [
+      -1,
+      0.5,
+      1,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "C1": [
+      -0.9999885559082031,
+      -2.9998254776000977,
+      2.995861053466797,
+      -1.82755172772886e-6,
+      -1,
+      5.864699801350071e-7,
+      -0.00021660429774783552,
+      5.868657808605349e-7,
+      1,
+      -1,
+      1.8274246258442872e-6,
+      -0.00021660431229975075
+    ],
+    "ClassName": "ManualWeld",
+    "Enabled": true,
+    "Name": "Headlight_Left-to-Part Strong Joint",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  },
+  "attributes": {
+    "Rojo_Target_Part0": "g125013849_71",
+    "Rojo_Target_Part1": "g125013849_69",
+    "__MarketplaceGear_OriginalName": "Headlight_Left-to-Part Strong Joint"
+  }
+}

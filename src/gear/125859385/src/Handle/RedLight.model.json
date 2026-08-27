@@ -1,0 +1,18 @@
+{
+  "ClassName": "PointLight",
+  "Properties": {
+    "Brightness": 4,
+    "ClassName": "PointLight",
+    "Color": [
+      1,
+      0,
+      0
+    ],
+    "Enabled": false,
+    "Name": "RedLight",
+    "Range": 4,
+    "Sandboxed": false,
+    "Shadows": false,
+    "SourceAssetId": -1
+  }
+}

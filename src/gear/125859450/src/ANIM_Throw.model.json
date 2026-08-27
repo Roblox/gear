@@ -1,0 +1,10 @@
+{
+  "ClassName": "Animation",
+  "Properties": {
+    "AnimationContent": "http://www.roblox.com/asset/?id=125764500",
+    "ClassName": "Animation",
+    "Name": "ANIM_Throw",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

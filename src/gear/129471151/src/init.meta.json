@@ -1,0 +1,52 @@
+{
+  "className": "Tool",
+  "properties": {
+    "CanBeDropped": false,
+    "ClassName": "Tool",
+    "Grip": [
+      0.699999988079071,
+      -0.30000001192092896,
+      0.30000001192092896,
+      0.8660253882408142,
+      0,
+      0.5,
+      -0.15450850129127502,
+      0.9510565400123596,
+      0.2676165699958801,
+      -0.4755282700061798,
+      -0.30901700258255005,
+      0.8236390948295593
+    ],
+    "Name": "129471151",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=129344756",
+    "ToolTip": "CANT CATCH WHAT YOU CANT SEE",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            -1,
+            0,
+            0
+          ]
+        ],
+        "position": [
+          -20.7093563079834,
+          143.6800079345703,
+          -17.209487915039062
+        ]
+      }
+    }
+  }
+}

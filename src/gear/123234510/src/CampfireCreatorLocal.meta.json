@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "CampfireCreatorLocal",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{544D8D14-F846-4D69-B608-7BF1F455D853}",
+    "SourceAssetId": -1
+  }
+}

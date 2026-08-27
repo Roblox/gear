@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "GustHornServerScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{A2B45B5A-8C48-42A4-9302-C8C2B8D68BEB}",
+    "SourceAssetId": -1
+  }
+}

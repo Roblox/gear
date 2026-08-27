@@ -1,0 +1,43 @@
+{
+  "ClassName": "ManualWeld",
+  "Properties": {
+    "C0": [
+      0.5,
+      -3,
+      -0.5,
+      -1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      -1
+    ],
+    "C1": [
+      -1.5000028610229492,
+      4.010989189147949,
+      0.4998072385787964,
+      -2.2179763163876487e-6,
+      1,
+      6.222367119335104e-6,
+      -0.0016884213546290994,
+      6.218613179953536e-6,
+      -0.9999986290931702,
+      -0.9999985694885254,
+      -2.2284791612037225e-6,
+      0.0016884214710444212
+    ],
+    "ClassName": "ManualWeld",
+    "Enabled": true,
+    "Name": "Part-to-Part Strong Joint",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  },
+  "attributes": {
+    "Rojo_Target_Part0": "g125013849_34",
+    "Rojo_Target_Part1": "g125013849_42",
+    "__MarketplaceGear_OriginalName": "Part-to-Part Strong Joint"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "ClassName": "Smoke",
+  "Properties": {
+    "ClassName": "Smoke",
+    "Enabled": false,
+    "Name": "Smoke",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}
