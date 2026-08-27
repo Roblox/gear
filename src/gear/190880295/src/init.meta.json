@@ -1,0 +1,52 @@
+{
+  "className": "Tool",
+  "properties": {
+    "CanBeDropped": false,
+    "ClassName": "Tool",
+    "Grip": [
+      0,
+      -1,
+      0.20000000298023224,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "Name": "190880295",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=190257663 ",
+    "ToolTip": "Firework Bundle",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            0.4999998211860657,
+            -4.5434978801495163e-7,
+            -0.8660249710083008
+          ],
+          [
+            -0.43301230669021606,
+            0.8660253286361694,
+            -0.2500001788139343
+          ],
+          [
+            0.75,
+            0.49999985098838806,
+            0.4330124258995056
+          ]
+        ],
+        "position": [
+          45.9793815612793,
+          4.465491771697998,
+          7.369369983673096
+        ]
+      }
+    }
+  }
+}

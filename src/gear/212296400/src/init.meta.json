@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      1.5,
+      1,
+      -1.649999976158142,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "Name": "212296400",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=211683070 ",
+    "ToolTip": "Planes, trains and cloakomobiles",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            0.9984360933303833,
+            0.05590681731700897,
+            2.390465567714273e-7
+          ],
+          [
+            -0.05590681731700897,
+            0.9984360933303833,
+            2.483359594407375e-6
+          ],
+          [
+            -9.983601501062367e-8,
+            -2.4928394850576296e-6,
+            1
+          ]
+        ],
+        "position": [
+          -36.12002944946289,
+          72.72006225585938,
+          -24.72994041442871
+        ]
+      }
+    }
+  }
+}

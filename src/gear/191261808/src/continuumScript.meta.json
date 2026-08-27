@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "continuumScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{38A9FFFD-1F71-474D-AE77-80BE8765EB83}",
+    "SourceAssetId": -1
+  }
+}

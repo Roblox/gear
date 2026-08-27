@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=69446762",
+    "ClassName": "Sound",
+    "Looped": true,
+    "Name": "Laser",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

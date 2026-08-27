@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=45941860",
+    "ClassName": "Sound",
+    "Name": "Attack",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 0.33000001311302185
+  }
+}
