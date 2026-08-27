@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0,
+      -0.30000001192092896,
+      -0.800000011920929,
+      -1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      -1
+    ],
+    "Name": "29099749",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=28910004",
+    "ToolTip": "Turn your friends into objects!",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0.7741107940673828,
+            0.6330502033233643
+          ],
+          [
+            0,
+            -0.6330502033233643,
+            0.7741107940673828
+          ]
+        ],
+        "position": [
+          17,
+          1,
+          -5
+        ]
+      }
+    }
+  }
+}

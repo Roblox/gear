@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "SandwichScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{5F45AE50-78A2-4A08-AC83-4EB6DF715310}",
+    "SourceAssetId": -1
+  }
+}

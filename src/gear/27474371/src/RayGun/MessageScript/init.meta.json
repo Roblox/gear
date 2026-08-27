@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "MessageScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{6D10E800-A3FA-42DF-BBFB-AEA98F5C229C}",
+    "SourceAssetId": -1
+  }
+}

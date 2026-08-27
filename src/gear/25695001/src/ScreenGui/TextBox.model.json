@@ -1,0 +1,77 @@
+{
+  "ClassName": "TextLabel",
+  "Properties": {
+    "Active": false,
+    "AnchorPoint": [
+      0,
+      0
+    ],
+    "AutoLocalize": true,
+    "AutomaticSize": "None",
+    "BackgroundColor3": [
+      0.6901960968971252,
+      0.686274528503418,
+      0.6980392336845398
+    ],
+    "BackgroundTransparency": 1,
+    "BorderColor3": [
+      0.10588236153125763,
+      0.16470588743686676,
+      0.20784315466880798
+    ],
+    "BorderMode": "Outline",
+    "BorderSizePixel": 0,
+    "ClassName": "TextLabel",
+    "ClipsDescendants": false,
+    "Draggable": false,
+    "InputSink": "None",
+    "Interactable": true,
+    "LayoutOrder": 0,
+    "Name": "TextBox",
+    "Position": {
+      "UDim2": [
+        [
+          0.4520002007484436,
+          0
+        ],
+        [
+          0.15000000596046448,
+          0
+        ]
+      ]
+    },
+    "Rotation": 0,
+    "Sandboxed": false,
+    "Selectable": false,
+    "SelectionBehaviorDown": "Escape",
+    "SelectionBehaviorLeft": "Escape",
+    "SelectionBehaviorRight": "Escape",
+    "SelectionBehaviorUp": "Escape",
+    "SelectionGroup": false,
+    "SelectionOrder": 0,
+    "Size": {
+      "UDim2": [
+        [
+          0.1200023889541626,
+          0
+        ],
+        [
+          0.1899999976158142,
+          0
+        ]
+      ]
+    },
+    "SizeConstraint": "RelativeXY",
+    "SourceAssetId": -1,
+    "Text": "Magic 8 Ball",
+    "TextColor3": [
+      1,
+      1,
+      1
+    ],
+    "TextWrapped": true,
+    "TextYAlignment": "Top",
+    "Visible": true,
+    "ZIndex": 2
+  }
+}

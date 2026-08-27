@@ -1,0 +1,10 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=28445431",
+    "ClassName": "Sound",
+    "Name": "kick",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

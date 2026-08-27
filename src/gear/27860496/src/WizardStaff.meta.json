@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "WizardStaff",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{1CE78149-D243-49FB-A076-49AAE07CE27E}",
+    "SourceAssetId": -1
+  }
+}

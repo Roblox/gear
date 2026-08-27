@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "TransmorphScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{8C7AAB03-E74E-4FDD-B47E-FA9D57A850C1}",
+    "SourceAssetId": -1
+  }
+}

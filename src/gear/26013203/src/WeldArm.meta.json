@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "WeldArm",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{06030865-1987-4462-9D2A-6A7C04D02721}",
+    "SourceAssetId": -1
+  }
+}

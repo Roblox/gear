@@ -1,0 +1,76 @@
+{
+  "ClassName": "TextBox",
+  "Properties": {
+    "Active": true,
+    "AnchorPoint": [
+      0,
+      0
+    ],
+    "AutoLocalize": true,
+    "AutomaticSize": "None",
+    "BackgroundColor3": [
+      1,
+      1,
+      1
+    ],
+    "BackgroundTransparency": 0,
+    "BorderColor3": [
+      0.10588236153125763,
+      0.16470588743686676,
+      0.20784315466880798
+    ],
+    "BorderMode": "Outline",
+    "BorderSizePixel": 1,
+    "ClassName": "TextBox",
+    "ClipsDescendants": false,
+    "Draggable": false,
+    "InputSink": "None",
+    "Interactable": true,
+    "LayoutOrder": 0,
+    "Name": "NameBox",
+    "PlaceholderColor3": [
+      0.699999988079071,
+      0.699999988079071,
+      0.699999988079071
+    ],
+    "Position": {
+      "UDim2": [
+        [
+          0.10000000894069672,
+          0
+        ],
+        [
+          0.30000001192092896,
+          0
+        ]
+      ]
+    },
+    "Rotation": 0,
+    "Sandboxed": false,
+    "Selectable": true,
+    "SelectionBehaviorDown": "Escape",
+    "SelectionBehaviorLeft": "Escape",
+    "SelectionBehaviorRight": "Escape",
+    "SelectionBehaviorUp": "Escape",
+    "SelectionGroup": false,
+    "SelectionOrder": 0,
+    "Size": {
+      "UDim2": [
+        [
+          0.800000011920929,
+          0
+        ],
+        [
+          0.6000000238418579,
+          0
+        ]
+      ]
+    },
+    "SizeConstraint": "RelativeXY",
+    "SourceAssetId": -1,
+    "Text": "Please type your name here and press enter",
+    "TextWrapped": true,
+    "Visible": false,
+    "ZIndex": 10
+  }
+}

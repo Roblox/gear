@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "PelletScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{E3D8F4B7-8C34-42D2-A685-73850D1C6D8B}",
+    "SourceAssetId": -1
+  }
+}

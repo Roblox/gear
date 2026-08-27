@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "CheckOfEpicKatana",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{CA8F3311-2552-4853-A6C5-B1442DD86ED5}",
+    "SourceAssetId": -1
+  }
+}

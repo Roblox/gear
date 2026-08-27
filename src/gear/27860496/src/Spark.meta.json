@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "Spark",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{1E1BBDDB-331E-4B51-B3C2-15FE8154E18E}",
+    "SourceAssetId": -1
+  }
+}
