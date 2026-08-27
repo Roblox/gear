@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "TimeOutScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{517057DC-C872-4D29-89A1-4B9A15941AF0}",
+    "SourceAssetId": -1
+  }
+}

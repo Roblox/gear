@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "GuiScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{22DE4AA5-8AB2-4974-BA18-5FB60C31EC24}",
+    "SourceAssetId": -1
+  }
+}

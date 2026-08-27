@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=15047813",
+    "ClassName": "Sound",
+    "Name": "EatSound",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 0.30000001192092896
+  }
+}

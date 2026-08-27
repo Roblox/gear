@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=27672978",
+    "ClassName": "Sound",
+    "Looped": true,
+    "Name": "TickTock",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

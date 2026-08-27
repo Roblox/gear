@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "PonyScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{305380AD-C711-4F41-A4A2-CD5D22AFD5C6}",
+    "SourceAssetId": -1
+  }
+}

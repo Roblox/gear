@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "StealBucketScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{4C4258A5-63F4-4CF6-9986-F15A6D91B15C}",
+    "SourceAssetId": -1
+  }
+}
