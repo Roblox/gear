@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "CowBellScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{E3D1A7DC-4E9D-42DA-8E9B-0B668DF88C49}",
+    "SourceAssetId": -1
+  }
+}

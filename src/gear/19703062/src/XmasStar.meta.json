@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "XmasStar",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{039E58D5-963F-485C-B54B-74F0B741321F}",
+    "SourceAssetId": -1
+  }
+}

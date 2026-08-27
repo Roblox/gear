@@ -1,0 +1,10 @@
+{
+  "ClassName": "UIScale",
+  "Properties": {
+    "ClassName": "UIScale",
+    "Name": "UIScale",
+    "Sandboxed": false,
+    "Scale": 1.25,
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "ScatterBlast",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{7928BC07-4FBD-4A53-B888-1421238D0ECF}",
+    "SourceAssetId": -1
+  }
+}

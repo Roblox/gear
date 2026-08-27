@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "XmasLights",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{E581DC0A-30C2-4E30-9178-4EFA83F5F43D}",
+    "SourceAssetId": -1
+  }
+}

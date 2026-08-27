@@ -1,0 +1,82 @@
+{
+  "ClassName": "ImageButton",
+  "Properties": {
+    "Active": true,
+    "AnchorPoint": [
+      0,
+      0
+    ],
+    "AutoButtonColor": true,
+    "AutoLocalize": true,
+    "AutomaticSize": "None",
+    "BackgroundColor3": [
+      0.9294118285179138,
+      0.917647123336792,
+      0.917647123336792
+    ],
+    "BackgroundTransparency": 1,
+    "BorderColor3": [
+      0,
+      0,
+      0
+    ],
+    "BorderMode": "Outline",
+    "BorderSizePixel": 1,
+    "ClassName": "ImageButton",
+    "ClipsDescendants": false,
+    "Draggable": false,
+    "ImageColor3": [
+      0.9294118285179138,
+      0.917647123336792,
+      0.917647123336792
+    ],
+    "ImageContent": "http://www.roblox.com/asset/?id=156486182",
+    "InputSink": "None",
+    "Interactable": true,
+    "LayoutOrder": 0,
+    "Modal": false,
+    "Name": "Lily white",
+    "Position": {
+      "UDim2": [
+        [
+          0,
+          102
+        ],
+        [
+          0,
+          165
+        ]
+      ]
+    },
+    "Rotation": 90,
+    "Sandboxed": false,
+    "Selectable": true,
+    "Selected": false,
+    "SelectionBehaviorDown": "Escape",
+    "SelectionBehaviorLeft": "Escape",
+    "SelectionBehaviorRight": "Escape",
+    "SelectionBehaviorUp": "Escape",
+    "SelectionGroup": false,
+    "SelectionOrder": 0,
+    "Size": {
+      "UDim2": [
+        [
+          0,
+          18
+        ],
+        [
+          0,
+          18
+        ]
+      ]
+    },
+    "SizeConstraint": "RelativeXY",
+    "SourceAssetId": -1,
+    "Style": "Custom",
+    "Visible": true,
+    "ZIndex": 8
+  },
+  "attributes": {
+    "__MarketplaceGear_OriginalName": "Lily white"
+  }
+}

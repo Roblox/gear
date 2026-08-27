@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "SnowGlobeScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{71FECFEF-2B5B-4C55-994E-CB4B12E2C9B1}",
+    "SourceAssetId": -1
+  }
+}

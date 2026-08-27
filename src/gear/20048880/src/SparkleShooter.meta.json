@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "SparkleShooter",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{2F625366-64B1-4A7F-BC44-8169820AAE90}",
+    "SourceAssetId": -1
+  }
+}

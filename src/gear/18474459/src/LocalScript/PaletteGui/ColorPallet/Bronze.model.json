@@ -1,0 +1,79 @@
+{
+  "ClassName": "ImageButton",
+  "Properties": {
+    "Active": true,
+    "AnchorPoint": [
+      0,
+      0
+    ],
+    "AutoButtonColor": true,
+    "AutoLocalize": true,
+    "AutomaticSize": "None",
+    "BackgroundColor3": [
+      0.4941176772117615,
+      0.4078431725502014,
+      0.24705883860588074
+    ],
+    "BackgroundTransparency": 1,
+    "BorderColor3": [
+      0,
+      0,
+      0
+    ],
+    "BorderMode": "Outline",
+    "BorderSizePixel": 1,
+    "ClassName": "ImageButton",
+    "ClipsDescendants": false,
+    "Draggable": false,
+    "ImageColor3": [
+      0.4941176772117615,
+      0.4078431725502014,
+      0.24705883860588074
+    ],
+    "ImageContent": "http://www.roblox.com/asset/?id=156486182",
+    "InputSink": "None",
+    "Interactable": true,
+    "LayoutOrder": 0,
+    "Modal": false,
+    "Name": "Bronze",
+    "Position": {
+      "UDim2": [
+        [
+          0,
+          75
+        ],
+        [
+          0,
+          219
+        ]
+      ]
+    },
+    "Rotation": 90,
+    "Sandboxed": false,
+    "Selectable": true,
+    "Selected": false,
+    "SelectionBehaviorDown": "Escape",
+    "SelectionBehaviorLeft": "Escape",
+    "SelectionBehaviorRight": "Escape",
+    "SelectionBehaviorUp": "Escape",
+    "SelectionGroup": false,
+    "SelectionOrder": 0,
+    "Size": {
+      "UDim2": [
+        [
+          0,
+          18
+        ],
+        [
+          0,
+          18
+        ]
+      ]
+    },
+    "SizeConstraint": "RelativeXY",
+    "SourceAssetId": -1,
+    "Style": "Custom",
+    "Visible": true,
+    "ZIndex": 8
+  }
+}

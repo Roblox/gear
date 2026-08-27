@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "CoinScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{98ED20B0-A210-430A-BF52-77DE9AE788B9}",
+    "SourceAssetId": -1
+  }
+}
