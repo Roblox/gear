@@ -92,6 +92,13 @@ local SERIALIZERS: { [string]: Serializer } = {
 	ContentId = function(v)
 		return if type(v) == "string" then v else v.Uri
 	end,
+	Font = function(v)
+		return {
+			family = v.Family,
+			weight = v.Weight.Name,
+			style = v.Style.Name,
+		}
+	end,
 }
 
 -- `Ref` (Welds, Parent, ...) isn't representable in Rojo project files yet;
