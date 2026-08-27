@@ -1,0 +1,14 @@
+{
+  "attributes": {
+    "__MarketplaceGear_OriginalName": "StiltScript"
+  },
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "StiltScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

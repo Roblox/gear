@@ -1,0 +1,10 @@
+{
+  "ClassName": "Animation",
+  "Properties": {
+    "AnimationContent": "http://www.roblox.com/Asset?ID=60886735",
+    "ClassName": "Animation",
+    "Name": "ScrollAnim",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

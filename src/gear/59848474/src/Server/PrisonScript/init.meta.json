@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "PrisonScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{E393C524-1CC9-41A2-AFA7-D7697C6DDA1C}",
+    "SourceAssetId": -1
+  }
+}

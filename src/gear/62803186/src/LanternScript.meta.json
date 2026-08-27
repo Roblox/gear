@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "LanternScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{C6202360-8C44-420C-B1F4-6CC16264EFF5}",
+    "SourceAssetId": -1
+  }
+}

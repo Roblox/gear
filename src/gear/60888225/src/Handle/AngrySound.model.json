@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=60871653 ",
+    "ClassName": "Sound",
+    "Name": "AngrySound",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 0.75
+  }
+}

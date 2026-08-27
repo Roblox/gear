@@ -1,0 +1,14 @@
+{
+  "attributes": {
+    "__MarketplaceGear_OriginalName": "StaffScript"
+  },
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "StaffScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

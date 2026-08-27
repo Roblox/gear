@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "BlueHedgehogScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{5BADC00F-6A68-453C-A0AF-BFC0F53D1656}",
+    "SourceAssetId": -1
+  }
+}

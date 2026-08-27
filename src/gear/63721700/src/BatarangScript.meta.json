@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "BatarangScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{694414C6-F50F-4366-BF1F-9D971AE0716D}",
+    "SourceAssetId": -1
+  }
+}

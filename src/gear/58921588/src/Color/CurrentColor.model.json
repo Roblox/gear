@@ -1,0 +1,9 @@
+{
+  "ClassName": "BrickColorValue",
+  "Properties": {
+    "ClassName": "BrickColorValue",
+    "Name": "CurrentColor",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}
