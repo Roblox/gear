@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0,
+      0,
+      -2.299999952316284,
+      -0.5879338383674622,
+      0,
+      0.808908998966217,
+      0.808908998966217,
+      -0.0,
+      0.5879338383674622,
+      0,
+      1,
+      0
+    ],
+    "Name": "17680660",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=17674026 ",
+    "ToolTip": "You can never have too many bats.",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            0,
+            0.707106351852417,
+            0.7071073651313782
+          ],
+          [
+            0,
+            -0.7071073651313782,
+            0.707106351852417
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "position": [
+          -199.5,
+          9.850611686706543,
+          0.5
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "BatControls",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{EB19BC50-A567-4B4B-AE88-9CC568D91732}",
+    "SourceAssetId": -1
+  }
+}

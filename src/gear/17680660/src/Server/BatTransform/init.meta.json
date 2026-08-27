@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "BatTransform",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{66C680B3-6B43-4F07-8B94-D49858796C6D}",
+    "SourceAssetId": -1
+  }
+}

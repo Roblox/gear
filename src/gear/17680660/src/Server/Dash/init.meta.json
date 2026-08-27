@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "Dash",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{51250B38-BEA0-4B7F-894D-37F21D2B0ABE}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "className": "ImageButton",
+  "properties": {
+    "Active": true,
+    "AnchorPoint": [
+      0,
+      0
+    ],
+    "AutoButtonColor": false,
+    "AutoLocalize": true,
+    "AutomaticSize": "None",
+    "BackgroundColor3": [
+      1,
+      0.9450981020927429,
+      0.5803921818733215
+    ],
+    "BackgroundTransparency": 0,
+    "BorderColor3": [
+      0.06666667014360428,
+      0.06666667014360428,
+      0.06666667014360428
+    ],
+    "BorderMode": "Outline",
+    "BorderSizePixel": 1,
+    "ClassName": "ImageButton",
+    "ClipsDescendants": false,
+    "Draggable": false,
+    "InputSink": "None",
+    "Interactable": true,
+    "LayoutOrder": 0,
+    "Modal": false,
+    "Name": "BN_Quit",
+    "Position": {
+      "UDim2": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          -27
+        ]
+      ]
+    },
+    "Rotation": 0,
+    "Sandboxed": false,
+    "Selectable": true,
+    "Selected": false,
+    "SelectionBehaviorDown": "Escape",
+    "SelectionBehaviorLeft": "Escape",
+    "SelectionBehaviorRight": "Escape",
+    "SelectionBehaviorUp": "Escape",
+    "SelectionGroup": false,
+    "SelectionOrder": 0,
+    "Size": {
+      "UDim2": [
+        [
+          1,
+          -6
+        ],
+        [
+          0,
+          24
+        ]
+      ]
+    },
+    "SizeConstraint": "RelativeXY",
+    "SourceAssetId": -1,
+    "Style": "Custom",
+    "Visible": true,
+    "ZIndex": 1
+  }
+}

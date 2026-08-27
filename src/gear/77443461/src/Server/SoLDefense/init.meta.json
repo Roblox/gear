@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "SoLDefense",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{A2530748-76E8-42EE-AEF5-5FDD188AEEE4}",
+    "SourceAssetId": -1
+  }
+}

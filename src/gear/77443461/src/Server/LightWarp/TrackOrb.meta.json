@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "TrackOrb",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{C49F0862-161D-4C9D-82E1-3E6B06375C67}",
+    "SourceAssetId": -1
+  }
+}

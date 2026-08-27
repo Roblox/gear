@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "TimeChange",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{106E17E1-4023-496A-A23F-BCBB2C8BA27B}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "OpponentChoose",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{E0DD49E0-C6D3-4F42-82B6-3D626084BF01}",
+    "SourceAssetId": -1
+  }
+}
