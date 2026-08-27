@@ -1,0 +1,35 @@
+{
+  "className": "BillboardGui",
+  "properties": {
+    "AutoLocalize": true,
+    "ClassName": "BillboardGui",
+    "Enabled": false,
+    "ExtentsOffset": [
+      0,
+      1.25,
+      0
+    ],
+    "Name": "HealthDisplay",
+    "ResetOnSpawn": true,
+    "Sandboxed": false,
+    "SelectionBehaviorDown": "Escape",
+    "SelectionBehaviorLeft": "Escape",
+    "SelectionBehaviorRight": "Escape",
+    "SelectionBehaviorUp": "Escape",
+    "SelectionGroup": false,
+    "Size": {
+      "UDim2": [
+        [
+          2,
+          0
+        ],
+        [
+          0.5,
+          0
+        ]
+      ]
+    },
+    "SourceAssetId": -1,
+    "ZIndexBehavior": "Global"
+  }
+}

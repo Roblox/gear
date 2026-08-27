@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0,
+      0,
+      -0.550000011920929,
+      -0.9999154806137085,
+      0,
+      -0.012998903170228004,
+      0,
+      1,
+      0,
+      0.012998901307582855,
+      0,
+      -0.999915599822998
+    ],
+    "Name": "179625551",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=179155697",
+    "ToolTip": "Haunted Pizza",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            -1
+          ]
+        ],
+        "position": [
+          -5.21000337600708,
+          94.84992218017578,
+          127.31995391845703
+        ]
+      }
+    }
+  }
+}

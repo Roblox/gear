@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=173745512",
+    "ClassName": "Sound",
+    "Name": "IceCollision",
+    "PlaybackSpeed": 5.730000019073486,
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

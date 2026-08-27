@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "GearScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{DE773D43-64AB-4742-B1C4-C1BF1D0FDF98}",
+    "SourceAssetId": -1
+  }
+}

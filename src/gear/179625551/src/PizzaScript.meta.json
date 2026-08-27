@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "PizzaScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{91FAD462-D6D9-4890-A8EF-50B4CE32DDF2}",
+    "SourceAssetId": -1
+  }
+}

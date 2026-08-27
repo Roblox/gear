@@ -1,0 +1,10 @@
+{
+  "ClassName": "Animation",
+  "Properties": {
+    "AnimationContent": "http://www.roblox.com/asset/?id=217065346",
+    "ClassName": "Animation",
+    "Name": "SelfThrow",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

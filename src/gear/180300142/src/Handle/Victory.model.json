@@ -1,0 +1,10 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "rbxasset://sounds//victory.mp3",
+    "ClassName": "Sound",
+    "Name": "Victory",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

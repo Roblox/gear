@@ -1,0 +1,12 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=106018135",
+    "ClassName": "Sound",
+    "Name": "Boom",
+    "PlaybackSpeed": 0.6499999761581421,
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 1
+  }
+}

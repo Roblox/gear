@@ -1,0 +1,52 @@
+{
+  "className": "Tool",
+  "properties": {
+    "CanBeDropped": false,
+    "ClassName": "Tool",
+    "Grip": [
+      0,
+      -0.4000000059604645,
+      0.8999999761581421,
+      0.8660253882408142,
+      0,
+      0.5,
+      0,
+      1,
+      0,
+      -0.5,
+      0,
+      0.8660253882408142
+    ],
+    "Name": "181245219",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset?id=180622107",
+    "ToolTip": "Rapid Fire Candy Launcher",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "position": [
+          0.20000028610229492,
+          0.7000000476837158,
+          -4.599999904632568
+        ]
+      }
+    }
+  }
+}

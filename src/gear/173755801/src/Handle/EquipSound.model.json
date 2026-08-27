@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "rbxasset://sounds//unsheath.wav",
+    "ClassName": "Sound",
+    "Name": "EquipSound",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 0.2800000011920929
+  }
+}

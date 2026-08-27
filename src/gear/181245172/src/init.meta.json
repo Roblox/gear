@@ -1,0 +1,52 @@
+{
+  "className": "Tool",
+  "properties": {
+    "CanBeDropped": false,
+    "ClassName": "Tool",
+    "Grip": [
+      0.699999988079071,
+      -0.4000000059604645,
+      0,
+      0.7071067690849304,
+      0,
+      0.7071067690849304,
+      0.27059805393218994,
+      0.9238795042037964,
+      -0.27059805393218994,
+      -0.6532814502716064,
+      0.3826834559440613,
+      0.6532814502716064
+    ],
+    "Name": "181245172",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset?id=179628689",
+    "ToolTip": "Monster Detector",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "position": [
+          0.5,
+          17.399999618530273,
+          22.299999237060547
+        ]
+      }
+    }
+  }
+}

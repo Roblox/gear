@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset?id=130113415",
+    "ClassName": "Sound",
+    "Name": "Fade",
+    "PlaybackSpeed": 0.125,
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

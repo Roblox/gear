@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "ScareScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{B4DDCB3F-1730-4098-AD08-F4DCEB8B963B}",
+    "SourceAssetId": -1
+  }
+}
