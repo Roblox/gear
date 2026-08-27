@@ -1,0 +1,85 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "Acceleration": [
+      0,
+      0.20000000298023224,
+      0
+    ],
+    "ClassName": "ParticleEmitter",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              0,
+              0,
+              0
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              0.3921569883823395,
+              0.3921569883823395,
+              0.3921569883823395
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "EmissionDirection": "Back",
+    "Enabled": false,
+    "Lifetime": {
+      "NumberRange": [
+        0.25,
+        0.25
+      ]
+    },
+    "LightEmission": 0.20000000298023224,
+    "Name": "Sparks",
+    "Rate": 30,
+    "RotSpeed": {
+      "NumberRange": [
+        -50,
+        50
+      ]
+    },
+    "Rotation": {
+      "NumberRange": [
+        0,
+        360
+      ]
+    },
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0.10000000149011612
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0.10000000149011612
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        -0.10000000149011612,
+        0.10000000149011612
+      ]
+    },
+    "SpreadAngle": [
+      25,
+      25
+    ],
+    "TextureContent": "http://www.roblox.com/asset/?id=277951744"
+  }
+}

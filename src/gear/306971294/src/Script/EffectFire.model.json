@@ -1,0 +1,110 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "Acceleration": [
+      0,
+      1.5,
+      0
+    ],
+    "ClassName": "ParticleEmitter",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              1,
+              0,
+              0
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              1,
+              1,
+              0.49803900718688965
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "Enabled": false,
+    "Lifetime": {
+      "NumberRange": [
+        1,
+        1
+      ]
+    },
+    "LightEmission": 0.25,
+    "LockedToPart": true,
+    "Name": "EffectFire",
+    "Rate": 200,
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 0.25,
+            "value": 0.5
+          },
+          {
+            "envelope": 0.13500000536441803,
+            "time": 0.5,
+            "value": 0.5
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0.5
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        0.5,
+        0.5
+      ]
+    },
+    "SpreadAngle": [
+      100,
+      100
+    ],
+    "TextureContent": "http://www.roblox.com/asset/?id=262362794",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 1
+          },
+          {
+            "envelope": 0,
+            "time": 0.25,
+            "value": 0.75
+          },
+          {
+            "envelope": 0,
+            "time": 0.8500000238418579,
+            "value": 0.75
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "ZOffset": 1
+  }
+}

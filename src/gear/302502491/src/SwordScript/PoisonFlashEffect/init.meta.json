@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "PoisonFlashEffect",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{EB1A6E44-3312-4859-B3E4-DB0A8F3DC7A2}",
+    "SourceAssetId": -1
+  }
+}

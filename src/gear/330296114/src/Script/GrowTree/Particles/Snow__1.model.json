@@ -1,0 +1,85 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "Acceleration": [
+      0,
+      -1,
+      0
+    ],
+    "ClassName": "ParticleEmitter",
+    "EmissionDirection": "Bottom",
+    "Enabled": false,
+    "Lifetime": {
+      "NumberRange": [
+        5,
+        5
+      ]
+    },
+    "Name": "Snow",
+    "Rate": 2,
+    "Rotation": {
+      "NumberRange": [
+        -360,
+        360
+      ]
+    },
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0.20000000298023224
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0.20000000298023224
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        0.5,
+        1.5
+      ]
+    },
+    "SpreadAngle": [
+      125,
+      125
+    ],
+    "TextureContent": "http://www.roblox.com/asset/?id=118641183",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 1
+          },
+          {
+            "envelope": 0,
+            "time": 0.25,
+            "value": 1
+          },
+          {
+            "envelope": 0,
+            "time": 0.25,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0
+          }
+        ]
+      }
+    }
+  },
+  "attributes": {
+    "__MarketplaceGear_OriginalName": "Snow"
+  }
+}

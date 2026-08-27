@@ -1,0 +1,10 @@
+{
+  "ClassName": "IntConstrainedValue",
+  "Properties": {
+    "ClassName": "IntConstrainedValue",
+    "MaxValue": 3,
+    "Name": "Count",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}
