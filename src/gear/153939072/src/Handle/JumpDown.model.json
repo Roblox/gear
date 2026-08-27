@@ -1,0 +1,10 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "rbxasset://sounds/swordlunge.wav",
+    "ClassName": "Sound",
+    "Name": "JumpDown",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

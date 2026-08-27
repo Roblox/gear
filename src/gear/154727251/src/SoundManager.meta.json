@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "SoundManager",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{1E568B35-C05E-44C2-93B5-9F0A5D3E668D}",
+    "SourceAssetId": -1
+  }
+}

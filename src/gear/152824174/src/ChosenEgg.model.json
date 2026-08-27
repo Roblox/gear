@@ -1,0 +1,9 @@
+{
+  "ClassName": "StringValue",
+  "Properties": {
+    "ClassName": "StringValue",
+    "Name": "ChosenEgg",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

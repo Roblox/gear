@@ -1,0 +1,50 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0,
+      -1.5,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      4.371138828673793e-8,
+      0,
+      -4.371138828673793e-8,
+      1
+    ],
+    "Name": "156467855",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=156092098",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            0,
+            -0.7071067094802856,
+            -0.7071067690849304
+          ],
+          [
+            0,
+            0.7071067690849304,
+            -0.7071067094802856
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "position": [
+          -50.60000228881836,
+          41,
+          47.80000305175781
+        ]
+      }
+    }
+  }
+}

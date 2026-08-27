@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "rbxasset://sounds/SwordSlash.wav",
+    "ClassName": "Sound",
+    "Name": "SlashSound",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 0.800000011920929
+  }
+}
