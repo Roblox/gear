@@ -1,0 +1,10 @@
+{
+  "className": "Animation",
+  "properties": {
+    "AnimationContent": "http://www.roblox.com/asset/?id=151293057",
+    "ClassName": "Animation",
+    "Name": "ChargeShotEnd",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

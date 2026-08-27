@@ -1,0 +1,10 @@
+{
+  "className": "Animation",
+  "properties": {
+    "AnimationContent": "http://www.roblox.com/asset/?id=151292681",
+    "ClassName": "Animation",
+    "Name": "ChargeLoop",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

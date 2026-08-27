@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "PlaySound",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{8431AF1C-D685-41B5-927A-695C485BD446}",
+    "SourceAssetId": -1
+  }
+}

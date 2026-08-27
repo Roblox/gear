@@ -1,0 +1,42 @@
+{
+  "ClassName": "Motor6D",
+  "Properties": {
+    "C0": [
+      0,
+      0.824999988079071,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0.30901697278022766,
+      -0.9510565400123596,
+      0,
+      0.9510565400123596,
+      0.30901697278022766
+    ],
+    "C1": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "ClassName": "Motor6D",
+    "Enabled": true,
+    "Name": "Motor6D",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  },
+  "attributes": {
+    "Rojo_Target_Part0": "g148791372_2",
+    "Rojo_Target_Part1": "g148791372_5"
+  }
+}

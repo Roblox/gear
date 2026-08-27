@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "ShootScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{7AC9C06F-97D0-4B92-BC2A-BF64041E6528}",
+    "SourceAssetId": -1
+  }
+}
