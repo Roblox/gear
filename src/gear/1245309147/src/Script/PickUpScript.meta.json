@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "PickUpScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{6B23CBF0-AE0D-452C-8F66-7341DC24095E}",
+    "SourceAssetId": -1
+  }
+}

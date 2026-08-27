@@ -1,0 +1,31 @@
+{
+  "ClassName": "BillboardGui",
+  "Properties": {
+    "AutoLocalize": true,
+    "ClassName": "BillboardGui",
+    "Enabled": true,
+    "LightInfluence": 1,
+    "Name": "BillboardGui",
+    "ResetOnSpawn": true,
+    "Sandboxed": false,
+    "SelectionBehaviorDown": "Escape",
+    "SelectionBehaviorLeft": "Escape",
+    "SelectionBehaviorRight": "Escape",
+    "SelectionBehaviorUp": "Escape",
+    "SelectionGroup": false,
+    "Size": {
+      "UDim2": [
+        [
+          0,
+          200
+        ],
+        [
+          0,
+          50
+        ]
+      ]
+    },
+    "SourceAssetId": -1,
+    "ZIndexBehavior": "Global"
+  }
+}

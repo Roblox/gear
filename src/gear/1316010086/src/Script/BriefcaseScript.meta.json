@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "BriefcaseScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{E1C94636-5058-446C-B77B-7B3B51FA1604}",
+    "SourceAssetId": -1
+  }
+}

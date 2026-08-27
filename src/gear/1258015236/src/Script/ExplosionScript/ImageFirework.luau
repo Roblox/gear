@@ -1,0 +1,1005 @@
+--Made by Luckymaxer
+
+BasePart = Instance.new("Part")
+BasePart.Transparency = 1
+BasePart.Material = Enum.Material.Plastic
+BasePart.Shape = Enum.PartType.Block
+BasePart.TopSurface = Enum.SurfaceType.Smooth
+BasePart.BottomSurface = Enum.SurfaceType.Smooth
+BasePart.FormFactor = Enum.FormFactor.Custom
+BasePart.Size = Vector3.new(0.2, 0.2, 0.2)
+BasePart.Locked = true
+BasePart.Anchored = true
+BasePart.CanCollide = false
+
+--Firework = 
+--{
+--	Name = "2018", 
+--	PartTable = 
+--	{
+--		{
+--			Offset = Vector3.new(12.978658676147, -12.669027328491, -0.19693323969841), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(6.1947002410889, 0.13095855712891, -0.099384993314743), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(-9.2481555938721, 25.723930358887, 0.26509076356888), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(-0.09602165222168, 12.652862548828, 0.0371945053339), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(-2.9633731842041, 12.033924102783, 0.037188515067101), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(-1.5014553070068, 1.4103469848633, 0.037173911929131), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(-9.8666400909424, 6.2734260559082, 0.037169173359871), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(-3.6751899719238, -0.55936050415039, 0.037165910005569), 
+--			Particles = 
+--			{
+--				Fire = {
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(2.7356510162354, 5.7445755004883, 0.037183359265327), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(-7.6929035186768, 8.2431297302246, 0.037175178527832), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(3.6333026885986, 8.537239074707, 0.03718675673008), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(0.80813026428223, 3.5031547546387, 0.037179291248322), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(-5.3833179473877, 10.3359375, 0.037182554602623), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(2.3538036346436, 11.287689208984, 0.037195980548859), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(-11.683340072632, 4.1324195861816, 0.03716441988945), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(-8.8516788482666, -2.77587890625, 0.037156268954277), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(-11.463115692139, -1.2323513031006, 0.037153825163841), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(-12.581001281738, 1.3397407531738, 0.037158027291298), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(-5.9843196868896, -2.156925201416, 0.037160262465477), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(13.593202590942, -27.421232223511, -0.19694912433624), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(18.563203811646, -24.205339431763, -0.19693428277969), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(16.509050369263, -26.4791431427, -0.19694256782532), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(10.596952438354, -26.99320602417, -0.19695377349854), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(8.5084972381592, -25.046054840088, -0.1969558596611), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		},
+--		{
+--			Offset = Vector3.new(24.408372879028, -13.11780166626, -0.19691461324692),
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(22.319925308228, -11.17064666748, -0.19691470265388), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(25.350465774536, -16.033664703369, -0.1969165802002), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(24.658742904663, -19.001235961914, -0.19692093133926), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(19.205266952515, -21.423122406006, -0.19692829251289), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(18.263177871704, -18.507266998291, -0.19692531228065), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(15.989374160767, -16.453113555908, -0.19692552089691), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(12.993127822876, -16.025074005127, -0.19693115353584), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(7.3027324676514, -22.529567718506, -0.1969558596611), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(19.438360214233, -10.471263885498, -0.19691777229309), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(7.1732616424561, -19.565689086914, -0.19695267081261), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(10.364316940308, -14.587935447693, -0.19694077968597), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(8.3621959686279, -16.782314300537, -0.1969478726387), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(16.41171836853, -10.999897003174, -0.19692388176918), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(-12.054258346558, 27.238563537598, 0.26508900523186), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(-25.017671585083, 15.314865112305, 0.26505291461945), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(-22.212671279907, 16.372379302979, 0.26505848765373), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(-22.928840637207, 13.009666442871, 0.26505249738693), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(-11.726385116577, 15.856021881104, 0.26507267355919), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(-8.7814769744873, 16.931137084961, 0.26507845520973), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(-15.610194206238, 16.047264099121, 0.26506742835045), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(-20.84001159668, 10.704467773438, 0.26505208015442), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(-18.490081787109, 8.1111259460449, 0.26505160331726), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(-7.0891399383545, 19.654720306396, 0.26508489251137), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(-19.105628967285, 16.219383239746, 0.26506268978119), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(-7.4474716186523, 23.157627105713, 0.26508954167366),
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0,
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(2.2287197113037, -15.892133712769, -0.099415302276611), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(1.2414798736572, -14.802631378174, -0.099416106939316), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(-0.35083389282227, -13.045379638672, -0.099416792392731), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(1.4317951202393, -10.937747955322, -0.099410116672516), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(11.569799423218, -1.7513103485107, -0.099379122257233), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(7.6497669219971, -5.3034019470215, -0.099390953779221), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(5.4869937896729, -7.2631740570068, -0.099397927522659), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(9.542200088501, -3.5885944366455, -0.09938570857048), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(3.4593982696533, -9.1004600524902, -0.099404513835907), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(13.462228775024, -0.036508560180664, -0.099372893571854), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(-2.0656337738037, -11.152954101563, -0.099417418241501), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(11.024564743042, -1.0475387573242, -0.099377870559692), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(8.4689617156982, -0.87103652954102, -0.099382251501083), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}, 
+--		{
+--			Offset = Vector3.new(-3.6026039123535, -9.4567794799805, -0.099417090415955), 
+--			Particles = 
+--			{
+--				Fire = 
+--				{
+--					{
+--						Color = Color3.new(0, 0.33333334326744, 1), 
+--						Heat = 0, 
+--						SecondaryColor = Color3.new(0, 0.33333334326744, 1), 
+--						Size = 10
+--					}
+--				}
+--			}
+--		}
+--	}
+--}
+
+Firework = {Name = "2018", PartTable = {{Offset = Vector3.new(26.3486099, -17.6100769, -0.502403021), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(27.3027725, -11.7677765, -0.502398968), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(27.6084137, -14.8167648, -0.502405047), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(24.0195274, -19.542984, -0.502403021), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(21.1742897, -19.7831192, -0.502406001), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(25.6721992, -9.42380524, -0.502398968), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(22.8788795, -8.16400146, -0.502398968), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(19.8298912, -8.46964264, -0.502398968), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(17.5008049, -10.4025192, -0.502400041), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(18.4998589, -18.9868774, -0.502403975), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(16.2166061, -17.0926437, -0.502407074), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(15.6706657, -12.3855515, -0.502413034), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(14.9523849, -14.3426437, -0.502413034), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(15.6706657, -4.83490753, -0.502400994), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(18.4998589, 2.76641083, -0.502406001), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(16.2166061, 0.872169495, -0.502408028), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(14.9523849, -1.87783813, -0.502402067), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(25.6721992, -6.79667664, -0.502418041), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(27.3027725, -4.45269012, -0.502418041), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(27.6084137, -1.40371704, -0.502408028), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(26.3486099, 1.38960266, -0.502406001), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(24.0195274, 3.32250214, -0.502413988), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(21.1742897, 3.56263733, -0.502408028), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(17.5008049, -7.81795502, -0.502413988), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(10.174263, -18.2899933, -0.40487206), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(8.70400429, -18.2899933, -0.40487206), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(6.33263016, -18.2899933, -0.404873013), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(5.96780777, -15.5537949, -0.40487206), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(5.96780777, -1.8727951, -0.404870033), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(5.96780777, -7.16277313, -0.40486598), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(5.96780777, -10.0813904, -0.404873013), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(5.96780777, -4.60899353, -0.404870987), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(5.96780777, -12.8175888, -0.404873013), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(5.96780777, 0.680999756, -0.404873013), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(3.77884769, -18.2899933, -0.404873013), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(5.08018208, -1.80426025, -0.404865026), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(3.23336601, -3.57950592, -0.40486598), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(1.48989773, -18.2899933, -0.404873013), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(0.963749886, -4.59199524, -0.404870987), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(-12.5393925, -0.845458984, -0.26829803), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(-14.006094, -3.385849, -0.268305063), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(-5.15208483, -9.43598175, -0.268305063), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(-14.3727684, -12.3693848, -0.268298984), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(-5.15208292, -12.3693848, -0.268306017), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(-5.51875877, -3.385849, -0.268306017), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(-14.3727684, -9.43598175, -0.26830399), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(-6.98545694, -0.845451355, -0.268314004), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(-5.15208483, -6.31924438, -0.26830399), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(-14.3727684, -6.31924438, -0.26830399), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(-9.88276482, 0.0532608032, -0.268305063), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(-14.0060911, -15.153244, -0.26829803), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(-6.98545885, -17.6936493, -0.268305063), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(-9.88276863, -18.5923538, -0.26830399), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(-12.5393906, -17.6936493, -0.268305063), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(-5.51876163, -15.1532516, -0.26830399), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(-31.3774605, 0.0870819092, -0.0404089689), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(-31.2462616, -17.5256348, -0.0404089689), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(-30.1464233, -14.7369537, -0.0404080153), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(-28.1354485, -17.5256348, -0.0404089689), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(-22.7225151, -7.31304932, -0.0404080153), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(-21.5417786, -4.40886688, -0.0404089689), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(-25.4721107, -10.0626373, -0.0404089689), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(-25.0246315, -17.5256348, -0.0404089689), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(-21.5249748, -17.5256348, -0.0404089689), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(-22.4236641, -1.32598877, -0.0404089689), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(-27.9467468, -12.5372772, -0.0404070616), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(-25.2600288, 0.76058197, -0.040405035), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},{Offset = Vector3.new(-28.370842, 1.14943695, -0.040405035), Particles = {Fire = {{Color = Color3.new(0, 0.33333334326744, 1), Heat = 0, SecondaryColor = Color3.new(0, 0.33333334326744, 1), Size = 10}}}},}}
+
+function CraftFirework()
+	local Model = Instance.new("Model")
+	Model.Name = Firework.Name
+	for ii, vv in pairs(Firework.PartTable) do
+		local Part = BasePart:Clone()
+		Part.CFrame = CFrame.new(Vector3.new(0, 0, 0) + vv.Offset)
+		for iii, vvv in pairs(vv.Particles) do
+			for iiii, vvvv in pairs(vvv) do
+				pcall(function()
+					local Particle = Instance.new(iii)
+					for iiiii, vvvvv in pairs(vvvv) do
+						Particle[iiiii] = vvvvv
+					end
+					Particle.Parent = Part
+				end)
+			end
+		end
+		Part.Parent = Model
+	end
+	return Model
+end
+
+return CraftFirework()

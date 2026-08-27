@@ -1,0 +1,23 @@
+{
+  "ClassName": "Attachment",
+  "Properties": {
+    "CFrame": [
+      -0.12316238880157471,
+      -0.06725877523422241,
+      -1.9294050931930542,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "ClassName": "Attachment",
+    "Name": "FrontFanAttachment",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

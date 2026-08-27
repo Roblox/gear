@@ -1,0 +1,101 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "ClassName": "ParticleEmitter",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              0,
+              0,
+              0
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              0,
+              0,
+              0
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "Enabled": false,
+    "Lifetime": {
+      "NumberRange": [
+        2,
+        3
+      ]
+    },
+    "LightEmission": 0.30000001192092896,
+    "LockedToPart": true,
+    "Name": "EventHorizon",
+    "Rate": 2,
+    "RotSpeed": {
+      "NumberRange": [
+        500,
+        500
+      ]
+    },
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 10
+          },
+          {
+            "envelope": 0,
+            "time": 0.7975460290908813,
+            "value": 4.625
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        0,
+        0
+      ]
+    },
+    "TextureContent": "rbxassetid://153700391",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 1
+          },
+          {
+            "envelope": 0,
+            "time": 0.10080599784851074,
+            "value": 0.49783599376678467
+          },
+          {
+            "envelope": 0,
+            "time": 0.6018149852752686,
+            "value": 0.4935060143470764
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1
+          }
+        ]
+      }
+    }
+  }
+}

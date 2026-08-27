@@ -1,0 +1,26 @@
+{
+  "className": "Pose",
+  "properties": {
+    "CFrame": [
+      0,
+      -1.4901161193847656e-8,
+      3.725290298461914e-9,
+      1,
+      0,
+      0,
+      0,
+      0.9848124980926514,
+      -0.17362114787101746,
+      0,
+      0.17362114787101746,
+      0.9848124980926514
+    ],
+    "ClassName": "Pose",
+    "EasingDirection": "Out",
+    "EasingStyle": "Linear",
+    "Name": "RightLowerArm",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Weight": 1
+  }
+}

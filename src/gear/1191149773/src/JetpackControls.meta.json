@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "JetpackControls",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{32729C4F-7DCB-4554-9B14-57B6935C1830}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "rbxassetid://106708146",
+    "ClassName": "Sound",
+    "Looped": true,
+    "Name": "Wind",
+    "PlaybackSpeed": 1.75,
+    "RollOffMinDistance": 5,
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}
