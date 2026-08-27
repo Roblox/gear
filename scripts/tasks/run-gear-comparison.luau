@@ -5,6 +5,9 @@ local getUploadedAssetForComparison = require(ReplicatedStorage.Src.getUploadedA
 local compareGear = require(ReplicatedStorage.Src.compareGear)
 local ObjectStatus = require(ReplicatedStorage.Src.ObjectStatus)
 local GearMap = require(ReplicatedStorage.Src.GearMap)
+local preloadSounds = require(ReplicatedStorage.Src.preloadSounds)
+
+preloadSounds({ ReplicatedStorage.Src.gear, ReplicatedStorage.Assets })
 
 local allGearModifications = {}
 local gearModificationCount = 0
