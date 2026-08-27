@@ -1,0 +1,10 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "rbxasset://sounds/unsheath.wav",
+    "ClassName": "Sound",
+    "Name": "SwordHit",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

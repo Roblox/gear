@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "Burning",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{2C14EC08-6B0C-4CD9-A169-5459C194B4EC}",
+    "SourceAssetId": -1
+  }
+}

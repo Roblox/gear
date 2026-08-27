@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "LaserBurn",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{187EA095-ED17-40B7-AD8B-B639516CF938}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "rbxassetid://58520081",
+    "ClassName": "Sound",
+    "Name": "Scream",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "ClassName": "ParticleEmitter",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              0.6666669845581055,
+              0,
+              1
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              0.6666669845581055,
+              0,
+              1
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "Drag": 5,
+    "EmissionDirection": "Back",
+    "Enabled": false,
+    "Lifetime": {
+      "NumberRange": [
+        1,
+        1
+      ]
+    },
+    "LightEmission": 1,
+    "Name": "CometDebris",
+    "Rate": 50,
+    "Rotation": {
+      "NumberRange": [
+        -180,
+        180
+      ]
+    },
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 2.9375
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        100,
+        100
+      ]
+    },
+    "SpreadAngle": [
+      30,
+      30
+    ],
+    "TextureContent": "rbxassetid://197195522",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "VelocityInheritance": 1
+  }
+}

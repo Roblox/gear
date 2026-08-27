@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "FalconScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{E300CEE9-EC19-4330-90A8-3C8E5D107E93}",
+    "SourceAssetId": -1
+  }
+}

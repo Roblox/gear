@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "TelaTime",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{E1032148-0E51-4D86-B1F6-9347ECCCF1F8}",
+    "SourceAssetId": -1
+  }
+}

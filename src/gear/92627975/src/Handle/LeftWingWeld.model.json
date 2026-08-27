@@ -1,0 +1,42 @@
+{
+  "ClassName": "Weld",
+  "Properties": {
+    "C0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "C1": [
+      1.1535987854003906,
+      -0.0478057861328125,
+      -0.003498077392578125,
+      0,
+      0,
+      -1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "ClassName": "Weld",
+    "Enabled": true,
+    "Name": "LeftWingWeld",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  },
+  "attributes": {
+    "Rojo_Target_Part0": "g92627975_2",
+    "Rojo_Target_Part1": "g92627975_16"
+  }
+}

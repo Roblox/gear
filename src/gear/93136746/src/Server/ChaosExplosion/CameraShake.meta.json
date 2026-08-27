@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "CameraShake",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{22E433A1-EC50-4DAF-9AC7-402DDADC993D}",
+    "SourceAssetId": -1
+  }
+}

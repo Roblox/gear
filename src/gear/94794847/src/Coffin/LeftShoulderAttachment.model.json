@@ -1,0 +1,23 @@
+{
+  "ClassName": "Attachment",
+  "Properties": {
+    "CFrame": [
+      -1,
+      -1.5497207641601562e-6,
+      0.5,
+      2.3320104527990715e-14,
+      -1,
+      -1.788139627478813e-7,
+      1.7015186415392236e-7,
+      1.788139627478813e-7,
+      -1,
+      1,
+      -7.105423969469213e-15,
+      1.7015186415392236e-7
+    ],
+    "ClassName": "Attachment",
+    "Name": "LeftShoulderAttachment",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

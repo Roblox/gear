@@ -1,0 +1,42 @@
+{
+  "ClassName": "Motor",
+  "Properties": {
+    "C0": [
+      0,
+      0.05000000074505806,
+      -0.4500000476837158,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "C1": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "ClassName": "Motor",
+    "Enabled": true,
+    "Name": "BoltWeld",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  },
+  "attributes": {
+    "Rojo_Target_Part0": "g95951270_5",
+    "Rojo_Target_Part1": "g95951270_6"
+  }
+}

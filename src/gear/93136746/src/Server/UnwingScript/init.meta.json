@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "UnwingScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{D0104306-1053-4095-BCC9-424BF7E81BF8}",
+    "SourceAssetId": -1
+  }
+}

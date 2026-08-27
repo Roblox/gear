@@ -1,0 +1,95 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "ClassName": "ParticleEmitter",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              0,
+              0.6666669845581055,
+              1
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              0,
+              0.6666669845581055,
+              1
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "EmissionDirection": "Back",
+    "Lifetime": {
+      "NumberRange": [
+        2,
+        3
+      ]
+    },
+    "LightEmission": 1,
+    "LockedToPart": true,
+    "Name": "FlareV2",
+    "Rate": 3,
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 0.5015339851379395,
+            "value": 1.375
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        0,
+        0
+      ]
+    },
+    "TextureContent": "rbxassetid://284205403",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 1
+          },
+          {
+            "envelope": 0,
+            "time": 0.05000000074505806,
+            "value": 0.5
+          },
+          {
+            "envelope": 0,
+            "time": 0.949999988079071,
+            "value": 0.5
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1
+          }
+        ]
+      }
+    }
+  }
+}

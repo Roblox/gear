@@ -1,0 +1,183 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "Acceleration": [
+      8,
+      6,
+      6
+    ],
+    "ClassName": "ParticleEmitter",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              1,
+              0.33333298563957214,
+              0
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              1,
+              0,
+              0
+            ],
+            "time": 0.49584001302719116
+          },
+          {
+            "color": [
+              0.36470600962638855,
+              0,
+              0
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "Enabled": false,
+    "Lifetime": {
+      "NumberRange": [
+        0,
+        1
+      ]
+    },
+    "LightEmission": 0.8600000143051147,
+    "Name": "Fire",
+    "Rate": 100,
+    "RotSpeed": {
+      "NumberRange": [
+        5,
+        9
+      ]
+    },
+    "Rotation": {
+      "NumberRange": [
+        4,
+        9
+      ]
+    },
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 1.625
+          },
+          {
+            "envelope": 0,
+            "time": 0.12267299741506577,
+            "value": 1.5
+          },
+          {
+            "envelope": 0,
+            "time": 0.15443600714206696,
+            "value": 1.4375
+          },
+          {
+            "envelope": 0,
+            "time": 0.20810499787330627,
+            "value": 1.3125
+          },
+          {
+            "envelope": 0,
+            "time": 0.35706499218940735,
+            "value": 1.3125
+          },
+          {
+            "envelope": 0,
+            "time": 0.5553119778633118,
+            "value": 1.25
+          },
+          {
+            "envelope": 0,
+            "time": 0.7250819802284241,
+            "value": 0.875
+          },
+          {
+            "envelope": 0,
+            "time": 0.9047099947929382,
+            "value": 0.4375
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0.125
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        7,
+        9
+      ]
+    },
+    "SpreadAngle": [
+      28,
+      28
+    ],
+    "TextureContent": "http://www.roblox.com/asset/?id=248625108",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 0.13253000378608704,
+            "value": 0.543749988079071
+          },
+          {
+            "envelope": 0,
+            "time": 0.3209199905395508,
+            "value": 0.737500011920929
+          },
+          {
+            "envelope": 0,
+            "time": 0.38773301243782043,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 0.46878400444984436,
+            "value": 0.7250000238418579
+          },
+          {
+            "envelope": 0,
+            "time": 0.5224530100822449,
+            "value": 0.45625001192092896
+          },
+          {
+            "envelope": 0,
+            "time": 0.6155530214309692,
+            "value": 0.637499988079071
+          },
+          {
+            "envelope": 0,
+            "time": 0.6396499872207642,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 0.7447969913482666,
+            "value": 0.5249999761581421
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0
+          }
+        ]
+      }
+    }
+  }
+}

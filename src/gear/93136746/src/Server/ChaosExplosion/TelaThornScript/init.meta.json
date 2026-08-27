@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "TelaThornScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{7EB24AE8-8B65-48A1-B2CB-64C92094B557}",
+    "SourceAssetId": -1
+  }
+}

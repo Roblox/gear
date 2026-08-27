@@ -1,0 +1,13 @@
+{
+  "ClassName": "ReverbSoundEffect",
+  "Properties": {
+    "ClassName": "ReverbSoundEffect",
+    "Density": 0,
+    "Diffusion": 0.10999999940395355,
+    "Enabled": true,
+    "Name": "ReverbSoundEffect",
+    "Priority": 0,
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

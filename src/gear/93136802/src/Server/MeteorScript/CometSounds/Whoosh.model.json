@@ -1,0 +1,12 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "rbxassetid://967702503",
+    "ClassName": "Sound",
+    "Name": "Whoosh",
+    "RollOffMinDistance": 15,
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 1
+  }
+}

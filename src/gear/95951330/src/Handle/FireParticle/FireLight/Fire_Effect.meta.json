@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "Fire_Effect",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{596D98D6-678A-41E1-8E17-7D828E4B7EE3}",
+    "SourceAssetId": -1
+  }
+}
