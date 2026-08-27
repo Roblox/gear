@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "BounceBallScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{7E121E72-A395-48DD-9A8A-E43BF9F6B9E4}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "MindGrapeEffect",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{BAE44010-D00A-4A0D-966F-1DCB038B2546}",
+    "SourceAssetId": -1
+  }
+}

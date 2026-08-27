@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "CompassScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{76C54646-F2D3-4D67-9BE1-983864BFA58D}",
+    "SourceAssetId": -1
+  }
+}

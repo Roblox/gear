@@ -1,0 +1,18 @@
+{
+  "className": "GuiMain",
+  "properties": {
+    "AutoLocalize": true,
+    "ClassName": "GuiMain",
+    "Enabled": true,
+    "Name": "Connect4Gui",
+    "ResetOnSpawn": true,
+    "Sandboxed": false,
+    "SelectionBehaviorDown": "Escape",
+    "SelectionBehaviorLeft": "Escape",
+    "SelectionBehaviorRight": "Escape",
+    "SelectionBehaviorUp": "Escape",
+    "SelectionGroup": false,
+    "SourceAssetId": -1,
+    "ZIndexBehavior": "Global"
+  }
+}

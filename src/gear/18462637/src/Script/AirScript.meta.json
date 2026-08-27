@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "AirScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{F0CFB95E-F7BE-44CC-B3A2-30B8D5286033}",
+    "SourceAssetId": -1
+  }
+}

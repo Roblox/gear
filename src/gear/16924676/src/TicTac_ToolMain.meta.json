@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "TicTac_ToolMain",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{398E4C5D-1859-49A4-9361-4357FC0952D0}",
+    "SourceAssetId": -1
+  }
+}

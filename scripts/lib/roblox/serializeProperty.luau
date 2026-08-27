@@ -120,6 +120,9 @@ local SERIALIZERS: { [string]: Serializer } = {
 		return if type(v) == "string" then v else v.Uri
 	end,
 	PhysicalProperties = function(v)
+		if v == nil or v == "Default" then
+			return { PhysicalProperties = "Default" }
+		end
 		return {
 			PhysicalProperties = {
 				density = v.Density,
@@ -127,6 +130,7 @@ local SERIALIZERS: { [string]: Serializer } = {
 				elasticity = v.Elasticity,
 				frictionWeight = v.FrictionWeight,
 				elasticityWeight = v.ElasticityWeight,
+				acousticAbsorption = v.AcousticAbsorption,
 			},
 		}
 	end,

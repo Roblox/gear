@@ -1,0 +1,48 @@
+{
+  "ClassName": "Beam",
+  "Properties": {
+    "ClassName": "Beam",
+    "FaceCamera": true,
+    "LightEmission": 1,
+    "Name": "Light",
+    "Sandboxed": false,
+    "Segments": 2,
+    "SourceAssetId": -1,
+    "TextureContent": "rbxassetid://502107146",
+    "TextureLength": 100,
+    "TextureMode": "Static",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 1
+          },
+          {
+            "envelope": 0,
+            "time": 0.10000000149011612,
+            "value": 0.5
+          },
+          {
+            "envelope": 0,
+            "time": 0.800000011920929,
+            "value": 0.5
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "Width0": 1.5,
+    "Width1": 0,
+    "ZOffset": 0.10000000149011612
+  },
+  "attributes": {
+    "Rojo_Target_Attachment0": "g77443461_18",
+    "Rojo_Target_Attachment1": "g77443461_17"
+  }
+}

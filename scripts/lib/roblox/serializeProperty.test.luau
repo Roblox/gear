@@ -183,13 +183,14 @@ test.suite("serializeProperty", function(suite: TestSuite)
 		asserts.eq("", v)
 	end)
 
-	suite:case("PhysicalProperties", function(asserts: Asserts)
+	suite:case("PhysicalProperties custom object", function(asserts: Asserts)
 		local v, status = serializeProperty("PhysicalProperties", {
 			Density = 0.5,
 			Friction = 1,
 			Elasticity = 0,
 			FrictionWeight = 50,
 			ElasticityWeight = 25,
+			AcousticAbsorption = 1,
 		})
 		asserts.eq("ok", status)
 		asserts.eq({
@@ -199,8 +200,21 @@ test.suite("serializeProperty", function(suite: TestSuite)
 				elasticity = 0,
 				frictionWeight = 50,
 				elasticityWeight = 25,
+				acousticAbsorption = 1,
 			},
 		}, v)
+	end)
+
+	suite:case("PhysicalProperties Default", function(asserts: Asserts)
+		local v, status = serializeProperty("PhysicalProperties", "Default")
+		asserts.eq("ok", status)
+		asserts.eq({ PhysicalProperties = "Default" }, v)
+	end)
+
+	suite:case("PhysicalProperties nil is Default", function(asserts: Asserts)
+		local v, status = serializeProperty("PhysicalProperties", nil)
+		asserts.eq("ok", status)
+		asserts.eq({ PhysicalProperties = "Default" }, v)
 	end)
 
 	suite:case("BinaryString encodes bytes as base64", function(asserts: Asserts)

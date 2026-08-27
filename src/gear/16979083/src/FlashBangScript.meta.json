@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "FlashBangScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{6A5311F3-27E9-495A-B49F-E9A187B9A624}",
+    "SourceAssetId": -1
+  }
+}

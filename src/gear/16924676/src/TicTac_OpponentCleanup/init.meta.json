@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "TicTac_OpponentCleanup",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{849A3178-5C6C-4F2A-A8A3-B7E8D57AB512}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "ClassName": "ParticleEmitter",
+    "Lifetime": {
+      "NumberRange": [
+        1,
+        2
+      ]
+    },
+    "LightEmission": 1,
+    "LockedToPart": true,
+    "Name": "Rays_Thin",
+    "Rate": 2.5,
+    "RotSpeed": {
+      "NumberRange": [
+        -75,
+        75
+      ]
+    },
+    "Rotation": {
+      "NumberRange": [
+        -180,
+        180
+      ]
+    },
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 0.05550000071525574,
+            "value": 0.43534401059150696
+          },
+          {
+            "envelope": 0,
+            "time": 0.11100000143051147,
+            "value": 0.8673809766769409
+          },
+          {
+            "envelope": 0,
+            "time": 0.1665000021457672,
+            "value": 1.292829990386963
+          },
+          {
+            "envelope": 0,
+            "time": 0.22200000286102295,
+            "value": 1.7084599733352661
+          },
+          {
+            "envelope": 0,
+            "time": 0.2775000035762787,
+            "value": 2.111109972000122
+          },
+          {
+            "envelope": 0,
+            "time": 0.3330000042915344,
+            "value": 2.497730016708374
+          },
+          {
+            "envelope": 0,
+            "time": 0.38850000500679016,
+            "value": 2.865380048751831
+          },
+          {
+            "envelope": 0,
+            "time": 0.4440000057220459,
+            "value": 3.2112600803375244
+          },
+          {
+            "envelope": 0,
+            "time": 0.49950000643730164,
+            "value": 3.53275990486145
+          },
+          {
+            "envelope": 0,
+            "time": 0.5550000071525574,
+            "value": 3.8274199962615967
+          },
+          {
+            "envelope": 0,
+            "time": 0.6104999780654907,
+            "value": 4.093009948730469
+          },
+          {
+            "envelope": 0,
+            "time": 0.6660000085830688,
+            "value": 4.327509880065918
+          },
+          {
+            "envelope": 0,
+            "time": 0.7214999794960022,
+            "value": 4.529139995574951
+          },
+          {
+            "envelope": 0,
+            "time": 0.7770000100135803,
+            "value": 4.6963701248168945
+          },
+          {
+            "envelope": 0,
+            "time": 0.8324999809265137,
+            "value": 4.827929973602295
+          },
+          {
+            "envelope": 0,
+            "time": 0.8880000114440918,
+            "value": 4.922820091247559
+          },
+          {
+            "envelope": 0,
+            "time": 0.9434999823570251,
+            "value": 4.980319976806641
+          },
+          {
+            "envelope": 0,
+            "time": 0.9990000128746033,
+            "value": 4.999989986419678
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 5
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        0,
+        0
+      ]
+    },
+    "TextureContent": "rbxassetid://1084961641",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1
+          }
+        ]
+      }
+    }
+  }
+}

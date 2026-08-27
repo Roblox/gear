@@ -1,0 +1,12 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "rbxassetid://116049255",
+    "ClassName": "Sound",
+    "Name": "TimeSound",
+    "PlaybackSpeed": 1.2000000476837158,
+    "RollOffMinDistance": 50,
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

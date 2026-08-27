@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "TicTac_LocalMain",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{514E1AB6-DBA8-4FBE-A3EE-9F174570406D}",
+    "SourceAssetId": -1
+  }
+}
