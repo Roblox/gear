@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "Tweener",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{6C88E072-2A5C-4124-ADA2-CA8FFC5F3D57}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "rbxasset://sounds/uuhhh.mp3",
+    "ClassName": "Sound",
+    "Name": "SOUND_Damaged",
+    "RollOffMinDistance": 0,
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 0.10000000149011612
+  }
+}

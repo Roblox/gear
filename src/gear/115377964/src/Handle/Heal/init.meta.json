@@ -1,0 +1,24 @@
+{
+  "className": "Attachment",
+  "id": "g115377964_11",
+  "properties": {
+    "CFrame": [
+      0,
+      0,
+      -0.29999998211860657,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "ClassName": "Attachment",
+    "Name": "Heal",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

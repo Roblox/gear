@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "RippleEffect",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{31254B5D-981D-4D6C-9D45-CC9297465BF6}",
+    "SourceAssetId": -1
+  }
+}

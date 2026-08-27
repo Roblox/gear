@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "SpiderAI",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{2797BCF2-08BC-4425-9320-E3348446101D}",
+    "SourceAssetId": -1
+  }
+}

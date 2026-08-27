@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "LightingChange",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{3B0A48CE-0974-4FB6-AF39-605CE51CDA18}",
+    "SourceAssetId": -1
+  }
+}

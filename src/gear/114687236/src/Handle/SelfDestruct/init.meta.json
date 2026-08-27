@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "SelfDestruct",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{EA388C78-15EE-4ACD-99BC-CC7FFF517D24}",
+    "SourceAssetId": -1
+  }
+}

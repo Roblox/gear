@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "PoisonedFood",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{507AF791-6F06-4516-B2B7-D7D5D6BB7361}",
+    "SourceAssetId": -1
+  }
+}

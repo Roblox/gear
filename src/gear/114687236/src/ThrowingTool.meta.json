@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "ThrowingTool",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{6554C18D-2C91-45F1-B543-543FAA3DB3C8}",
+    "SourceAssetId": -1
+  }
+}

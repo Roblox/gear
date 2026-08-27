@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "SharkScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{6BA4F2D6-BCEE-4759-887E-CDE951007954}",
+    "SourceAssetId": -1
+  }
+}

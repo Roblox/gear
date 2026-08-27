@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "ChalkDrawing",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{8C2BD33F-A384-4C18-951B-3C6B4E607F6F}",
+    "SourceAssetId": -1
+  }
+}

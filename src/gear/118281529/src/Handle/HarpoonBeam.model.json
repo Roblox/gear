@@ -1,0 +1,58 @@
+{
+  "ClassName": "Beam",
+  "Properties": {
+    "ClassName": "Beam",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              0.6666669845581055,
+              1,
+              1
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              0.6666669845581055,
+              1,
+              1
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "FaceCamera": true,
+    "LightEmission": 0.10000000149011612,
+    "Name": "HarpoonBeam",
+    "Sandboxed": false,
+    "Segments": 1,
+    "SourceAssetId": -1,
+    "TextureContent": "rbxassetid://2382169232",
+    "TextureMode": "Wrap",
+    "TextureSpeed": 0,
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0
+          }
+        ]
+      }
+    },
+    "Width0": 0.30000001192092896,
+    "Width1": 0.30000001192092896
+  },
+  "attributes": {
+    "Rojo_Target_Attachment0": "g118281529_8"
+  }
+}

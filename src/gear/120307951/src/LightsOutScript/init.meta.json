@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "LightsOutScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{998280D0-797E-4787-A37C-9AAB90BFF36D}",
+    "SourceAssetId": -1
+  }
+}
