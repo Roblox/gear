@@ -1,0 +1,23 @@
+{
+  "ClassName": "Attachment",
+  "Properties": {
+    "CFrame": [
+      -0.12000000476837158,
+      0.05000000074505806,
+      -1.5500000715255737,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      -1,
+      0,
+      0
+    ],
+    "ClassName": "Attachment",
+    "Name": "BarrelTip",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

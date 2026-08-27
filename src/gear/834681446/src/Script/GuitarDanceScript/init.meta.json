@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "GuitarDanceScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{c7557ed6-cacf-4886-8c98-f0375b316ce6}",
+    "SourceAssetId": -1
+  }
+}

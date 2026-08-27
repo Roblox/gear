@@ -1,0 +1,18 @@
+{
+  "ClassName": "SpotLight",
+  "Properties": {
+    "Brightness": 1,
+    "ClassName": "SpotLight",
+    "Color": [
+      1,
+      0.7686275243759155,
+      0.30588236451148987
+    ],
+    "Enabled": false,
+    "Face": "Top",
+    "Name": "SpotLight",
+    "Sandboxed": false,
+    "Shadows": true,
+    "SourceAssetId": -1
+  }
+}

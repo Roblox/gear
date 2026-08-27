@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "StarfishEffect",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{0EDB6A82-3CA9-45C7-B3AE-C30496744EFB}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "Goldify",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{58A50C24-A158-4568-9D53-3716D085A9D3}",
+    "SourceAssetId": -1
+  }
+}

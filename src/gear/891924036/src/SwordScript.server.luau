@@ -1,0 +1,76 @@
+--// Made by StarWars
+local Players = game:GetService("Players")
+
+local Tool = script.Parent
+local Handle = Tool:FindFirstChild("Handle")
+if not Handle then return end
+
+local Sword = require(754568173)
+
+local Player = nil
+local Character = nil
+local Humanoid = nil
+local Torso = nil
+
+local SwordData = Sword.SwordFunctions.GetData("Katana")
+local SwordModel = Sword.SwordFunctions.GetSword("Katana")
+local Config = Sword.SwordFunctions.CreateConfiguration(Tool, SwordData)
+
+local UnsheathSound = Handle:WaitForChild("Unsheath")
+UnsheathSound.Volume = 1
+local LungeSound = Handle:WaitForChild("Lunge")
+LungeSound.Volume = 0.6
+local SlashSound = Handle:WaitForChild("Slash")
+SlashSound.Volume = 0.7
+
+local LastAttack = 0
+
+--Got lazy to update the sword module.
+local OverrideGrips = {
+	Up = CFrame.new(0, 0.100000001, 1.39999998, 1, 0, -0, 0, 0.0995037332, 0.995037138, 0, -0.995037258, 0.0995037183),
+	Out = CFrame.new(0, 0.100000001, 1.39999998, 1, 0, -0, 0, 1, 0, 0, -0, 1)
+}
+
+function OnActivated()
+	if not Tool.Enabled then return end
+	Tool.Enabled = false
+	--// Check to see if you are double clicking then lunge attack
+	if tick() - LastAttack < 0.2 then
+		Config.Damage.Value = SwordData.Damage.Lunge
+		LungeSound:Play()
+		SwordData.Functions.Lunge(Player, Tool)
+		wait(0.2)
+		Tool.Grip = OverrideGrips.Out
+		wait(0.75)
+		Tool.Grip = OverrideGrips.Up
+	else
+		SlashSound:Play()
+		Config.Damage.Value = SwordData.Damage.Slash
+		SwordData.Functions.Slash(Player, Tool)
+	end
+	
+	LastAttack = tick()
+	Config.Damage.Value = SwordData.Damage.Base
+	Tool.Enabled = true
+end
+
+function OnEquipped()
+	Character = Tool.Parent
+	Player = Players:GetPlayerFromCharacter(Character)
+	Humanoid = Character:FindFirstChildOfClass('Humanoid')
+	Torso = Character:FindFirstChild('HumanoidRootPart')
+	
+	UnsheathSound:Play()
+end
+
+function OnUnequipped()
+	Player = nil
+	Character = nil
+	Humanoid = nil
+	Torso = nil
+end
+
+
+Tool.Activated:Connect(OnActivated)
+Tool.Equipped:Connect(OnEquipped)
+Tool.Unequipped:Connect(OnUnequipped)
