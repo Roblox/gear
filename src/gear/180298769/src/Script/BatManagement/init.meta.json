@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "BatManagement",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{D343EDDB-6004-4A31-8276-B6D0FDAA93F7}",
+    "SourceAssetId": -1
+  }
+}

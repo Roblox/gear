@@ -1,0 +1,10 @@
+{
+  "ClassName": "Humanoid",
+  "Properties": {
+    "ClassName": "Humanoid",
+    "Name": "Humanoid",
+    "NameOcclusion": "NoOcclusion",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

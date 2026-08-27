@@ -1,0 +1,18 @@
+{
+  "className": "ScreenGui",
+  "properties": {
+    "AutoLocalize": true,
+    "ClassName": "ScreenGui",
+    "Enabled": true,
+    "Name": "DirectionsGui",
+    "ResetOnSpawn": true,
+    "Sandboxed": false,
+    "SelectionBehaviorDown": "Escape",
+    "SelectionBehaviorLeft": "Escape",
+    "SelectionBehaviorRight": "Escape",
+    "SelectionBehaviorUp": "Escape",
+    "SelectionGroup": false,
+    "SourceAssetId": -1,
+    "ZIndexBehavior": "Global"
+  }
+}

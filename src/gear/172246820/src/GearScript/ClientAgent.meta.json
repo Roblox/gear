@@ -1,0 +1,9 @@
+{
+  "properties": {
+    "ClassName": "ModuleScript",
+    "Name": "ClientAgent",
+    "Sandboxed": false,
+    "ScriptGuid": "{D9C8B04B-249B-4744-BC6A-F1893800E307}",
+    "SourceAssetId": -1
+  }
+}

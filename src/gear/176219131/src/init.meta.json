@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0.4000000059604645,
+      -1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      -1,
+      0,
+      0
+    ],
+    "Name": "176219131",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=172283114",
+    "ToolTip": "ROBLOX University Foam Hand",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            0.9659255146980286,
+            0,
+            0.25881901383399963
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            -0.25881901383399963,
+            0,
+            0.9659255146980286
+          ]
+        ],
+        "position": [
+          -0.5,
+          79.22000122070312,
+          0.30000001192092896
+        ]
+      }
+    }
+  }
+}

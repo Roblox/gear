@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0,
+      -0.550000011920929,
+      1.2000000476837158,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "Name": "178076831",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=176248586",
+    "ToolTip": "Redcliff Crossbow",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            0.9659255146980286,
+            0,
+            0.25881901383399963
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            -0.25881901383399963,
+            0,
+            0.9659255146980286
+          ]
+        ],
+        "position": [
+          -2.3403353691101074,
+          78.41999816894531,
+          1.9319199323654175
+        ]
+      }
+    }
+  }
+}

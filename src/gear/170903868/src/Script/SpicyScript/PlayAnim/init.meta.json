@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "PlayAnim",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{F0E45C11-727B-42EA-B215-CF9F6232858E}",
+    "SourceAssetId": -1
+  }
+}

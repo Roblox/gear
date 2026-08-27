@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0,
+      -0.25,
+      -1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      1,
+      0
+    ],
+    "Name": "172922089",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=172907223 ",
+    "ToolTip": "Bronze Bloxxer",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            -4.371138828673793e-8,
+            1
+          ],
+          [
+            0,
+            -1,
+            -4.371138828673793e-8
+          ]
+        ],
+        "position": [
+          0,
+          20,
+          0
+        ]
+      }
+    }
+  }
+}

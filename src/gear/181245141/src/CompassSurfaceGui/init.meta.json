@@ -1,0 +1,24 @@
+{
+  "className": "SurfaceGui",
+  "properties": {
+    "Active": true,
+    "AutoLocalize": true,
+    "CanvasSize": [
+      680,
+      680
+    ],
+    "ClassName": "SurfaceGui",
+    "Enabled": false,
+    "Face": "Top",
+    "Name": "CompassSurfaceGui",
+    "ResetOnSpawn": true,
+    "Sandboxed": false,
+    "SelectionBehaviorDown": "Escape",
+    "SelectionBehaviorLeft": "Escape",
+    "SelectionBehaviorRight": "Escape",
+    "SelectionBehaviorUp": "Escape",
+    "SelectionGroup": false,
+    "SourceAssetId": -1,
+    "ZIndexBehavior": "Global"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "ClassName": "RemoteFunction",
+  "Properties": {
+    "ClassName": "RemoteFunction",
+    "Name": "LocalControls",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,81 @@
+--Made by Luckymaxer
+
+Tool = script.Parent
+Handle = Tool:WaitForChild("Handle")
+
+Players = game:GetService("Players")
+Debris = game:GetService("Debris")
+
+ControlFunction = Tool:WaitForChild("ControlFunction")
+
+Animations = {
+	{Animation = Tool:WaitForChild("Swing1"), Duration = 1, Speed = 3, Damage = 12},
+	{Animation = Tool:WaitForChild("Swing2"), Duration = 1, Speed = 1.125, Damage = 8},
+	{Animation = Tool:WaitForChild("Swing3"), Duration = 1, Speed = 2, Damage = 6},
+	{Animation = Tool:WaitForChild("Swing4"), Duration = 1.25, Speed = 1.5, Damage = 10},
+	{Animation = Tool:WaitForChild("Swing5"), Duration = 1, Speed = 2, Damage = 7}
+}
+
+LastAnimUsed = nil
+AnimReused = 0
+
+function ChooseAnimation()
+	local AnimChosen = Animations[math.random(1, #Animations)]
+	AnimReused = ((AnimChosen == LastAnimUsed and (AnimReused + 1)) or 0)
+	if AnimChosen ~= LastAnimUsed or AnimReused <= 1 then
+		LastAnimUsed = AnimChosen
+		return AnimChosen
+	else
+		return ChooseAnimation()
+	end
+end
+
+function Activated()
+	if not Humanoid or not Humanoid.Parent or Humanoid.Health == 0 or SpecialActive or not Tool.Enabled then
+		return
+	end
+	Tool.Enabled = false
+	if SwingAnim then
+		SwingAnim:Stop()
+	end
+	local AnimChosen = ChooseAnimation()
+	SwingAnim = Humanoid:LoadAnimation(AnimChosen.Animation)
+	if SwingAnim then
+		SwingAnim:Play(nil, nil, AnimChosen.Speed)
+		AnimPlaying = AnimChosen
+	end
+	pcall(function()
+		ControlFunction:InvokeServer("AnimationPlaying", {Name = AnimChosen.Animation.Name, Duration = AnimChosen.Duration, Damage = AnimChosen.Damage})
+	end)
+	wait(AnimChosen.Duration)
+	if SwingAnim then
+		SwingAnim:Stop()
+	end
+	AnimPlaying = nil
+	wait(ReloadTime)
+	Tool.Enabled = true
+end
+
+function Equipped(Mouse)
+	Character = Tool.Parent
+	Player = Players:GetPlayerFromCharacter(Character)
+	Humanoid = Character:FindFirstChild("Humanoid")
+	if not Character or not Player or not Humanoid or Humanoid.Health == 0 then
+		return
+	end
+	if not Tool.Enabled then
+		wait(ReloadTime)
+		Tool.Enabled = true
+	end
+end
+
+function Unequipped()
+	if SwingAnim then
+		SwingAnim:Stop()
+	end
+	AnimPlaying = nil
+end
+
+Tool.Activated:connect(Activated)
+Tool.Equipped:connect(Equipped)
+Tool.Unequipped:connect(Unequipped)
