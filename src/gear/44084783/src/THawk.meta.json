@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "THawk",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{25308370-266E-4014-A1B3-53400C9F4529}",
+    "SourceAssetId": -1
+  }
+}

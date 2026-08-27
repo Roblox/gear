@@ -1,0 +1,12 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=44061611",
+    "ClassName": "Sound",
+    "Name": "Bangbang",
+    "PlaybackSpeed": 0.5,
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 1
+  }
+}

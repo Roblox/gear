@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "FireballScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{0A1E2136-5DD8-4FB3-A0DA-9C0F19FCBE75}",
+    "SourceAssetId": -1
+  }
+}

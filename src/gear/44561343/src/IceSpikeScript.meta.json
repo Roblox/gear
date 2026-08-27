@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "IceSpikeScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{6C711398-B5DB-43D0-96A2-C7AEBBD586B3}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "MegaphoneGuiScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{5877C2C7-CC7F-43D4-A8D5-789FE584DB80}",
+    "SourceAssetId": -1
+  }
+}

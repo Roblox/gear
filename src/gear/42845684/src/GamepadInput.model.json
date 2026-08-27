@@ -1,0 +1,9 @@
+{
+  "ClassName": "RemoteEvent",
+  "Properties": {
+    "ClassName": "RemoteEvent",
+    "Name": "GamepadInput",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "DragonSpear",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{1BEE3D38-D24E-451E-906A-42B6A6068553}",
+    "SourceAssetId": -1
+  }
+}

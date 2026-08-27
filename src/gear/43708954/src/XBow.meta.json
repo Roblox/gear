@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "XBow",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{D7725EA3-A28F-474D-AAC4-4038D8C04EB7}",
+    "SourceAssetId": -1
+  }
+}

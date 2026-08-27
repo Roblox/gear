@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "RegenEffect",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{4AAC7AC7-45A8-4E2E-9C02-89E93A4A2723}",
+    "SourceAssetId": -1
+  }
+}
