@@ -1,0 +1,14 @@
+{
+  "ClassName": "BodyForce",
+  "Properties": {
+    "ClassName": "BodyForce",
+    "Force": [
+      0,
+      0,
+      0
+    ],
+    "Name": "Float",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

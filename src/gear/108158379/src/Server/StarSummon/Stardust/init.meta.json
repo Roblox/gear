@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "Stardust",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{2962F481-D833-435F-A730-D3D8431FBBCF}",
+    "SourceAssetId": -1
+  }
+}

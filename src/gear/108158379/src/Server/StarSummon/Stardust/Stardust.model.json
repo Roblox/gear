@@ -1,0 +1,158 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "ClassName": "ParticleEmitter",
+    "Drag": 2.75,
+    "Enabled": false,
+    "Lifetime": {
+      "NumberRange": [
+        0.5,
+        1
+      ]
+    },
+    "LightEmission": 1,
+    "Name": "Stardust",
+    "Rate": 50,
+    "Rotation": {
+      "NumberRange": [
+        20,
+        20
+      ]
+    },
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 1,
+            "time": 0,
+            "value": 1
+          },
+          {
+            "envelope": 0,
+            "time": 0.05000000074505806,
+            "value": 0
+          },
+          {
+            "envelope": 1,
+            "time": 0.10000000149011612,
+            "value": 1
+          },
+          {
+            "envelope": 0,
+            "time": 0.15000000596046448,
+            "value": 0
+          },
+          {
+            "envelope": 1,
+            "time": 0.20000000298023224,
+            "value": 1
+          },
+          {
+            "envelope": 0,
+            "time": 0.25,
+            "value": 0
+          },
+          {
+            "envelope": 1,
+            "time": 0.30000001192092896,
+            "value": 1
+          },
+          {
+            "envelope": 0,
+            "time": 0.3499999940395355,
+            "value": 0
+          },
+          {
+            "envelope": 1,
+            "time": 0.4000000059604645,
+            "value": 1
+          },
+          {
+            "envelope": 0,
+            "time": 0.44999998807907104,
+            "value": 0
+          },
+          {
+            "envelope": 1,
+            "time": 0.5,
+            "value": 1
+          },
+          {
+            "envelope": 0,
+            "time": 0.550000011920929,
+            "value": 0
+          },
+          {
+            "envelope": 1,
+            "time": 0.6000000238418579,
+            "value": 1
+          },
+          {
+            "envelope": 0,
+            "time": 0.6499999761581421,
+            "value": 0
+          },
+          {
+            "envelope": 1,
+            "time": 0.699999988079071,
+            "value": 1
+          },
+          {
+            "envelope": 0,
+            "time": 0.75,
+            "value": 0
+          },
+          {
+            "envelope": 1,
+            "time": 0.800000011920929,
+            "value": 1
+          },
+          {
+            "envelope": 0,
+            "time": 0.8500000238418579,
+            "value": 0
+          },
+          {
+            "envelope": 1,
+            "time": 0.8999999761581421,
+            "value": 1
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        5,
+        10
+      ]
+    },
+    "SpreadAngle": [
+      -180,
+      180
+    ],
+    "TextureContent": "rbxassetid://1141830599",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "CloudScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{DA2B17C9-FBD7-4E55-A319-B60C7C0E4098}",
+    "SourceAssetId": -1
+  }
+}

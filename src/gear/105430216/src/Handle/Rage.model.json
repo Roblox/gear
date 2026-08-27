@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=105374058",
+    "ClassName": "Sound",
+    "Name": "Rage",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 0.36000001430511475
+  }
+}

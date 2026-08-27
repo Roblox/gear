@@ -1,0 +1,9 @@
+{
+  "ClassName": "IntValue",
+  "Properties": {
+    "ClassName": "IntValue",
+    "Name": "Kills",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

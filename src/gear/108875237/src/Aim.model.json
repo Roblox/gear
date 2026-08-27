@@ -1,0 +1,14 @@
+{
+  "ClassName": "Vector3Value",
+  "Properties": {
+    "ClassName": "Vector3Value",
+    "Name": "Aim",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Value": [
+      -101.97164916992188,
+      3.349687099456787,
+      -140.31248474121094
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "ClassName": "SpecialMesh",
+  "Properties": {
+    "ClassName": "SpecialMesh",
+    "MeshContent": "rbxasset://fonts/sword.mesh",
+    "MeshType": "FileMesh",
+    "Name": "Mesh",
+    "Offset": [
+      0,
+      0,
+      0
+    ],
+    "Sandboxed": false,
+    "Scale": [
+      0.800000011920929,
+      0.800000011920929,
+      1
+    ],
+    "SourceAssetId": -1,
+    "TextureContent": "rbxasset://textures/SwordTexture.png",
+    "VertexColor": [
+      0,
+      0,
+      0
+    ]
+  }
+}

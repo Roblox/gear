@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "SpawnLocalTeleport",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{BF1CD056-407F-40E7-BF3A-F0E4B848A486}",
+    "SourceAssetId": -1
+  }
+}

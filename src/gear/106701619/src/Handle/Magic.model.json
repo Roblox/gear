@@ -1,0 +1,10 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=106805906",
+    "ClassName": "Sound",
+    "Name": "Magic",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

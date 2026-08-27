@@ -1,0 +1,12 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=99204505",
+    "ClassName": "Sound",
+    "Name": "BowSound",
+    "PlaybackSpeed": 0.699999988079071,
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 0.11999999731779099
+  }
+}

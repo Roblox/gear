@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "rbxassetid://416295853",
+    "ClassName": "Sound",
+    "Name": "Shockwave",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 0.6000000238418579
+  }
+}

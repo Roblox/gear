@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "StarSummon",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{F1D60877-B0E4-41A7-8A13-9D55EA2AC836}",
+    "SourceAssetId": -1
+  }
+}
