@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/Asset?ID=87767831",
+    "ClassName": "Sound",
+    "Looped": true,
+    "Name": "PoweringUp",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

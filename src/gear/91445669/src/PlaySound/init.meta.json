@@ -1,0 +1,10 @@
+{
+  "className": "BoolValue",
+  "properties": {
+    "ClassName": "BoolValue",
+    "Name": "PlaySound",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Value": true
+  }
+}

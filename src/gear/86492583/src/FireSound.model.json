@@ -1,0 +1,9 @@
+{
+  "ClassName": "BoolValue",
+  "Properties": {
+    "ClassName": "BoolValue",
+    "Name": "FireSound",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

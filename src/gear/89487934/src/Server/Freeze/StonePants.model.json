@@ -1,0 +1,15 @@
+{
+  "ClassName": "Pants",
+  "Properties": {
+    "ClassName": "Pants",
+    "Color3": [
+      1,
+      1,
+      1
+    ],
+    "Name": "StonePants",
+    "PantsTemplate": "http://www.roblox.com/asset/?id=89367757 ",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "PetToolScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{2A31B742-9187-4982-8B7E-4DE460769DD2}",
+    "SourceAssetId": -1
+  }
+}

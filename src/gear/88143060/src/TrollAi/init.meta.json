@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "TrollAi",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{9AC829F9-FCF7-40D5-A4F8-019923FC9166}",
+    "SourceAssetId": -1
+  }
+}

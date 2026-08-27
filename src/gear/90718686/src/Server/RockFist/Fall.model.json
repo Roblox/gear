@@ -1,0 +1,14 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=90618610",
+    "ClassName": "Sound",
+    "Looped": true,
+    "Name": "Fall",
+    "RollOffMaxDistance": 1000000,
+    "RollOffMinDistance": 150,
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 5
+  }
+}

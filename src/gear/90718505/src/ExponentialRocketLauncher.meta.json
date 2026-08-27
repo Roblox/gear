@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "ExponentialRocketLauncher",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{132E6748-FD4C-4F08-9181-C6A668244A18}",
+    "SourceAssetId": -1
+  }
+}

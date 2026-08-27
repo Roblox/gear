@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "DroneScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{79C04BFD-15B0-4DF3-ADEE-CE185723C153}",
+    "SourceAssetId": -1
+  }
+}

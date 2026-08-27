@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0,
+      -0.33000001311302185,
+      0.800000011920929,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "Name": "88143093",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=88134868 ",
+    "ToolTip": "Hold down mouse to charge up laser",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "position": [
+          -0.4000000059604645,
+          0.7000000476837158,
+          -0.10000000149011612
+        ]
+      }
+    }
+  }
+}

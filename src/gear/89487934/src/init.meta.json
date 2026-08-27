@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "Name": "89487934",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=89355277",
+    "ToolTip": "Don't look into her eyes!!",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "position": [
+          -0.5,
+          0.9999984502792358,
+          64.19998931884766
+        ]
+      }
+    }
+  }
+}

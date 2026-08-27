@@ -1,0 +1,24 @@
+{
+  "ClassName": "Attachment",
+  "Properties": {
+    "CFrame": [
+      -3.7476420402526855e-6,
+      1.2999999523162842,
+      -7.042444849503227e-7,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "ClassName": "Attachment",
+    "Name": "RayAttachment",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  },
+  "id": "g91360104_11"
+}

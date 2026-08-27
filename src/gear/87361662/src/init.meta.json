@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0,
+      -1.5,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      -1,
+      0,
+      0
+    ],
+    "Name": "87361662",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=86472333",
+    "ToolTip": "Make em' then break em'!",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            -0.7071068286895752,
+            0.7071068286895752,
+            0
+          ],
+          [
+            0.7071068286895752,
+            0.7071068286895752,
+            0
+          ],
+          [
+            0,
+            0,
+            -1
+          ]
+        ],
+        "position": [
+          0.005863000173121691,
+          3.492691993713379,
+          -0.002124000107869506
+        ]
+      }
+    }
+  }
+}

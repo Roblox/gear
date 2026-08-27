@@ -1,0 +1,11 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "AnimateArmScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

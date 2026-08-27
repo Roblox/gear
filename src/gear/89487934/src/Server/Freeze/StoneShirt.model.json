@@ -1,0 +1,15 @@
+{
+  "ClassName": "Shirt",
+  "Properties": {
+    "ClassName": "Shirt",
+    "Color3": [
+      1,
+      1,
+      1
+    ],
+    "Name": "StoneShirt",
+    "Sandboxed": false,
+    "ShirtTemplate": "http://www.roblox.com/asset/?id=89367757 ",
+    "SourceAssetId": -1
+  }
+}

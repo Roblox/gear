@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      4.808252285215531e-8,
+      -0.6999999284744263,
+      0.5,
+      1,
+      -4.371139183945161e-8,
+      4.371138473402425e-8,
+      4.371138828673793e-8,
+      1,
+      4.371138828673793e-8,
+      -4.371138828673793e-8,
+      -4.371138473402425e-8,
+      1
+    ],
+    "Name": "89487903",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=89272864",
+    "ToolTip": "Horrifying Axe",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "position": [
+          -0.09530355781316757,
+          0.0281020849943161,
+          0.4000000059604645
+        ]
+      }
+    }
+  }
+}

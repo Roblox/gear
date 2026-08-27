@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "GrenadeScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{B759431B-736E-47E9-8102-05E12AA6AB07}",
+    "SourceAssetId": -1
+  }
+}

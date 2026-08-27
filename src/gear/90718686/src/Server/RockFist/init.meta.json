@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "RockFist",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{30DB161C-1FE2-4C17-BCB7-A0BB53C3667F}",
+    "SourceAssetId": -1
+  }
+}

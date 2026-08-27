@@ -1,0 +1,50 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0,
+      -0.25,
+      -0.75,
+      1,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      1,
+      0
+    ],
+    "Name": "86903805",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "ToolTip": "RGC Award 2012",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            -1,
+            0
+          ]
+        ],
+        "position": [
+          1.5000009536743164,
+          -0.03249799832701683,
+          -1.4125009775161743
+        ]
+      }
+    }
+  }
+}

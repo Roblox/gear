@@ -1,0 +1,10 @@
+{
+  "ClassName": "StringValue",
+  "Properties": {
+    "ClassName": "StringValue",
+    "Name": "LEVELNAME",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Value": "the tutorial"
+  }
+}

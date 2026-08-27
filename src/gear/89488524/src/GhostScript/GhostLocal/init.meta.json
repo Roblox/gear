@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "GhostLocal",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{8E15DA5A-6E02-4226-86C2-C485D6088E5F}",
+    "SourceAssetId": -1
+  }
+}
