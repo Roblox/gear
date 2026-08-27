@@ -1,0 +1,11 @@
+{
+  "className": "Sound",
+  "properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=332680119",
+    "ClassName": "Sound",
+    "Name": "WeWishYouAMerryChristmas",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 1
+  }
+}

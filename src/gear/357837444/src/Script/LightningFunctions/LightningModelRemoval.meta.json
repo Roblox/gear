@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "LightningModelRemoval",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{EDBEC3FB-2EE6-4FCF-8208-40CC9C5759D9}",
+    "SourceAssetId": -1
+  }
+}

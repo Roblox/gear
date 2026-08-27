@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "BlimpScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{91B9868A-3262-421E-9C2F-27BD237D706F}",
+    "SourceAssetId": -1
+  }
+}

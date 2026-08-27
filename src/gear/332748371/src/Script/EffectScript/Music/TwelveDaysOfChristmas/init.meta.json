@@ -1,0 +1,11 @@
+{
+  "className": "Sound",
+  "properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=332679998",
+    "ClassName": "Sound",
+    "Name": "TwelveDaysOfChristmas",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 1
+  }
+}

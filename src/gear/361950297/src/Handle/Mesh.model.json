@@ -1,0 +1,27 @@
+{
+  "ClassName": "SpecialMesh",
+  "Properties": {
+    "ClassName": "SpecialMesh",
+    "MeshContent": "http://www.roblox.com/asset/?id=361629844",
+    "MeshType": "FileMesh",
+    "Name": "Mesh",
+    "Offset": [
+      0,
+      0,
+      0
+    ],
+    "Sandboxed": false,
+    "Scale": [
+      4.5,
+      4.5,
+      4.5
+    ],
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=380257575",
+    "VertexColor": [
+      1,
+      1,
+      1
+    ]
+  }
+}

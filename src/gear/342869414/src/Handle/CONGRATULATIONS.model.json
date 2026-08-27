@@ -1,0 +1,27 @@
+{
+  "ClassName": "SpecialMesh",
+  "Properties": {
+    "ClassName": "SpecialMesh",
+    "MeshContent": "http://www.roblox.com/asset/?id=123121715 ",
+    "MeshType": "FileMesh",
+    "Name": "CONGRATULATIONS",
+    "Offset": [
+      0,
+      0,
+      0
+    ],
+    "Sandboxed": false,
+    "Scale": [
+      0.75,
+      0.75,
+      0.75
+    ],
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=342862001",
+    "VertexColor": [
+      1,
+      1,
+      1
+    ]
+  }
+}

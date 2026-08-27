@@ -1,0 +1,103 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "ClassName": "ParticleEmitter",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              0.49803900718688965,
+              0.49803900718688965,
+              0.49803900718688965
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "Enabled": false,
+    "Lifetime": {
+      "NumberRange": [
+        1.5,
+        1.5499999523162842
+      ]
+    },
+    "LightEmission": 0.375,
+    "Name": "Steam",
+    "Rate": 1000,
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0
+          },
+          {
+            "envelope": 0.25,
+            "time": 0.25,
+            "value": 0.75
+          },
+          {
+            "envelope": 0.13500000536441803,
+            "time": 0.5,
+            "value": 0.75
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        6,
+        6
+      ]
+    },
+    "SpreadAngle": [
+      10,
+      10
+    ],
+    "TextureContent": "rbxasset://textures/explosion.png",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 1
+          },
+          {
+            "envelope": 0,
+            "time": 0.25,
+            "value": 0.25
+          },
+          {
+            "envelope": 0.07500000298023224,
+            "time": 0.5,
+            "value": 0.125
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1
+          }
+        ]
+      }
+    }
+  }
+}

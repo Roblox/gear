@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=86148536",
+    "ClassName": "Sound",
+    "Name": "Honk",
+    "RollOffMinDistance": 0,
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

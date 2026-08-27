@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "FreezeScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{0ED4D093-F04A-4CAD-85FE-19F970ECB7FC}",
+    "SourceAssetId": -1
+  }
+}

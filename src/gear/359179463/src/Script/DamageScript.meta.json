@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "DamageScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{5BD60DB1-9B59-49C5-A9E7-F7ABD369D050}",
+    "SourceAssetId": -1
+  }
+}

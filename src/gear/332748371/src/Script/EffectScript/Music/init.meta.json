@@ -1,0 +1,9 @@
+{
+  "className": "Folder",
+  "properties": {
+    "ClassName": "Folder",
+    "Name": "Music",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

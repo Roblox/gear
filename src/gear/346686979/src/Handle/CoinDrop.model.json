@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=19073176",
+    "ClassName": "Sound",
+    "Name": "CoinDrop",
+    "RollOffMinDistance": 0,
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}
