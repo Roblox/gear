@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0,
+      -0.800000011920929,
+      0.25,
+      0.9999995231628418,
+      0,
+      0.000999999581836164,
+      0,
+      1,
+      -0.0,
+      -0.000999999581836164,
+      0,
+      0.9999995231628418
+    ],
+    "Name": "160199141",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=159797884",
+    "ToolTip": "ROBLOX Blimp",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "position": [
+          -14.199999809265137,
+          102.4000015258789,
+          47
+        ]
+      }
+    }
+  }
+}

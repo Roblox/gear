@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "FastScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{DA521F74-2C1A-4CE3-B03C-2164FCA9F205}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,2 @@
+--[[ alexnewtron 2014 ]]--
+local a=script.Parent;local b=0.5;while true do if a.Parent~=nil then for c=1,50 do a.ImageTransparency=a.ImageTransparency-0.05;wait(0.05)if a.ImageTransparency<=0.25 then break end end;wait(b)for c=1,50 do a.ImageTransparency=a.ImageTransparency+0.05;wait(0.05)if a.ImageTransparency>=0.5 then break end end end end

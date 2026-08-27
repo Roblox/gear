@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0,
+      0,
+      1.7999999523162842,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      -1,
+      0
+    ],
+    "Name": "160198363",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=159849833",
+    "ToolTip": "Dynamically Lit Sword",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            -0.06698732823133469,
+            -0.9659258127212524,
+            -0.2499999850988388
+          ],
+          [
+            -0.2499999850988388,
+            0.258819043636322,
+            -0.9330126643180847
+          ],
+          [
+            0.9659258127212524,
+            -3.56506646426169e-8,
+            -0.258819043636322
+          ]
+        ],
+        "position": [
+          -21,
+          103,
+          160
+        ]
+      }
+    }
+  }
+}

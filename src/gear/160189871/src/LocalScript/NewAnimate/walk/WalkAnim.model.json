@@ -1,0 +1,10 @@
+{
+  "ClassName": "Animation",
+  "Properties": {
+    "AnimationContent": "http://www.roblox.com/asset/?id=125749145",
+    "ClassName": "Animation",
+    "Name": "WalkAnim",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

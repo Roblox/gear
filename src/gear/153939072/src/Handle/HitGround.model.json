@@ -1,0 +1,10 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "rbxasset://sounds/snap.wav",
+    "ClassName": "Sound",
+    "Name": "HitGround",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

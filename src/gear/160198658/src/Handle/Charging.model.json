@@ -1,0 +1,13 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=75421988",
+    "ClassName": "Sound",
+    "Looped": true,
+    "Name": "Charging",
+    "PlaybackSpeed": 0.5,
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 1
+  }
+}

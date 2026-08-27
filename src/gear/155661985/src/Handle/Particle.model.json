@@ -1,0 +1,23 @@
+{
+  "ClassName": "Attachment",
+  "Properties": {
+    "CFrame": [
+      0,
+      -0.7000000476837158,
+      0.10000001639127731,
+      1,
+      0,
+      -0.0,
+      0,
+      0.8191521763801575,
+      0.5735764503479004,
+      0,
+      -0.5735764503479004,
+      0.8191521763801575
+    ],
+    "ClassName": "Attachment",
+    "Name": "Particle",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "ClassName": "NumberValue",
+  "Properties": {
+    "ClassName": "NumberValue",
+    "Name": "PoisonDamageRatio",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Value": 0.125
+  }
+}

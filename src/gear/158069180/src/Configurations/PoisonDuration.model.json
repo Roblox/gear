@@ -1,0 +1,10 @@
+{
+  "ClassName": "NumberValue",
+  "Properties": {
+    "ClassName": "NumberValue",
+    "Name": "PoisonDuration",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Value": 10
+  }
+}
