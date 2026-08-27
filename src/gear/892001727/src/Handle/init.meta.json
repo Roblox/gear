@@ -1,0 +1,108 @@
+{
+  "className": "Part",
+  "properties": {
+    "Anchored": false,
+    "AudioCanCollide": true,
+    "BackParamA": -0.5,
+    "BackParamB": 0.5,
+    "BackSurface": "Smooth",
+    "BackSurfaceInput": "NoInput",
+    "BottomParamA": -0.5,
+    "BottomParamB": 0.5,
+    "BottomSurface": "Smooth",
+    "BottomSurfaceInput": "NoInput",
+    "CFrame": [
+      -0.050002001225948334,
+      2.0856070518493652,
+      0.030003000050783157,
+      0.9760952591896057,
+      0.21454176306724548,
+      0.03476446494460106,
+      -0.2166907638311386,
+      0.9730023145675659,
+      0.07942388951778412,
+      -0.01678624004125595,
+      -0.08505834639072418,
+      0.9962334632873535
+    ],
+    "CanCollide": true,
+    "CanQuery": true,
+    "CanTouch": true,
+    "CastShadow": true,
+    "ClassName": "Part",
+    "CollisionGroup": "Default",
+    "CollisionGroupId": 0,
+    "Color": [
+      0.9607843160629272,
+      0.8039215803146362,
+      0.1882352977991104
+    ],
+    "CustomPhysicalProperties": {
+      "PhysicalProperties": {
+        "acousticAbsorption": 1,
+        "density": 2.690999984741211,
+        "elasticity": 0,
+        "elasticityWeight": 1,
+        "friction": 1,
+        "frictionWeight": 1
+      }
+    },
+    "EnableFluidForces": true,
+    "FormFactor": "Custom",
+    "FrontParamA": -0.5,
+    "FrontParamB": 0.5,
+    "FrontSurface": "Smooth",
+    "FrontSurfaceInput": "NoInput",
+    "LeftParamA": -0.5,
+    "LeftParamB": 0.5,
+    "LeftSurface": "Smooth",
+    "LeftSurfaceInput": "NoInput",
+    "Locked": false,
+    "Massless": false,
+    "Material": "Granite",
+    "MaterialVariant": "",
+    "Name": "Handle",
+    "PivotOffset": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "Reflectance": 0,
+    "RightParamA": -0.5,
+    "RightParamB": 0.5,
+    "RightSurface": "Smooth",
+    "RightSurfaceInput": "NoInput",
+    "RootPriority": 0,
+    "RotVelocity": [
+      0,
+      0,
+      0
+    ],
+    "Sandboxed": false,
+    "Size": [
+      1.5999999046325684,
+      3.8000009059906006,
+      1.5999999046325684
+    ],
+    "SourceAssetId": -1,
+    "TopParamA": -0.5,
+    "TopParamB": 0.5,
+    "TopSurface": "Smooth",
+    "TopSurfaceInput": "NoInput",
+    "Transparency": 0,
+    "Velocity": [
+      0,
+      0,
+      0
+    ]
+  }
+}

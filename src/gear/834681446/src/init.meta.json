@@ -1,0 +1,50 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      -1
+    ],
+    "Name": "834681446",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "rbxassetid://1082985937",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            -0.7071067690849304,
+            0.7071067690849304,
+            0
+          ],
+          [
+            -0.7071067690849304,
+            -0.7071067690849304,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "position": [
+          0.09999799728393555,
+          17.600000381469727,
+          21.80000114440918
+        ]
+      }
+    }
+  }
+}

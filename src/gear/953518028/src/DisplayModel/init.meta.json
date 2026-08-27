@@ -1,0 +1,38 @@
+{
+  "attributes": {
+    "Rojo_Target_PrimaryPart": "g953518028_25"
+  },
+  "className": "Model",
+  "properties": {
+    "ClassName": "Model",
+    "Name": "DisplayModel",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            -1,
+            8.478538120471057e-7,
+            -3.7316290217859205e-6
+          ],
+          [
+            8.478317568005878e-7,
+            0.9999998211860657,
+            -5.513426003744826e-6
+          ],
+          [
+            3.731611741386587e-6,
+            -5.513432370207738e-6,
+            -0.9999998211860657
+          ]
+        ],
+        "position": [
+          -1.579966425895691,
+          2.672517776489258,
+          -1.9376904964447021
+        ]
+      }
+    }
+  }
+}

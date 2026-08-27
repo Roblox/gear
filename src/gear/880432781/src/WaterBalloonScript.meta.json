@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "WaterBalloonScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{F6562A67-2C04-4E26-86CB-C2EF822A7D5E}",
+    "SourceAssetId": -1
+  }
+}
