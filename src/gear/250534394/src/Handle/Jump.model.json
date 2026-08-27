@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=152768053",
+    "ClassName": "Sound",
+    "Name": "Jump",
+    "PlaybackSpeed": 5,
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=255284510",
+    "ClassName": "Sound",
+    "Looped": true,
+    "Name": "Earthquake",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

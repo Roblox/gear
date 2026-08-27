@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "BookScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{F01D7719-EDF1-4238-AFC4-6DBAE18A0632}",
+    "SourceAssetId": -1
+  }
+}

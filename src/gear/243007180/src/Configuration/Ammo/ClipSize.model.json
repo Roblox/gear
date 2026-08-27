@@ -1,0 +1,10 @@
+{
+  "ClassName": "IntConstrainedValue",
+  "Properties": {
+    "ClassName": "IntConstrainedValue",
+    "MaxValue": 0,
+    "Name": "ClipSize",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

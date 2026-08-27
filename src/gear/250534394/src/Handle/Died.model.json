@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=248933501",
+    "ClassName": "Sound",
+    "Name": "Died",
+    "PlaybackSpeed": 1.7999999523162842,
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

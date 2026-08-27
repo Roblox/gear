@@ -1,0 +1,10 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=30624262",
+    "ClassName": "Sound",
+    "Name": "InitialThrust",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

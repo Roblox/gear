@@ -1,0 +1,12 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=90641846",
+    "ClassName": "Sound",
+    "Name": "Hit",
+    "PlaybackSpeed": 7.216000080108643,
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 1
+  }
+}

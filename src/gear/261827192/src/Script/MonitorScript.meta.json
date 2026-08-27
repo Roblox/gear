@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "MonitorScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{7539B369-147D-4803-BC89-C9A66EEBD14E}",
+    "SourceAssetId": -1
+  }
+}

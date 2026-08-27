@@ -1,0 +1,86 @@
+{
+  "ClassName": "TextLabel",
+  "Properties": {
+    "Active": false,
+    "AnchorPoint": [
+      0,
+      0
+    ],
+    "AutoLocalize": true,
+    "AutomaticSize": "None",
+    "BackgroundColor3": [
+      0.2196078598499298,
+      0.3294117748737335,
+      0.5333333611488342
+    ],
+    "BackgroundTransparency": 1,
+    "BorderColor3": [
+      0.10588236153125763,
+      0.16470588743686676,
+      0.20784315466880798
+    ],
+    "BorderMode": "Outline",
+    "BorderSizePixel": 0,
+    "ClassName": "TextLabel",
+    "ClipsDescendants": false,
+    "Draggable": false,
+    "FontFace": {
+      "family": "rbxasset://fonts/families/SourceSansPro.json",
+      "style": "Normal",
+      "weight": "Bold"
+    },
+    "InputSink": "None",
+    "Interactable": true,
+    "LayoutOrder": 0,
+    "Name": "CurrentWeapon",
+    "Position": {
+      "UDim2": [
+        [
+          0,
+          80
+        ],
+        [
+          0,
+          30
+        ]
+      ]
+    },
+    "Rotation": 0,
+    "Sandboxed": false,
+    "Selectable": false,
+    "SelectionBehaviorDown": "Escape",
+    "SelectionBehaviorLeft": "Escape",
+    "SelectionBehaviorRight": "Escape",
+    "SelectionBehaviorUp": "Escape",
+    "SelectionGroup": false,
+    "SelectionOrder": 0,
+    "Size": {
+      "UDim2": [
+        [
+          0,
+          225
+        ],
+        [
+          0,
+          40
+        ]
+      ]
+    },
+    "SizeConstraint": "RelativeXY",
+    "SourceAssetId": -1,
+    "Text": "Hex Spitter",
+    "TextColor3": [
+      0.8431373238563538,
+      0.9215686917304993,
+      1
+    ],
+    "TextScaled": true,
+    "TextSize": 36,
+    "TextStrokeTransparency": 0.4000000059604645,
+    "TextTransparency": 0.009999999776482582,
+    "TextWrapped": true,
+    "TextXAlignment": "Left",
+    "Visible": true,
+    "ZIndex": 3
+  }
+}

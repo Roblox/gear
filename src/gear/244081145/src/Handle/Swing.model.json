@@ -1,0 +1,12 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=101164100",
+    "ClassName": "Sound",
+    "Name": "Swing",
+    "PlaybackSpeed": 5.204999923706055,
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=106708146",
+    "ClassName": "Sound",
+    "Looped": true,
+    "Name": "Wind",
+    "PlaybackSpeed": 1.75,
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}
