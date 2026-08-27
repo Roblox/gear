@@ -1,0 +1,52 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Enabled": false,
+    "Grip": [
+      0,
+      -0.15000000596046448,
+      2,
+      1,
+      0,
+      0,
+      -0.0,
+      0.007518584839999676,
+      0.9999718070030212,
+      0,
+      -0.9999718070030212,
+      0.007518584839999676
+    ],
+    "Name": "1103011681",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "rbxassetid://1102776100",
+    "ToolTip": "Send your opponents to the realm of nightmares...",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0.7124028205871582,
+            -0.7017709016799927
+          ],
+          [
+            0,
+            0.7017708420753479,
+            0.712402880191803
+          ]
+        ],
+        "position": [
+          -118.30001068115234,
+          15.384963989257812,
+          -33.09892272949219
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=193801284",
+    "ClassName": "Sound",
+    "Name": "GuitarSmash",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "ClassName": "Weld",
+  "Properties": {
+    "C0": [
+      0,
+      0,
+      -0.22499999403953552,
+      -4.371138828673793e-8,
+      1,
+      0,
+      0.029995515942573547,
+      1.3111456365066942e-9,
+      -0.9995500445365906,
+      -0.9995500445365906,
+      -4.369172046381209e-8,
+      -0.029995515942573547
+    ],
+    "C1": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "ClassName": "Weld",
+    "Enabled": true,
+    "Name": "Weld",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  },
+  "attributes": {
+    "Rojo_Target_Part0": "g1316010086_16",
+    "Rojo_Target_Part1": "g1316010086_15",
+    "__MarketplaceGear_OriginalName": "Weld"
+  }
+}

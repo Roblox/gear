@@ -1,0 +1,101 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "ClassName": "ParticleEmitter",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              0,
+              0,
+              0
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              0,
+              0,
+              0
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "Enabled": false,
+    "Lifetime": {
+      "NumberRange": [
+        0.5,
+        1
+      ]
+    },
+    "LightEmission": 0.30000001192092896,
+    "LockedToPart": true,
+    "Name": "Smog",
+    "Rate": 10,
+    "RotSpeed": {
+      "NumberRange": [
+        500,
+        500
+      ]
+    },
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 10
+          },
+          {
+            "envelope": 0,
+            "time": 0.800000011920929,
+            "value": 10
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        0,
+        0
+      ]
+    },
+    "TextureContent": "rbxassetid://439535208",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 1
+          },
+          {
+            "envelope": 0,
+            "time": 0.10080599784851074,
+            "value": 0.7489179968833923
+          },
+          {
+            "envelope": 0,
+            "time": 0.6018149852752686,
+            "value": 0.7575759887695312
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1
+          }
+        ]
+      }
+    }
+  }
+}

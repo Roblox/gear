@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "AnansiAIScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{4143B6B8-8BA2-4AF9-BE75-FE84E5A2D80F}",
+    "SourceAssetId": -1
+  }
+}

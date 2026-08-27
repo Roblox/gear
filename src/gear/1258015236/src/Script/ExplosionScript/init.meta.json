@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "ExplosionScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{1AD2F77B-6158-4230-99B0-2F38A92F608B}",
+    "SourceAssetId": -1
+  }
+}
