@@ -1,0 +1,9 @@
+{
+  "ClassName": "RemoteEvent",
+  "Properties": {
+    "ClassName": "RemoteEvent",
+    "Name": "KeyDown",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

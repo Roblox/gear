@@ -1,0 +1,10 @@
+{
+  "ClassName": "ColorCorrectionEffect",
+  "Properties": {
+    "ClassName": "ColorCorrectionEffect",
+    "Enabled": true,
+    "Name": "GrayScale",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

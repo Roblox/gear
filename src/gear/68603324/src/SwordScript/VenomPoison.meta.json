@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "VenomPoison",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{B2A88D73-A805-419D-A4C7-CBF4D2C8EC1E}",
+    "SourceAssetId": -1
+  }
+}

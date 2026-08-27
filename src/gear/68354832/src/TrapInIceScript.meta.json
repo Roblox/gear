@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "TrapInIceScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{B69E18F2-32C3-4853-AB56-2D32066FF27B}",
+    "SourceAssetId": -1
+  }
+}

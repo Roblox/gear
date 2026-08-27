@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "MotorizeRightGrip",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{1A5808C7-A104-431C-96AD-7DA563F372F0}",
+    "SourceAssetId": -1
+  }
+}

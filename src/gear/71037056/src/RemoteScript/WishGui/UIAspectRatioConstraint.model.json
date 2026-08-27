@@ -1,0 +1,10 @@
+{
+  "ClassName": "UIAspectRatioConstraint",
+  "Properties": {
+    "AspectRatio": 2,
+    "ClassName": "UIAspectRatioConstraint",
+    "Name": "UIAspectRatioConstraint",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

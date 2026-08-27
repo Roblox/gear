@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "DollScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{FC70F1D9-AFD3-4CFD-9BD1-B17574641656}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "ClassName": "TextLabel",
+  "Properties": {
+    "Active": false,
+    "AnchorPoint": [
+      0,
+      0
+    ],
+    "AutoLocalize": true,
+    "AutomaticSize": "None",
+    "BackgroundColor3": [
+      0,
+      0,
+      0
+    ],
+    "BackgroundTransparency": 0.5,
+    "BorderColor3": [
+      0.10588236153125763,
+      0.16470588743686676,
+      0.20784315466880798
+    ],
+    "BorderMode": "Outline",
+    "BorderSizePixel": 1,
+    "ClassName": "TextLabel",
+    "ClipsDescendants": false,
+    "Draggable": false,
+    "FontFace": {
+      "family": "rbxasset://fonts/families/Arial.json",
+      "style": "Normal",
+      "weight": "Bold"
+    },
+    "InputSink": "None",
+    "Interactable": true,
+    "LayoutOrder": 0,
+    "Name": "RecentHint",
+    "Position": {
+      "UDim2": [
+        [
+          0.5,
+          -85
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "Rotation": 0,
+    "Sandboxed": false,
+    "Selectable": false,
+    "SelectionBehaviorDown": "Escape",
+    "SelectionBehaviorLeft": "Escape",
+    "SelectionBehaviorRight": "Escape",
+    "SelectionBehaviorUp": "Escape",
+    "SelectionGroup": false,
+    "SelectionOrder": 0,
+    "Size": {
+      "UDim2": [
+        [
+          0,
+          170
+        ],
+        [
+          0,
+          30
+        ]
+      ]
+    },
+    "SizeConstraint": "RelativeXY",
+    "SourceAssetId": -1,
+    "Text": "Press Q for Recent Parts",
+    "TextColor3": [
+      1,
+      1,
+      1
+    ],
+    "TextSize": 14,
+    "TextStrokeTransparency": 0,
+    "Visible": false,
+    "ZIndex": 1
+  }
+}

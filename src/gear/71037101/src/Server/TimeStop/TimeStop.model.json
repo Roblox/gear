@@ -1,0 +1,10 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "rbxassetid://2152227673",
+    "ClassName": "Sound",
+    "Name": "TimeStop",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

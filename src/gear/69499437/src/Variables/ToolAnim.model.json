@@ -1,0 +1,10 @@
+{
+  "ClassName": "BoolValue",
+  "Properties": {
+    "ClassName": "BoolValue",
+    "Name": "ToolAnim",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Value": true
+  }
+}

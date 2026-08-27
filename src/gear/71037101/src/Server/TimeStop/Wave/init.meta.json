@@ -1,0 +1,21 @@
+{
+  "className": "SurfaceGui",
+  "properties": {
+    "Active": true,
+    "AutoLocalize": true,
+    "ClassName": "SurfaceGui",
+    "ClipsDescendants": true,
+    "Enabled": true,
+    "Face": "Top",
+    "Name": "Wave",
+    "ResetOnSpawn": true,
+    "Sandboxed": false,
+    "SelectionBehaviorDown": "Escape",
+    "SelectionBehaviorLeft": "Escape",
+    "SelectionBehaviorRight": "Escape",
+    "SelectionBehaviorUp": "Escape",
+    "SelectionGroup": false,
+    "SourceAssetId": -1,
+    "ZIndexBehavior": "Sibling"
+  }
+}

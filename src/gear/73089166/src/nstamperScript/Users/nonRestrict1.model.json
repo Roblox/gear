@@ -1,0 +1,10 @@
+{
+  "ClassName": "IntValue",
+  "Properties": {
+    "ClassName": "IntValue",
+    "Name": "nonRestrict1",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Value": 18881829
+  }
+}

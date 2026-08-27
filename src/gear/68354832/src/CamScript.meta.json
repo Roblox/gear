@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "CamScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{33377CFA-BF6C-4138-B0E1-564AD558C5F9}",
+    "SourceAssetId": -1
+  }
+}

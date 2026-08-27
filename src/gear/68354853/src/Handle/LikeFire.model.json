@@ -1,0 +1,12 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=68341664 ",
+    "ClassName": "Sound",
+    "Name": "LikeFire",
+    "PlaybackSpeed": 2,
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 1
+  }
+}

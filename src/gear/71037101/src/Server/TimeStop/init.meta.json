@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "TimeStop",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{3592213E-4E77-4490-AEEC-3AB346A33B56}",
+    "SourceAssetId": -1
+  }
+}

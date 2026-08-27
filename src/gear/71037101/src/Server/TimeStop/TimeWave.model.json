@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=70991007 ",
+    "ClassName": "Sound",
+    "Name": "TimeWave",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 1.5
+  }
+}

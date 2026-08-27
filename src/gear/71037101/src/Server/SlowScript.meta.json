@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "SlowScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{D78F9E55-BD75-441B-A37F-8867CA161BBC}",
+    "SourceAssetId": -1
+  }
+}

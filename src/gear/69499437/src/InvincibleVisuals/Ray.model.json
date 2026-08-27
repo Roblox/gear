@@ -1,0 +1,65 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "ClassName": "ParticleEmitter",
+    "Enabled": false,
+    "Lifetime": {
+      "NumberRange": [
+        0.20000000298023224,
+        0.20000000298023224
+      ]
+    },
+    "LightEmission": 1,
+    "LockedToPart": true,
+    "Name": "Ray",
+    "Rate": 100,
+    "Rotation": {
+      "NumberRange": [
+        0,
+        360
+      ]
+    },
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 3
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 10
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        0,
+        0
+      ]
+    },
+    "TextureContent": "rbxassetid://243660364",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "VelocityInheritance": 1
+  }
+}

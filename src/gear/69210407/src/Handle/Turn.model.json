@@ -1,0 +1,19 @@
+{
+  "ClassName": "BodyAngularVelocity",
+  "Properties": {
+    "AngularVelocity": [
+      0,
+      0,
+      0
+    ],
+    "ClassName": "BodyAngularVelocity",
+    "MaxTorque": [
+      0,
+      4000,
+      0
+    ],
+    "Name": "Turn",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

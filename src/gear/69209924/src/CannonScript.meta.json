@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "CannonScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{B74ED67B-B11B-4447-A01B-EAE84CFD26A0}",
+    "SourceAssetId": -1
+  }
+}

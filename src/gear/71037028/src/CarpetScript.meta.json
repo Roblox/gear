@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "CarpetScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{443B5C75-4975-4A7D-83D3-62700DF5E446}",
+    "SourceAssetId": -1
+  }
+}

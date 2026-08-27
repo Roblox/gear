@@ -1,0 +1,10 @@
+{
+  "ClassName": "Animation",
+  "Properties": {
+    "AnimationContent": "http://www.roblox.com/asset/?id=66702743",
+    "ClassName": "Animation",
+    "Name": "ANIM_equip",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}
