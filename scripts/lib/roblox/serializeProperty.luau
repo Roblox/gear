@@ -21,6 +21,33 @@ local function identity(value: any): any
 	return value
 end
 
+local BASE64_ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
+
+local function encodeBase64(value: string): string
+	local encoded = {}
+	for index = 1, #value, 3 do
+		local first, second, third = string.byte(value, index, index + 2)
+		local combined = first * 65536 + (second or 0) * 256 + (third or 0)
+
+		table.insert(
+			encoded,
+			BASE64_ALPHABET:sub(math.floor(combined / 262144) % 64 + 1, math.floor(combined / 262144) % 64 + 1)
+		)
+		table.insert(
+			encoded,
+			BASE64_ALPHABET:sub(math.floor(combined / 4096) % 64 + 1, math.floor(combined / 4096) % 64 + 1)
+		)
+		table.insert(
+			encoded,
+			if second
+				then BASE64_ALPHABET:sub(math.floor(combined / 64) % 64 + 1, math.floor(combined / 64) % 64 + 1)
+				else "="
+		)
+		table.insert(encoded, if third then BASE64_ALPHABET:sub(combined % 64 + 1, combined % 64 + 1) else "=")
+	end
+	return table.concat(encoded)
+end
+
 local SERIALIZERS: { [string]: Serializer } = {
 	Bool = identity,
 	String = identity,
@@ -91,6 +118,9 @@ local SERIALIZERS: { [string]: Serializer } = {
 	end,
 	ContentId = function(v)
 		return if type(v) == "string" then v else v.Uri
+	end,
+	BinaryString = function(v)
+		return { BinaryString = encodeBase64(v) }
 	end,
 	Font = function(v)
 		return {

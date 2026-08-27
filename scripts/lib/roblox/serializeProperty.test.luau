@@ -183,6 +183,18 @@ test.suite("serializeProperty", function(suite: TestSuite)
 		asserts.eq("", v)
 	end)
 
+	suite:case("BinaryString encodes bytes as base64", function(asserts: Asserts)
+		local v, status = serializeProperty("BinaryString", "Hello, world!")
+		asserts.eq("ok", status)
+		asserts.eq({ BinaryString = "SGVsbG8sIHdvcmxkIQ==" }, v)
+	end)
+
+	suite:case("BinaryString preserves null and non-UTF-8 bytes", function(asserts: Asserts)
+		local v, status = serializeProperty("BinaryString", "\0\255")
+		asserts.eq("ok", status)
+		asserts.eq({ BinaryString = "AP8=" }, v)
+	end)
+
 	suite:case("Font", function(asserts: Asserts)
 		local v, status = serializeProperty("Font", {
 			Family = "rbxasset://fonts/families/LegacyArial.json",
@@ -247,6 +259,7 @@ test.suite("serializeProperty", function(suite: TestSuite)
 			OptionalCFrame = true,
 			Content = true,
 			ContentId = true,
+			BinaryString = true,
 			Font = true,
 		}
 		for datatype in SERIALIZERS do
