@@ -1,0 +1,9 @@
+{
+  "ClassName": "RemoteEvent",
+  "Properties": {
+    "ClassName": "RemoteEvent",
+    "Name": "OnFire",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

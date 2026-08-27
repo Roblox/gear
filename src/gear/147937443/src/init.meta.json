@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0.10000000149011612,
+      -0.800000011920929,
+      0.4000000059604645,
+      1,
+      0,
+      0,
+      -0.0,
+      0.8944271802902222,
+      0.4472135901451111,
+      0,
+      -0.4472135901451111,
+      0.8944271802902222
+    ],
+    "Name": "147937443",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset?id= 147197451 ",
+    "ToolTip": "Turn your enemies into confetti!",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "position": [
+          1,
+          3,
+          -5.200000286102295
+        ]
+      }
+    }
+  }
+}

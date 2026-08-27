@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "HotWheelsScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{86C0A6F5-3576-48CE-899B-576550137F08}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0.20000000298023224,
+      0.699999988079071,
+      0.20000000298023224,
+      0.8775825500488281,
+      0,
+      -0.4794255495071411,
+      0,
+      1,
+      0,
+      0.4794255495071411,
+      0,
+      0.8775825500488281
+    ],
+    "Name": "152660258",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=152655762",
+    "ToolTip": "Overseer Basket",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            -1
+          ]
+        ],
+        "position": [
+          0.6000000238418579,
+          2.1000001430511475,
+          -0.30000001192092896
+        ]
+      }
+    }
+  }
+}
