@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "Skelify",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{78E36F2D-0421-4300-BFCB-28F4A9CCBD50}",
+    "SourceAssetId": -1
+  }
+}

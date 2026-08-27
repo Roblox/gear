@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "rbxassetid://76115431",
+    "ClassName": "Sound",
+    "Name": "ItsMyHedge",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 5
+  }
+}

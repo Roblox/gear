@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "ShardGunLocalScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{041E7C4D-3F21-47B5-A34C-4605DDD877C7}",
+    "SourceAssetId": -1
+  }
+}

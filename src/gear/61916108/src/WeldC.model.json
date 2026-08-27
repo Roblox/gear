@@ -1,0 +1,23 @@
+{
+  "ClassName": "CFrameValue",
+  "Properties": {
+    "ClassName": "CFrameValue",
+    "Name": "WeldC",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Value": [
+      0,
+      -2,
+      0.5,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ]
+  }
+}

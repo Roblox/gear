@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "DecimateScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{9C72A16C-AC48-46DB-87B8-2F8322D19989}",
+    "SourceAssetId": -1
+  }
+}

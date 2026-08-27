@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "TridentThrow",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{8F2A8A64-A9E5-4068-B46C-56A7A9211939}",
+    "SourceAssetId": -1
+  }
+}

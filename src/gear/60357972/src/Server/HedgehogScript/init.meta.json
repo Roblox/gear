@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "HedgehogScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{D9979004-5371-4AD9-AF25-87A47FE472BC}",
+    "SourceAssetId": -1
+  }
+}

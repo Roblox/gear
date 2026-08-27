@@ -1,0 +1,156 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "Acceleration": [
+      0,
+      25,
+      0
+    ],
+    "ClassName": "ParticleEmitter",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              0.6666669845581055,
+              1,
+              1
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "EmissionDirection": "Bottom",
+    "Enabled": false,
+    "Lifetime": {
+      "NumberRange": [
+        0,
+        0.699999988079071
+      ]
+    },
+    "LightEmission": 0.8600000143051147,
+    "Name": "Fire",
+    "Rate": 200,
+    "RotSpeed": {
+      "NumberRange": [
+        25,
+        50
+      ]
+    },
+    "Rotation": {
+      "NumberRange": [
+        -180,
+        180
+      ]
+    },
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0.75
+          },
+          {
+            "envelope": 0,
+            "time": 0.7024539709091187,
+            "value": 0.9375
+          },
+          {
+            "envelope": 0,
+            "time": 0.8128830194473267,
+            "value": 0.6875
+          },
+          {
+            "envelope": 0,
+            "time": 0.9049080014228821,
+            "value": 0.375
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        7,
+        9
+      ]
+    },
+    "SpreadAngle": [
+      10,
+      10
+    ],
+    "TextureContent": "http://www.roblox.com/asset/?id=248625108",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 0.13253000378608704,
+            "value": 0.543749988079071
+          },
+          {
+            "envelope": 0,
+            "time": 0.3209199905395508,
+            "value": 0.737500011920929
+          },
+          {
+            "envelope": 0,
+            "time": 0.38773301243782043,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 0.46878400444984436,
+            "value": 0.7250000238418579
+          },
+          {
+            "envelope": 0,
+            "time": 0.5224530100822449,
+            "value": 0.45625001192092896
+          },
+          {
+            "envelope": 0,
+            "time": 0.6155530214309692,
+            "value": 0.637499988079071
+          },
+          {
+            "envelope": 0,
+            "time": 0.6396499872207642,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 0.7447969913482666,
+            "value": 0.5249999761581421
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0
+          }
+        ]
+      }
+    }
+  }
+}

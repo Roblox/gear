@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "HandScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{014E230F-9F52-46D3-9040-2B8BDB55FAC9}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "KittehScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{51045726-C699-4AA8-BBA1-0B596429CBB2}",
+    "SourceAssetId": -1
+  }
+}

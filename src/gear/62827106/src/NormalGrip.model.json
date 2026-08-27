@@ -1,0 +1,23 @@
+{
+  "ClassName": "CFrameValue",
+  "Properties": {
+    "ClassName": "CFrameValue",
+    "Name": "NormalGrip",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Value": [
+      0,
+      0,
+      -0.6000000238418579,
+      1,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      1,
+      0
+    ]
+  }
+}
