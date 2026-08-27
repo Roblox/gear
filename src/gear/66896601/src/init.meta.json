@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      -0.0,
+      0,
+      -1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      1,
+      0
+    ],
+    "Name": "66896601",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=66876555 ",
+    "ToolTip": "Gettin' kinda chilly out here...",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            0.7071053385734558,
+            0,
+            -0.7071083784103394
+          ],
+          [
+            0.7071083784103394,
+            0,
+            0.7071053385734558
+          ],
+          [
+            0,
+            -1,
+            0
+          ]
+        ],
+        "position": [
+          -15.02490234375,
+          4.691594123840332,
+          5.614045143127441
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "FlyScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{F70392AB-64FE-4EA0-964F-FD0894A3DB0C}",
+    "SourceAssetId": -1
+  }
+}

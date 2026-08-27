@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "CandyScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{21EB9ED7-002F-45C8-A56E-8E3AB494F9B9}",
+    "SourceAssetId": -1
+  }
+}

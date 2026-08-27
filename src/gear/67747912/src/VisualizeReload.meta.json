@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "VisualizeReload",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{F070551A-D028-4D7B-8332-A6D662BBB2D2}",
+    "SourceAssetId": -1
+  }
+}

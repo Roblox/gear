@@ -1,0 +1,12 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "rbxasset://sounds/unsheath.wav",
+    "ClassName": "Sound",
+    "Name": "ClinkSound",
+    "PlaybackSpeed": 3,
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "Icing",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{E5FCECE7-F423-428A-B7BF-2240C31462DC}",
+    "SourceAssetId": -1
+  }
+}

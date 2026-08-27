@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "SleighScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{03B68EFC-8CE8-41FF-BF54-D80FEFE8296A}",
+    "SourceAssetId": -1
+  }
+}

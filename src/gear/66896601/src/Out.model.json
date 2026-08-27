@@ -1,0 +1,23 @@
+{
+  "ClassName": "CFrameValue",
+  "Properties": {
+    "ClassName": "CFrameValue",
+    "Name": "Out",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Value": [
+      0,
+      0.10000023245811462,
+      -1.0660254955291748,
+      1,
+      0,
+      0,
+      0,
+      -0.5000001788139343,
+      -0.8660253286361694,
+      0,
+      0.8660253286361694,
+      -0.5000001788139343
+    ]
+  }
+}

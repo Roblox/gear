@@ -1,0 +1,10 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=58915117",
+    "ClassName": "Sound",
+    "Name": "CarAlarm",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

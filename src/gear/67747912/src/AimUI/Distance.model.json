@@ -1,0 +1,84 @@
+{
+  "ClassName": "TextLabel",
+  "Properties": {
+    "Active": false,
+    "AnchorPoint": [
+      0,
+      0
+    ],
+    "AutoLocalize": true,
+    "AutomaticSize": "None",
+    "BackgroundColor3": [
+      0.6392157077789307,
+      0.6352941393852234,
+      0.6470588445663452
+    ],
+    "BackgroundTransparency": 1,
+    "BorderColor3": [
+      1,
+      0.003921568859368563,
+      0.019607843831181526
+    ],
+    "BorderMode": "Outline",
+    "BorderSizePixel": 1,
+    "ClassName": "TextLabel",
+    "ClipsDescendants": false,
+    "Draggable": false,
+    "FontFace": {
+      "family": "rbxasset://fonts/families/Arial.json",
+      "style": "Normal",
+      "weight": "Regular"
+    },
+    "InputSink": "None",
+    "Interactable": true,
+    "LayoutOrder": 0,
+    "Name": "Distance",
+    "Position": {
+      "UDim2": [
+        [
+          0.800000011920929,
+          0
+        ],
+        [
+          0.20000000298023224,
+          0
+        ]
+      ]
+    },
+    "Rotation": 0,
+    "Sandboxed": false,
+    "Selectable": false,
+    "SelectionBehaviorDown": "Escape",
+    "SelectionBehaviorLeft": "Escape",
+    "SelectionBehaviorRight": "Escape",
+    "SelectionBehaviorUp": "Escape",
+    "SelectionGroup": false,
+    "SelectionOrder": 0,
+    "Size": {
+      "UDim2": [
+        [
+          10,
+          0
+        ],
+        [
+          0.20000000298023224,
+          0
+        ]
+      ]
+    },
+    "SizeConstraint": "RelativeXY",
+    "SourceAssetId": -1,
+    "Text": "110",
+    "TextColor3": [
+      1,
+      0,
+      0.01568627543747425
+    ],
+    "TextScaled": true,
+    "TextSize": 24,
+    "TextWrapped": true,
+    "TextXAlignment": "Left",
+    "Visible": false,
+    "ZIndex": 1
+  }
+}

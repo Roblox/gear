@@ -1,0 +1,108 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "Acceleration": [
+      0,
+      -2,
+      0
+    ],
+    "ClassName": "ParticleEmitter",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              0.6666669845581055,
+              1,
+              1
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "Enabled": false,
+    "Lifetime": {
+      "NumberRange": [
+        4,
+        4
+      ]
+    },
+    "Name": "Snowflakes",
+    "RotSpeed": {
+      "NumberRange": [
+        -200,
+        200
+      ]
+    },
+    "Rotation": {
+      "NumberRange": [
+        -180,
+        180
+      ]
+    },
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 1.524999976158142,
+            "time": 0,
+            "value": 2.75
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        2,
+        5
+      ]
+    },
+    "SpreadAngle": [
+      -180,
+      180
+    ],
+    "TextureContent": "http://www.roblox.com/asset/?id=242837894",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 1
+          },
+          {
+            "envelope": 0,
+            "time": 0.10000000149011612,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 0.8927680253982544,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1
+          }
+        ]
+      }
+    }
+  }
+}

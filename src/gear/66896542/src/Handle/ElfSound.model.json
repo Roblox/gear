@@ -1,0 +1,12 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=61453640 ",
+    "ClassName": "Sound",
+    "Name": "ElfSound",
+    "PlaybackSpeed": 2,
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 1
+  }
+}

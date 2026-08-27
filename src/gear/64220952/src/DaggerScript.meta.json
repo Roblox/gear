@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "DaggerScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{069111AA-A633-45A6-A50A-C58C54D9E829}",
+    "SourceAssetId": -1
+  }
+}

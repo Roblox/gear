@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0,
+      -1.899999976158142,
+      0.10000000149011612,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "Name": "65469908",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=65322331 ",
+    "ToolTip": "Bash their skulls in!",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            0,
+            -0.7071068286895752,
+            0.7071068286895752
+          ],
+          [
+            0,
+            0.7071068286895752,
+            0.7071068286895752
+          ],
+          [
+            -1,
+            0,
+            0
+          ]
+        ],
+        "position": [
+          -43.99999237060547,
+          10.492486000061035,
+          15.980002403259277
+        ]
+      }
+    }
+  }
+}

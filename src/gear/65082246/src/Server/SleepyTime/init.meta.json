@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "SleepyTime",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{CD4002FE-1EDB-486F-98D1-8C29642F69DF}",
+    "SourceAssetId": -1
+  }
+}

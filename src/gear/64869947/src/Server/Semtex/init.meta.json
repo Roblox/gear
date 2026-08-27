@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "Semtex",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{C9F51CC4-012D-4DF1-85AD-C77985C4115E}",
+    "SourceAssetId": -1
+  }
+}

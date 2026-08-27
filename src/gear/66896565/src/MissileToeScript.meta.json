@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "MissileToeScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{6EB37C7B-20F9-4F6C-BC0A-95E28814E0D9}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "BasherScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{C3FA5BE2-EFCE-4791-AACB-150919EC6FF1}",
+    "SourceAssetId": -1
+  }
+}

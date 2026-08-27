@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "SummonZombieScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{12484CBB-F671-46C9-A43E-76CF9CCC70D4}",
+    "SourceAssetId": -1
+  }
+}

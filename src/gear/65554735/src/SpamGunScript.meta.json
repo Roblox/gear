@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "SpamGunScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{490B289F-8847-400C-A33F-1EF29A1D63F7}",
+    "SourceAssetId": -1
+  }
+}

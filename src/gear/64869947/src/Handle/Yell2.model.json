@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=55293859",
+    "ClassName": "Sound",
+    "Name": "Yell2",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 0.800000011920929
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "SpamScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{57ADDD0A-2A43-443B-8FCC-59CD515F11B8}",
+    "SourceAssetId": -1
+  }
+}

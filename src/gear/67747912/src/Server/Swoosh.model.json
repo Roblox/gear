@@ -1,0 +1,12 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "rbxasset://sounds/Rocket whoosh 01.wav",
+    "ClassName": "Sound",
+    "Looped": true,
+    "Name": "Swoosh",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 0.699999988079071
+  }
+}

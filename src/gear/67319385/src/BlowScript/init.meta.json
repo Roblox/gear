@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "BlowScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{39D14040-18B3-48C3-AA88-399CFE567EC6}",
+    "SourceAssetId": -1
+  }
+}
