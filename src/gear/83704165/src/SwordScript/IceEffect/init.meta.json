@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "IceEffect",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{100AB83D-60D8-4FB0-8ADC-EF2829F6B69B}",
+    "SourceAssetId": -1
+  }
+}

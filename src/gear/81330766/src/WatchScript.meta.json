@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "WatchScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{AC1FA92F-D811-43AF-B89D-B8563FB3A701}",
+    "SourceAssetId": -1
+  }
+}

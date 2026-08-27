@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "Trippy",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{2566497D-144C-49FC-8EAD-EAE7184C0942}",
+    "SourceAssetId": -1
+  }
+}

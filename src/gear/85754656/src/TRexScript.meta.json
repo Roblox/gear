@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "TRexScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{A7800C77-D3BA-498B-AE23-B814EA4C77E7}",
+    "SourceAssetId": -1
+  }
+}

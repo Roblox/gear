@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "GetTasedBro",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{82F2CC01-3B66-4533-A377-BBF7D7D2794B}",
+    "SourceAssetId": -1
+  }
+}

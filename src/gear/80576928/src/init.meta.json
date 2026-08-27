@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0,
+      -1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "Name": "80576928",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=80173776",
+    "ToolTip": "Shirt Cannon",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0.6908202767372131,
+            -0.7230264544487
+          ],
+          [
+            0,
+            0.7230264544487,
+            0.6908202767372131
+          ]
+        ],
+        "position": [
+          0.7999992370605469,
+          13.928083419799805,
+          0.1999988555908203
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "ClassName": "StringValue",
+  "Properties": {
+    "ClassName": "StringValue",
+    "Name": "NextLevel",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Value": "Level7"
+  }
+}

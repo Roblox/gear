@@ -1,0 +1,12 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=122571929",
+    "ClassName": "Sound",
+    "Name": "Shatter2",
+    "PlaybackSpeed": 1.2999999523162842,
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 1
+  }
+}

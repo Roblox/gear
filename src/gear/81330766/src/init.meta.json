@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0,
+      0,
+      -0.5,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "Name": "81330766",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=81148927 ",
+    "ToolTip": "Turn back time",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            1,
+            -1.620235252630664e-6,
+            -1.914486347232014e-10
+          ],
+          [
+            -2.03323080594231e-10,
+            -7.703900337219238e-6,
+            -0.9999997019767761
+          ],
+          [
+            1.6202325241465587e-6,
+            0.9999997019767761,
+            -7.703900337219238e-6
+          ]
+        ],
+        "position": [
+          1.5,
+          3.7499990463256836,
+          8.669473317013399e-8
+        ]
+      }
+    }
+  }
+}

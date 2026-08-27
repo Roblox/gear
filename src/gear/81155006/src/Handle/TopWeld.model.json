@@ -1,0 +1,42 @@
+{
+  "ClassName": "Weld",
+  "Properties": {
+    "C0": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "C1": [
+      0,
+      -2.5999996662139893,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "ClassName": "Weld",
+    "Enabled": true,
+    "Name": "TopWeld",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  },
+  "attributes": {
+    "Rojo_Target_Part0": "g81155006_3",
+    "Rojo_Target_Part1": "g81155006_16"
+  }
+}

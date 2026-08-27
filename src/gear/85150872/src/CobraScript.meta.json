@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "CobraScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{22D030A8-6768-4A56-9A82-20E5F10E0C95}",
+    "SourceAssetId": -1
+  }
+}

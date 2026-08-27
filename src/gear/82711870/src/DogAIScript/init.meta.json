@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "DogAIScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{82D5EE14-B072-4A75-A099-93EC6FFFBADC}",
+    "SourceAssetId": -1
+  }
+}

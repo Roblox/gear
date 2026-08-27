@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0,
+      -1.600000023841858,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "Name": "83704169",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=83662397",
+    "ToolTip": "Burn Baby Burn",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "position": [
+          -0.7999954223632812,
+          2.3000001907348633,
+          0.6000000238418579
+        ]
+      }
+    }
+  }
+}

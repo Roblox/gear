@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0.20000000298023224,
+      -0.25,
+      -0.20000000298023224,
+      0.2674988806247711,
+      0,
+      0.9635581970214844,
+      0,
+      1,
+      0,
+      -0.9635581970214844,
+      0,
+      0.2674988806247711
+    ],
+    "Name": "80576967",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=79155357",
+    "ToolTip": "Spray",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            -1
+          ]
+        ],
+        "position": [
+          0,
+          0.49999964237213135,
+          0.3000001907348633
+        ]
+      }
+    }
+  }
+}

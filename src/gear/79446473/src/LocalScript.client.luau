@@ -1,0 +1,9 @@
+script.Parent.Equipped:connect(function(mouse)
+	mouse.Icon="rbxasset://textures\\GunCursor.png"
+	mouse.Button1Down:connect(function()
+		script.Parent.Click:FireServer(mouse.Hit.p)
+		mouse.Icon='rbxasset://textures/GunWaitCursor.png'
+		wait(1)
+		mouse.Icon="rbxasset://textures\\GunCursor.png"
+	end)
+end)

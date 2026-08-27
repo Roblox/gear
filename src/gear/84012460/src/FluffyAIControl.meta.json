@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "FluffyAIControl",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{094854EB-A14B-44A9-8097-CE6D6B49C154}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "Firework",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{5D5A825A-2E07-4E46-9F0D-B54661523305}",
+    "SourceAssetId": -1
+  }
+}
