@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      -1.2999999523162842,
+      -0.10000000149011612,
+      0.15000000596046448,
+      0,
+      1,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "Name": "136213778",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=136103538 ",
+    "ToolTip": "Charge up your club, then press Q or E to unleash your yeti breath!",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "position": [
+          22.600000381469727,
+          11.199999809265137,
+          13.800000190734863
+        ]
+      }
+    }
+  }
+}

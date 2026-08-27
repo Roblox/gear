@@ -1,0 +1,20 @@
+{
+  "ClassName": "Smoke",
+  "Properties": {
+    "ClassName": "Smoke",
+    "Color": [
+      0,
+      0.9019608497619629,
+      0
+    ],
+    "Name": "Smoke",
+    "Opacity": 0.05000000074505806,
+    "RiseVelocity": 0,
+    "Sandboxed": false,
+    "Size": 0.10000000149011612,
+    "SourceAssetId": -1
+  },
+  "attributes": {
+    "__MarketplaceGear_OriginalName": "Smoke"
+  }
+}

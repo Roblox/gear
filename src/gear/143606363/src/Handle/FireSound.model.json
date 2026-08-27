@@ -1,0 +1,12 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "rbxasset://sounds//paintball.wav",
+    "ClassName": "Sound",
+    "Name": "FireSound",
+    "PlaybackSpeed": 2,
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 0.75
+  }
+}

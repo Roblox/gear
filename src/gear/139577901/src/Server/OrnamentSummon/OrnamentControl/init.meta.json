@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "OrnamentControl",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{B6808982-1A82-4F2B-A203-5857AF5FCEF8}",
+    "SourceAssetId": -1
+  }
+}

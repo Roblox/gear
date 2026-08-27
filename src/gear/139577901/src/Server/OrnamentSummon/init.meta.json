@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "OrnamentSummon",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{2816ADA5-5E03-4DF1-8D52-57C45B46340D}",
+    "SourceAssetId": -1
+  }
+}

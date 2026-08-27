@@ -1,0 +1,52 @@
+{
+  "className": "Tool",
+  "id": "g139577901_1",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0,
+      -2,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "Name": "139577901",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "rbxassetid://139140033",
+    "ToolTip": "Festive Ornamentation!",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            0,
+            0.707105815410614,
+            -0.7071078419685364
+          ],
+          [
+            0,
+            0.7071078419685364,
+            0.707105815410614
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "position": [
+          -4.070088863372803,
+          2.5400009155273438,
+          8.670000076293945
+        ]
+      }
+    }
+  }
+}

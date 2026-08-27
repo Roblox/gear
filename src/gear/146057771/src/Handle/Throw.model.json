@@ -1,0 +1,10 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=105943656",
+    "ClassName": "Sound",
+    "Name": "Throw",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}
