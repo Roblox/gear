@@ -114,7 +114,13 @@ local SERIALIZERS: { [string]: Serializer } = {
 		}
 	end,
 	Content = function(v)
-		return if type(v) == "string" then v else v.Uri
+		if type(v) == "string" then
+			return v
+		end
+		if v.Uri ~= nil then
+			return v.Uri
+		end
+		return if tostring(v.SourceType) == "Enum.ContentSourceType.None" then { Content = "None" } else nil
 	end,
 	ContentId = function(v)
 		return if type(v) == "string" then v else v.Uri
@@ -153,7 +159,13 @@ local SKIPPED: { [string]: boolean } = { Ref = true }
 local function serializeProperty(datatype: string, value: any): (any, Status)
 	local serializer = SERIALIZERS[datatype]
 	if serializer then
-		return serializer(value), "ok"
+		local serialized = serializer(value)
+		-- A nil result would disappear from the dumped table rather than
+		-- fail, so report it like any other gap in coverage.
+		if serialized == nil then
+			return nil, "unsupported"
+		end
+		return serialized, "ok"
 	end
 	-- Reflection scopes every enum as `Enum.<name>`; one branch covers all.
 	if string.sub(datatype, 1, 5) == "Enum." then

@@ -1,0 +1,108 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "ClassName": "ParticleEmitter",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              0,
+              0.6666669845581055,
+              1
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              0.6666669845581055,
+              1,
+              1
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "Enabled": false,
+    "Lifetime": {
+      "NumberRange": [
+        1.375,
+        1.375
+      ]
+    },
+    "LightEmission": 0.4000000059604645,
+    "Name": "Particle",
+    "Rate": 1000,
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0
+          },
+          {
+            "envelope": 0.25,
+            "time": 0.25,
+            "value": 0.5
+          },
+          {
+            "envelope": 0.13500000536441803,
+            "time": 0.5,
+            "value": 0.5
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0.5
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        0.5,
+        0.5
+      ]
+    },
+    "SpreadAngle": [
+      100,
+      100
+    ],
+    "TextureContent": "rbxasset://textures/explosion.png",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 1
+          },
+          {
+            "envelope": 0,
+            "time": 0.25,
+            "value": 0.25
+          },
+          {
+            "envelope": 0.07500000298023224,
+            "time": 0.5,
+            "value": 0.125
+          },
+          {
+            "envelope": 0.02500000037252903,
+            "time": 0.6000000238418579,
+            "value": 0.5
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1
+          }
+        ]
+      }
+    }
+  }
+}

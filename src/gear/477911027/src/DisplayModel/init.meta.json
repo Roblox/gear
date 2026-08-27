@@ -1,0 +1,35 @@
+{
+  "className": "Model",
+  "properties": {
+    "ClassName": "Model",
+    "Name": "DisplayModel",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "position": [
+          -3.700000286102295,
+          4.3216423988342285,
+          -2.5
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "ClassName": "ParticleEmitter",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              0.8509799838066101,
+              1,
+              1
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "Enabled": false,
+    "Lifetime": {
+      "NumberRange": [
+        1.75,
+        1.75
+      ]
+    },
+    "LightEmission": -0.05000000074505806,
+    "Name": "SnowFlakeParticles2",
+    "Rate": 2.5999999046325684,
+    "RotSpeed": {
+      "NumberRange": [
+        20,
+        24
+      ]
+    },
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0.15000000596046448
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0.15000000596046448
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        0.699999988079071,
+        1
+      ]
+    },
+    "SpreadAngle": [
+      12,
+      12
+    ],
+    "TextureContent": "http://www.roblox.com/asset/?id=276120139",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 1
+          },
+          {
+            "envelope": 0,
+            "time": 0.2573699951171875,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 0.9070299863815308,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "ZOffset": 1
+  }
+}

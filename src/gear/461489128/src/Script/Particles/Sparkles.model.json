@@ -1,0 +1,78 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "Acceleration": [
+      0,
+      4,
+      0
+    ],
+    "ClassName": "ParticleEmitter",
+    "Enabled": false,
+    "Lifetime": {
+      "NumberRange": [
+        0.75,
+        1.25
+      ]
+    },
+    "LightEmission": 1,
+    "Name": "Sparkles",
+    "Rate": 100,
+    "RotSpeed": {
+      "NumberRange": [
+        5,
+        8
+      ]
+    },
+    "Rotation": {
+      "NumberRange": [
+        4,
+        5
+      ]
+    },
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 1.5
+          },
+          {
+            "envelope": 0.5,
+            "time": 0.5947629809379578,
+            "value": 4.1875
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 7.1875
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "SpreadAngle": [
+      1000,
+      1000
+    ],
+    "TextureContent": "http://www.roblox.com/asset/?id=277951744",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0.9700000286102295
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0.9700000286102295
+          }
+        ]
+      }
+    },
+    "ZOffset": 0.5
+  }
+}

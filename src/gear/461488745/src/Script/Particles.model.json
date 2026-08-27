@@ -1,0 +1,112 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "ClassName": "ParticleEmitter",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              1,
+              0.6666669845581055,
+              0
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              1,
+              0,
+              0
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "Enabled": false,
+    "Lifetime": {
+      "NumberRange": [
+        0.30000001192092896,
+        0.4000000059604645
+      ]
+    },
+    "LightEmission": 1,
+    "LockedToPart": true,
+    "Name": "Particles",
+    "Rate": 375,
+    "RotSpeed": {
+      "NumberRange": [
+        100,
+        100
+      ]
+    },
+    "Rotation": {
+      "NumberRange": [
+        -15,
+        15
+      ]
+    },
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 4
+          },
+          {
+            "envelope": 1.25,
+            "time": 0.5,
+            "value": 2
+          },
+          {
+            "envelope": 1,
+            "time": 0.75,
+            "value": 2
+          },
+          {
+            "envelope": 0.6729999780654907,
+            "time": 0.8650000095367432,
+            "value": 2
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        0,
+        0
+      ]
+    },
+    "TextureContent": "rbxasset://textures/particles/fire_main.dds",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0.25
+          },
+          {
+            "envelope": 0,
+            "time": 0.6510000228881836,
+            "value": 0.25
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0.25
+          }
+        ]
+      }
+    }
+  }
+}
