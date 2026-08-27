@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=163206468",
+    "ClassName": "Sound",
+    "Name": "sigh",
+    "PlaybackSpeed": 0.949999988079071,
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

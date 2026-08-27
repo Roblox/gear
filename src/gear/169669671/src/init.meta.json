@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      -0.45175302028656006,
+      0,
+      -2.072659969329834,
+      0.5403022766113281,
+      0,
+      0.8414709568023682,
+      0,
+      1,
+      0,
+      -0.8414709568023682,
+      0,
+      0.5403022766113281
+    ],
+    "Name": "169669671",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "rbxassetid://168892484",
+    "ToolTip": "Stravant's Lightning",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "position": [
+          46.14374542236328,
+          56.599998474121094,
+          65.7037124633789
+        ]
+      }
+    }
+  }
+}

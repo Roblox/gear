@@ -1,0 +1,20 @@
+{
+  "ClassName": "Fire",
+  "Properties": {
+    "ClassName": "Fire",
+    "Color": [
+      0,
+      0.40000003576278687,
+      1
+    ],
+    "Heat": 20,
+    "Name": "Fire",
+    "Sandboxed": false,
+    "SecondaryColor": [
+      0,
+      1,
+      1
+    ],
+    "SourceAssetId": -1
+  }
+}

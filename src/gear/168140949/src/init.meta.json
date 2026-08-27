@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0,
+      0,
+      1.7999999523162842,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      -1,
+      0
+    ],
+    "Name": "168140949",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=165709081",
+    "ToolTip": "Dragon Mouth Fire Sword",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            -0.258819043636322,
+            -0.836516261100769,
+            -0.4829629063606262
+          ],
+          [
+            0,
+            0.5,
+            -0.8660253882408142
+          ],
+          [
+            0.9659258127212524,
+            -0.2241438329219818,
+            -0.129409521818161
+          ]
+        ],
+        "position": [
+          -18.00511360168457,
+          94.69998931884766,
+          115.99932861328125
+        ]
+      }
+    }
+  }
+}

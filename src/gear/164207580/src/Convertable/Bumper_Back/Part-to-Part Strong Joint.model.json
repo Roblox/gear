@@ -1,0 +1,38 @@
+{
+  "ClassName": "ManualWeld",
+  "Properties": {
+    "C0": [
+      -3.9999985694885254,
+      0.5,
+      0.5000001192092896,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "C1": [
+      -0.4997485280036926,
+      -1.5,
+      -3.9999942779541016,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      1,
+      -1,
+      0,
+      0
+    ],
+    "ClassName": "ManualWeld",
+    "Enabled": true,
+    "Name": "Part-to-Part Strong Joint",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}
