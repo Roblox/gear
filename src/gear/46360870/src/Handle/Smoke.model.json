@@ -1,0 +1,17 @@
+{
+  "ClassName": "Smoke",
+  "Properties": {
+    "ClassName": "Smoke",
+    "Color": [
+      0.8000000715255737,
+      1,
+      1
+    ],
+    "Name": "Smoke",
+    "Opacity": 0.20000000298023224,
+    "RiseVelocity": 0,
+    "Sandboxed": false,
+    "Size": 0.20000000298023224,
+    "SourceAssetId": -1
+  }
+}

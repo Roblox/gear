@@ -1,0 +1,10 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "rbxasset://sounds/swordslash.wav",
+    "ClassName": "Sound",
+    "Name": "WhackSound",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

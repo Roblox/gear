@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=40455679",
+    "ClassName": "Sound",
+    "Name": "CreepSound2",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 0
+  }
+}

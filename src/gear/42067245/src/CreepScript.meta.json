@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "CreepScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{C3A92264-40E5-4CF7-AD42-E77CBBD1C2C9}",
+    "SourceAssetId": -1
+  }
+}
