@@ -1,0 +1,27 @@
+{
+  "ClassName": "SpecialMesh",
+  "Properties": {
+    "ClassName": "SpecialMesh",
+    "MeshContent": "rbxassetid://230849408",
+    "MeshType": "FileMesh",
+    "Name": "Mesh",
+    "Offset": [
+      0,
+      0,
+      0
+    ],
+    "Sandboxed": false,
+    "Scale": [
+      0.17499999701976776,
+      0.17499999701976776,
+      0.17499999701976776
+    ],
+    "SourceAssetId": -1,
+    "TextureContent": "rbxassetid://230849444",
+    "VertexColor": [
+      1,
+      1,
+      1
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=12222225",
+    "ClassName": "Sound",
+    "Name": "Unsheath",
+    "PlaybackSpeed": 0.9900000095367432,
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "ClassName": "ParticleEmitter",
+    "Lifetime": {
+      "NumberRange": [
+        0.5,
+        1
+      ]
+    },
+    "LightEmission": 0.5,
+    "LightInfluence": 1,
+    "Name": "Eggs",
+    "RotSpeed": {
+      "NumberRange": [
+        -100,
+        100
+      ]
+    },
+    "Rotation": {
+      "NumberRange": [
+        -180,
+        180
+      ]
+    },
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0.5
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "SpreadAngle": [
+      -180,
+      180
+    ],
+    "TextureContent": "rbxassetid://24449691"
+  }
+}

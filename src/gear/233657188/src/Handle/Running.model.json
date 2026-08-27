@@ -1,0 +1,12 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "ClassName": "Sound",
+    "Looped": true,
+    "Name": "Running",
+    "PlaybackSpeed": 1.1997814178466797,
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 0.10000000149011612
+  }
+}
