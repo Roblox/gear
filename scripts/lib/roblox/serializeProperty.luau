@@ -119,6 +119,17 @@ local SERIALIZERS: { [string]: Serializer } = {
 	ContentId = function(v)
 		return if type(v) == "string" then v else v.Uri
 	end,
+	PhysicalProperties = function(v)
+		return {
+			PhysicalProperties = {
+				density = v.Density,
+				friction = v.Friction,
+				elasticity = v.Elasticity,
+				frictionWeight = v.FrictionWeight,
+				elasticityWeight = v.ElasticityWeight,
+			},
+		}
+	end,
 	BinaryString = function(v)
 		return { BinaryString = encodeBase64(v) }
 	end,

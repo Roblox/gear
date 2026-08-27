@@ -183,6 +183,26 @@ test.suite("serializeProperty", function(suite: TestSuite)
 		asserts.eq("", v)
 	end)
 
+	suite:case("PhysicalProperties", function(asserts: Asserts)
+		local v, status = serializeProperty("PhysicalProperties", {
+			Density = 0.5,
+			Friction = 1,
+			Elasticity = 0,
+			FrictionWeight = 50,
+			ElasticityWeight = 25,
+		})
+		asserts.eq("ok", status)
+		asserts.eq({
+			PhysicalProperties = {
+				density = 0.5,
+				friction = 1,
+				elasticity = 0,
+				frictionWeight = 50,
+				elasticityWeight = 25,
+			},
+		}, v)
+	end)
+
 	suite:case("BinaryString encodes bytes as base64", function(asserts: Asserts)
 		local v, status = serializeProperty("BinaryString", "Hello, world!")
 		asserts.eq("ok", status)
@@ -259,6 +279,7 @@ test.suite("serializeProperty", function(suite: TestSuite)
 			OptionalCFrame = true,
 			Content = true,
 			ContentId = true,
+			PhysicalProperties = true,
 			BinaryString = true,
 			Font = true,
 		}
