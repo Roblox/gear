@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "NinjaStar",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{8FB96E72-DBA8-4C90-A4D7-11FD205E1573}",
+    "SourceAssetId": -1
+  }
+}

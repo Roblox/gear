@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "LaserBlast",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{E8CA37D1-8AD2-486D-8BA1-79F3B4CA15B3}",
+    "SourceAssetId": -1
+  }
+}

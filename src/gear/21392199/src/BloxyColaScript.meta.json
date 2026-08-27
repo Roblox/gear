@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "BloxyColaScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{3AD7C90B-9D3D-48CA-BA35-8BF760265426}",
+    "SourceAssetId": -1
+  }
+}

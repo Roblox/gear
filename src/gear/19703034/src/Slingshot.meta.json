@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "Slingshot",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{A1AD85D3-DC92-4C3C-9594-42C4A452DE03}",
+    "SourceAssetId": -1
+  }
+}

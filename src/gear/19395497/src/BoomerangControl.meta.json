@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "BoomerangControl",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{DC27A871-9606-4B8F-ACA5-09D1AC2BB385}",
+    "SourceAssetId": -1
+  }
+}

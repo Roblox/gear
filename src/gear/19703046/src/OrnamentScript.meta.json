@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "OrnamentScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{AEA1496E-5130-443B-896D-1390EF234C55}",
+    "SourceAssetId": -1
+  }
+}

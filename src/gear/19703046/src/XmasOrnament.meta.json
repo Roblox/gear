@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "XmasOrnament",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{BE1C10D8-E4FD-494A-AC44-AB288B2F52EC}",
+    "SourceAssetId": -1
+  }
+}

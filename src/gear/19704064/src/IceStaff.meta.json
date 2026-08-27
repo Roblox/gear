@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "IceStaff",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{7DE82BE7-DC03-4340-B639-4AFE25B1C05D}",
+    "SourceAssetId": -1
+  }
+}
