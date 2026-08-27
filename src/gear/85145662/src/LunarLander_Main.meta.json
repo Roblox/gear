@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "LunarLander_Main",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{24B41825-C5EF-45CE-B9FC-7FF2A7257707}",
+    "SourceAssetId": -1
+  }
+}

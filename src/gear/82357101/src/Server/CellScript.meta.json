@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "CellScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{9DF3F87E-D22C-4E0A-A7D3-512BF243D0B1}",
+    "SourceAssetId": -1
+  }
+}

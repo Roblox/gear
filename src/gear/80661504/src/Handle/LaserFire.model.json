@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "rbxassetid://22968437",
+    "ClassName": "Sound",
+    "Name": "LaserFire",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 0.8500000238418579
+  }
+}

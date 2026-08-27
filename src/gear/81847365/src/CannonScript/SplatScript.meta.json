@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "SplatScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{A90E247E-ED1B-4DC2-BE73-B15C0791C513}",
+    "SourceAssetId": -1
+  }
+}

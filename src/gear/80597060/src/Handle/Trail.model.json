@@ -1,0 +1,59 @@
+{
+  "ClassName": "Trail",
+  "Properties": {
+    "ClassName": "Trail",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              0,
+              0.5019609928131104,
+              0
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              0,
+              0.5019609928131104,
+              0
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "Lifetime": 1,
+    "LightEmission": 1,
+    "MinLength": 0,
+    "Name": "Trail",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 1
+          },
+          {
+            "envelope": 0,
+            "time": 0.10000000149011612,
+            "value": 0.5
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1
+          }
+        ]
+      }
+    }
+  },
+  "attributes": {
+    "Rojo_Target_Attachment0": "g80597060_21",
+    "Rojo_Target_Attachment1": "g80597060_20"
+  }
+}

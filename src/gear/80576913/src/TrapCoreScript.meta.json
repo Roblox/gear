@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "TrapCoreScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{AD73E321-95FD-4B8C-BDDC-DB99057B135B}",
+    "SourceAssetId": -1
+  }
+}

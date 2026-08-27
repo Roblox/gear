@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "RocketThrust",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{0571F427-DC4D-41AF-A1FA-E7F35A4C5A20}",
+    "SourceAssetId": -1
+  }
+}

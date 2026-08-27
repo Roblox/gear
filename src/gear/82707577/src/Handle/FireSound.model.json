@@ -1,0 +1,12 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "rbxasset://sounds//Rubber band sling shot.wav",
+    "ClassName": "Sound",
+    "Name": "FireSound",
+    "PlaybackSpeed": 0.30000001192092896,
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 1
+  }
+}

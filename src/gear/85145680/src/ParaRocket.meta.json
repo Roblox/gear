@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "ParaRocket",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{65149E6F-D063-4FA4-8AFD-E5F0A98445A6}",
+    "SourceAssetId": -1
+  }
+}

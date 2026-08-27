@@ -1,0 +1,14 @@
+{
+  "attributes": {
+    "__MarketplaceGear_OriginalName": "SwordScript"
+  },
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "SwordScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}
