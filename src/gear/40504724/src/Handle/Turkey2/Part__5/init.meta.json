@@ -1,0 +1,101 @@
+{
+  "attributes": {
+    "__MarketplaceGear_OriginalName": "Part"
+  },
+  "className": "Part",
+  "properties": {
+    "Anchored": true,
+    "AudioCanCollide": true,
+    "BackParamA": -0.5,
+    "BackParamB": 0.5,
+    "BackSurface": "Smooth",
+    "BackSurfaceInput": "NoInput",
+    "BottomParamA": -0.5,
+    "BottomParamB": 0.5,
+    "BottomSurface": "Smooth",
+    "BottomSurfaceInput": "NoInput",
+    "CFrame": [
+      -8.8299560546875,
+      41.43424987792969,
+      -120.27758026123047,
+      -0.9998770952224731,
+      -0.00007122135866666213,
+      0.01568257436156273,
+      -0.00006821017450420186,
+      1,
+      0.0001925435062730685,
+      -0.015682587400078773,
+      0.00019145008991472423,
+      -0.9998770952224731
+    ],
+    "CanCollide": false,
+    "CanQuery": true,
+    "CanTouch": true,
+    "CastShadow": true,
+    "ClassName": "Part",
+    "CollisionGroup": "Default",
+    "CollisionGroupId": 0,
+    "Color": [
+      0.9607843160629272,
+      0.8039215803146362,
+      0.1882352977991104
+    ],
+    "EnableFluidForces": true,
+    "FormFactor": "Plate",
+    "FrontParamA": -0.5,
+    "FrontParamB": 0.5,
+    "FrontSurface": "Smooth",
+    "FrontSurfaceInput": "NoInput",
+    "LeftParamA": -0.5,
+    "LeftParamB": 0.5,
+    "LeftSurface": "Smooth",
+    "LeftSurfaceInput": "NoInput",
+    "Locked": false,
+    "Massless": false,
+    "Material": "Plastic",
+    "MaterialVariant": "",
+    "Name": "Part",
+    "PivotOffset": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "Reflectance": 0,
+    "RightParamA": -0.5,
+    "RightParamB": 0.5,
+    "RightSurface": "Smooth",
+    "RightSurfaceInput": "NoInput",
+    "RootPriority": 0,
+    "RotVelocity": [
+      0.002771129133179784,
+      -0.00028757983818650246,
+      -0.00007111221202649176
+    ],
+    "Sandboxed": false,
+    "Size": [
+      1,
+      0.4000000059604645,
+      1
+    ],
+    "SourceAssetId": -1,
+    "TopParamA": -0.5,
+    "TopParamB": 0.5,
+    "TopSurface": "Smooth",
+    "TopSurfaceInput": "NoInput",
+    "Transparency": 1,
+    "Velocity": [
+      -0.0008850611047819257,
+      -0.012770043686032295,
+      -0.00815641600638628
+    ]
+  }
+}

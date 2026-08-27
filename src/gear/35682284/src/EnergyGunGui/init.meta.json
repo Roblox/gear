@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "EnergyGunGui",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{FC1DE6F9-946A-4492-8458-D074EFDB9E2D}",
+    "SourceAssetId": -1
+  }
+}

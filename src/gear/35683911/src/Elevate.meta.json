@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "Elevate",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{3D3AC2D3-A603-43DE-A1F2-0C12EE59BC00}",
+    "SourceAssetId": -1
+  }
+}

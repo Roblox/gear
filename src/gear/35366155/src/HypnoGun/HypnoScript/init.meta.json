@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "HypnoScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{7CB1A88B-FFB4-410F-92F9-3866176BF2CC}",
+    "SourceAssetId": -1
+  }
+}

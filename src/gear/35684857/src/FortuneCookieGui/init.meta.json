@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "FortuneCookieGui",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{5CD59AD1-0F22-4CF8-9EB6-0FADDB9E6FF2}",
+    "SourceAssetId": -1
+  }
+}

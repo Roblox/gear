@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "PumpkinLauncher",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{FB45F68B-58F1-4EC5-83A3-F87CEB661066}",
+    "SourceAssetId": -1
+  }
+}

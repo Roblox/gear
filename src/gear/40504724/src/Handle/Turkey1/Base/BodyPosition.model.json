@@ -1,0 +1,14 @@
+{
+  "ClassName": "BodyPosition",
+  "Properties": {
+    "ClassName": "BodyPosition",
+    "MaxForce": [
+      4000,
+      4,
+      4000
+    ],
+    "Name": "BodyPosition",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

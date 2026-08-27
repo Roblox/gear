@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=35275769",
+    "ClassName": "Sound",
+    "Name": "AtomoSound",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 0.8999999761581421
+  }
+}
