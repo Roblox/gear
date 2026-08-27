@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "IcicleShooter",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{35061D94-D269-466B-B105-B04C50FA7503}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "CleanUp",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{0FBE81C6-1432-46C8-84ED-D091DAA0265D}",
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "ClassName": "TextLabel",
+  "Properties": {
+    "Active": false,
+    "AnchorPoint": [
+      0,
+      0
+    ],
+    "AutoLocalize": true,
+    "AutomaticSize": "None",
+    "BackgroundColor3": [
+      0.40000003576278687,
+      1,
+      1
+    ],
+    "BackgroundTransparency": 0,
+    "BorderColor3": [
+      0.0313725508749485,
+      0.0313725508749485,
+      0.0313725508749485
+    ],
+    "BorderMode": "Outline",
+    "BorderSizePixel": 1,
+    "ClassName": "TextLabel",
+    "ClipsDescendants": false,
+    "Draggable": false,
+    "InputSink": "None",
+    "Interactable": true,
+    "LayoutOrder": 0,
+    "Name": "Egg Name",
+    "Position": {
+      "UDim2": [
+        [
+          0,
+          65
+        ],
+        [
+          0,
+          5
+        ]
+      ]
+    },
+    "Rotation": 0,
+    "Sandboxed": false,
+    "Selectable": false,
+    "SelectionBehaviorDown": "Escape",
+    "SelectionBehaviorLeft": "Escape",
+    "SelectionBehaviorRight": "Escape",
+    "SelectionBehaviorUp": "Escape",
+    "SelectionGroup": false,
+    "SelectionOrder": 0,
+    "Size": {
+      "UDim2": [
+        [
+          0,
+          95
+        ],
+        [
+          0,
+          40
+        ]
+      ]
+    },
+    "SizeConstraint": "RelativeXY",
+    "SourceAssetId": -1,
+    "Text": "Egg of Day",
+    "TextColor3": [
+      0,
+      0,
+      0
+    ],
+    "Visible": true,
+    "ZIndex": 1
+  }
+}

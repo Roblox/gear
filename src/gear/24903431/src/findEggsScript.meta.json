@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "findEggsScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{6402C8B5-043C-4FCC-A725-0037AE69652C}",
+    "SourceAssetId": -1
+  }
+}
