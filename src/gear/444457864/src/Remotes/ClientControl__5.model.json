@@ -1,0 +1,12 @@
+{
+  "ClassName": "RemoteFunction",
+  "Properties": {
+    "ClassName": "RemoteFunction",
+    "Name": "ClientControl",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  },
+  "attributes": {
+    "__MarketplaceGear_OriginalName": "ClientControl"
+  }
+}

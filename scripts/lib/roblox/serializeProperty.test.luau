@@ -171,6 +171,43 @@ test.suite("serializeProperty", function(suite: TestSuite)
 		asserts.eq("rbxassetid://12345", v)
 	end)
 
+	suite:case("Content with no source serializes as a null content", function(asserts: Asserts)
+		local v, status = serializeProperty("Content", { SourceType = "Enum.ContentSourceType.None" })
+		asserts.eq("ok", status)
+		asserts.eq({ Content = "None" }, v)
+	end)
+
+	suite:case("Content backed by an object reports unsupported", function(asserts: Asserts)
+		local v, status = serializeProperty("Content", { SourceType = "Enum.ContentSourceType.Object" })
+		asserts.eq("unsupported", status)
+		asserts.eq(nil, v)
+	end)
+
+	-- `diff[name] = nil` deletes the key, so a serializer that returns nil
+	-- with status "ok" would quietly drop the property. That path must be
+	-- unsupported instead. Stub a handler so this isn't only covered via Content.
+	suite:case("A serializer that returns nil is unsupported, not ok", function(asserts: Asserts)
+		SERIALIZERS.NilProbe = function()
+			return nil
+		end
+		local v, status = serializeProperty("NilProbe", true)
+		SERIALIZERS.NilProbe = nil
+		asserts.eq("unsupported", status)
+		asserts.eq(nil, v)
+	end)
+
+	suite:case("A serializer that returns false is still ok", function(asserts: Asserts)
+		local v, status = serializeProperty("Bool", false)
+		asserts.eq("ok", status)
+		asserts.eq(false, v)
+	end)
+
+	suite:case("ContentId with no Uri is unsupported", function(asserts: Asserts)
+		local v, status = serializeProperty("ContentId", {})
+		asserts.eq("unsupported", status)
+		asserts.eq(nil, v)
+	end)
+
 	suite:case("ContentId aliases Content", function(asserts: Asserts)
 		local v, status = serializeProperty("ContentId", { Uri = "rbxassetid://67890" })
 		asserts.eq("ok", status)

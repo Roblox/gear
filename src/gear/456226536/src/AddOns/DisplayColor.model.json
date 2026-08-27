@@ -1,0 +1,14 @@
+{
+  "ClassName": "Color3Value",
+  "Properties": {
+    "ClassName": "Color3Value",
+    "Name": "DisplayColor",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Value": [
+      0.6666666865348816,
+      0,
+      0.49803924560546875
+    ]
+  }
+}
