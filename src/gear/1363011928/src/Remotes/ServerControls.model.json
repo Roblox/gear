@@ -1,0 +1,9 @@
+{
+  "ClassName": "RemoteFunction",
+  "Properties": {
+    "ClassName": "RemoteFunction",
+    "Name": "ServerControls",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

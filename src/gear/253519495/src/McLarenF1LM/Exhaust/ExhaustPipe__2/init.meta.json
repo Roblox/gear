@@ -1,0 +1,132 @@
+{
+  "attributes": {
+    "__MarketplaceGear_OriginalName": "ExhaustPipe"
+  },
+  "className": "UnionOperation",
+  "id": "g253519495_84",
+  "properties": {
+    "AeroMeshData": {
+      "SharedString": ""
+    },
+    "Anchored": false,
+    "AssetId": "http://www.roblox.com//asset/?id=249709749",
+    "AudioCanCollide": true,
+    "BackParamA": -0.5,
+    "BackParamB": 0.5,
+    "BackSurface": "Smooth",
+    "BackSurfaceInput": "NoInput",
+    "BottomParamA": -0.5,
+    "BottomParamB": 0.5,
+    "BottomSurface": "Smooth",
+    "BottomSurfaceInput": "NoInput",
+    "CFrame": [
+      -0.6261393427848816,
+      2.44998836517334,
+      19.0033016204834,
+      1,
+      7.152461876103189e-7,
+      -6.916141614965454e-7,
+      -6.916137067491945e-7,
+      -6.322040917439153e-7,
+      -1,
+      -7.152465855142509e-7,
+      1,
+      -6.322035801531456e-7
+    ],
+    "CanCollide": false,
+    "CanQuery": true,
+    "CanTouch": true,
+    "CastShadow": true,
+    "ClassName": "UnionOperation",
+    "CollisionGroup": "Default",
+    "CollisionGroupId": 0,
+    "Color": [
+      0.06666667014360428,
+      0.06666667014360428,
+      0.06666667014360428
+    ],
+    "EnableFluidForces": true,
+    "FluidFidelityInternal": "Automatic",
+    "FormFactor": "Symmetric",
+    "FrontParamA": -0.5,
+    "FrontParamB": 0.5,
+    "FrontSurface": "Smooth",
+    "FrontSurfaceInput": "NoInput",
+    "InertiaMigrated": true,
+    "InitialSize": [
+      0.6000000238418579,
+      0.40099287033081055,
+      0.6000000238418579
+    ],
+    "LeftParamA": -0.5,
+    "LeftParamB": 0.5,
+    "LeftSurface": "Smooth",
+    "LeftSurfaceInput": "NoInput",
+    "Locked": true,
+    "Massless": false,
+    "Material": "Plastic",
+    "MaterialVariant": "",
+    "Name": "ExhaustPipe",
+    "PhysicalConfigData": {
+      "SharedString": "Q1NHUEhTBgAAAHDSEz4AAAAAAAAAAAAAAACGXCo8AAAAAAAAAAATFl88AAAAAIZcKjwQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAIA/YAAAAAQAAAAAvA8y7U5NvpqZmT6amZm+7U5NvgAAgDIAAAAy7U5NvpqZmb6+t5E+rUpMPlhKwr0kOVm+rUpMPiQ5Wb4AOO0xrUpMPpqZmT6amZk+6U5NviLYp7K/t5G+rUpMPlNKwj1SSsI9rUpMPr+3kb4Zm38+rUpMPmVnKj4lOVk+6k5NviQ5Wb4jOVm+7U5NviQ5WT4lOVk+6k5NviM5WT4jOVm+7U5NviQ5Wb5oZyq+rUpMPhubfz7At5G+rUpMPlhKwr1YSsK9rUpMPr+3kb5oZyo+rUpMPhmbfz4jOVk+rUpMPiM5Wb6ZmZk+rUpMPha5l7JYSsK9705Nvr+3kT5USsI97U5Nvr+3kT6/t5E+6k5NvlNKwj1YSsK97U5Nvr+3kb6/t5G+7U5NvlRKwr2/t5G+7U5NvlhKwj2/t5E+6U5NvlhKwr1TSsI97U5Nvr+3kb4am3++rUpMPmhnKj4AuJQxrUpMPpqZmb6ZmZm+rUpMPvIVdbJUSsI9rUpMPr+3kT60AAAAAAAAAAEAAAACAAAAAwAAAAQAAAAFAAAABgAAAAAAAAACAAAABwAAAAUAAAAEAAAACAAAAAQAAAADAAAACQAAAAMAAAAFAAAACgAAAAYAAAACAAAACwAAAAEAAAAAAAAADAAAAAAAAAAGAAAADQAAAAIAAAABAAAADgAAAAUAAAAHAAAADwAAAAQAAAANAAAADwAAAAcAAAAEAAAAEAAAAA0AAAAEAAAAEAAAAAQAAAAIAAAAEQAAAAkAAAAFAAAAEQAAAAwAAAAJAAAAEgAAAAgAAAADAAAAEgAAAAMAAAAKAAAAEgAAAAoAAAAIAAAAEwAAAAYAAAADAAAAEwAAAAMAAAAJAAAAFAAAAAsAAAAAAAAAFAAAAA4AAAALAAAAFAAAAAAAAAAFAAAAFAAAAAUAAAAOAAAAFQAAAAAAAAAMAAAAFQAAAAwAAAARAAAAFQAAAAUAAAAAAAAAFgAAAAYAAAATAAAAFgAAABMAAAAJAAAAFgAAAAkAAAAMAAAAFgAAAAwAAAAGAAAAFwAAAAIAAAANAAAAFwAAAA0AAAAQAAAAFwAAABAAAAACAAAAGAAAAA0AAAABAAAAGAAAAAEAAAAPAAAAGAAAAA8AAAANAAAAGQAAAAcAAAABAAAAGQAAAAEAAAALAAAAGgAAAAMAAAAGAAAAGgAAAAYAAAAKAAAAGgAAAAoAAAADAAAAGwAAAAIAAAAIAAAAGwAAAAgAAAAKAAAAGwAAAAoAAAACAAAAHAAAAAcAAAAZAAAAHAAAABkAAAALAAAAHAAAAAsAAAAOAAAAHAAAAA4AAAAHAAAAHQAAAAgAAAACAAAAHQAAAAIAAAAQAAAAHQAAABAAAAAIAAAAHgAAAAEAAAAHAAAAHgAAAAcAAAAPAAAAHgAAAA8AAAABAAAAHwAAABEAAAAFAAAAHwAAAAUAAAAVAAAAHwAAABUAAAARAAAA"
+    },
+    "PivotOffset": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "Reflectance": 0,
+    "RightParamA": -0.5,
+    "RightParamB": 0.5,
+    "RightSurface": "Smooth",
+    "RightSurfaceInput": "NoInput",
+    "RootPriority": 0,
+    "RotVelocity": [
+      0,
+      0,
+      0
+    ],
+    "Sandboxed": false,
+    "Size": [
+      0.6000000238418579,
+      0.40099287033081055,
+      0.6000000238418579
+    ],
+    "SourceAssetId": -1,
+    "TopParamA": -0.5,
+    "TopParamB": 0.5,
+    "TopSurface": "Smooth",
+    "TopSurfaceInput": "NoInput",
+    "Transparency": 0,
+    "UnscaledCofm": [
+      0,
+      0,
+      0
+    ],
+    "UnscaledVolInertiaDiags": [
+      0.010398035869002342,
+      0.013616102747619152,
+      0.010398035869002342
+    ],
+    "UnscaledVolInertiaOffDiags": [
+      0,
+      0,
+      0
+    ],
+    "UnscaledVolume": 0.14435744285583496,
+    "Velocity": [
+      0,
+      0,
+      0
+    ]
+  }
+}

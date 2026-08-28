@@ -1,0 +1,129 @@
+{
+  "ClassName": "MeshPart",
+  "Properties": {
+    "AeroMeshData": {
+      "SharedString": ""
+    },
+    "Anchored": false,
+    "AudioCanCollide": true,
+    "BackParamA": -0.5,
+    "BackParamB": 0.5,
+    "BackSurface": "Smooth",
+    "BackSurfaceInput": "NoInput",
+    "BottomParamA": -0.5,
+    "BottomParamB": 0.5,
+    "BottomSurface": "Smooth",
+    "BottomSurfaceInput": "NoInput",
+    "CFrame": [
+      -7.978325366973877,
+      2.79280424118042,
+      14.044759750366213,
+      1,
+      0,
+      0,
+      0,
+      0.7863863110542297,
+      -0.6177352070808411,
+      0,
+      0.6177352070808411,
+      0.7863863110542297
+    ],
+    "CanCollide": false,
+    "CanQuery": true,
+    "CanTouch": true,
+    "CastShadow": true,
+    "ClassName": "MeshPart",
+    "CollisionGroup": "Default",
+    "CollisionGroupId": 0,
+    "Color": [
+      0.6392157077789307,
+      0.6352941393852234,
+      0.6470588445663452
+    ],
+    "EnableFluidForces": true,
+    "FluidFidelityInternal": "Automatic",
+    "FrontParamA": -0.5,
+    "FrontParamB": 0.5,
+    "FrontSurface": "Smooth",
+    "FrontSurfaceInput": "NoInput",
+    "InertiaMigrated": true,
+    "InitialSize": [
+      0.07530000060796738,
+      0.06480000168085098,
+      0.15934999287128448
+    ],
+    "LeftParamA": -0.5,
+    "LeftParamB": 0.5,
+    "LeftSurface": "Smooth",
+    "LeftSurfaceInput": "NoInput",
+    "Locked": false,
+    "Massless": false,
+    "Material": "Plastic",
+    "MaterialVariant": "",
+    "MeshContent": "rbxassetid://1486066547",
+    "Name": "4",
+    "PhysicalConfigData": {
+      "SharedString": "Q1NHUEhTBgAAANTwfzkg04A5lp2MO+4cijz22vc0XEFGMCzLgq823gM1tnTDM3aE7TMQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAIA/MAAAAAQAAABKCAc9VmlRPAAAAACZbAI9hOwmPAAAAAAUq608mp8gPJhvjb2i6NI8LOauPK5gk72Ini083bUEPYrDlr39H0c8AXy4PAAAAAAhEtk8IFCaugAAAAAFg5m8mp8gPJhvjb3s0qM6ekimPKYso73YaQW83bUEPYrDlr25ZV28khm6PAAAAABmLYY84OGZugAAAACnq+C8oPg1ugAAAABMGQW9zZkmPAAAAADmqwq9LLxYPAAAAABKzr68LOauPK5gk71UAAAAAAAAAAEAAAACAAAAAAAAAAIAAAADAAAAAAAAAAMAAAAEAAAAAAAAAAQAAAAFAAAAAAAAAAUAAAAKAAAAAAAAAAoAAAAOAAAAAAAAAA4AAAANAAAAAAAAAA0AAAAMAAAAAAAAAAwAAAALAAAAAAAAAAsAAAAGAAAAAAAAAAYAAAABAAAAAQAAAAYAAAACAAAAAgAAAAcAAAAIAAAAAgAAAAgAAAADAAAAAgAAAAYAAAAHAAAAAwAAAAgAAAAEAAAABAAAAAgAAAAJAAAABAAAAAkAAAAKAAAABAAAAAoAAAAFAAAABgAAAAsAAAAHAAAABwAAAAsAAAAMAAAABwAAAAwAAAANAAAABwAAAA0AAAAOAAAABwAAAA4AAAAPAAAABwAAAA8AAAAIAAAACAAAAA8AAAAJAAAACQAAAA8AAAAOAAAACQAAAA4AAAAKAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAACAPzYAAAAEAAAAKS8aPbi7qTo5/I49XD2jOuJ7ZbumLKM93hH9PN21BL0SJJY9a4cPPf6qKDzJM6o8lh54PB+UkDyFXoo9tAhQvB+UkDyFXoo99yEQvbi7qTo5/I49vprovN21BL0SJJY9cgfZPCbfmroAAAAACGYCPcHPJjwAAAAAlvwGPVo+UTwAAAAAaxlHPMB9uDwAAAAAo29dvGogujwAAAAAKS8avf6qKDx2/NM8l6MKvayUWDwAAAAAwxUFvTt1JjwAAAAAu6LgvJjcN7oAAAAAOCSGPCbfmroAAAAAYAAAAAAAAAABAAAAAgAAAAAAAAACAAAAAwAAAAAAAAADAAAABAAAAAAAAAAEAAAAAQAAAAEAAAAEAAAABQAAAAEAAAAFAAAABgAAAAEAAAAGAAAABwAAAAEAAAAHAAAAAgAAAAIAAAAHAAAAEQAAAAIAAAARAAAACAAAAAIAAAAIAAAACQAAAAIAAAAJAAAACgAAAAIAAAAKAAAAAwAAAAMAAAAKAAAABAAAAAQAAAAKAAAACwAAAAQAAAALAAAADAAAAAQAAAAMAAAABQAAAAUAAAANAAAABgAAAAUAAAAMAAAADQAAAAYAAAANAAAABwAAAAcAAAANAAAADgAAAAcAAAAOAAAADwAAAAcAAAAPAAAAEAAAAAcAAAAQAAAAEQAAAAgAAAARAAAAEAAAAAgAAAAQAAAADwAAAAgAAAAPAAAADgAAAAgAAAAOAAAADAAAAAgAAAAMAAAACwAAAAgAAAALAAAACgAAAAgAAAAKAAAACQAAAAwAAAAOAAAADQAAAA=="
+    },
+    "PivotOffset": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "Reflectance": 0,
+    "RightParamA": -0.5,
+    "RightParamB": 0.5,
+    "RightSurface": "Smooth",
+    "RightSurfaceInput": "NoInput",
+    "RootPriority": 0,
+    "RotVelocity": [
+      0,
+      0,
+      0
+    ],
+    "Sandboxed": false,
+    "Size": [
+      0.07530000060796738,
+      0.06480000168085098,
+      0.15934999287128448
+    ],
+    "SourceAssetId": -1,
+    "TextureContent": "rbxassetid://1486067852",
+    "TopParamA": -0.5,
+    "TopParamB": 0.5,
+    "TopSurface": "Smooth",
+    "TopSurfaceInput": "NoInput",
+    "Transparency": 1,
+    "UnscaledCofm": [
+      0.00024571362882852554,
+      0.004291246645152569,
+      0.016859497874975204
+    ],
+    "UnscaledVolInertiaDiags": [
+      4.6166650236045825e-7,
+      4.912466238238267e-7,
+      1.1060267013363045e-7
+    ],
+    "UnscaledVolInertiaOffDiags": [
+      7.212486163865606e-10,
+      -2.3791224545988143e-10,
+      9.101624698359956e-8
+    ],
+    "UnscaledVolume": 0.00024408410536125302,
+    "Velocity": [
+      0,
+      0,
+      0
+    ]
+  },
+  "id": "g2413687523_11"
+}

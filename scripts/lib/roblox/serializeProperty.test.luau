@@ -266,6 +266,12 @@ test.suite("serializeProperty", function(suite: TestSuite)
 		asserts.eq({ BinaryString = "AP8=" }, v)
 	end)
 
+	suite:case("SharedString encodes bytes as base64", function(asserts: Asserts)
+		local v, status = serializeProperty("SharedString", "\0\255")
+		asserts.eq("ok", status)
+		asserts.eq({ SharedString = "AP8=" }, v)
+	end)
+
 	suite:case("Font", function(asserts: Asserts)
 		local v, status = serializeProperty("Font", {
 			Family = "rbxasset://fonts/families/LegacyArial.json",
@@ -304,6 +310,36 @@ test.suite("serializeProperty", function(suite: TestSuite)
 		asserts.eq(nil, v)
 	end)
 
+	suite:case("Infinity becomes a value Rojo widens back to INF", function(asserts: Asserts)
+		local v, status = serializeProperty("Float32", math.huge)
+		asserts.eq("ok", status)
+		asserts.eq(1e39, v)
+	end)
+
+	suite:case("Negative infinity keeps its sign", function(asserts: Asserts)
+		local v, status = serializeProperty("Float32", -math.huge)
+		asserts.eq("ok", status)
+		asserts.eq(-1e39, v)
+	end)
+
+	suite:case("Infinite Vector3 components are each rewritten", function(asserts: Asserts)
+		local v, status = serializeProperty("Vector3", { X = math.huge, Y = 0, Z = math.huge })
+		asserts.eq("ok", status)
+		asserts.eq({ 1e39, 0, 1e39 }, v)
+	end)
+
+	suite:case("NaN is unsupported because JSON cannot express it", function(asserts: Asserts)
+		local v, status = serializeProperty("Float32", 0 / 0)
+		asserts.eq("unsupported", status)
+		asserts.eq(nil, v)
+	end)
+
+	suite:case("A single NaN component makes the whole Vector3 unsupported", function(asserts: Asserts)
+		local v, status = serializeProperty("Vector3", { X = 1, Y = 0 / 0, Z = 3 })
+		asserts.eq("unsupported", status)
+		asserts.eq(nil, v)
+	end)
+
 	suite:case("Unknown datatype reports unsupported", function(asserts: Asserts)
 		local v, status = serializeProperty("Unknown", { Something = 0.5 })
 		asserts.eq("unsupported", status)
@@ -332,6 +368,7 @@ test.suite("serializeProperty", function(suite: TestSuite)
 			ContentId = true,
 			PhysicalProperties = true,
 			BinaryString = true,
+			SharedString = true,
 			Font = true,
 		}
 		for datatype in SERIALIZERS do

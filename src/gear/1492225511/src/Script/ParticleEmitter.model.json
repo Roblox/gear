@@ -1,0 +1,57 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "ClassName": "ParticleEmitter",
+    "Enabled": false,
+    "Lifetime": {
+      "NumberRange": [
+        1,
+        2
+      ]
+    },
+    "LightEmission": 1,
+    "Name": "ParticleEmitter",
+    "Rate": 2,
+    "RotSpeed": {
+      "NumberRange": [
+        -5,
+        5
+      ]
+    },
+    "Rotation": {
+      "NumberRange": [
+        20,
+        40
+      ]
+    },
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        2,
+        2
+      ]
+    },
+    "SpreadAngle": [
+      -45,
+      45
+    ],
+    "TextureContent": "rbxassetid://1482871224",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "ClassName": "Attachment",
+  "Properties": {
+    "CFrame": [
+      0.010692596435546875,
+      0.11072470247745514,
+      0.693649172782898,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "ClassName": "Attachment",
+    "Name": "aLeftWristRigAttachment",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

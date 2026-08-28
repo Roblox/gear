@@ -1,0 +1,23 @@
+{
+  "ClassName": "Attachment",
+  "Properties": {
+    "CFrame": [
+      -0.00434463657438755,
+      -0.005283936858177185,
+      0.013111110776662827,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "ClassName": "Attachment",
+    "Name": "SpinnerAttachment",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

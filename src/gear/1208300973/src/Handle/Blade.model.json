@@ -1,0 +1,42 @@
+{
+  "ClassName": "Motor6D",
+  "Properties": {
+    "C0": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "C1": [
+      0.02777862548828125,
+      -3.386715888977051,
+      -0.0029144287109375,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "ClassName": "Motor6D",
+    "Enabled": true,
+    "Name": "Blade",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  },
+  "attributes": {
+    "Rojo_Target_Part0": "g1208300973_2",
+    "Rojo_Target_Part1": "g1208300973_3"
+  }
+}

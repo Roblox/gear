@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "DisplayRemover",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{65EA87A4-5D5A-4BA9-A837-BB0667390689}",
+    "SourceAssetId": -1
+  }
+}

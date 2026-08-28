@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "BoomerangLauncher",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{6BCBEF83-AAB5-41AC-8280-8AEF0CC43BDA}",
+    "SourceAssetId": -1
+  }
+}

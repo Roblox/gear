@@ -1,0 +1,27 @@
+{
+  "ClassName": "BlockMesh",
+  "Properties": {
+    "Bevel": 0,
+    "Bevel Roundness": 0,
+    "Bulge": 0,
+    "ClassName": "BlockMesh",
+    "Name": "Mesh",
+    "Offset": [
+      0,
+      0,
+      0
+    ],
+    "Sandboxed": false,
+    "Scale": [
+      0.8500000238418579,
+      1,
+      1
+    ],
+    "SourceAssetId": -1,
+    "VertexColor": [
+      1,
+      1,
+      1
+    ]
+  }
+}

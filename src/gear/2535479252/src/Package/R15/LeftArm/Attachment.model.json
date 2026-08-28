@@ -1,0 +1,23 @@
+{
+  "ClassName": "Attachment",
+  "Properties": {
+    "CFrame": [
+      -0.9229999780654907,
+      1,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      -1
+    ],
+    "ClassName": "Attachment",
+    "Name": "Attachment",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

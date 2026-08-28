@@ -1,0 +1,43 @@
+{
+  "ClassName": "Motor6D",
+  "Properties": {
+    "C0": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "C1": [
+      0.002899169921875,
+      -0.6611709594726562,
+      -0.5841201543807983,
+      0,
+      0,
+      -1,
+      -1,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "ClassName": "Motor6D",
+    "Enabled": true,
+    "Name": "SideBlade",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  },
+  "attributes": {
+    "Rojo_Target_Part0": "g1208300505_3",
+    "Rojo_Target_Part1": "g1208300505_5",
+    "__MarketplaceGear_OriginalName": "SideBlade"
+  }
+}

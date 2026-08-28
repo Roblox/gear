@@ -1,0 +1,12 @@
+{
+  "ClassName": "CharacterMesh",
+  "Properties": {
+    "BodyPart": "LeftArm",
+    "ClassName": "CharacterMesh",
+    "MeshContent": "rbxassetid://2565635389",
+    "Name": "LeftArm",
+    "OverlayTextureId": 2565635991,
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

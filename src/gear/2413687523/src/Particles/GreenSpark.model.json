@@ -1,0 +1,95 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "Acceleration": [
+      0,
+      -10,
+      0
+    ],
+    "ClassName": "ParticleEmitter",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              0.4196079969406128,
+              1,
+              0.3803919851779938
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              0.09019610285758972,
+              1,
+              0.07450979948043823
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "Enabled": false,
+    "Lifetime": {
+      "NumberRange": [
+        0.5,
+        0.5
+      ]
+    },
+    "LightEmission": 10,
+    "LockedToPart": true,
+    "Name": "GreenSpark",
+    "Rate": 30,
+    "RotSpeed": {
+      "NumberRange": [
+        100,
+        100
+      ]
+    },
+    "Rotation": {
+      "NumberRange": [
+        300,
+        300
+      ]
+    },
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        6,
+        6
+      ]
+    },
+    "SpreadAngle": [
+      100,
+      100
+    ],
+    "TextureContent": "http://www.roblox.com/asset/?id=295337911",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 0.21695800125598907,
+            "value": 0.48750001192092896
+          },
+          {
+            "envelope": 0,
+            "time": 0.5685790181159973,
+            "value": 0.90625
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1
+          }
+        ]
+      }
+    }
+  }
+}

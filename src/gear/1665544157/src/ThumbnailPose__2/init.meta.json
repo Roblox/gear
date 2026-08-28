@@ -1,0 +1,12 @@
+{
+  "attributes": {
+    "__MarketplaceGear_OriginalName": "ThumbnailPose"
+  },
+  "className": "Keyframe",
+  "properties": {
+    "ClassName": "Keyframe",
+    "Name": "ThumbnailPose",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "rbxassetid://1783474094",
+    "ClassName": "Sound",
+    "Name": "Keytar",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 1.5
+  }
+}

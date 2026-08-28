@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "Script",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{90CAEDE2-BDBA-4A40-9B81-8ACBDED88F06}",
+    "SourceAssetId": -1
+  }
+}

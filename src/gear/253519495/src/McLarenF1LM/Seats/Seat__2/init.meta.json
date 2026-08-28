@@ -1,0 +1,38 @@
+{
+  "attributes": {
+    "__MarketplaceGear_OriginalName": "Seat"
+  },
+  "className": "Model",
+  "properties": {
+    "ClassName": "Model",
+    "Name": "Seat",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            0.9999966621398926,
+            6.268950301091536e-7,
+            0.002282481174916029
+          ],
+          [
+            -1.132721422436589e-6,
+            0.9999964237213135,
+            5.614778046947322e-7
+          ],
+          [
+            -0.0022799780126661062,
+            -1.1735002090063062e-6,
+            0.999995231628418
+          ]
+        ],
+        "position": [
+          2.6120331287384033,
+          3.199845790863037,
+          11.597426414489746
+        ]
+      }
+    }
+  }
+}

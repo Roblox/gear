@@ -1,0 +1,10 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "rbxassetid://1149232293",
+    "ClassName": "Sound",
+    "Name": "DrumRoll",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

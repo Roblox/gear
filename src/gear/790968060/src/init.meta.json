@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      1.25,
+      0,
+      0.15000000596046448,
+      0.9804266095161438,
+      0,
+      -0.1968848556280136,
+      0,
+      1,
+      0,
+      0.1968848556280136,
+      -0.0,
+      0.9804266095161438
+    ],
+    "Name": "790968060",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "rbxassetid://785840373",
+    "ToolTip": "Pirate Ship Wheel",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "position": [
+          -24.91448974609375,
+          1.5772384405136108,
+          23.50055694580078
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "rbxassetid://1463941901",
+    "ClassName": "Sound",
+    "Name": "Clapboard",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

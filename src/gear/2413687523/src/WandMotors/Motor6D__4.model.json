@@ -1,0 +1,43 @@
+{
+  "ClassName": "Motor6D",
+  "Properties": {
+    "C0": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "C1": [
+      0,
+      0.027397632598876953,
+      0.3876943588256836,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "ClassName": "Motor6D",
+    "Enabled": true,
+    "Name": "Motor6D",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  },
+  "attributes": {
+    "Rojo_Target_Part0": "g2413687523_13",
+    "Rojo_Target_Part1": "g2413687523_14",
+    "__MarketplaceGear_OriginalName": "Motor6D"
+  }
+}

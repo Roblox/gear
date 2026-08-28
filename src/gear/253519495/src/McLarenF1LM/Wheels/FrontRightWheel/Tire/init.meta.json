@@ -1,0 +1,129 @@
+{
+  "className": "UnionOperation",
+  "id": "g253519495_261",
+  "properties": {
+    "AeroMeshData": {
+      "SharedString": ""
+    },
+    "Anchored": false,
+    "AssetId": "http://www.roblox.com//asset/?id=249709753",
+    "AudioCanCollide": true,
+    "BackParamA": -0.5,
+    "BackParamB": 0.5,
+    "BackSurface": "Smooth",
+    "BackSurfaceInput": "NoInput",
+    "BottomParamA": -0.5,
+    "BottomParamB": 0.5,
+    "BottomSurface": "Smooth",
+    "BottomSurfaceInput": "NoInput",
+    "CFrame": [
+      4.023125171661377,
+      2.5500593185424805,
+      5.103743553161621,
+      -6.46235278622953e-8,
+      -0.9999992847442628,
+      4.4698772398987785e-6,
+      0.9999964237213136,
+      4.392301491407125e-7,
+      1.1019085377483862e-6,
+      -1.7119281210398183e-6,
+      1.9669455468829256e-6,
+      0.999997854232788
+    ],
+    "CanCollide": false,
+    "CanQuery": true,
+    "CanTouch": true,
+    "CastShadow": true,
+    "ClassName": "UnionOperation",
+    "CollisionGroup": "Default",
+    "CollisionGroupId": 0,
+    "Color": [
+      0.9490196108818054,
+      0.9529411792755128,
+      0.9529411792755128
+    ],
+    "EnableFluidForces": true,
+    "FluidFidelityInternal": "Automatic",
+    "FormFactor": "Symmetric",
+    "FrontParamA": -0.5,
+    "FrontParamB": 0.5,
+    "FrontSurface": "Smooth",
+    "FrontSurfaceInput": "NoInput",
+    "InertiaMigrated": true,
+    "InitialSize": [
+      3.000000238418579,
+      2.00100040435791,
+      3.000000238418579
+    ],
+    "LeftParamA": -0.5,
+    "LeftParamB": 0.5,
+    "LeftSurface": "Smooth",
+    "LeftSurfaceInput": "NoInput",
+    "Locked": true,
+    "Massless": false,
+    "Material": "Plastic",
+    "MaterialVariant": "",
+    "Name": "Tire",
+    "PhysicalConfigData": {
+      "SharedString": "Q1NHUEhTBgAAAHISkEEAAAAAAAAAAAAAAADpiQFCAAAAAAAAAAD+zylCAAAAAOmJAUIQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAIA/YAAAAAQAAAC2w4c/AQCAP7bDh78AAMC//v9/PwAAAAAAAAAA//9/PwAAwD8DAMA/AACAv6GgZzQASJ6yAACAvwMAwD8B3UyyAACAv///v78AAMC/AACAv+DuhTSwJbY/AACAP/Pc8j7u3PK+AACAP64ltr+2w4e//v9/P7fDhz+2w4e/AACAv7bDh7+4w4c//v9/v7fDhz+3w4c/AACAv7bDh7+2w4e/AACAv7fDhz9BAVU/AACAP/LAnz/vwJ+//v9/P0EBVb+wJbY/AACAP+Lc8r7n3PI+AACAP64ltr+wJba/AQCAP+3c8j7t3PK+AACAP7Altj+wJba/AACAv+Tc8r7n3PI+AQCAv7Altj/t3PK+AACAv7Altr/o3PI+/v9/v64ltr/u3PK+AACAv7Altj+wJbY///9/v/Pc8j6uJba/AACAv+3c8j6wJbY//v9/v+Tc8r5BAVW//v9/P+/An7/wwJ8/AACAP0QBVT8DAMA/AACAP6HqXzQBAFQtAACAPwAAwL+0AAAAAAAAAAEAAAACAAAAAwAAAAQAAAAFAAAABgAAAAUAAAAEAAAABwAAAAAAAAACAAAACAAAAAEAAAAAAAAACQAAAAIAAAABAAAACgAAAAUAAAAGAAAACwAAAAQAAAADAAAADAAAAAMAAAAFAAAADQAAAAYAAAAEAAAADgAAAAcAAAACAAAADwAAAAEAAAAIAAAAEAAAAAwAAAAAAAAAEAAAAAAAAAAHAAAAEQAAAAAAAAAMAAAAEQAAAAgAAAAAAAAAEgAAAA0AAAAJAAAAEgAAAAEAAAAGAAAAEgAAAAkAAAABAAAAEwAAAAkAAAANAAAAEwAAAAQAAAACAAAAEwAAAAIAAAAJAAAAFAAAAAoAAAAGAAAAFAAAAA8AAAAKAAAAFAAAAAYAAAABAAAAFAAAAAEAAAAPAAAAFQAAAAQAAAALAAAAFQAAAAsAAAAOAAAAFQAAAAIAAAAEAAAAFQAAAA4AAAACAAAAFgAAAAgAAAAFAAAAFgAAAAUAAAAKAAAAFwAAAAwAAAAFAAAAFwAAAAUAAAARAAAAFwAAABEAAAAMAAAAGAAAAA0AAAAEAAAAGAAAAAQAAAATAAAAGAAAABMAAAANAAAAGQAAAAMAAAAHAAAAGQAAAAsAAAADAAAAGgAAAAYAAAANAAAAGgAAAA0AAAASAAAAGgAAABIAAAAGAAAAGwAAAAMAAAAMAAAAGwAAAAwAAAAQAAAAGwAAABAAAAADAAAAHAAAAAgAAAAWAAAAHAAAABYAAAAKAAAAHAAAAAoAAAAPAAAAHAAAAA8AAAAIAAAAHQAAAAsAAAAZAAAAHQAAABkAAAAHAAAAHQAAAAcAAAAOAAAAHQAAAA4AAAALAAAAHgAAAAcAAAADAAAAHgAAAAMAAAAQAAAAHgAAABAAAAAHAAAAHwAAAAUAAAAIAAAAHwAAAAgAAAARAAAAHwAAABEAAAAFAAAA"
+    },
+    "PivotOffset": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "Reflectance": 0,
+    "RightParamA": -0.5,
+    "RightParamB": 0.5,
+    "RightSurface": "Smooth",
+    "RightSurfaceInput": "NoInput",
+    "RootPriority": 0,
+    "RotVelocity": [
+      0,
+      0,
+      0
+    ],
+    "Sandboxed": false,
+    "Size": [
+      3.000000238418579,
+      2.00100040435791,
+      3.000000238418579
+    ],
+    "SourceAssetId": -1,
+    "TopParamA": -0.5,
+    "TopParamB": 0.5,
+    "TopSurface": "Smooth",
+    "TopSurfaceInput": "NoInput",
+    "Transparency": 0,
+    "UnscaledCofm": [
+      0,
+      0,
+      0
+    ],
+    "UnscaledVolInertiaDiags": [
+      32.38467788696289,
+      42.45311737060547,
+      32.38467788696289
+    ],
+    "UnscaledVolInertiaOffDiags": [
+      0,
+      0,
+      0
+    ],
+    "UnscaledVolume": 18.00900650024414,
+    "Velocity": [
+      0,
+      0,
+      0
+    ]
+  }
+}

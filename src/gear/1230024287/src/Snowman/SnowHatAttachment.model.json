@@ -1,0 +1,23 @@
+{
+  "ClassName": "Attachment",
+  "Properties": {
+    "CFrame": [
+      0,
+      2.4000000953674316,
+      -0.03500000014901161,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "ClassName": "Attachment",
+    "Name": "SnowHatAttachment",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

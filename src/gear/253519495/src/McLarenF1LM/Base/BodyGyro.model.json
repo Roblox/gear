@@ -1,0 +1,16 @@
+{
+  "ClassName": "BodyGyro",
+  "Properties": {
+    "ClassName": "BodyGyro",
+    "D": 1000,
+    "MaxTorque": [
+      1e+39,
+      1e+39,
+      1e+39
+    ],
+    "Name": "BodyGyro",
+    "P": 5000,
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

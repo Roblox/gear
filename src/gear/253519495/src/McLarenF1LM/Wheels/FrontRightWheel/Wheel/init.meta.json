@@ -1,0 +1,110 @@
+{
+  "className": "Part",
+  "id": "g253519495_260",
+  "properties": {
+    "Anchored": false,
+    "AudioCanCollide": true,
+    "BackParamA": -0.5,
+    "BackParamB": 0.5,
+    "BackSurface": "SmoothNoOutlines",
+    "BackSurfaceInput": "NoInput",
+    "BottomParamA": -0.5,
+    "BottomParamB": 0.5,
+    "BottomSurface": "SmoothNoOutlines",
+    "BottomSurfaceInput": "NoInput",
+    "CFrame": [
+      4.982141494750977,
+      2.049293279647827,
+      5.184573173522949,
+      0.999996542930603,
+      0.00037150722346268594,
+      0.0022808117792010307,
+      -0.00037065811920911074,
+      0.9999961853027344,
+      -0.0005934173823334277,
+      -0.00227845786139369,
+      0.0005919625982642174,
+      0.9999948740005493
+    ],
+    "CanCollide": false,
+    "CanQuery": true,
+    "CanTouch": true,
+    "CastShadow": true,
+    "ClassName": "Part",
+    "CollisionGroup": "Default",
+    "CollisionGroupId": 0,
+    "Color": [
+      0.10588235408067703,
+      0.16470588743686676,
+      0.2078431397676468
+    ],
+    "CustomPhysicalProperties": {
+      "PhysicalProperties": {
+        "acousticAbsorption": 1,
+        "density": 0.699999988079071,
+        "elasticity": 0,
+        "elasticityWeight": 1,
+        "friction": 1.2999999523162842,
+        "frictionWeight": 1
+      }
+    },
+    "EnableFluidForces": true,
+    "FormFactor": "Symmetric",
+    "FrontParamA": -0.5,
+    "FrontParamB": 0.5,
+    "FrontSurface": "SmoothNoOutlines",
+    "FrontSurfaceInput": "NoInput",
+    "LeftParamA": 0,
+    "LeftParamB": 0,
+    "LeftSurface": "Hinge",
+    "LeftSurfaceInput": "NoInput",
+    "Locked": true,
+    "Massless": false,
+    "Material": "Plastic",
+    "MaterialVariant": "",
+    "Name": "Wheel",
+    "PivotOffset": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "Reflectance": 0,
+    "RightParamA": -0.5,
+    "RightParamB": 0.5,
+    "RightSurface": "SmoothNoOutlines",
+    "RightSurfaceInput": "NoInput",
+    "RootPriority": 0,
+    "RotVelocity": [
+      5.404992580413818,
+      -0.004696886986494064,
+      0.003965693060308695
+    ],
+    "Sandboxed": false,
+    "Shape": "Ball",
+    "Size": [
+      2,
+      2,
+      2
+    ],
+    "SourceAssetId": -1,
+    "TopParamA": -0.5,
+    "TopParamB": 0.5,
+    "TopSurface": "SmoothNoOutlines",
+    "TopSurfaceInput": "NoInput",
+    "Transparency": 1,
+    "Velocity": [
+      6.323698043823242,
+      0.03527563437819481,
+      -0.0034715733490884304
+    ]
+  }
+}

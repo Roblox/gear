@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "RemoteScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{77B1C3C6-8060-454C-9233-C6F2BAA02C39}",
+    "SourceAssetId": -1
+  }
+}

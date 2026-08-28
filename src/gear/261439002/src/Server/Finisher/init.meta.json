@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "Finisher",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{97A79735-F99B-4BA5-BBA1-006009E4D803}",
+    "SourceAssetId": -1
+  }
+}

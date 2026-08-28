@@ -1,0 +1,37 @@
+{
+  "ClassName": "Trail",
+  "Properties": {
+    "ClassName": "Trail",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              0.1529410034418106,
+              1,
+              0.1529410034418106
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              0.1529410034418106,
+              1,
+              0.1529410034418106
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "Lifetime": 0.75,
+    "LightEmission": 1,
+    "Name": "Trail",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  },
+  "attributes": {
+    "Rojo_Target_Attachment0": "g743687369_14",
+    "Rojo_Target_Attachment1": "g743687369_15"
+  }
+}

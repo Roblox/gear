@@ -1,0 +1,129 @@
+{
+  "ClassName": "MeshPart",
+  "Properties": {
+    "AeroMeshData": {
+      "SharedString": ""
+    },
+    "Anchored": false,
+    "AudioCanCollide": true,
+    "BackParamA": -0.5,
+    "BackParamB": 0.5,
+    "BackSurface": "Smooth",
+    "BackSurfaceInput": "NoInput",
+    "BottomParamA": -0.5,
+    "BottomParamB": 0.5,
+    "BottomSurface": "Smooth",
+    "BottomSurfaceInput": "NoInput",
+    "CFrame": [
+      -2.380000114440918,
+      6.22609281539917,
+      0.9100000262260436,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "CanCollide": false,
+    "CanQuery": true,
+    "CanTouch": true,
+    "CastShadow": true,
+    "ClassName": "MeshPart",
+    "CollisionGroup": "Default",
+    "CollisionGroupId": 0,
+    "Color": [
+      0.6392157077789307,
+      0.6352941393852234,
+      0.6470588445663452
+    ],
+    "EnableFluidForces": true,
+    "FluidFidelityInternal": "Automatic",
+    "FrontParamA": -0.5,
+    "FrontParamB": 0.5,
+    "FrontSurface": "Smooth",
+    "FrontSurfaceInput": "NoInput",
+    "InertiaMigrated": true,
+    "InitialSize": [
+      0.2741110026836395,
+      0.05867505073547363,
+      0.476826012134552
+    ],
+    "LeftParamA": -0.5,
+    "LeftParamB": 0.5,
+    "LeftSurface": "Smooth",
+    "LeftSurfaceInput": "NoInput",
+    "Locked": false,
+    "Massless": false,
+    "Material": "Plastic",
+    "MaterialVariant": "",
+    "MeshContent": "rbxassetid://1486029498",
+    "Name": "Needle",
+    "PhysicalConfigData": {
+      "SharedString": "Q1NHUEhTBgAAACuOlzoZhd05UUlwvC21QDr4ruw2K/zEsGDCVra4HCk3n10rsXcdXzYQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAIA/DwAAAAQAAAA/UQw+Q0nwvIsidD6zGr29Q0nwvDKXYT0/UQy+TlXwvIsidL7YnsA9Q0nwvO5aVb28AFo6MlXwPCmmvToSAAAAAAAAAAEAAAACAAAAAAAAAAIAAAADAAAAAAAAAAMAAAAEAAAAAAAAAAQAAAABAAAAAQAAAAQAAAACAAAAAgAAAAQAAAADAAAA"
+    },
+    "PivotOffset": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "Reflectance": 0,
+    "RightParamA": -0.5,
+    "RightParamB": 0.5,
+    "RightSurface": "Smooth",
+    "RightSurfaceInput": "NoInput",
+    "RootPriority": 0,
+    "RotVelocity": [
+      0,
+      0,
+      0
+    ],
+    "Sandboxed": false,
+    "Size": [
+      0.2741110026836395,
+      0.05867505073547363,
+      0.476826012134552
+    ],
+    "SourceAssetId": -1,
+    "TextureContent": "rbxassetid://1486030208",
+    "TopParamA": -0.5,
+    "TopParamB": 0.5,
+    "TopSurface": "Smooth",
+    "TopSurfaceInput": "NoInput",
+    "Transparency": 0,
+    "UnscaledCofm": [
+      0.0004225157026667148,
+      -0.014665917493402958,
+      0.0007351216045208275
+    ],
+    "UnscaledVolInertiaDiags": [
+      7.053717126837e-6,
+      0.00001007987157208845,
+      3.3246740258618956e-6
+    ],
+    "UnscaledVolInertiaOffDiags": [
+      -1.4332547371154192e-9,
+      -3.2001626095734537e-6,
+      -2.49369924709697e-9
+    ],
+    "UnscaledVolume": 0.0011562755098566413,
+    "Velocity": [
+      0,
+      0,
+      0
+    ]
+  },
+  "id": "g2016188435_3"
+}

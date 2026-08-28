@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "AnimateWand",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{2E42B80D-2648-4DEC-89C0-2270191C6955}",
+    "SourceAssetId": -1
+  }
+}

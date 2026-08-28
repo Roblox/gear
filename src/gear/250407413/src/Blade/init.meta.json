@@ -1,0 +1,128 @@
+{
+  "className": "MeshPart",
+  "id": "g250407413_19",
+  "properties": {
+    "AeroMeshData": {
+      "SharedString": ""
+    },
+    "Anchored": false,
+    "AudioCanCollide": true,
+    "BackParamA": -0.5,
+    "BackParamB": 0.5,
+    "BackSurface": "Smooth",
+    "BackSurfaceInput": "NoInput",
+    "BottomParamA": -0.5,
+    "BottomParamB": 0.5,
+    "BottomSurface": "Smooth",
+    "BottomSurfaceInput": "NoInput",
+    "CFrame": [
+      4.9737229347229,
+      28.49410629272461,
+      14.963616371154783,
+      0.9961946606636048,
+      0.06162820756435394,
+      0.06162896379828453,
+      -0.08583196997642517,
+      0.5709261298179626,
+      0.8165024518966675,
+      0.01513399463146925,
+      -0.8186851739883423,
+      0.5740432143211365
+    ],
+    "CanCollide": false,
+    "CanQuery": true,
+    "CanTouch": true,
+    "CastShadow": true,
+    "ClassName": "MeshPart",
+    "CollisionGroup": "Default",
+    "CollisionGroupId": 0,
+    "Color": [
+      0.03529411926865578,
+      0.5372549295425415,
+      0.8117647171020508
+    ],
+    "EnableFluidForces": true,
+    "FluidFidelityInternal": "Automatic",
+    "FrontParamA": -0.5,
+    "FrontParamB": 0.5,
+    "FrontSurface": "Smooth",
+    "FrontSurfaceInput": "NoInput",
+    "InertiaMigrated": true,
+    "InitialSize": [
+      0.07416300475597382,
+      4.011809825897217,
+      0.07416249811649323
+    ],
+    "LeftParamA": -0.5,
+    "LeftParamB": 0.5,
+    "LeftSurface": "Smooth",
+    "LeftSurfaceInput": "NoInput",
+    "Locked": false,
+    "Massless": false,
+    "Material": "Neon",
+    "MaterialVariant": "",
+    "MeshContent": "rbxassetid://246295719",
+    "Name": "Blade",
+    "PhysicalConfigData": {
+      "SharedString": "Q1NHUEhTBgAAAIXCtDwAAAAAAAAAAAAAAABCC/c8AAAAAAAAAABW5ig4AAAAAEQL9zwQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAIA/LQAAAAQAAAD+m6I0v2AAwJ3iFz114he9v2AAwP//KLT+m6I0v2AAwGfiF70W4xc9v2AAwP//KLTDiQM9v2AAwPvilzwhiQO9v2AAwPvilzyRbqK0rS8AQExnzDsiCbG77C8AQC1uTLue4Ze8v2AAwJqJA73g4pc8v2AAwJqJA70YBLE7by8AQC1uTLvDiQM9v2AAwJDil7whiQO9v2AAwJDil7ye4Ze8v2AAwEqJAz3g4pc8v2AAwEqJAz1OAAAAAAAAAAEAAAACAAAAAwAAAAAAAAACAAAABAAAAAAAAAADAAAABQAAAAYAAAAHAAAABQAAAAcAAAABAAAABQAAAAEAAAAAAAAACAAAAAIAAAABAAAACAAAAAcAAAACAAAACQAAAAMAAAACAAAACgAAAAIAAAAHAAAACgAAAAkAAAACAAAACgAAAAYAAAAEAAAACgAAAAQAAAADAAAACgAAAAcAAAAGAAAACwAAAAMAAAAJAAAACwAAAAkAAAAKAAAACwAAAAoAAAADAAAADAAAAAEAAAAHAAAADAAAAAcAAAAIAAAADAAAAAgAAAABAAAADQAAAAAAAAAGAAAADQAAAAYAAAAFAAAADQAAAAUAAAAAAAAADgAAAAYAAAAAAAAADgAAAAAAAAAEAAAADgAAAAQAAAAGAAAA"
+    },
+    "PivotOffset": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "Reflectance": 0,
+    "RightParamA": -0.5,
+    "RightParamB": 0.5,
+    "RightSurface": "Smooth",
+    "RightSurfaceInput": "NoInput",
+    "RootPriority": 0,
+    "RotVelocity": [
+      0,
+      0,
+      0
+    ],
+    "Sandboxed": false,
+    "Size": [
+      0.25,
+      5.211999893188477,
+      0.25
+    ],
+    "SourceAssetId": -1,
+    "TopParamA": -0.5,
+    "TopParamB": 0.5,
+    "TopSurface": "Smooth",
+    "TopSurfaceInput": "NoInput",
+    "Transparency": 0.5,
+    "UnscaledCofm": [
+      0,
+      0,
+      0
+    ],
+    "UnscaledVolInertiaDiags": [
+      0.030156735330820084,
+      0.00004026883834740147,
+      0.030156739056110382
+    ],
+    "UnscaledVolInertiaOffDiags": [
+      0,
+      0,
+      0
+    ],
+    "UnscaledVolume": 0.022065410390496254,
+    "Velocity": [
+      0,
+      0,
+      0
+    ]
+  }
+}
