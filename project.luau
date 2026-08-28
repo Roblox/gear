@@ -1,6 +1,7 @@
 return {
 	RAW_GEAR_ASSETS_PATH = "assets",
 	GEAR_PATH = "src/gear",
+	GEAR_INVENTORY_PATH = "src/AllGear.csv",
 
 	SCRIPTS_PATH = "scripts",
 	SITE_PATH = "site",

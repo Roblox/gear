@@ -1,0 +1,11 @@
+{
+  "ClassName": "Decal",
+  "Properties": {
+    "ClassName": "Decal",
+    "Face": "Top",
+    "Name": "LightningDecal",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "http://www.roblox.com/asset/?id=24043814"
+  }
+}

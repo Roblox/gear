@@ -1,0 +1,11 @@
+{
+  "ClassName": "HopperBin",
+  "Properties": {
+    "BinType": "Clone",
+    "ClassName": "HopperBin",
+    "Name": "16200402",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "rbxasset://Textures\\Clone.png"
+  }
+}

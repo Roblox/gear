@@ -1,0 +1,72 @@
+{
+  "ClassName": "Frame",
+  "Properties": {
+    "Active": false,
+    "AnchorPoint": [
+      0,
+      0
+    ],
+    "AutoLocalize": true,
+    "AutomaticSize": "None",
+    "BackgroundColor3": [
+      0.7843137979507446,
+      0.7843137979507446,
+      0.7843137979507446
+    ],
+    "BackgroundTransparency": 0,
+    "BorderColor3": [
+      0,
+      0.3921568989753723,
+      1
+    ],
+    "BorderMode": "Outline",
+    "BorderSizePixel": 0,
+    "ClassName": "Frame",
+    "ClipsDescendants": false,
+    "Draggable": false,
+    "InputSink": "None",
+    "Interactable": true,
+    "LayoutOrder": 0,
+    "Name": "Divider",
+    "Position": {
+      "UDim2": [
+        [
+          0.6660000085830688,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "Rotation": 0,
+    "Sandboxed": false,
+    "Selectable": false,
+    "SelectionBehaviorDown": "Escape",
+    "SelectionBehaviorLeft": "Escape",
+    "SelectionBehaviorRight": "Escape",
+    "SelectionBehaviorUp": "Escape",
+    "SelectionGroup": false,
+    "SelectionOrder": 0,
+    "Size": {
+      "UDim2": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    "SizeConstraint": "RelativeXY",
+    "SourceAssetId": -1,
+    "Visible": true,
+    "ZIndex": 4
+  },
+  "attributes": {
+    "__MarketplaceGear_OriginalName": "Divider"
+  }
+}
