@@ -1,0 +1,16 @@
+{
+  "ClassName": "Trail",
+  "Properties": {
+    "ClassName": "Trail",
+    "Lifetime": 0.5,
+    "LightEmission": 0.5,
+    "Name": "Trail",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "rbxassetid://965496575"
+  },
+  "attributes": {
+    "Rojo_Target_Attachment0": "g2261478942_10",
+    "Rojo_Target_Attachment1": "g2261478942_11"
+  }
+}

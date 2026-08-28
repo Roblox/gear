@@ -1,0 +1,35 @@
+{
+  "className": "Model",
+  "properties": {
+    "ClassName": "Model",
+    "Name": "McLarenF1LM",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            1,
+            8.173421974788653e-7,
+            0
+          ],
+          [
+            -8.173421974788653e-7,
+            1,
+            5.398653115662455e-7
+          ],
+          [
+            4.4125469879537083e-13,
+            -5.398653115662455e-7,
+            1
+          ]
+        ],
+        "position": [
+          -0.00037393718957901,
+          3.7490181922912598,
+          10.103039741516113
+        ]
+      }
+    }
+  }
+}

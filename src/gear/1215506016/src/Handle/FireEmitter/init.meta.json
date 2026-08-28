@@ -1,0 +1,23 @@
+{
+  "className": "Attachment",
+  "properties": {
+    "CFrame": [
+      0,
+      2.5,
+      0.2500000298023224,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "ClassName": "Attachment",
+    "Name": "FireEmitter",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

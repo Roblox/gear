@@ -1,0 +1,43 @@
+{
+  "ClassName": "Motor6D",
+  "Properties": {
+    "C0": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "C1": [
+      0,
+      0.22469711303710938,
+      0.3545064926147461,
+      1,
+      0,
+      0,
+      0,
+      0.9848078489303589,
+      -0.17364798486232758,
+      0,
+      0.17364798486232758,
+      0.9848078489303589
+    ],
+    "ClassName": "Motor6D",
+    "Enabled": true,
+    "Name": "BaconMotor",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  },
+  "attributes": {
+    "Rojo_Target_Part0": "g1560400932_4",
+    "Rojo_Target_Part1": "g1560400932_10",
+    "__MarketplaceGear_OriginalName": "BaconMotor"
+  }
+}

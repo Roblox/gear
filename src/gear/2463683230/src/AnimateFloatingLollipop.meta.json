@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "AnimateFloatingLollipop",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{7CCDD0E4-46E7-4179-A0BA-90508C8E5115}",
+    "SourceAssetId": -1
+  }
+}

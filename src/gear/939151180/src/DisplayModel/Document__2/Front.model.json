@@ -1,0 +1,11 @@
+{
+  "ClassName": "Decal",
+  "Properties": {
+    "ClassName": "Decal",
+    "Face": "Top",
+    "Name": "Front",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "rbxassetid://1127349297"
+  }
+}

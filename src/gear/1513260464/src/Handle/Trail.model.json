@@ -1,0 +1,32 @@
+{
+  "ClassName": "Trail",
+  "Properties": {
+    "ClassName": "Trail",
+    "Enabled": false,
+    "LightEmission": 1,
+    "Name": "Trail",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "rbxassetid://965496575",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0.5
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1
+          }
+        ]
+      }
+    }
+  },
+  "attributes": {
+    "Rojo_Target_Attachment0": "g1513260464_7",
+    "Rojo_Target_Attachment1": "g1513260464_6"
+  }
+}

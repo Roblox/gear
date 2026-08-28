@@ -5,7 +5,7 @@
 
 	Returns:
 		(value, "ok")          - serialized
-		(nil,   "skipped")     - intentionally not serialized (only `Ref` today)
+		(nil,   "skipped")     - intentionally not serialized (`Ref`)
 		(nil,   "unsupported") - no handler; caller should warn so we add one
 
 	Scope is intentionally minimal: only the datatypes the existing dumped
@@ -143,6 +143,9 @@ local SERIALIZERS: { [string]: Serializer } = {
 	BinaryString = function(v)
 		return { BinaryString = encodeBase64(v) }
 	end,
+	SharedString = function(v)
+		return { SharedString = encodeBase64(v) }
+	end,
 	Font = function(v)
 		return {
 			family = v.Family,
@@ -156,6 +159,51 @@ local SERIALIZERS: { [string]: Serializer } = {
 -- silence it so dumps aren't drowned in warnings on every Instance.
 local SKIPPED: { [string]: boolean } = { Ref = true }
 
+--[[
+	JSON has no literal for a non-finite number, so `serde` writes them as
+	`null` and Rojo rejects the whole file. Two sources exist in the gear:
+
+	* `math.huge`, on `BodyPosition.MaxForce` and `BodyGyro.MaxTorque`. This
+	  is the idiomatic "apply unlimited force" setting for the legacy body
+	  movers, so it is a real authored value we have to preserve.
+	* `nan`, on the `UnscaledCofm` / `UnscaledVolume` / `UnscaledVolInertiaDiags`
+	  / `UnscaledVolInertiaOffDiags` cache of `MeshPart` and `UnionOperation`.
+	  These hold mass properties the engine derives from the mesh, and `nan`
+	  is how it records "not computed yet".
+
+	Infinity survives the round trip: Rojo reads every number as `f64` and
+	casts it down to the property's `f32`, and that cast saturates, so any
+	magnitude past `f32` max arrives in the place file as INF.
+
+	NaN cannot be represented. It is reported as unsupported rather than
+	silently dropped because falling back to the class defaults produces
+	incorrect mass. Assets with NaN inertia caches must first be loaded and
+	saved by Studio, which persists the engine-computed finite values and
+	sets `InertiaMigrated`.
+]]
+local F32_OVERFLOWS_TO_INFINITY = 1e39
+
+local function rewriteNonFinite(value: any, foundNan: { boolean }): any
+	if type(value) == "number" then
+		if value ~= value then
+			foundNan[1] = true
+		elseif value == math.huge then
+			return F32_OVERFLOWS_TO_INFINITY
+		elseif value == -math.huge then
+			return -F32_OVERFLOWS_TO_INFINITY
+		end
+		return value
+	end
+	if type(value) == "table" then
+		local rewritten = {}
+		for key, entry in value do
+			rewritten[key] = rewriteNonFinite(entry, foundNan)
+		end
+		return rewritten
+	end
+	return value
+end
+
 local function serializeProperty(datatype: string, value: any): (any, Status)
 	local serializer = SERIALIZERS[datatype]
 	if serializer then
@@ -163,6 +211,11 @@ local function serializeProperty(datatype: string, value: any): (any, Status)
 		-- A nil result would disappear from the dumped table rather than
 		-- fail, so report it like any other gap in coverage.
 		if serialized == nil then
+			return nil, "unsupported"
+		end
+		local foundNan = { false }
+		serialized = rewriteNonFinite(serializer(value), foundNan)
+		if foundNan[1] then
 			return nil, "unsupported"
 		end
 		return serialized, "ok"

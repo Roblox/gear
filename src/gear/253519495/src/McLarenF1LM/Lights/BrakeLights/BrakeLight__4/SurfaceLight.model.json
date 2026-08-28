@@ -1,0 +1,19 @@
+{
+  "ClassName": "SurfaceLight",
+  "Properties": {
+    "Brightness": 25,
+    "ClassName": "SurfaceLight",
+    "Color": [
+      0.7686275243759155,
+      0.1568627506494522,
+      0.1098039299249649
+    ],
+    "Enabled": false,
+    "Face": "Top",
+    "Name": "SurfaceLight",
+    "Range": 6,
+    "Sandboxed": false,
+    "Shadows": false,
+    "SourceAssetId": -1
+  }
+}

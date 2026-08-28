@@ -1,0 +1,82 @@
+{
+  "ClassName": "Beam",
+  "Properties": {
+    "ClassName": "Beam",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              0,
+              0.6666669845581055,
+              1
+            ],
+            "time": 0.5
+          },
+          {
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "FaceCamera": true,
+    "LightEmission": 1,
+    "LightInfluence": 1,
+    "Name": "Beam",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "rbxassetid://1141825913",
+    "TextureLength": 0.10000000149011612,
+    "TextureSpeed": 0.5,
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 1
+          },
+          {
+            "envelope": 0,
+            "time": 0.286206990480423,
+            "value": 0.75
+          },
+          {
+            "envelope": 0,
+            "time": 0.5241379737854004,
+            "value": 0.6000000238418579
+          },
+          {
+            "envelope": 0,
+            "time": 0.8551719784736633,
+            "value": 0.9312499761581421
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "Width0": 4,
+    "ZOffset": 0.5
+  },
+  "attributes": {
+    "Rojo_Target_Attachment0": "g261439002_17",
+    "Rojo_Target_Attachment1": "g261439002_16"
+  }
+}

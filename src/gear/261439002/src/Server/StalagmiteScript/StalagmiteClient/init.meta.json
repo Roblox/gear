@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "StalagmiteClient",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{5C8817F7-A56A-4D7E-839D-106177B302B6}",
+    "SourceAssetId": -1
+  }
+}

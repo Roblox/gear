@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "StalagmiteScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{A6CD787B-6F2F-4EB3-8FD1-EEEE895C9AE6}",
+    "SourceAssetId": -1
+  }
+}

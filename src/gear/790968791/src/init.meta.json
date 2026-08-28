@@ -1,0 +1,51 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0,
+      0,
+      0.5,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "Name": "790968791",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "rbxassetid://785840812",
+    "ToolTip": "Jack Sparrow’s Compass",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            0.8688403964042664,
+            0,
+            0.4950922429561615
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            -0.4950922429561615,
+            0,
+            0.8688403964042664
+          ]
+        ],
+        "position": [
+          1.370976448059082,
+          1.2966420650482178,
+          0.9821330308914185
+        ]
+      }
+    }
+  }
+}

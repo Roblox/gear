@@ -1,0 +1,23 @@
+{
+  "ClassName": "Attachment",
+  "Properties": {
+    "CFrame": [
+      -9.5367431640625e-7,
+      1.3386712074279785,
+      1.218149185180664,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "ClassName": "Attachment",
+    "Name": "RootRigAttachment",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

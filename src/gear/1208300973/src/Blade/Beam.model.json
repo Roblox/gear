@@ -1,0 +1,60 @@
+{
+  "ClassName": "Beam",
+  "Properties": {
+    "ClassName": "Beam",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              0.34117600321769714,
+              0.807843029499054,
+              0.9882349967956543
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              0.34117600321769714,
+              0.807843029499054,
+              0.9882349967956543
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "CurveSize0": 0.10000000149011612,
+    "CurveSize1": 0.10000000149011612,
+    "Enabled": false,
+    "FaceCamera": true,
+    "LightEmission": 1,
+    "Name": "Beam",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "rbxasset://textures/particles/smoke_main.dds",
+    "TextureLength": 0.10000000149011612,
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0
+          }
+        ]
+      }
+    },
+    "Width0": 0.18000000715255737,
+    "Width1": 0.18000000715255737
+  },
+  "attributes": {
+    "Rojo_Target_Attachment0": "g1208300973_23",
+    "Rojo_Target_Attachment1": "g1208300973_24"
+  }
+}

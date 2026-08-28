@@ -1,0 +1,27 @@
+{
+  "ClassName": "CylinderMesh",
+  "Properties": {
+    "Bevel": 0,
+    "Bevel Roundness": 0,
+    "Bulge": 0,
+    "ClassName": "CylinderMesh",
+    "Name": "Mesh",
+    "Offset": [
+      0,
+      0,
+      0
+    ],
+    "Sandboxed": false,
+    "Scale": [
+      1.7999999523162842,
+      0.5,
+      1.7999999523162842
+    ],
+    "SourceAssetId": -1,
+    "VertexColor": [
+      1,
+      1,
+      1
+    ]
+  }
+}

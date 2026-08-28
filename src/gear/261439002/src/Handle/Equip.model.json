@@ -1,0 +1,11 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "rbxassetid://12222225",
+    "ClassName": "Sound",
+    "Name": "Equip",
+    "PlaybackSpeed": 0.75,
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

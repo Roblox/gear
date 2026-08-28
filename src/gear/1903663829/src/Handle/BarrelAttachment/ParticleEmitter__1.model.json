@@ -1,0 +1,85 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "Acceleration": [
+      0,
+      -1,
+      0
+    ],
+    "ClassName": "ParticleEmitter",
+    "Enabled": false,
+    "LightInfluence": 1,
+    "Name": "ParticleEmitter",
+    "RotSpeed": {
+      "NumberRange": [
+        -5,
+        5
+      ]
+    },
+    "Rotation": {
+      "NumberRange": [
+        -45,
+        45
+      ]
+    },
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 0.09988520294427872,
+            "value": 0.6875
+          },
+          {
+            "envelope": 0,
+            "time": 0.38231900334358215,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        5,
+        10
+      ]
+    },
+    "TextureContent": "rbxassetid://1903102330",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 1
+          },
+          {
+            "envelope": 0,
+            "time": 0.09299659729003906,
+            "value": 0
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 1
+          }
+        ]
+      }
+    }
+  },
+  "attributes": {
+    "__MarketplaceGear_OriginalName": "ParticleEmitter"
+  }
+}

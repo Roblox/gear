@@ -1,0 +1,88 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "ClassName": "ParticleEmitter",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              0,
+              0,
+              0
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              0,
+              0,
+              0
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "Lifetime": {
+      "NumberRange": [
+        0.5,
+        1
+      ]
+    },
+    "LightInfluence": 1,
+    "LockedToPart": true,
+    "Name": "ParticleEmitter",
+    "RotSpeed": {
+      "NumberRange": [
+        0,
+        45
+      ]
+    },
+    "Rotation": {
+      "NumberRange": [
+        -5,
+        5
+      ]
+    },
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 2
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 2
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "SpreadAngle": [
+      -5,
+      5
+    ],
+    "TextureContent": "rbxasset://textures/particles/smoke_main.dds",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0.5
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0.5
+          }
+        ]
+      }
+    }
+  }
+}

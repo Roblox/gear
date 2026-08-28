@@ -1,0 +1,35 @@
+{
+  "className": "Model",
+  "properties": {
+    "ClassName": "Model",
+    "Name": "Wand",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0.7863863110542297,
+            -0.6177352070808411
+          ],
+          [
+            0,
+            0.6177352070808411,
+            0.7863863110542297
+          ]
+        ],
+        "position": [
+          -7.978332042694092,
+          2.3594024181365967,
+          14.500338554382324
+        ]
+      }
+    }
+  }
+}

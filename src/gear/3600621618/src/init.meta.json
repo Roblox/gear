@@ -1,0 +1,50 @@
+{
+  "className": "Tool",
+  "properties": {
+    "ClassName": "Tool",
+    "Grip": [
+      0,
+      -0.37986284494400024,
+      0.16542816162109375,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "Name": "3600621618",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "ToolTip": "RDC 2019 Bronze Winner",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "position": [
+          28.920166015625,
+          1.4696874618530273,
+          42.22224044799805
+        ]
+      }
+    }
+  }
+}

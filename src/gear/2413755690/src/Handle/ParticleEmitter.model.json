@@ -1,0 +1,109 @@
+{
+  "ClassName": "ParticleEmitter",
+  "Properties": {
+    "ClassName": "ParticleEmitter",
+    "Color": {
+      "ColorSequence": {
+        "keypoints": [
+          {
+            "color": [
+              0.18823499977588654,
+              0.18823499977588654,
+              0.18823499977588654
+            ],
+            "time": 0
+          },
+          {
+            "color": [
+              0.18823499977588654,
+              0.18823499977588654,
+              0.18823499977588654
+            ],
+            "time": 1
+          }
+        ]
+      }
+    },
+    "Lifetime": {
+      "NumberRange": [
+        5,
+        5
+      ]
+    },
+    "LockedToPart": true,
+    "Name": "ParticleEmitter",
+    "Rate": 30,
+    "RotSpeed": {
+      "NumberRange": [
+        2,
+        2
+      ]
+    },
+    "Rotation": {
+      "NumberRange": [
+        300,
+        300
+      ]
+    },
+    "Sandboxed": false,
+    "Size": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 0.5
+          },
+          {
+            "envelope": 0,
+            "time": 0.6969000101089478,
+            "value": 0.75
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0
+          }
+        ]
+      }
+    },
+    "SourceAssetId": -1,
+    "Speed": {
+      "NumberRange": [
+        0.10000000149011612,
+        0.10000000149011612
+      ]
+    },
+    "SpreadAngle": [
+      10,
+      10
+    ],
+    "TextureContent": "rbxassetid://295337302",
+    "Transparency": {
+      "NumberSequence": {
+        "keypoints": [
+          {
+            "envelope": 0,
+            "time": 0,
+            "value": 1
+          },
+          {
+            "envelope": 0.11249999701976776,
+            "time": 0.5947629809379578,
+            "value": 0.7749999761581421
+          },
+          {
+            "envelope": 0.18125000596046448,
+            "time": 0.8304240107536316,
+            "value": 0.5249999761581421
+          },
+          {
+            "envelope": 0,
+            "time": 1,
+            "value": 0
+          }
+        ]
+      }
+    }
+  }
+}

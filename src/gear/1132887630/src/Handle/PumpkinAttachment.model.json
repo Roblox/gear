@@ -1,0 +1,23 @@
+{
+  "ClassName": "Attachment",
+  "Properties": {
+    "CFrame": [
+      0,
+      0.11900000274181366,
+      -1.835000991821289,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "ClassName": "Attachment",
+    "Name": "PumpkinAttachment",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

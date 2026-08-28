@@ -1,0 +1,42 @@
+{
+  "ClassName": "Rotate",
+  "Properties": {
+    "C0": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      -1,
+      0,
+      0
+    ],
+    "C1": [
+      -0.5,
+      -0.3999999761581421,
+      -0.09999999403953552,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      -1,
+      0,
+      0
+    ],
+    "ClassName": "Rotate",
+    "Enabled": true,
+    "Name": "Rotate",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  },
+  "attributes": {
+    "Rojo_Target_Part0": "g253519495_258",
+    "Rojo_Target_Part1": "g253519495_63"
+  }
+}

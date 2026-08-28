@@ -1,0 +1,52 @@
+{
+  "className": "Tool",
+  "properties": {
+    "CanBeDropped": false,
+    "ClassName": "Tool",
+    "Grip": [
+      0,
+      -0.6000000238418579,
+      -0.30000001192092896,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "Name": "4771619789",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "rbxgameasset://Images/gun1",
+    "ToolTip": "rbxassetid://4753372346",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "position": [
+          -1.8500233888626099,
+          1.0104883909225464,
+          1.0385268926620483
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "ClassName": "SurfaceLight",
+  "Properties": {
+    "Angle": 180,
+    "Brightness": 25,
+    "ClassName": "SurfaceLight",
+    "Color": [
+      0.22745099663734436,
+      0.5686274766921997,
+      0.9411765336990356
+    ],
+    "Enabled": false,
+    "Name": "Light",
+    "Range": 5,
+    "Sandboxed": false,
+    "Shadows": false,
+    "SourceAssetId": -1
+  },
+  "attributes": {
+    "__MarketplaceGear_OriginalName": "Light"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "ClassName": "Attachment",
+  "Properties": {
+    "CFrame": [
+      8.917413651943207e-8,
+      -2.59999942779541,
+      -1.1362135410308838e-7,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "ClassName": "Attachment",
+    "Name": "Attachment",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  },
+  "attributes": {
+    "__MarketplaceGear_OriginalName": "Attachment"
+  },
+  "id": "g250407413_45"
+}

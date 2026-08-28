@@ -1,0 +1,52 @@
+{
+  "className": "Tool",
+  "properties": {
+    "CanBeDropped": false,
+    "ClassName": "Tool",
+    "Grip": [
+      0,
+      -0.6000000238418579,
+      -0.30000001192092896,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "Name": "4771621161",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "rbxgameasset://Images/infgun",
+    "ToolTip": "4753372409",
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "orientation": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "position": [
+          3.9399890899658203,
+          17.190574645996094,
+          -2.0615053176879883
+        ]
+      }
+    }
+  }
+}
