@@ -154,6 +154,12 @@ local function summarizeTree(node: TreeNode, classes: { [string]: number }?): (n
 	return count, counts
 end
 
+-- Throttling and gateway faults both clear on their own, so they are worth the
+-- backoff. Anything else (404, a malformed query) will fail the same way twice.
+local function isRetryable(statusCode: number): boolean
+	return statusCode == 429 or statusCode >= 500
+end
+
 local function requestJson(url: string, query: { [string]: string }): JsonObject
 	local lastStatus = "request failed"
 	local params: net.FetchParams = {
@@ -168,7 +174,7 @@ local function requestJson(url: string, query: { [string]: string }): JsonObject
 		end
 		if ok then
 			lastStatus = `{response.statusCode} {response.statusMessage}`
-			if response.statusCode ~= 429 then
+			if not isRetryable(response.statusCode) then
 				break
 			end
 		else
@@ -206,7 +212,7 @@ local function requestCatalogBatch(items: { JsonObject }): JsonObject
 				csrfToken = token
 				continue
 			end
-			if response.statusCode ~= 429 then
+			if not isRetryable(response.statusCode) then
 				break
 			end
 		else
