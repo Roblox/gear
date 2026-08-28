@@ -3,6 +3,7 @@ return {
 	GEAR_PATH = "src/gear",
 
 	SCRIPTS_PATH = "scripts",
+	SITE_PATH = "site",
 	SOURCE_PATH = "src",
 
 	TESTS_PROJECT_PATH = "tests.project.json",

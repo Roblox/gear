@@ -30,6 +30,7 @@ do
 	table.insert(args, "--platform=standard")
 	table.insert(args, "--flag:LuauSolverV2=true")
 	table.insert(args, project.SCRIPTS_PATH)
+	table.insert(args, project.SITE_PATH)
 
 	local ok = pcall(function()
 		run("luau-lsp", args)

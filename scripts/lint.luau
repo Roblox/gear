@@ -8,6 +8,7 @@ local run = require("@scripts/lib/run")
 local FOLDERS_TO_LINT = {
 	project.SOURCE_PATH,
 	project.SCRIPTS_PATH,
+	project.SITE_PATH,
 }
 
 local failureCount = 0
