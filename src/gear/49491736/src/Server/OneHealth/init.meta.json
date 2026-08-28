@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "OneHealth",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{15B0A6A7-08CE-42D2-AC03-0DFAF3C195FE}",
+    "SourceAssetId": -1
+  }
+}

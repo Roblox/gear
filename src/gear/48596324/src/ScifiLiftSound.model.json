@@ -1,0 +1,10 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=48577295 ",
+    "ClassName": "Sound",
+    "Name": "ScifiLiftSound",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

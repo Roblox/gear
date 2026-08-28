@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "BlinkScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{F336CD00-AC25-4C51-81A0-650420FB55A2}",
+    "SourceAssetId": -1
+  }
+}

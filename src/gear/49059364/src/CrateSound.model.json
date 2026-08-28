@@ -1,0 +1,10 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=49059793 ",
+    "ClassName": "Sound",
+    "Name": "CrateSound",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

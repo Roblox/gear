@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "CowboySwordScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{E6CEBE1D-30DD-46AA-91AE-6752C83B0E88}",
+    "SourceAssetId": -1
+  }
+}

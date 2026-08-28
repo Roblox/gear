@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "PitInsertScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{C6797419-DFFC-4BD2-95BE-6767AA5ED7C7}",
+    "SourceAssetId": -1
+  }
+}

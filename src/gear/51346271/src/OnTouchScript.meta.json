@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "OnTouchScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{0E078674-C927-4CF3-9B5B-5F3DCBF41BCC}",
+    "SourceAssetId": -1
+  }
+}

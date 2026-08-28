@@ -1,0 +1,23 @@
+{
+  "className": "Attachment",
+  "properties": {
+    "CFrame": [
+      1.1175870895385742e-8,
+      1.1999999284744263,
+      0.45000165700912476,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "ClassName": "Attachment",
+    "Name": "Barrel3",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

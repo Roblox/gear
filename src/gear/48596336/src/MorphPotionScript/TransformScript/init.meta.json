@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "TransformScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{276F3B87-EF69-43AD-BC08-3D9A2AC8F351}",
+    "SourceAssetId": -1
+  }
+}

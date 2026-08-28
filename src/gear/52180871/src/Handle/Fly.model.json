@@ -1,0 +1,19 @@
+{
+  "ClassName": "BodyVelocity",
+  "Properties": {
+    "ClassName": "BodyVelocity",
+    "MaxForce": [
+      0,
+      0,
+      0
+    ],
+    "Name": "Fly",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Velocity": [
+      0,
+      0,
+      0
+    ]
+  }
+}

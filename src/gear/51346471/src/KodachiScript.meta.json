@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "KodachiScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{E02CABA0-F50F-4FBD-9D74-A7A8700FDB5C}",
+    "SourceAssetId": -1
+  }
+}

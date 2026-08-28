@@ -1,0 +1,9 @@
+{
+  "ClassName": "IntValue",
+  "Properties": {
+    "ClassName": "IntValue",
+    "Name": "BunnyActive",
+    "Sandboxed": false,
+    "SourceAssetId": -1
+  }
+}

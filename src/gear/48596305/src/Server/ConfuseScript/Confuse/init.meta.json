@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "Confuse",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{BBA00B4B-FA45-4AC8-8744-BF159347468A}",
+    "SourceAssetId": -1
+  }
+}

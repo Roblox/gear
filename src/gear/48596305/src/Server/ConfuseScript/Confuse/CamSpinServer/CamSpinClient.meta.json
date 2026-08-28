@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "CamSpinClient",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{06EC754F-9CED-4143-B28F-899DF7BFE322}",
+    "SourceAssetId": -1
+  }
+}

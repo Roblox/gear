@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "BasketScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{C086ADE7-C9AA-484C-9408-6532DC9377AF}",
+    "SourceAssetId": -1
+  }
+}
