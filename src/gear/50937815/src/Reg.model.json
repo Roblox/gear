@@ -1,0 +1,23 @@
+{
+  "ClassName": "CFrameValue",
+  "Properties": {
+    "ClassName": "CFrameValue",
+    "Name": "Reg",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Value": [
+      0,
+      -0.8999999761581421,
+      -0.20000000298023224,
+      1,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      1,
+      0
+    ]
+  }
+}

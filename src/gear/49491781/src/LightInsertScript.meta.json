@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "LightInsertScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{B5B4E79A-40EC-4F10-88CF-E1A510D3CB72}",
+    "SourceAssetId": -1
+  }
+}

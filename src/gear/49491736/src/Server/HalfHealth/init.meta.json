@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "HalfHealth",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{C070F44F-793B-4338-9965-C1A17E743EAE}",
+    "SourceAssetId": -1
+  }
+}

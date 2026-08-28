@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "CamSpinServer",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{88DD58D7-772E-4AFD-8CA8-958C60019B31}",
+    "SourceAssetId": -1
+  }
+}

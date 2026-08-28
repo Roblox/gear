@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "LocalScript",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "BunnyPunchScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{CFE7FA4E-B9BB-4C00-8EE3-5CDF63A17A8A}",
+    "SourceAssetId": -1
+  }
+}

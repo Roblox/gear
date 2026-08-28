@@ -18,6 +18,7 @@ type ModificationsByCategory = {
 }
 
 local IGNORED_PROPERTIES: { [string]: string } = {
+	AbsolutePosition = "derived from layout, which resolves ties by child order",
 	IsLoaded = "runtime sound loading state",
 	Parent = "covered by walking the tree",
 	WorldPivot = "derived from WorldPivotData / bounding box",

@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "Health&Speed",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{FE88612B-B946-49AD-9CE4-CD8E3AAEE986}",
+    "SourceAssetId": -1
+  }
+}

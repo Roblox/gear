@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "BerserkerScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{C03BDFC0-6EA6-4D99-9E5C-14600133641B}",
+    "SourceAssetId": -1
+  }
+}

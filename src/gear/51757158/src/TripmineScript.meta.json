@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "TripmineScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{99DC8F2A-3FA2-496F-9A92-673B18EE82FB}",
+    "SourceAssetId": -1
+  }
+}

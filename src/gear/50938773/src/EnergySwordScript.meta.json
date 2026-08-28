@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "EnergySwordScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{238CF289-82D7-4662-A749-8F3633FF0A5C}",
+    "SourceAssetId": -1
+  }
+}

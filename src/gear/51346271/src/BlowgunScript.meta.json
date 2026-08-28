@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "BlowgunScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{542750EC-AD4C-49C1-967A-365CDA0B7305}",
+    "SourceAssetId": -1
+  }
+}

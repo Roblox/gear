@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "PitStaffScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{E0E0A690-7BAB-41EB-818E-5AA9053F07CF}",
+    "SourceAssetId": -1
+  }
+}

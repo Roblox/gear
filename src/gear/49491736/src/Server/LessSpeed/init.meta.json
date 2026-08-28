@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "LessSpeed",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{6932F612-DA7F-40BA-9BDB-91A900794623}",
+    "SourceAssetId": -1
+  }
+}

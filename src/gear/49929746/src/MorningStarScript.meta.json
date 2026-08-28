@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": false,
+    "LinkedSource": "",
+    "Name": "MorningStarScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{6667CB9B-5BA8-47EF-BAEC-92CE7A67DF64}",
+    "SourceAssetId": -1
+  }
+}

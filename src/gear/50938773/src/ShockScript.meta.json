@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "ClassName": "Script",
+    "Disabled": true,
+    "LinkedSource": "",
+    "Name": "ShockScript",
+    "RunContext": "Legacy",
+    "Sandboxed": false,
+    "ScriptGuid": "{C4D83392-9151-4EF5-995B-AC7D16E0D31A}",
+    "SourceAssetId": -1
+  }
+}

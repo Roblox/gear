@@ -1,0 +1,189 @@
+-- PIERCING SWORD --
+
+r = game:service("RunService")
+local sword = script.Parent.Handle
+local Tool = script.Parent
+
+local damage = 10
+local slash_damage = 14
+local lunge_damage = 18
+
+local vCharacter
+
+local SlashSound = Instance.new("Sound")
+SlashSound.SoundId = "rbxasset://sounds\\swordslash.wav"
+SlashSound.Parent = sword
+SlashSound.Volume = .7
+
+local LungeSound = Instance.new("Sound")
+LungeSound.SoundId = "rbxasset://sounds\\swordlunge.wav"
+LungeSound.Parent = sword
+LungeSound.Volume = .6
+
+local UnsheathSound = Instance.new("Sound")
+UnsheathSound.SoundId = "rbxasset://sounds\\unsheath.wav"
+UnsheathSound.Parent = sword
+UnsheathSound.Volume = 1
+
+function blow(hit)
+	tempDamage = lunge_damage
+	local humanoid = hit.Parent:findFirstChild("Humanoid")
+	local vCharacter = Tool.Parent
+	local vPlayer = game.Players:playerFromCharacter(vCharacter)
+	local hum = vCharacter:findFirstChild("Humanoid") -- non-nil if tool held by a character
+	if humanoid~=nil and humanoid ~= hum and hum ~= nil then		
+		-- final check, make sure sword is in-hand
+		local right_arm = vCharacter:FindFirstChild("Right Arm") or vCharacter:FindFirstChild("RightHand")
+		if (right_arm ~= nil) then
+			local joint = right_arm:FindFirstChild("RightGrip")
+			if (joint ~= nil and (joint.Part0 == sword or joint.Part1 == sword)) then
+				tagHumanoid(humanoid, vPlayer)	
+				shock = math.random(1, 100)
+				if shock <= 20 then 					
+					newScript = Tool.ShockScript:Clone()
+					tempChar = humanoid.Parent
+					if tempChar:FindFirstChild("ShockScript") == nil then 						
+						newScript.Parent = humanoid.Parent 
+						newScript.Disabled = false
+					end
+				end
+				humanoid:TakeDamage(damage)
+				wait(1)
+				untagHumanoid(humanoid)				
+			end
+		end
+	end
+end
+
+
+function tagHumanoid(humanoid, player)
+	local creator_tag = Instance.new("ObjectValue")
+	creator_tag.Value = player
+	creator_tag.Name = "creator"
+	creator_tag.Parent = humanoid
+end
+
+function untagHumanoid(humanoid)
+	if humanoid ~= nil then
+		local tag = humanoid:findFirstChild("creator")
+		if tag ~= nil then
+			tag.Parent = nil
+		end
+	end
+end
+
+
+function attack()
+	damage = slash_damage
+	SlashSound:play()
+	local anim = Instance.new("StringValue")
+	anim.Name = "toolanim"
+	anim.Value = "Slash"
+	anim.Parent = Tool
+end
+
+function lunge()
+	damage = lunge_damage
+	LungeSound:play()
+
+
+	local anim = Instance.new("StringValue")
+	anim.Name = "toolanim"
+	anim.Value = "Lunge"
+	anim.Parent = Tool
+	
+	force = Instance.new("BodyVelocity")
+	force.velocity = Vector3.new(0,10,0) --Tool.Parent.Torso.CFrame.lookVector * 80
+	force.Parent = Tool.Parent.HumanoidRootPart
+	wait(.2)
+	swordOut()
+	wait(.2)
+	force.Parent = nil
+	wait(.4)
+	swordUp()
+	damage = slash_damage
+end
+
+function swordUp()
+	Tool.GripForward = Vector3.new(-1,0,0)
+	Tool.GripRight = Vector3.new(0, 0, -1)
+	Tool.GripUp = Vector3.new(0, 1, 0)
+end
+
+function swordOut()
+	Tool.GripForward = Vector3.new(0, -1, 0)
+	Tool.GripRight = Vector3.new(0, 0, -1)
+	Tool.GripUp = Vector3.new(1, 0, 0)
+end
+
+function swordAcross()
+	-- parry
+end
+
+
+Tool.Enabled = true
+local last_attack = 0
+function onActivated()
+
+	if not Tool.Enabled then
+		return
+	end
+
+	Tool.Enabled = false
+
+	local vCharacter = Tool.Parent;
+	local humanoid = vCharacter:FindFirstChild("Humanoid")
+	if humanoid == nil then
+		print("Humanoid not found")
+		return 
+	end
+	if sword:FindFirstChild("Fire") == nil then
+		print("NO FIRE")
+		for i = 1, 3 do
+			local fireOne = Instance.new("Fire")
+			fireOne.Color = Color3.new(0,0,0)
+			if i == 1 then
+				fireOne.SecondaryColor = Color3.new(0, 0, 50/255)
+			elseif i == 2 then
+				fireOne.SecondaryColor = Color3.new(0, 0, 150/255)
+			else
+				fireOne.SecondaryColor = Color3.new(0, 0, 100/255)
+			end
+			fireOne.Heat = 0
+			fireOne.Size = 5
+			fireOne.Parent = sword
+		end
+	end
+
+	t = r.Stepped:wait()
+
+	if (t - last_attack < .2) then
+		lunge()
+	else
+		attack()
+	end
+
+	last_attack = t
+
+	Tool.Enabled = true
+end
+
+function onEquipped()	
+	UnsheathSound:play()
+end
+
+function onUnequipped()
+	ch = Tool:GetChildren()
+	for i = 1, #ch do 
+		if ch[i].className == "Fire" then 
+			ch[i]:Remove() 
+		end
+	end
+end
+
+script.Parent.Activated:connect(onActivated)
+script.Parent.Equipped:connect(onEquipped)
+script.Parent.Unequipped:connect(onUnequipped)
+
+connection = sword.Touched:connect(blow)
+
