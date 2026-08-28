@@ -130,7 +130,7 @@ local function dumpModel(model: Instance, assetId: string)
 
 	local rojoProject = {
 		tree = {
-			["$path"] = "src",
+			["$path"] = if #model:GetChildren() > 0 then "src" else "src.model.json",
 		},
 	}
 

@@ -1,0 +1,13 @@
+{
+  "ClassName": "Sound",
+  "Properties": {
+    "AudioContent": "http://www.roblox.com/asset/?id=115327352",
+    "ClassName": "Sound",
+    "Looped": true,
+    "Name": "Strike",
+    "PlaybackSpeed": 2,
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "Volume": 0.7346084713935852
+  }
+}

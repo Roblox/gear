@@ -1,0 +1,11 @@
+{
+  "ClassName": "HopperBin",
+  "Properties": {
+    "BinType": "GameTool",
+    "ClassName": "HopperBin",
+    "Name": "16200204",
+    "Sandboxed": false,
+    "SourceAssetId": -1,
+    "TextureContent": "rbxasset://Textures\\GameTool.png"
+  }
+}

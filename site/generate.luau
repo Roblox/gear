@@ -143,6 +143,12 @@ local function directoryNode(path: string): TreeNode
 	return node
 end
 
+local function gearTree(assetId: string): TreeNode
+	local gearPath = `{project.GEAR_PATH}/{assetId}`
+	local sourcePath = `{gearPath}/src`
+	return if fs.isDir(sourcePath) then directoryNode(sourcePath) else leafNode(`{gearPath}/src.model.json`)
+end
+
 local function summarizeTree(node: TreeNode, classes: { [string]: number }?): (number, { [string]: number })
 	local counts = classes or {}
 	counts[node.c] = (counts[node.c] or 0) + 1
@@ -336,7 +342,7 @@ end
 local catalog: { CatalogEntry } = {}
 for _, assetId in gearIds do
 	local numericId = assert(tonumber(assetId))
-	local tree = directoryNode(`{project.GEAR_PATH}/{assetId}/src`)
+	local tree = gearTree(assetId)
 	local instanceCount, classes = summarizeTree(tree)
 	local apiItem: JsonObject = catalogMetadata[numericId] or {}
 	local entry: CatalogEntry = {
