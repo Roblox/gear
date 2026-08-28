@@ -67,6 +67,22 @@ local function createComponent<T>(component: (props: T, children: { string }?) -
 	end
 end
 
+local VOID_ELEMENTS: { [string]: boolean } = {
+	area = true,
+	base = true,
+	br = true,
+	col = true,
+	embed = true,
+	hr = true,
+	img = true,
+	input = true,
+	link = true,
+	meta = true,
+	source = true,
+	track = true,
+	wbr = true,
+}
+
 local function createHtmlElement(tag: string)
 	local function htmlElement(props: { [string]: string }?, children: { string }?)
 		local attributes = ""
@@ -76,6 +92,9 @@ local function createHtmlElement(tag: string)
 			end
 		end
 
+		if VOID_ELEMENTS[tag] then
+			return `<{tag}{attributes}>`
+		end
 		if children then
 			return `<{tag}{attributes}>{table.concat(children, "\n")}</{tag}>`
 		else
