@@ -6,6 +6,7 @@ build.rbxm
 
 # Other
 .env
+_site/
 build/
 .DS_Store
 .vscode/**
