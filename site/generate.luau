@@ -237,12 +237,16 @@ local function fetchCatalogMetadata(assetIds: { number }): { [number]: JsonObjec
 			local entry: JsonObject = { itemType = "Asset", id = assetIds[index] }
 			table.insert(items, entry)
 		end
-		local payload = requestCatalogBatch(items)
-		for _, item in payload.data or {} do
-			local itemId = tonumber(item.id)
-			if itemId then
-				found[itemId] = item
+		local ok, payload = pcall(requestCatalogBatch, items)
+		if ok then
+			for _, item in payload.data or {} do
+				local itemId = tonumber(item.id)
+				if itemId then
+					found[itemId] = item
+				end
 			end
+		else
+			warn(`Catalog batch at {startIndex} failed, continuing without it: {payload}`)
 		end
 		if startIndex + CATALOG_BATCH_SIZE <= #assetIds then
 			task.wait(CATALOG_BATCH_DELAY)
@@ -258,17 +262,22 @@ local function fetchThumbnails(assetIds: { number }): { [number]: string }
 		for index = startIndex, math.min(startIndex + 99, #assetIds) do
 			table.insert(batch, tostring(assetIds[index]))
 		end
-		local payload = requestJson(THUMBNAIL_URL, {
+		local query: { [string]: string } = {
 			assetIds = table.concat(batch, ","),
 			returnPolicy = "PlaceHolder",
 			size = "420x420",
 			format = "Png",
 			isCircular = "false",
-		})
-		for _, image in payload.data or {} do
-			if image.state == "Completed" and image.imageUrl then
-				thumbnails[image.targetId] = image.imageUrl
+		}
+		local ok, payload = pcall(requestJson, THUMBNAIL_URL, query)
+		if ok then
+			for _, image in payload.data or {} do
+				if image.state == "Completed" and image.imageUrl then
+					thumbnails[image.targetId] = image.imageUrl
+				end
 			end
+		else
+			warn(`Thumbnail batch at {startIndex} failed, continuing without it: {payload}`)
 		end
 		task.wait(0.2)
 	end
