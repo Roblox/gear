@@ -78,11 +78,39 @@ img {
  * which draws its own border inside the same 900px page.
  */
 .banner {
+  position: relative;
   display: block;
   width: 100%;
   max-width: 900px;
-  height: auto;
   border: solid 1px #000000;
+}
+
+.banner-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/*
+ * The art leaves a blank panel between the scene and the slogan, spanning
+ * roughly 32% to 63% of the width, and the wordmark sits centred in it. The
+ * offsets are percentages and the decoration is in em so both track the
+ * image as it scales below 900px.
+ */
+.wordmark {
+  position: absolute;
+  top: 50%;
+  left: 47.5%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-family: var(--comic);
+  font-size: clamp(18px, 4.45vw, 40px);
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  -webkit-text-stroke: 0.1em #e02020;
+  paint-order: stroke fill;
+  text-shadow: 0.075em 0.075em 0 rgba(0, 0, 0, 0.18);
 }
 
 /*

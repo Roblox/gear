@@ -41,13 +41,16 @@ local function document(titleText: string, description: string, moduleScript: st
 end
 
 local function Banner(): H.Element
-	return H.img({
-		class = "banner",
-		src = "./Banner.jpg",
-		width = "898",
-		height = "72",
-		alt = "Think. Create. -- the 2008 ROBLOX site banner",
-	})({})
+	return H.div({ class = "banner" })({
+		H.img({
+			class = "banner-image",
+			src = "./Banner.jpg",
+			width = "898",
+			height = "72",
+			alt = "Think. Create. -- the 2008 ROBLOX site banner",
+		})({}),
+		H.span({ class = "wordmark" })({ "GEAR" }),
+	})
 end
 
 local function NavBar(): H.Element
