@@ -72,115 +72,17 @@ img {
   margin: 0 auto;
 }
 
-/* Banner */
+/*
+ * Banner: the masthead as served by roblox.com in 2008. The 900px cap is the
+ * 898px image plus its border, so the edges line up with the navbar below,
+ * which draws its own border inside the same 900px page.
+ */
 .banner {
-  display: flex;
-  height: 62px;
-  overflow: hidden;
+  display: block;
+  width: 100%;
+  max-width: 900px;
+  height: auto;
   border: solid 1px #000000;
-}
-
-.banner-scene {
-  position: relative;
-  width: 300px;
-  background: linear-gradient(#3a0b0b, #7c1414 55%, #b52020);
-}
-
-.banner-login {
-  position: relative;
-  z-index: 2;
-  display: inline-block;
-  padding: 1px 5px;
-  color: #ffffff;
-  font-family: var(--verdana);
-  font-size: 11px;
-  font-weight: bold;
-  text-shadow: 1px 1px 1px #000000;
-}
-
-.banner-moon {
-  position: absolute;
-  top: 7px;
-  right: 26px;
-  width: 22px;
-  height: 22px;
-  border-radius: 50%;
-  background: radial-gradient(circle at 35% 35%, #ffe9a8, #e8a33c);
-  box-shadow: 0 0 14px rgba(255, 210, 120, 0.55);
-}
-
-.banner-figure {
-  position: absolute;
-  bottom: 0;
-  left: 24px;
-  width: 30px;
-  height: 34px;
-  background:
-    linear-gradient(#f4d03f 0 12px, transparent 12px),
-    linear-gradient(#2b2b2b 12px 34px, transparent 0);
-  box-shadow: 10px 0 0 -4px rgba(0, 0, 0, 0.35);
-}
-
-.banner-figure-two {
-  left: 70px;
-  height: 40px;
-  background:
-    linear-gradient(#111111 0 8px, transparent 8px),
-    linear-gradient(#f4d03f 8px 20px, transparent 20px),
-    linear-gradient(#2b2b2b 20px 40px, transparent 0);
-}
-
-.banner-logo {
-  display: flex;
-  flex: 1;
-  align-items: center;
-  justify-content: center;
-  gap: 18px;
-  background: #ffffff;
-}
-
-.wordmark {
-  color: #ffffff;
-  font-family: var(--comic);
-  font-size: 40px;
-  font-style: italic;
-  font-weight: bold;
-  letter-spacing: 2px;
-  -webkit-text-stroke: 4px #e02020;
-  paint-order: stroke fill;
-  text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.18);
-}
-
-.banner-slogan {
-  display: flex;
-  flex-direction: column;
-  color: #1c4f9c;
-  font-family: var(--comic);
-  font-size: 16px;
-  line-height: 1.15;
-}
-
-.banner-cta {
-  display: flex;
-  width: 250px;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(#4f7fd0, #143a86 60%, #0d2a66);
-  font-family: var(--comic);
-  font-size: 18px;
-  font-weight: bold;
-  text-shadow: 1px 1px 2px #000000;
-}
-
-.banner-cta:link,
-.banner-cta:visited,
-.banner-cta:active {
-  color: #ffffff;
-}
-
-.banner-cta:hover {
-  filter: brightness(1.12);
-  text-decoration: none;
 }
 
 /*
@@ -811,15 +713,6 @@ img {
     padding: 0 10px;
   }
 
-  .banner-scene,
-  .banner-cta {
-    width: 150px;
-  }
-
-  .banner-cta {
-    font-size: 14px;
-  }
-
   .content {
     width: auto;
     flex: 1;
@@ -863,18 +756,6 @@ img {
 }
 
 @media (max-width: 470px) {
-  .banner-logo {
-    gap: 8px;
-  }
-
-  .wordmark {
-    font-size: 26px;
-  }
-
-  .banner-slogan {
-    font-size: 12px;
-  }
-
   .panel-head {
     flex-direction: column;
     align-items: flex-start;

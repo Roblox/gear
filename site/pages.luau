@@ -41,22 +41,13 @@ local function document(titleText: string, description: string, moduleScript: st
 end
 
 local function Banner(): H.Element
-	return H.div({ class = "banner" })({
-		H.div({ class = "banner-scene" })({
-			H.span({ class = "banner-login" })({ "Login" }),
-			H.span({ class = "banner-moon", ["aria-hidden"] = "true" }),
-			H.span({ class = "banner-figure", ["aria-hidden"] = "true" }),
-			H.span({ class = "banner-figure banner-figure-two", ["aria-hidden"] = "true" }),
-		}),
-		H.div({ class = "banner-logo" })({
-			H.span({ class = "wordmark" })({ "GEAR" }),
-			H.span({ class = "banner-slogan" })({
-				H.span()({ "Preserve." }),
-				H.span()({ "Rebuild." }),
-			}),
-		}),
-		H.a({ class = "banner-cta", href = "./index.html" })({ "BROWSE NOW" }),
-	})
+	return H.img({
+		class = "banner",
+		src = "./Banner.jpg",
+		width = "898",
+		height = "72",
+		alt = "Think. Create. -- the 2008 ROBLOX site banner",
+	})({})
 end
 
 local function NavBar(): H.Element
