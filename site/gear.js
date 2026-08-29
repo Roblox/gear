@@ -183,8 +183,13 @@ async function start() {
     document.title = `${item.name} - Gear Cabinet`;
     document.querySelector("#gear-name").textContent = item.name;
     document.querySelector("#gear-crumb").textContent = item.name;
-    document.querySelector("#gear-description").textContent =
-      item.description || "A classic Roblox gear item, preserved here as reviewable source.";
+    const description = document.querySelector("#gear-description");
+    const descriptionText = (item.description || "").trim();
+    if (descriptionText) {
+      description.textContent = descriptionText;
+    } else {
+      description.remove();
+    }
     document.querySelector("#catalog-link").href = `https://www.roblox.com/catalog/${item.id}`;
     document.querySelector("#source-link").href =
       `https://github.com/Roblox/marketplace-gear/tree/main/src/gear/${item.id}`;
