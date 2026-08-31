@@ -192,7 +192,7 @@ async function start() {
     }
     document.querySelector("#catalog-link").href = `https://www.roblox.com/catalog/${item.id}`;
     document.querySelector("#source-link").href =
-      `https://github.com/Roblox/marketplace-gear/tree/main/src/gear/${item.id}`;
+      `https://github.com/Roblox/gear/tree/main/src/gear/${item.id}`;
     setImage(item);
 
     const facts = document.querySelector("#gear-facts");
