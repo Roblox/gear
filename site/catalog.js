@@ -1,3 +1,5 @@
+import { classDocsUrl } from "./roblox-docs.js";
+
 const PAGE_SIZE = 50;
 const state = {
   items: [],
@@ -182,7 +184,8 @@ function renderFunFacts(items) {
     facts.push(link(top, `is the most favorited, ${number.format(top.favorites)} times.`));
   }
 
-  facts.push(`${escapeHtml(topClass)} is the most common class, used ${number.format(topClassCount)} times.`);
+  const topClassLink = `<a href="${escapeHtml(classDocsUrl(topClass))}">${escapeHtml(topClass)}</a>`;
+  facts.push(`${topClassLink} is the most common class, used ${number.format(topClassCount)} times.`);
 
   funFacts.innerHTML = facts.map((fact) => `<li>${fact}</li>`).join("");
 }

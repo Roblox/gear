@@ -1,3 +1,5 @@
+import { classDocsLink } from "./roblox-docs.js";
+
 const params = new URLSearchParams(window.location.search);
 const assetId = params.get("id");
 const loading = document.querySelector("#detail-loading");
@@ -48,7 +50,7 @@ function showInspector(node) {
   title.textContent = node.n;
   const className = document.createElement("p");
   className.className = "class-name";
-  className.textContent = node.c;
+  className.append(classDocsLink(node.c));
   const count = document.createElement("p");
   count.className = "inspector-count";
   count.textContent = `${node.p.length} serialized ${node.p.length === 1 ? "property" : "properties"}`;
