@@ -94,6 +94,8 @@ local function SiteFooter(): H.Element
 			" | ",
 			H.a({ href = `{REPO_URL}#readme` })({ "About" }),
 			" | ",
+			H.a({ href = `{REPO_URL}/blob/main/LICENSE.txt` })({ "License" }),
+			" | ",
 			H.a({ href = `{REPO_URL}/issues` })({ "Report an Issue" }),
 			" | ",
 			H.a({ href = "https://www.roblox.com/catalog" })({ "Roblox Catalog" }),
