@@ -180,7 +180,7 @@ async function start() {
     const item = catalog.items.find((candidate) => String(candidate.id) === assetId);
     if (!item) throw new Error("Gear is missing from the catalog");
 
-    document.title = `${item.name} - Gear Cabinet`;
+    document.title = `${item.name} - Roblox Gear`;
     document.querySelector("#gear-name").textContent = item.name;
     document.querySelector("#gear-crumb").textContent = item.name;
     const description = document.querySelector("#gear-description");

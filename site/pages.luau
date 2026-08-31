@@ -85,7 +85,7 @@ local function SiteFooter(): H.Element
 			". Gear data and thumbnails © Roblox.",
 		}),
 		H.p()({
-			"Gear Cabinet is a static archive built from source in ",
+			"This catalog is a static archive built from source in ",
 			H.a({ href = REPO_URL })({ "Roblox/gear" }),
 			". Every item here is a real catalog asset, dumped to reviewable Rojo source.",
 		}),
@@ -140,7 +140,7 @@ end
 
 local function CatalogPage(): string
 	return document(
-		"Catalog - Gear Cabinet",
+		"Catalog - Roblox Gear",
 		"Preserving the history of classic Roblox catalog gear, browsable as source.",
 		"./catalog.js",
 		H.createComponent(function()
@@ -178,7 +178,7 @@ end
 
 local function GearPage(): string
 	return document(
-		"Gear Details - Gear Cabinet",
+		"Gear Details - Roblox Gear",
 		"Explore a classic Roblox gear item and its instance tree.",
 		"./gear.js",
 		H.createComponent(function()

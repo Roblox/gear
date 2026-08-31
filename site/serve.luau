@@ -47,7 +47,7 @@ net.serve(port, function(request: net.ServeRequest): net.ServeResponse
 	}
 end)
 
-print(`Gear Cabinet is open at http://localhost:{port}`)
+print(`The gear catalog is open at http://localhost:{port}`)
 while true do
 	task.wait(60)
 end
