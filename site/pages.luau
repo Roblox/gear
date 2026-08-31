@@ -1,6 +1,6 @@
 local H = require("@root/site/htmluau")
 
-local REPO_URL = "https://github.com/Roblox/marketplace-gear"
+local REPO_URL = "https://github.com/Roblox/gear"
 
 type NavLink = { label: string, href: string, active: boolean? }
 type SortLink = { label: string, value: string, title: string }
@@ -86,7 +86,7 @@ local function SiteFooter(): H.Element
 		}),
 		H.p()({
 			"Gear Cabinet is a static archive built from source in ",
-			H.a({ href = REPO_URL })({ "Roblox/marketplace-gear" }),
+			H.a({ href = REPO_URL })({ "Roblox/gear" }),
 			". Every item here is a real catalog asset, dumped to reviewable Rojo source.",
 		}),
 		H.p({ class = "footer-links" })({
