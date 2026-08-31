@@ -16,7 +16,7 @@ You may use and modify this material only for the purposes described in that lic
 
 - `src/gear/` — Rojo source for catalog gear items (scripts, instances, and related files as dumped from the original assets)
 - `assets/` — associated binary assets
-- `site/` — generator for the static Gear Cabinet catalog
+- `site/` — generator for the static gear catalog
 
 ## Issues
 
