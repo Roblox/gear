@@ -2,9 +2,9 @@ local process = require("@lute/process")
 local fs = require("@lute/fs")
 
 local cli = require("@luaupkg/batteries/cli")
-local project = require("@root/project")
 local dotenv = require("@scripts/lib/dotenv")
 local executeLuauTaskAsync = require("@scripts/lib/luau-execution/executeLuauTaskAsync")
+local testingPlace = require("@scripts/lib/testingPlace")
 
 dotenv()
 
@@ -46,8 +46,8 @@ fs.close(runGearComparisonsTaskHandle)
 local results = executeLuauTaskAsync(
 	"tests.rbxl",
 	runGearComparisonsTask,
-	project.ROBLOX_UNIT_TESTING_UNIVERSE_ID,
-	project.ROBLOX_UNIT_TESTING_PLACE_ID,
+	testingPlace.universeId(),
+	testingPlace.placeId(),
 	apiKey
 )
 
