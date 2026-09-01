@@ -3,8 +3,8 @@ local fs = require("@lute/fs")
 local process = require("@lute/process")
 
 local executeLuauTaskAsync = require("@scripts/lib/luau-execution/executeLuauTaskAsync")
-local project = require("@root/project")
 local dotenv = require("@scripts/lib/dotenv")
+local testingPlace = require("@scripts/lib/testingPlace")
 
 dotenv()
 
@@ -33,13 +33,8 @@ local runTestsTaskHandle = fs.open("scripts/tasks/run-tests.luau")
 local runTestsTask = fs.read(runTestsTaskHandle)
 fs.close(runTestsTaskHandle)
 
-local results = executeLuauTaskAsync(
-	"tests.rbxl",
-	runTestsTask,
-	project.ROBLOX_UNIT_TESTING_UNIVERSE_ID,
-	project.ROBLOX_UNIT_TESTING_PLACE_ID,
-	apiKey
-)
+local results =
+	executeLuauTaskAsync("tests.rbxl", runTestsTask, testingPlace.universeId(), testingPlace.placeId(), apiKey)
 
 local success = results[1]
 
