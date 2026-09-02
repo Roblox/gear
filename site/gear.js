@@ -19,6 +19,20 @@ function showError() {
   errorState.hidden = false;
 }
 
+// Catalog timestamps are UTC, so format in UTC to keep the date from shifting.
+const dateFormat = new Intl.DateTimeFormat("en-US", {
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+  timeZone: "UTC",
+});
+
+function createdLabel(value) {
+  if (!value) return "";
+  const created = new Date(value);
+  return Number.isNaN(created.getTime()) ? "" : dateFormat.format(created);
+}
+
 function fact(label, value) {
   const element = document.createElement("div");
   const name = document.createElement("b");
@@ -199,6 +213,10 @@ async function start() {
 
     const facts = document.querySelector("#gear-facts");
     facts.append(fact("Creator", item.creator || "ROBLOX"));
+    const created = createdLabel(item.created);
+    if (created) {
+      facts.append(fact("Created", created));
+    }
     facts.append(fact("Asset ID", item.id));
     facts.append(fact("Instances", number.format(item.instances)));
     facts.append(fact("Unique Classes", number.format(Object.keys(item.classes).length)));
