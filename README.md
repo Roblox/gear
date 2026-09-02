@@ -8,7 +8,9 @@ A browsable catalog of the dumped items is published at [https://roblox.github.i
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE.txt). See `LICENSE.txt` at the root of this repository for the full terms.
+This project is licensed under the [Roblox Limited Use License](LICENSE.txt). See `LICENSE.txt` at the root of this repository for the full terms.
+
+You may use and modify this material only for the purposes described in that license — primarily incorporating it into experiences on the Roblox platform. Do not remove attribution or proprietary notices.
 
 ## What's in this repo
 
