@@ -2,11 +2,12 @@ local H = require("@root/site/htmluau")
 
 local REPO_URL = "https://github.com/Roblox/gear"
 
-type NavLink = { label: string, href: string, active: boolean? }
+type NavLink = { label: string, href: string }
 type SortLink = { label: string, value: string, title: string }
 
 local NAV_LINKS: { NavLink } = {
-	{ label = "Catalog", href = "./index.html", active = true },
+	{ label = "Catalog", href = "./index.html" },
+	{ label = "Oddities", href = "./oddities.html" },
 	{ label = "Source", href = `{REPO_URL}/tree/main/src/gear` },
 	{ label = "License", href = `{REPO_URL}/blob/main/LICENSE.txt` },
 	{ label = "README", href = `{REPO_URL}#readme` },
@@ -53,10 +54,13 @@ local function Banner(): H.Element
 	})
 end
 
-local function NavBar(): H.Element
+local function NavBar(activeHref: string): H.Element
 	local links: { H.Child } = {}
 	for _, link in NAV_LINKS do
-		table.insert(links, H.a({ class = if link.active then "active" else "", href = link.href })({ link.label }))
+		table.insert(
+			links,
+			H.a({ class = if link.href == activeHref then "active" else "", href = link.href })({ link.label })
+		)
 	end
 	return H.div({ class = "navbar" })({
 		H.nav({ ["aria-label"] = "Main navigation" })(links),
@@ -146,7 +150,7 @@ local function CatalogPage(): string
 		H.createComponent(function()
 			return H.div({ class = "page" })({
 				Banner(),
-				NavBar(),
+				NavBar("./index.html"),
 				SearchStrip(),
 				H.div({ class = "body" })({
 					CatalogSidebar(),
@@ -176,6 +180,163 @@ local function CatalogPage(): string
 	)
 end
 
+local function OddityCard(
+	assetId: string,
+	catalogName: string,
+	created: string,
+	dimensions: string,
+	description: { H.Child },
+	alt: string
+): H.Element
+	return H.div({ class = "oddity-card" })({
+		H.a({ class = "oddity-image", href = `./oddities/{assetId}.png` })({
+			H.img({ src = `./oddities/{assetId}.png`, alt = alt })({}),
+		}),
+		H.div({ class = "oddity-copy" })({
+			H.h3()({ `Asset {assetId}` }),
+			H.p({ class = "oddity-meta" })({
+				H.b()({ "Catalog name:" }),
+				` {catalogName} · `,
+				H.b()({ "Created:" }),
+				` {created} · {dimensions}`,
+			}),
+			H.p()(description),
+			H.p()({
+				H.a({ href = `https://www.roblox.com/catalog/{assetId}` })({ "View the Gear page on Roblox »" }),
+			}),
+		}),
+	})
+end
+
+local function DelayedReleaseLink(assetId: string, name: string): H.Element
+	return H.li()({
+		H.a({ href = `https://www.roblox.com/catalog/{assetId}` })({ name }),
+		` (${assetId})`,
+	})
+end
+
+local function OdditiesPage(): string
+	return document(
+		"Archival Oddities - Roblox Gear",
+		"Odd artifacts and mistakes preserved in the Roblox gear catalog.",
+		nil,
+		H.createComponent(function()
+			return H.div({ class = "page" })({
+				Banner(),
+				NavBar("./oddities.html"),
+				H.div({ class = "body" })({
+					H.div({ class = "content content-wide" })({
+						H.p({ class = "breadcrumb" })({
+							H.a({ href = "./index.html" })({ "Catalog" }),
+							" » Archival Oddities",
+						}),
+						H.h1({ class = "oddity-title" })({ "Archival Oddities" }),
+						H.p({ class = "oddity-intro" })({
+							"The AllGear inventory is supposed to be Tools. What we actually archived includes textures uploaded as Gear, items parked a thousand years in the future, and a few names that never quite landed.",
+						}),
+						H.div({ class = "panel" })({
+							H.div({ class = "panel-head" })({
+								H.h2()({ "Forbidden Gear" }),
+							}),
+							H.div({ class = "panel-body oddity-list" })({
+								H.p()({
+									"These Roblox-created assets are type 19, but asset delivery serves a PNG instead of a model — each one an avatar texture uploaded into the Gear category by mistake.",
+								}),
+								OddityCard("806754856", "_", "May 15, 2017", "1024×1024 PNG", {
+									"An unwrapped texture sheet for ",
+									H.a({ href = "https://www.roblox.com/bundles/59/Zoey-The-Fashionista" })({
+										"Zoey: The Fashionista",
+									}),
+									"— the black top, pink skirt, and limbs laid out on a single page. The bundle that shipped splits the same artwork into one smaller texture per body part.",
+								}, "A texture sheet of pink and black Roblox avatar clothing pieces"),
+								OddityCard("806882461", "__", "May 15, 2017", "388×272 PNG", {
+									"A draft of Zoey's torso texture. It is the same 388×272 size as the one ",
+									H.a({ href = "https://www.roblox.com/catalog/807194095" })({ "Zoey Torso" }),
+									"ships today and matches it across roughly 85% of its pixels, with the leftover paint around the edges still uncleaned.",
+								}, "A pink skirt and black top painted as a flat Roblox torso texture"),
+								OddityCard("887261871", ".", "June 27, 2017", "256×256 PNG", {
+									"The frames and lenses of ",
+									H.a({ href = "https://www.roblox.com/catalog/890860816/Neon-Green-Thumb-Shades" })({
+										"Neon Green Thumb Shades",
+									}),
+									"flattened out so the arms fold away to either side. The texture that accessory serves today is byte-for-byte identical to this file.",
+								}, "Neon green sunglasses frames with magenta lenses, unwrapped flat"),
+							}),
+						}),
+						H.div({ class = "panel oddity-section" })({
+							H.div({ class = "panel-head" })({
+								H.h2()({ "Gear from the Year 3000" }),
+							}),
+							H.div({ class = "panel-body" })({
+								H.p()({
+									"These 11 assets are delayed releases with on-sale dates parked roughly 1,000 years in the future. Public catalog APIs hide their metadata, even though thumbnails and catalog redirects still work.",
+								}),
+								H.ul({ class = "delayed-release-list" })({
+									DelayedReleaseLink("361950562", "2/13 - Dominus Sword"),
+									DelayedReleaseLink("583634140", "12/23 - Orbital Violin: Deep Freeze"),
+									DelayedReleaseLink("754910297", "Noble Knight Sword"),
+									DelayedReleaseLink("754930870", "Black Knight Sword"),
+									DelayedReleaseLink("858743383", "6/9 - Robo Attack Sheetah"),
+									DelayedReleaseLink("1180416995", "Neon Space Cutlass"),
+									DelayedReleaseLink("1425156865", "2/23 - Star Tailslide Grind Skateboard"),
+									DelayedReleaseLink("2620420487", "Yeti Shoes"),
+									DelayedReleaseLink("2620442780", "Icicle Kunai"),
+									DelayedReleaseLink("2750187687", "Year of the Boar Lantern"),
+									DelayedReleaseLink("2830538074", "Neon Tiger Mount"),
+								}),
+							}),
+						}),
+						H.div({ class = "panel oddity-section" })({
+							H.div({ class = "panel-head" })({
+								H.h2()({ "The Empty Kunai" }),
+							}),
+							H.div({ class = "panel-body" })({
+								H.p()({
+									H.a({ href = "https://www.roblox.com/catalog/2620442780" })({ "2620442780" }),
+									"redirects as Icicle Kunai and sits in the delayed-release list above. The current asset version is an empty model. Version 1 is a Tool named RavenSword — a MeshPart handle plus a ThumbnailCamera — recovered into ",
+									H.a({ href = `{REPO_URL}/tree/main/src/gear/2620442780` })({
+										"src/gear/2620442780",
+									}),
+									"from that historical version.",
+								}),
+							}),
+						}),
+						H.div({ class = "panel oddity-section" })({
+							H.div({ class = "panel-head" })({
+								H.h2()({ "A Sword by Any Other Name" }),
+							}),
+							H.div({ class = "panel-body" })({
+								H.p()({
+									"Three nearby assets inherited the Tool name RavenSword, and a fourth never got a real catalog slug at all.",
+								}),
+								H.ul({ class = "oddity-plain-list" })({
+									H.li()({
+										H.a({ href = "./gear.html?id=2535102249" })({ "2535102249" }),
+										"is an archived Tool actually named RavenSword.",
+									}),
+									H.li()({
+										H.a({ href = "./gear.html?id=2620420487" })({ "2620420487" }),
+										"catalogs as Yeti Shoes, but the Tool inside is named RavenSword.",
+									}),
+									H.li()({
+										H.a({ href = "https://www.roblox.com/catalog/2620442780" })({ "2620442780" }),
+										"catalogs as Icicle Kunai. Version 1 is also a RavenSword.",
+									}),
+									H.li()({
+										H.a({ href = "./gear.html?id=2830538074" })({ "2830538074" }),
+										"is Neon Tiger Mount. Its catalog slug is the placeholder asset-version-me.",
+									}),
+								}),
+							}),
+						}),
+					}),
+				}),
+				SiteFooter(),
+			})
+		end)({})({})
+	)
+end
+
 local function GearPage(): string
 	return document(
 		"Gear Details - Roblox Gear",
@@ -184,7 +345,7 @@ local function GearPage(): string
 		H.createComponent(function()
 			return H.div({ class = "page" })({
 				Banner(),
-				NavBar(),
+				NavBar("./index.html"),
 				SearchStrip(),
 				H.div({ class = "body" })({
 					H.div({ class = "content content-wide" })({
@@ -251,5 +412,6 @@ end
 
 return {
 	catalog = CatalogPage,
+	oddities = OdditiesPage,
 	gear = GearPage,
 }

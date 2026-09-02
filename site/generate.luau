@@ -331,6 +331,7 @@ if fs.isDir(output) then
 end
 copyDirectory("site", output)
 fs.writeFile(`{output}/index.html`, pages.catalog())
+fs.writeFile(`{output}/oddities.html`, pages.oddities())
 fs.writeFile(`{output}/gear.html`, pages.gear())
 fs.writeDir(`{output}/data`)
 fs.writeDir(`{output}/data/gear`)
