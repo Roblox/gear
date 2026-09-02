@@ -21,7 +21,22 @@ const emptyState = document.querySelector("#empty-state");
 const funFacts = document.querySelector("#fun-facts");
 
 const number = new Intl.NumberFormat("en-US");
-const letters = ["all", ..."ABCDEFGHIJKLMNOPQRSTUVWXYZ"];
+const UNNAMED = "#";
+const letters = ["all", ..."ABCDEFGHIJKLMNOPQRSTUVWXYZ", UNNAMED];
+
+// Names starting with punctuation have no alphabetical position, so they
+// collect in their own section after Z.
+function isUnnamed(item) {
+  return !/^[\p{L}\p{N}]/u.test(item.name.trim());
+}
+
+function initialOf(item) {
+  return isUnnamed(item) ? UNNAMED : item.name.trim()[0].toLocaleUpperCase();
+}
+
+function byName(a, b) {
+  return isUnnamed(a) - isUnnamed(b) || a.name.localeCompare(b.name);
+}
 
 // Missing created dates sort by asset id.
 function createdAt(item) {
@@ -30,10 +45,10 @@ function createdAt(item) {
 }
 
 const SORTS = {
-  az: (a, b) => a.name.localeCompare(b.name),
-  za: (a, b) => b.name.localeCompare(a.name),
-  instances: (a, b) => b.instances - a.instances || a.name.localeCompare(b.name),
-  fewest: (a, b) => a.instances - b.instances || a.name.localeCompare(b.name),
+  az: byName,
+  za: (a, b) => isUnnamed(a) - isUnnamed(b) || b.name.localeCompare(a.name),
+  instances: (a, b) => b.instances - a.instances || byName(a, b),
+  fewest: (a, b) => a.instances - b.instances || byName(a, b),
   newest: (a, b) => {
     const left = createdAt(a);
     const right = createdAt(b);
@@ -120,8 +135,7 @@ function applyFilters() {
       query === "" ||
       item.name.toLocaleLowerCase().includes(query) ||
       String(item.id).includes(query);
-    const initial = item.name[0]?.toLocaleUpperCase() ?? "#";
-    const matchesLetter = state.letter === "all" || initial === state.letter;
+    const matchesLetter = state.letter === "all" || initialOf(item) === state.letter;
     return matchesSearch && matchesLetter;
   });
 
@@ -129,13 +143,19 @@ function applyFilters() {
 
   const selected = sortList.querySelector(`a[data-sort="${state.sort}"]`);
   const base = selected?.dataset.title ?? "Gear";
-  title.textContent = state.letter === "all" ? base : `${base}, Starting With "${state.letter}"`;
+  if (state.letter === "all") {
+    title.textContent = base;
+  } else if (state.letter === UNNAMED) {
+    title.textContent = `${base}, Named With Punctuation`;
+  } else {
+    title.textContent = `${base}, Starting With "${state.letter}"`;
+  }
   state.shown = PAGE_SIZE;
   render();
 }
 
 function renderAlphabet() {
-  const initials = new Set(state.items.map((item) => item.name[0]?.toLocaleUpperCase()));
+  const initials = new Set(state.items.map(initialOf));
   alphabet.innerHTML = letters
     .map((letter) => {
       const label = letter === "all" ? "All" : letter;

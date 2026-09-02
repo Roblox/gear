@@ -385,7 +385,18 @@ for _, assetId in gearIds do
 	fs.writeFile(`{output}/data/gear/{assetId}.json`, serde.encode("json", tree))
 end
 
+-- Names starting with punctuation have no alphabetical position, so they sort
+-- after everything else instead of ahead of A.
+local function isUnnamed(name: string): boolean
+	return name:match("^%s*%w") == nil
+end
+
 table.sort(catalog, function(a: CatalogEntry, b: CatalogEntry): boolean
+	local aUnnamed = isUnnamed(a.name)
+	local bUnnamed = isUnnamed(b.name)
+	if aUnnamed ~= bUnnamed then
+		return bUnnamed
+	end
 	local aName = a.name:lower()
 	local bName = b.name:lower()
 	return if aName == bName then a.id < b.id else aName < bName
