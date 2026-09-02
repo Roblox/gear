@@ -475,6 +475,89 @@ img {
   text-decoration: underline;
 }
 
+/* Archival Oddities */
+.oddity-title {
+  margin-bottom: 6px;
+  font-family: var(--verdana);
+  font-size: 2em;
+}
+
+.oddity-intro {
+  max-width: 700px;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.oddity-list {
+  padding: 0 10px;
+}
+
+.oddity-card {
+  display: flex;
+  gap: 15px;
+  padding: 12px 0;
+  border-bottom: solid 1px #dddddd;
+}
+
+.oddity-card:last-child {
+  border-bottom: 0;
+}
+
+.oddity-image {
+  display: flex;
+  width: 240px;
+  height: 180px;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+  border: solid 1px #000000;
+  background: #000000;
+}
+
+.oddity-image img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.oddity-copy {
+  padding-top: 2px;
+  line-height: 1.5;
+}
+
+.oddity-copy h3 {
+  margin-bottom: 5px;
+  color: var(--link);
+  font-family: var(--verdana);
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.oddity-meta {
+  font-size: 0.9em;
+}
+
+.oddity-section {
+  margin-top: 15px;
+}
+
+.delayed-release-list {
+  columns: 2;
+  padding-left: 22px;
+  margin: 10px 0;
+  line-height: 1.7;
+}
+
+.delayed-release-list li {
+  break-inside: avoid;
+}
+
+.oddity-plain-list {
+  padding-left: 22px;
+  margin: 10px 0 0;
+  line-height: 1.7;
+}
+
 /* Gear detail */
 .breadcrumb {
   margin-bottom: 10px;
@@ -772,6 +855,20 @@ img {
   .detail-thumb {
     width: 100%;
     max-width: 250px;
+  }
+
+  .oddity-card {
+    flex-direction: column;
+  }
+
+  .oddity-image {
+    width: 100%;
+    max-width: 300px;
+    height: 220px;
+  }
+
+  .delayed-release-list {
+    columns: 1;
   }
 
   .tree-layout {
