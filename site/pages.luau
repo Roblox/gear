@@ -8,7 +8,7 @@ type SortLink = { label: string, value: string, title: string }
 local NAV_LINKS: { NavLink } = {
 	{ label = "Catalog", href = "./index.html", active = true },
 	{ label = "Source", href = `{REPO_URL}/tree/main/src/gear` },
-	{ label = "Issues", href = `{REPO_URL}/issues` },
+	{ label = "License", href = `{REPO_URL}/blob/main/LICENSE.txt` },
 	{ label = "README", href = `{REPO_URL}#readme` },
 	{ label = "Roblox.com", href = "https://www.roblox.com/catalog" },
 }
@@ -96,7 +96,7 @@ local function SiteFooter(): H.Element
 			" | ",
 			H.a({ href = `{REPO_URL}/blob/main/LICENSE.txt` })({ "License" }),
 			" | ",
-			H.a({ href = `{REPO_URL}/issues` })({ "Report an Issue" }),
+			H.a({ href = `{REPO_URL}/blob/main/SECURITY.md` })({ "Security" }),
 			" | ",
 			H.a({ href = "https://www.roblox.com/catalog" })({ "Roblox Catalog" }),
 		}),
