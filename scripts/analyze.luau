@@ -1,17 +1,16 @@
 local process = require("@lute/process")
 
+local downloadPinned = require("@scripts/lib/downloadPinned")
 local project = require("@root/project")
 local run = require("@scripts/lib/run")
 
 local globalDefsPath = "globalTypes.d.luau"
 
-run("curl", {
-	"-s",
-	"-o",
+downloadPinned.downloadPinned(
+	`https://raw.githubusercontent.com/JohnnyMorganz/luau-lsp/{project.LUAU_LSP_COMMIT}/scripts/globalTypes.d.lua`,
 	globalDefsPath,
-	"-O",
-	"https://raw.githubusercontent.com/JohnnyMorganz/luau-lsp/master/scripts/globalTypes.d.lua",
-})
+	project.LUAU_LSP_GLOBAL_TYPES_SHA256
+)
 
 local defaultArgs = {
 	"analyze",
