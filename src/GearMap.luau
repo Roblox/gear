@@ -942,6 +942,7 @@ return {
 	["1363023036"] = "InnovationRobotDog",
 	["398122908"] = "Lion'sShield",
 	["2535102249"] = "RavenSword",
+	["2620442780"] = "RavenSword",
 	["815545408"] = "ProfessorGun",
 	["936703279"] = "VoltronSword",
 	["116693694"] = "Amerigun",

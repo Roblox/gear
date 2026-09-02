@@ -7,7 +7,7 @@
 	scripts/model-to-rojo.luau stays an offline transform. Run this first,
 	then dump the files it writes.
 
-	usage: lune run scripts/download-gear.luau <asset-id>...
+	usage: lune run scripts/download-gear.luau [--version <number>] <asset-id>...
 ]]
 
 local fs = require("@lune/fs")
@@ -31,10 +31,11 @@ local function maybeDecompress(contents: string): string
 	return contents
 end
 
-local function downloadAsset(assetId: string): string
+local function downloadAsset(assetId: string, version: string?): string
 	print("Downloading", assetId)
+	local versionQuery = if version then `&version={version}` else ""
 	local params: net.FetchParams = {
-		url = `{ASSET_DELIVERY_URL}/?id={assetId}`,
+		url = `{ASSET_DELIVERY_URL}/?id={assetId}{versionQuery}`,
 		headers = {
 			["User-Agent"] = "marketplace-gear",
 		},
@@ -51,9 +52,23 @@ local function downloadAsset(assetId: string): string
 	return roblox.serializeModel(instances)
 end
 
-local assetIds = process.args
+local assetIds: { string } = {}
+local version: string? = nil
+local index = 1
+while index <= #process.args do
+	local argument = process.args[index]
+	if argument == "--version" then
+		index += 1
+		version = assert(process.args[index], "--version requires a number")
+		assert(version:match("^%d+$"), `expected a version number, got {version}`)
+	else
+		table.insert(assetIds, argument)
+	end
+	index += 1
+end
+
 if #assetIds == 0 then
-	error("usage: lune run scripts/download-gear.luau <asset-id>...")
+	error("usage: lune run scripts/download-gear.luau [--version <number>] <asset-id>...")
 end
 
 for _, assetId in assetIds do
@@ -63,6 +78,6 @@ for _, assetId in assetIds do
 		print("Already have", modelFile)
 		continue
 	end
-	fs.writeFile(modelFile, downloadAsset(assetId))
+	fs.writeFile(modelFile, downloadAsset(assetId, version))
 	print("Wrote", modelFile)
 end

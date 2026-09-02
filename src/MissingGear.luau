@@ -13,11 +13,7 @@ return {
 	["445132899"] = "original-import-failure",
 	["445136641"] = "original-import-failure",
 	["445146200"] = "original-import-failure",
-	["806754856"] = "original-import-failure",
-	["806882461"] = "original-import-failure",
-	["887261871"] = "original-import-failure",
 	["2535472650"] = "original-import-failure",
-	["2620442780"] = "original-import-failure",
 	["2845969550"] = "original-import-failure",
 	["2846247073"] = "original-import-failure",
 	["2936947382"] = "original-import-failure",
@@ -37,6 +33,11 @@ return {
 	["16649019530"] = "original-import-failure",
 	["16649045008"] = "original-import-failure",
 	["16649053805"] = "original-import-failure",
+
+	-- These are cataloged as Gear, but every available version is a PNG.
+	["806754856"] = "non-model-payload",
+	["806882461"] = "non-model-payload",
+	["887261871"] = "non-model-payload",
 
 	-- These assets were removed because they had effectively left the catalog
 	-- and broke comparison. See PR #9.
