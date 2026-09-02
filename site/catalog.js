@@ -23,8 +23,7 @@ const funFacts = document.querySelector("#fun-facts");
 const number = new Intl.NumberFormat("en-US");
 const letters = ["all", ..."ABCDEFGHIJKLMNOPQRSTUVWXYZ"];
 
-// Ten items are missing from the catalog API, so fall back to asset id, which
-// climbs over time and keeps them in roughly the right place.
+// Missing created dates sort by asset id.
 function createdAt(item) {
   const parsed = item.created ? Date.parse(item.created) : Number.NaN;
   return Number.isNaN(parsed) ? null : parsed;
@@ -169,6 +168,15 @@ function renderFunFacts(items) {
     const oldest = dated.reduce((best, item) => (createdAt(item) < createdAt(best) ? item : best));
     facts.push(
       link(oldest, `is the oldest, from ${new Date(createdAt(oldest)).getFullYear()}.`),
+    );
+  }
+
+  const datePrefixed = items.filter((item) => /^\d{1,2}\/\d{1,2}\b/.test(item.name));
+  if (datePrefixed.length) {
+    facts.push(
+      datePrefixed.length === 1
+        ? "1 gear is named with its release date."
+        : `${number.format(datePrefixed.length)} gear are named with their release date.`,
     );
   }
 

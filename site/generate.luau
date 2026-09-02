@@ -4,6 +4,7 @@ local process = require("@lune/process")
 local serde = require("@lune/serde")
 local task = require("@lune/task")
 
+local CatalogFallbacks = require("@root/src/CatalogFallbacks")
 local GearMap = require("@root/src/GearMap")
 local pages = require("@root/site/pages")
 local project = require("@root/project")
@@ -40,6 +41,7 @@ type CatalogEntry = {
 
 -- GearMap is a literal table, so its inferred type rejects a string index.
 local gearNames = GearMap :: { [string]: string? }
+local catalogFallbacks = CatalogFallbacks :: { [string]: string? }
 
 -- Query and header values are `string | { string }`, and table indexers are
 -- invariant, so a plain `{ [string]: string }` will not satisfy net's map types.
@@ -252,6 +254,17 @@ local function fetchCatalogMetadata(assetIds: { number }): { [number]: JsonObjec
 			task.wait(CATALOG_BATCH_DELAY)
 		end
 	end
+
+	local omitted: { string } = {}
+	for _, assetId in assetIds do
+		if found[assetId] == nil then
+			table.insert(omitted, tostring(assetId))
+		end
+	end
+	if #omitted > 0 then
+		warn(`Catalog API omitted {#omitted} item(s): {table.concat(omitted, ", ")}`)
+	end
+
 	return found
 end
 
@@ -356,9 +369,9 @@ for _, assetId in gearIds do
 	local apiItem: JsonObject = catalogMetadata[numericId] or {}
 	local entry: CatalogEntry = {
 		id = numericId,
-		name = apiItem.name or friendlyName(gearNames[assetId] or assetId),
+		name = apiItem.name or catalogFallbacks[assetId] or friendlyName(gearNames[assetId] or assetId),
 		description = apiItem.description or "",
-		creator = apiItem.creatorName or "",
+		creator = apiItem.creatorName or "ROBLOX",
 		created = apiItem.itemCreatedUtc,
 		price = apiItem.price,
 		priceStatus = apiItem.priceStatus,
