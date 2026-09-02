@@ -1,6 +1,7 @@
 local fs = require("@lute/fs")
 local process = require("@lute/process")
 
+local downloadPinned = require("@scripts/lib/downloadPinned")
 local project = require("@root/project")
 
 local function installWallyPackages()
@@ -15,23 +16,23 @@ end
 local function installLuteBatteries()
 	process.run({ "mkdir", "-p", project.LUTE_BATTERIES_PATH })
 
-	for _, battery in project.LUTE_BATTERIES do
-		process.run({
-			"curl",
-			"-LO",
+	for battery, expectedSha256 in project.LUTE_BATTERIES_SHA256 do
+		downloadPinned.downloadPinned(
 			`https://raw.githubusercontent.com/luau-lang/lute/{project.LUTE_BATTERIES_COMMIT}/batteries/{battery}`,
-		}, {
-			cwd = project.LUTE_BATTERIES_PATH,
-		})
+			`{project.LUTE_BATTERIES_PATH}/{battery}`,
+			expectedSha256
+		)
 	end
 end
 
 local function installRbxasset()
 	process.run({ "mkdir", "-p", project.LUAU_PACKAGES_PATH })
 
-	process.run({ "curl", "-LO", "https://github.com/Roblox/rbxasset/releases/download/v0.2.0/rbxasset.zip" }, {
-		cwd = project.LUAU_PACKAGES_PATH,
-	})
+	downloadPinned.downloadPinned(
+		project.RBXASSET_URL,
+		`{project.LUAU_PACKAGES_PATH}/rbxasset.zip`,
+		project.RBXASSET_SHA256
+	)
 
 	process.run({ "unzip", "rbxasset.zip" }, {
 		cwd = project.LUAU_PACKAGES_PATH,
