@@ -22,6 +22,23 @@ local function renderChildren(children: { Child }, stringChildren: { string })
 	end
 end
 
+local function joinChildren(children: { string }): string
+	local joined = ""
+	for index, child in children do
+		if index > 1 then
+			local previous = children[index - 1]
+			local hasBoundaryWhitespace = string.match(previous, "%s$") or string.match(child, "^%s")
+			local startsWithPunctuation = string.match(child, "^[%.,;:!?%)%]%}]") or string.match(child, "^&apos;")
+			local followsOpeningPunctuation = string.match(previous, "[%(%[%{]$")
+			if not hasBoundaryWhitespace and not startsWithPunctuation and not followsOpeningPunctuation then
+				joined ..= " "
+			end
+		end
+		joined ..= child
+	end
+	return joined
+end
+
 renderChild = function(child: Child, stringChildren: { string })
 	if typeof(child) == "function" then
 		local render = child :: () -> Node
@@ -96,7 +113,7 @@ local function createHtmlElement(tag: string)
 			return `<{tag}{attributes}>`
 		end
 		if children then
-			return `<{tag}{attributes}>{table.concat(children, "\n")}</{tag}>`
+			return `<{tag}{attributes}>{joinChildren(children)}</{tag}>`
 		else
 			return `<{tag}{attributes}></{tag}>`
 		end

@@ -20,12 +20,28 @@ test.suite("htmluau", function(suite: TestSuite)
 		})()
 
 		asserts.eq(
-			'<div><br>\n<img src="gear.png">\n<input type="search">\n<meta charset="utf-8">\n<link rel="stylesheet">\n<hr>\n<source src="gear.mp4">\n<track src="captions.vtt"></div>',
+			'<div><br> <img src="gear.png"> <input type="search"> <meta charset="utf-8"> <link rel="stylesheet"> <hr> <source src="gear.mp4"> <track src="captions.vtt"></div>',
 			rendered
 		)
 	end)
 
 	suite:case("normal elements retain closing tags", function(asserts: Asserts)
 		asserts.eq("<div>content</div>", H.div()({ "content" })())
+	end)
+
+	suite:case("adjacent children do not introduce whitespace", function(asserts: Asserts)
+		local rendered = H.p()({
+			"Built by ",
+			H.a({ href = "https://example.com" })({ "Roblox Corporation" }),
+			".",
+			"Read ",
+			H.a({ href = "https://example.com/docs" })({ "the docs" }),
+			"for details.",
+		})()
+
+		asserts.eq(
+			'<p>Built by <a href="https://example.com">Roblox Corporation</a>. Read <a href="https://example.com/docs">the docs</a> for details.</p>',
+			rendered
+		)
 	end)
 end)
