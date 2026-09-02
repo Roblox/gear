@@ -166,8 +166,12 @@ function renderFunFacts(items) {
   const dated = items.filter((item) => createdAt(item) !== null);
   if (dated.length) {
     const oldest = dated.reduce((best, item) => (createdAt(item) < createdAt(best) ? item : best));
+    const newest = dated.reduce((best, item) => (createdAt(item) > createdAt(best) ? item : best));
     facts.push(
       link(oldest, `is the oldest, from ${new Date(createdAt(oldest)).getFullYear()}.`),
+    );
+    facts.push(
+      link(newest, `is the newest, from ${new Date(createdAt(newest)).getFullYear()}.`),
     );
   }
 
@@ -185,6 +189,22 @@ function renderFunFacts(items) {
 
   const smallest = pick((item, best) => item.instances < best.instances);
   facts.push(link(smallest, `is the smallest, at just ${number.format(smallest.instances)}.`));
+
+  const paid = items.filter((item) => typeof item.price === "number" && item.price > 0);
+  if (paid.length) {
+    const most = paid.reduce((best, item) => (item.price > best.price ? item : best));
+    const least = items
+      .filter((item) => typeof item.price === "number")
+      .reduce((best, item) => (item.price < best.price ? item : best));
+    facts.push(
+      link(most, `is the most expensive, at R$: ${number.format(most.price)}.`),
+    );
+    facts.push(
+      least.price === 0
+        ? link(least, "is the least expensive: it's free.")
+        : link(least, `is the least expensive, at R$: ${number.format(least.price)}.`),
+    );
+  }
 
   const favorited = items.filter((item) => typeof item.favorites === "number");
   if (favorited.length) {
