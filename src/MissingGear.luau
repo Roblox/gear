@@ -30,11 +30,6 @@ return {
 	["806882461"] = "non-model-payload",
 	["887261871"] = "non-model-payload",
 
-	-- These assets were removed because they had effectively left the catalog
-	-- and broke comparison. See PR #9.
-	["66416590"] = "catalog-invalid",
-	["66416602"] = "catalog-invalid",
-
 	-- AllGear includes these IDs, but their absence was not documented.
 	["27476125"] = "unexplained",
 	["44084677"] = "unexplained",

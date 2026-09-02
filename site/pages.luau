@@ -232,7 +232,7 @@ local function OdditiesPage(): string
 						}),
 						H.h1({ class = "oddity-title" })({ "Archival Oddities" }),
 						H.p({ class = "oddity-intro" })({
-							"The AllGear inventory is supposed to be Tools. What we actually archived includes textures uploaded as Gear, items parked a thousand years in the future, names that never quite landed, and a few drafts that were uploaded over and over, then blanked out.",
+							"This archive starts from a dump of catalog assets with type Gear. Those should all be Tools. What we actually archived includes textures uploaded as Gear, items parked a thousand years in the future, names that never quite landed, drafts that were uploaded over and over then blanked out, and a pair of Tools that contain nothing at all.",
 						}),
 						H.div({ class = "panel" })({
 							H.div({ class = "panel-head" })({
@@ -342,7 +342,7 @@ local function OdditiesPage(): string
 									H.a({ href = "./gear.html?id=445150567" })({ "Lincoln's Golden Rail Splitter" }),
 									"and ",
 									H.a({ href = "./gear.html?id=445151478" })({ "4th of July 2016 Fireworks" }),
-									"— the drafts are smaller than what shipped. AllGear kept every ID, so the archive now has the version-1 Tools.",
+									"— the drafts are smaller than what shipped. The dump kept every ID, so the archive still has the version-1 Tools.",
 								}),
 								H.ul({ class = "delayed-release-list" })({
 									H.li()({
@@ -391,6 +391,19 @@ local function OdditiesPage(): string
 									"and ",
 									H.a({ href = "./gear.html?id=445146200" })({ "445146200" }),
 									"are those smaller axe drafts. The raw RBXMs omit the RightSlash Animation; the server script still waits for it, so the Tool never finishes loading. The other four copies and the shipped splitter include RightSlash.",
+								}),
+							}),
+						}),
+						H.div({ class = "panel oddity-section" })({
+							H.div({ class = "panel-head" })({
+								H.h2()({ "A Tool Named Tool" }),
+							}),
+							H.div({ class = "panel-body" })({
+								H.p()({
+									H.a({ href = "./gear.html?id=66416590" })({ "66416590" }),
+									"and ",
+									H.a({ href = "./gear.html?id=66416602" })({ "66416602" }),
+									'were created 22 seconds apart on November 25, 2011. The catalog still calls them unnamed and "??". Each RBXM is a Tool named Tool with no children, and the two files are byte-for-byte identical.',
 								}),
 							}),
 						}),
