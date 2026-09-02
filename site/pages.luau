@@ -211,7 +211,22 @@ end
 local function DelayedReleaseLink(assetId: string, name: string): H.Element
 	return H.li()({
 		H.a({ href = `https://www.roblox.com/catalog/{assetId}` })({ name }),
-		` (${assetId})`,
+		` ({assetId})`,
+	})
+end
+
+local function GearListing(assetId: string, listingName: string, payload: string): H.Element
+	return H.li()({
+		H.a({ href = `https://www.roblox.com/catalog/{assetId}` })({ listingName }),
+		` ({assetId}) — {payload}`,
+	})
+end
+
+local function AccessoryTile(assetId: string, listingName: string, payload: string): H.Element
+	return H.a({ class = "accessory-tile", href = `https://www.roblox.com/catalog/{assetId}` })({
+		H.img({ src = `./oddities/thumbs/{assetId}.png`, alt = `Roblox thumbnail for {listingName}` })({}),
+		H.span({ class = "accessory-name" })({ listingName }),
+		H.span({ class = "accessory-payload" })({ payload }),
 	})
 end
 
@@ -232,7 +247,7 @@ local function OdditiesPage(): string
 						}),
 						H.h1({ class = "oddity-title" })({ "Archival Oddities" }),
 						H.p({ class = "oddity-intro" })({
-							"This archive starts from a dump of catalog assets with type Gear. Those should all be Tools. What we actually archived includes textures uploaded as Gear, items parked a thousand years in the future, names that never quite landed, drafts that were uploaded over and over then blanked out, and a pair of Tools that contain nothing at all.",
+							"This archive starts from a dump of catalog assets with type Gear. Those should all be Tools. What we actually archived includes textures uploaded as Gear, Hats and Accessories sitting in the Gear aisle, items parked a thousand years in the future, names that never quite landed, drafts that were uploaded over and over then blanked out, and a pair of Tools that contain nothing at all.",
 						}),
 						H.div({ class = "panel" })({
 							H.div({ class = "panel-head" })({
@@ -261,6 +276,80 @@ local function OdditiesPage(): string
 									}),
 									"flattened out so the arms fold away to either side. The texture that accessory serves today is byte-for-byte identical to this file.",
 								}, "Neon green sunglasses frames with magenta lenses, unwrapped flat"),
+							}),
+						}),
+						H.div({ class = "panel oddity-section" })({
+							H.div({ class = "panel-head" })({
+								H.h2()({ "Hats in the Gear Aisle" }),
+							}),
+							H.div({ class = "panel-body" })({
+								H.p()({
+									"Twenty more dump IDs are type Gear, but asset delivery serves a Hat or Accessory — real ones, with a Handle, not the empty Hat that overwrote the June 2016 drafts. They stay out of the Tool archive; the catalog pages and the files they actually serve are below.",
+								}),
+								H.h3({ class = "oddity-subhead" })({ "The eight that render as nothing" }),
+								H.p()({
+									"Roblox's thumbnailer expects a Tool on a Gear listing. When it gets an Accessory instead it gives up, and eight of these IDs share one blank 420x420 white square as their catalog image. The items are not empty — the files have Handles, meshes and textures — but the catalog cannot draw them.",
+								}),
+								H.p()({
+									"Seven of the eight serve the same 6 KB file: a face accessory named DragonShades built on Roblox's evil-eye-patch mesh and texture. One upload, seven listings, none of which are named after sunglasses.",
+								}),
+								H.ul({ class = "oddity-plain-list" })({
+									GearListing("2846247073", "asset-version-me", "DragonShades"),
+									GearListing("2936947382", "Gear of Mystery", "DragonShades"),
+									GearListing("4504687245", "Ion Motors Thresher", "DragonShades"),
+									GearListing("4504688440", "Rally Baja Crawler", "DragonShades"),
+									GearListing("4504689279", "Astana Motors Hotto", "DragonShades"),
+									GearListing("4504690230", "Hyperfin", "DragonShades"),
+									GearListing("6468066575", "Unused Sign", "DragonShades"),
+								}),
+								H.p()({
+									"The closest published shades from the same era are ",
+									H.a({ href = "https://www.roblox.com/catalog/2804649249/Dragonscale-Shades" })({
+										"Dragonscale Shades",
+									}),
+									"— a different file, not this one.",
+								}),
+								H.p()({
+									"The eighth is ",
+									H.a({ href = "https://www.roblox.com/catalog/23307906/Cooooool" })({ "23307906" }),
+									", catalogued as Cooooool!!! and serving a Hat named DaVinci Helicopter. It is the same wooden copter as ",
+									H.a({ href = "https://www.roblox.com/catalog/19112054/DaVinci-Copter" })({
+										"DaVinci Copter",
+									}),
+									", published in 2009 — which does have a thumbnail, because it is filed as a Hat:",
+								}),
+								H.div({ class = "accessory-grid" })({
+									AccessoryTile("19112054", "DaVinci Copter", "the published Hat"),
+								}),
+								H.h3({ class = "oddity-subhead" })({ "The twelve that render fine" }),
+								H.p()({
+									"The other twelve draw normally, so the Gear aisle quietly shows a hairstyle, a scarf, a traffic cone with a face, and eight halves of four weapons. Their catalog names describe the accessory inside accurately — these were never meant to be Tools at all.",
+								}),
+								H.div({ class = "accessory-grid" })({
+									AccessoryTile("2845969550", "Badimo Arm Cannon", "ArmCannon"),
+									AccessoryTile("3016462854", "Xavier Woods Hair", "XavierWoods_HairAccessory"),
+									AccessoryTile("3061661395", "Coney Cone Companion", "Coneboy"),
+									AccessoryTile("4510344627", "Snow Monster Scarf", "MonsterScarf"),
+									AccessoryTile("16648133530", "Axe Left", "Axe_Left_Acc_MP"),
+									AccessoryTile("16648471753", "Axe Right", "Axe_Right_Acc_MP"),
+									AccessoryTile("16648718579", "Gun Left", "Gun_Left_Acc_MP"),
+									AccessoryTile("16648843454", "Gun Right", "Gun_Right_Acc_MP"),
+									AccessoryTile("16649013455", "Staff Left", "staff_Left_Acc_MP"),
+									AccessoryTile("16649019530", "Staff Right", "staff_Right_Acc_MP"),
+									AccessoryTile("16649045008", "Sword Left", "Sword_Left_Acc_MP"),
+									AccessoryTile("16649053805", "Sword Right", "Sword_Right_Acc_MP"),
+								}),
+								H.p()({
+									"Snow Monster Scarf reuses the mesh family behind ",
+									H.a({ href = "https://www.roblox.com/catalog/315550345/Monster-Scarf" })({
+										"Monster Scarf",
+									}),
+									", the 2015 neck accessory. Badimo Arm Cannon is an Accessory rather than a Tool, which is what separates it from ",
+									H.a({ href = "./gear.html?id=858740936" })({ "Robo Arm Cannon" }),
+									"and ",
+									H.a({ href = "./gear.html?id=151311761" })({ "jmargh's Arm Cannon" }),
+									"in this archive.",
+								}),
 							}),
 						}),
 						H.div({ class = "panel oddity-section" })({
