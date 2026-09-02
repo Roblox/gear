@@ -232,7 +232,7 @@ local function OdditiesPage(): string
 						}),
 						H.h1({ class = "oddity-title" })({ "Archival Oddities" }),
 						H.p({ class = "oddity-intro" })({
-							"The AllGear inventory is supposed to be Tools. What we actually archived includes textures uploaded as Gear, items parked a thousand years in the future, and a few names that never quite landed.",
+							"The AllGear inventory is supposed to be Tools. What we actually archived includes textures uploaded as Gear, items parked a thousand years in the future, names that never quite landed, and a few drafts that were uploaded over and over, then blanked out.",
 						}),
 						H.div({ class = "panel" })({
 							H.div({ class = "panel-head" })({
@@ -326,6 +326,71 @@ local function OdditiesPage(): string
 										H.a({ href = "./gear.html?id=2830538074" })({ "2830538074" }),
 										"is Neon Tiger Mount. Its catalog slug is the placeholder asset-version-me.",
 									}),
+								}),
+							}),
+						}),
+						H.div({ class = "panel oddity-section" })({
+							H.div({ class = "panel-head" })({
+								H.h2()({ "Ten Uploads, One Empty Hat" }),
+							}),
+							H.div({ class = "panel-body" })({
+								H.p()({
+									"On the night of June 30, 2016, ten unnamed assets appeared in about 45 minutes. Version 1 on six of them is GoldenRailSplitterAxe — four files are byte-identical, then two slightly smaller copies. Version 1 on the other four is one 2016July4thFireworks binary. Around 1:00 UTC on July 1, every one of those IDs was overwritten with an empty Hat named Empty.",
+								}),
+								H.p()({
+									"Ten minutes before the wipe, the real catalog items were created: ",
+									H.a({ href = "./gear.html?id=445150567" })({ "Lincoln's Golden Rail Splitter" }),
+									"and ",
+									H.a({ href = "./gear.html?id=445151478" })({ "4th of July 2016 Fireworks" }),
+									"— the drafts are smaller than what shipped. AllGear kept every ID, so the archive now has the version-1 Tools.",
+								}),
+								H.ul({ class = "delayed-release-list" })({
+									H.li()({
+										H.a({ href = "./gear.html?id=445118715" })({ "445118715" }),
+										" GoldenRailSplitterAxe",
+									}),
+									H.li()({
+										H.a({ href = "./gear.html?id=445118914" })({ "445118914" }),
+										" GoldenRailSplitterAxe",
+									}),
+									H.li()({
+										H.a({ href = "./gear.html?id=445119186" })({ "445119186" }),
+										" GoldenRailSplitterAxe",
+									}),
+									H.li()({
+										H.a({ href = "./gear.html?id=445127715" })({ "445127715" }),
+										" GoldenRailSplitterAxe",
+									}),
+									H.li()({
+										H.a({ href = "./gear.html?id=445132899" })({ "445132899" }),
+										" GoldenRailSplitterAxe, missing RightSlash",
+									}),
+									H.li()({
+										H.a({ href = "./gear.html?id=445146200" })({ "445146200" }),
+										" GoldenRailSplitterAxe, missing RightSlash",
+									}),
+									H.li()({
+										H.a({ href = "./gear.html?id=445120580" })({ "445120580" }),
+										" 2016July4thFireworks",
+									}),
+									H.li()({
+										H.a({ href = "./gear.html?id=445122594" })({ "445122594" }),
+										" 2016July4thFireworks",
+									}),
+									H.li()({
+										H.a({ href = "./gear.html?id=445122795" })({ "445122795" }),
+										" 2016July4thFireworks",
+									}),
+									H.li()({
+										H.a({ href = "./gear.html?id=445136641" })({ "445136641" }),
+										" 2016July4thFireworks",
+									}),
+								}),
+								H.p()({
+									H.a({ href = "./gear.html?id=445132899" })({ "445132899" }),
+									"and ",
+									H.a({ href = "./gear.html?id=445146200" })({ "445146200" }),
+									"are those smaller axe drafts. The raw RBXMs omit the RightSlash Animation; the server script still waits for it, so the Tool never finishes loading. The other four copies and the shipped splitter include RightSlash.",
 								}),
 							}),
 						}),
