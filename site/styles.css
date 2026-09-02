@@ -541,6 +541,14 @@ img {
   margin-top: 15px;
 }
 
+.oddity-subhead {
+  margin: 14px 0 6px;
+  color: #000000;
+  font-family: var(--verdana);
+  font-size: 1.05em;
+  font-weight: bold;
+}
+
 .delayed-release-list {
   columns: 2;
   padding-left: 22px;
@@ -554,8 +562,56 @@ img {
 
 .oddity-plain-list {
   padding-left: 22px;
-  margin: 10px 0 0;
+  margin: 10px 0 12px;
   line-height: 1.7;
+}
+
+.accessory-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 12px;
+  margin: 12px 0;
+}
+
+.accessory-tile {
+  display: block;
+  padding: 8px;
+  border: 1px solid #c3c3c3;
+  border-radius: 4px;
+  background: #ffffff;
+  color: inherit;
+  text-align: center;
+  text-decoration: none;
+}
+
+.accessory-tile:hover {
+  border-color: #7a7a7a;
+  background: #f4f4f4;
+}
+
+.accessory-tile img {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #ededed;
+  border-radius: 3px;
+}
+
+.accessory-name {
+  display: block;
+  margin-top: 6px;
+  font-family: var(--verdana);
+  font-size: 0.85em;
+  font-weight: bold;
+}
+
+.accessory-payload {
+  display: block;
+  margin-top: 2px;
+  color: #666666;
+  font-family: var(--verdana);
+  font-size: 0.75em;
+  word-break: break-word;
 }
 
 /* Gear detail */
