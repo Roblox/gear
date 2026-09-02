@@ -33,7 +33,7 @@ test.suite("assertGearRoot", function(suite: TestSuite)
 
 	suite:case("rejects an Accessory root", function(asserts: Asserts)
 		local ok = pcall(function()
-			assertGearRoot(model("Accessory", "Empty"), "445118715")
+			assertGearRoot(model("Accessory", "DragonShades"), "2846247073")
 		end)
 		asserts.eq(false, ok)
 	end)
