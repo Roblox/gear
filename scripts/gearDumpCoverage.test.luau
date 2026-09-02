@@ -2,6 +2,7 @@ local fs = require("@lute/fs")
 local test = require("@std/test")
 local testTypes = require("@std/test/types")
 
+local CatalogFallbacks = require("@root/src/CatalogFallbacks") :: { [string]: string? }
 local MissingGear = require("@root/src/MissingGear") :: { [string]: string? }
 local GearMap = require("@root/src/GearMap") :: { [string]: string? }
 local project = require("@root/project")
@@ -107,6 +108,17 @@ test.suite("gear dump coverage", function(suite: TestSuite)
 		asserts.eq({}, sorted(outsideInventory))
 		asserts.eq({}, sorted(missingDumps))
 		asserts.eq({}, sorted(missingNames))
+	end)
+
+	suite:case("catalog fallbacks only cover dumped gear with a display name", function(asserts: Asserts)
+		local unknown = {}
+		for assetId, name in CatalogFallbacks do
+			if GearMap[assetId] == nil then
+				table.insert(unknown, assetId)
+			end
+			asserts.eq(true, name ~= "")
+		end
+		asserts.eq({}, sorted(unknown))
 	end)
 
 	suite:case("does not silently drop inventory records", function(asserts: Asserts)
