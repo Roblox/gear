@@ -54,13 +54,18 @@ function escapeHtml(value) {
   return element.innerHTML;
 }
 
-function agoLabel(timestamp) {
+// Catalog timestamps are UTC, so format in UTC to keep the date from shifting.
+const dateFormat = new Intl.DateTimeFormat("en-US", {
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+  timeZone: "UTC",
+});
+
+function createdLabel(timestamp) {
   if (!timestamp) return "";
   const created = new Date(timestamp);
-  if (Number.isNaN(created.getTime())) return "";
-  const years = Math.floor((Date.now() - created.getTime()) / 31557600000);
-  if (years < 1) return "this year";
-  return `${years} year${years === 1 ? "" : "s"} ago`;
+  return Number.isNaN(created.getTime()) ? "" : dateFormat.format(created);
 }
 
 function priceLine(item) {
@@ -78,7 +83,7 @@ function card(item) {
   const image = item.thumbnail
     ? `<img src="${item.thumbnail}" alt="" loading="lazy" />`
     : `<span class="thumb-fallback" aria-hidden="true">${escapeHtml(item.name.slice(0, 1))}</span>`;
-  const created = agoLabel(item.created);
+  const created = createdLabel(item.created);
 
   return `<a class="item" href="./gear.html?id=${item.id}">
     <span class="item-thumb">${image}</span>
