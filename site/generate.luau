@@ -14,7 +14,11 @@ local project = require("@root/project")
 -- back a token to replay with.
 local CATALOG_DETAILS_URL = "https://catalog.roblox.com/v1/catalog/items/details"
 local CATALOG_BATCH_SIZE = 120
-local CATALOG_BATCH_DELAY = 6.5
+local CATALOG_BATCH_DELAY = 7.5
+-- Retries spend the same per-minute budget as first tries, so a throttled batch
+-- has to wait the window out instead of backing off inside it.
+local CATALOG_THROTTLE_WAIT = 65
+local CATALOG_MIN_COVERED = 0.95
 local THUMBNAIL_URL = "https://thumbnails.roblox.com/v1/assets"
 local USER_AGENT = "marketplace-gear-pages/1.0"
 
@@ -168,6 +172,14 @@ local function isRetryable(statusCode: number): boolean
 	return statusCode == 429 or statusCode >= 500
 end
 
+local function retryAfterSeconds(headers: net.HttpHeaderMap): number?
+	local value = headers["retry-after"]
+	if typeof(value) == "string" then
+		return tonumber(value)
+	end
+	return nil
+end
+
 local function requestJson(url: string, query: { [string]: string }): JsonObject
 	local lastStatus = "request failed"
 	local params: net.FetchParams = {
@@ -220,6 +232,10 @@ local function requestCatalogBatch(items: { JsonObject }): JsonObject
 				csrfToken = token
 				continue
 			end
+			if response.statusCode == 429 then
+				task.wait(retryAfterSeconds(response.headers) or CATALOG_THROTTLE_WAIT)
+				continue
+			end
 			if not isRetryable(response.statusCode) then
 				break
 			end
@@ -233,36 +249,57 @@ end
 
 local function fetchCatalogMetadata(assetIds: { number }): { [number]: JsonObject }
 	local found: { [number]: JsonObject } = {}
-	for startIndex = 1, #assetIds, CATALOG_BATCH_SIZE do
-		local items: { JsonObject } = {}
-		for index = startIndex, math.min(startIndex + CATALOG_BATCH_SIZE - 1, #assetIds) do
-			local entry: JsonObject = { itemType = "Asset", id = assetIds[index] }
-			table.insert(items, entry)
-		end
-		local ok, payload = pcall(requestCatalogBatch, items)
-		if ok then
-			for _, item in payload.data or {} do
-				local itemId = tonumber(item.id)
-				if itemId then
-					found[itemId] = item
-				end
+
+	local function fetchInto(ids: { number })
+		for startIndex = 1, #ids, CATALOG_BATCH_SIZE do
+			local items: { JsonObject } = {}
+			for index = startIndex, math.min(startIndex + CATALOG_BATCH_SIZE - 1, #ids) do
+				local entry: JsonObject = { itemType = "Asset", id = ids[index] }
+				table.insert(items, entry)
 			end
-		else
-			warn(`Catalog batch at {startIndex} failed, continuing without it: {payload}`)
-		end
-		if startIndex + CATALOG_BATCH_SIZE <= #assetIds then
-			task.wait(CATALOG_BATCH_DELAY)
+			local ok, payload = pcall(requestCatalogBatch, items)
+			if ok then
+				for _, item in payload.data or {} do
+					local itemId = tonumber(item.id)
+					if itemId then
+						found[itemId] = item
+					end
+				end
+			else
+				warn(`Catalog batch at {startIndex} failed, continuing without it: {payload}`)
+			end
+			if startIndex + CATALOG_BATCH_SIZE <= #ids then
+				task.wait(CATALOG_BATCH_DELAY)
+			end
 		end
 	end
 
-	local omitted: { string } = {}
-	for _, assetId in assetIds do
-		if found[assetId] == nil then
-			table.insert(omitted, tostring(assetId))
+	local function stillMissing(): { number }
+		local missing: { number } = {}
+		for _, assetId in assetIds do
+			if found[assetId] == nil then
+				table.insert(missing, assetId)
+			end
 		end
+		return missing
 	end
+
+	fetchInto(assetIds)
+
+	local missing = stillMissing()
+	if #missing > 0 then
+		warn(`Catalog API missed {#missing} item(s) on the first pass, retrying them`)
+		task.wait(CATALOG_THROTTLE_WAIT)
+		fetchInto(missing)
+	end
+
+	local omitted = stillMissing()
 	if #omitted > 0 then
-		warn(`Catalog API omitted {#omitted} item(s): {table.concat(omitted, ", ")}`)
+		local text: { string } = {}
+		for _, assetId in omitted do
+			table.insert(text, tostring(assetId))
+		end
+		warn(`Catalog API omitted {#omitted} item(s): {table.concat(text, ", ")}`)
 	end
 
 	return found
@@ -297,6 +334,30 @@ local function fetchThumbnails(assetIds: { number }): { [number]: string }
 	return thumbnails
 end
 
+-- The API refreshes whatever it returns; ids it skips keep their stored values.
+local function loadCatalogStore(path: string?): { [number]: JsonObject }
+	local store: { [number]: JsonObject } = {}
+	if path == nil then
+		return store
+	end
+	if not fs.isFile(path) then
+		warn(`No catalog store at {path}, starting from empty`)
+		return store
+	end
+	local ok, decoded = pcall(readJson, path)
+	if not ok then
+		warn(`Could not read the catalog store at {path}: {decoded}`)
+		return store
+	end
+	for _, item in decoded.items or {} do
+		local itemId = tonumber(item.id)
+		if itemId then
+			store[itemId] = item
+		end
+	end
+	return store
+end
+
 local function sortedGearIds(): { string }
 	local ids: { string } = {}
 	for _, entry in fs.readDir(project.GEAR_PATH) do
@@ -312,12 +373,16 @@ end
 
 local output = "_site"
 local offline = false
+local storePath: string? = nil
 local index = 1
 while index <= #process.args do
 	local argument = process.args[index]
 	if argument == "--output" then
 		index += 1
 		output = assert(process.args[index], "--output requires a path")
+	elseif argument == "--store" then
+		index += 1
+		storePath = assert(process.args[index], "--store requires a path")
 	elseif argument == "--offline" then
 		offline = true
 	else
@@ -362,22 +427,50 @@ if not offline then
 	end
 end
 
+local store = loadCatalogStore(storePath)
+local refreshed = 0
+for _, numericId in numericIds do
+	local apiItem = catalogMetadata[numericId]
+	local stored: JsonObject = store[numericId] or { id = numericId }
+	if apiItem then
+		stored = {
+			id = numericId,
+			name = apiItem.name,
+			description = apiItem.description,
+			creator = apiItem.creatorName,
+			created = apiItem.itemCreatedUtc,
+			priceStatus = apiItem.priceStatus,
+			price = apiItem.price,
+			favorites = apiItem.favoriteCount,
+			thumbnail = stored.thumbnail,
+		}
+		refreshed += 1
+	end
+	local thumbnail = thumbnails[numericId]
+	if thumbnail then
+		stored.thumbnail = thumbnail
+	end
+	if apiItem or thumbnail then
+		store[numericId] = stored
+	end
+end
+
 local catalog: { CatalogEntry } = {}
 for _, assetId in gearIds do
 	local numericId = assert(tonumber(assetId))
 	local tree = gearTree(assetId)
 	local instanceCount, classes = summarizeTree(tree)
-	local apiItem: JsonObject = catalogMetadata[numericId] or {}
+	local stored: JsonObject = store[numericId] or {}
 	local entry: CatalogEntry = {
 		id = numericId,
-		name = apiItem.name or catalogFallbacks[assetId] or friendlyName(gearNames[assetId] or assetId),
-		description = apiItem.description or "",
-		creator = apiItem.creatorName or "ROBLOX",
-		created = apiItem.itemCreatedUtc,
-		price = apiItem.price,
-		priceStatus = apiItem.priceStatus,
-		favorites = apiItem.favoriteCount,
-		thumbnail = thumbnails[numericId] or "",
+		name = stored.name or catalogFallbacks[assetId] or friendlyName(gearNames[assetId] or assetId),
+		description = stored.description or "",
+		creator = stored.creator or "ROBLOX",
+		created = stored.created,
+		price = stored.price,
+		priceStatus = stored.priceStatus,
+		favorites = stored.favorites,
+		thumbnail = stored.thumbnail or "",
 		instances = instanceCount,
 		classes = classes,
 	}
@@ -402,18 +495,28 @@ table.sort(catalog, function(a: CatalogEntry, b: CatalogEntry): boolean
 	return if aName == bName then a.id < b.id else aName < bName
 end)
 
-local apiEnriched = 0
-for _ in catalogMetadata do
-	apiEnriched += 1
+local covered = 0
+for _, entry in catalog do
+	if store[entry.id] ~= nil then
+		covered += 1
+	end
 end
+
+-- The deploy overwrites the whole site, so failing here keeps the last one up.
+if not offline and covered < #catalog * CATALOG_MIN_COVERED then
+	error(
+		`Only {covered} of {#catalog} items have catalog data, below the {CATALOG_MIN_COVERED * 100}% needed to publish`
+	)
+end
+
 fs.writeFile(
 	`{output}/data/catalog.json`,
 	serde.encode("json", {
 		generatedAt = os.date("!%Y-%m-%dT%H:%M:%SZ"),
 		count = #catalog,
-		apiEnriched = apiEnriched,
+		refreshed = refreshed,
 		items = catalog,
 	})
 )
 
-print(`Built {#catalog} gear pages ({apiEnriched} catalog-enriched)`)
+print(`Built {#catalog} gear pages ({covered} with catalog data, {refreshed} refreshed this run)`)
