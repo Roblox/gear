@@ -1,26 +1,12 @@
 local fs = require("@lune/fs")
-local net = require("@lune/net")
 local process = require("@lune/process")
 local serde = require("@lune/serde")
-local task = require("@lune/task")
 
 local CatalogFallbacks = require("@root/src/CatalogFallbacks")
 local GearMap = require("@root/src/GearMap")
+local catalogStore = require("@root/site/catalogStore")
 local pages = require("@root/site/pages")
 local project = require("@root/project")
-
--- Bulk item details accepts 120 ids per request and is throttled to 10/minute.
--- It needs an X-CSRF-TOKEN but no login: the first POST answers 403 and hands
--- back a token to replay with.
-local CATALOG_DETAILS_URL = "https://catalog.roblox.com/v1/catalog/items/details"
-local CATALOG_BATCH_SIZE = 120
-local CATALOG_BATCH_DELAY = 7.5
--- Retries spend the same per-minute budget as first tries, so a throttled batch
--- has to wait the window out instead of backing off inside it.
-local CATALOG_THROTTLE_WAIT = 65
-local CATALOG_MIN_COVERED = 0.95
-local THUMBNAIL_URL = "https://thumbnails.roblox.com/v1/assets"
-local USER_AGENT = "marketplace-gear-pages/1.0"
 
 type JsonObject = { [string]: any }
 type TreeNode = {
@@ -43,22 +29,8 @@ type CatalogEntry = {
 	classes: { [string]: number },
 }
 
--- GearMap is a literal table, so its inferred type rejects a string index.
 local gearNames = GearMap :: { [string]: string? }
 local catalogFallbacks = CatalogFallbacks :: { [string]: string? }
-
--- Query and header values are `string | { string }`, and table indexers are
--- invariant, so a plain `{ [string]: string }` will not satisfy net's map types.
-local function httpMap(entries: { [string]: string }): net.HttpHeaderMap
-	-- Not table.clone: that keeps the narrow `{ [string]: string }` indexer, which
-	-- is the type net rejects. Copying into a widened table is the point.
-	-- selene: allow(manual_table_clone)
-	local map: net.HttpHeaderMap = {}
-	for key, value in entries do
-		map[key] = value
-	end
-	return map
-end
 
 local function friendlyName(name: string): string
 	if name:find(" ", 1, true) then
@@ -166,198 +138,6 @@ local function summarizeTree(node: TreeNode, classes: { [string]: number }?): (n
 	return count, counts
 end
 
--- Throttling and gateway faults both clear on their own, so they are worth the
--- backoff. Anything else (404, a malformed query) will fail the same way twice.
-local function isRetryable(statusCode: number): boolean
-	return statusCode == 429 or statusCode >= 500
-end
-
-local function retryAfterSeconds(headers: net.HttpHeaderMap): number?
-	local value = headers["retry-after"]
-	if typeof(value) == "string" then
-		return tonumber(value)
-	end
-	return nil
-end
-
-local function requestJson(url: string, query: { [string]: string }): JsonObject
-	local lastStatus = "request failed"
-	local params: net.FetchParams = {
-		url = url,
-		query = httpMap(query),
-		headers = httpMap({ ["User-Agent"] = USER_AGENT }),
-	}
-	for attempt = 1, 4 do
-		local ok, response = pcall(net.request, params)
-		if ok and response.ok then
-			return serde.decode("json", response.body) :: JsonObject
-		end
-		if ok then
-			lastStatus = `{response.statusCode} {response.statusMessage}`
-			if not isRetryable(response.statusCode) then
-				break
-			end
-		else
-			lastStatus = tostring(response)
-		end
-		task.wait(2 ^ (attempt - 1))
-	end
-	error(`GET {url} failed: {lastStatus}`)
-end
-
-local csrfToken = ""
-
-local function requestCatalogBatch(items: { JsonObject }): JsonObject
-	local body = serde.encode("json", { items = items })
-	local lastStatus = "request failed"
-	for attempt = 1, 5 do
-		local params: net.FetchParams = {
-			url = CATALOG_DETAILS_URL,
-			method = "POST",
-			headers = httpMap({
-				["Content-Type"] = "application/json",
-				["User-Agent"] = USER_AGENT,
-				["X-CSRF-TOKEN"] = csrfToken,
-			}),
-			body = body,
-		}
-		local ok, response = pcall(net.request, params)
-		if ok and response.ok then
-			return serde.decode("json", response.body) :: JsonObject
-		end
-		if ok then
-			lastStatus = `{response.statusCode} {response.statusMessage}`
-			local token = response.headers["x-csrf-token"]
-			if response.statusCode == 403 and typeof(token) == "string" and token ~= csrfToken then
-				csrfToken = token
-				continue
-			end
-			if response.statusCode == 429 then
-				task.wait(retryAfterSeconds(response.headers) or CATALOG_THROTTLE_WAIT)
-				continue
-			end
-			if not isRetryable(response.statusCode) then
-				break
-			end
-		else
-			lastStatus = tostring(response)
-		end
-		task.wait(2 ^ (attempt - 1))
-	end
-	error(`POST {CATALOG_DETAILS_URL} failed: {lastStatus}`)
-end
-
-local function fetchCatalogMetadata(assetIds: { number }): { [number]: JsonObject }
-	local found: { [number]: JsonObject } = {}
-
-	local function fetchInto(ids: { number })
-		for startIndex = 1, #ids, CATALOG_BATCH_SIZE do
-			local items: { JsonObject } = {}
-			for index = startIndex, math.min(startIndex + CATALOG_BATCH_SIZE - 1, #ids) do
-				local entry: JsonObject = { itemType = "Asset", id = ids[index] }
-				table.insert(items, entry)
-			end
-			local ok, payload = pcall(requestCatalogBatch, items)
-			if ok then
-				for _, item in payload.data or {} do
-					local itemId = tonumber(item.id)
-					if itemId then
-						found[itemId] = item
-					end
-				end
-			else
-				warn(`Catalog batch at {startIndex} failed, continuing without it: {payload}`)
-			end
-			if startIndex + CATALOG_BATCH_SIZE <= #ids then
-				task.wait(CATALOG_BATCH_DELAY)
-			end
-		end
-	end
-
-	local function stillMissing(): { number }
-		local missing: { number } = {}
-		for _, assetId in assetIds do
-			if found[assetId] == nil then
-				table.insert(missing, assetId)
-			end
-		end
-		return missing
-	end
-
-	fetchInto(assetIds)
-
-	local missing = stillMissing()
-	if #missing > 0 then
-		warn(`Catalog API missed {#missing} item(s) on the first pass, retrying them`)
-		task.wait(CATALOG_THROTTLE_WAIT)
-		fetchInto(missing)
-	end
-
-	local omitted = stillMissing()
-	if #omitted > 0 then
-		local text: { string } = {}
-		for _, assetId in omitted do
-			table.insert(text, tostring(assetId))
-		end
-		warn(`Catalog API omitted {#omitted} item(s): {table.concat(text, ", ")}`)
-	end
-
-	return found
-end
-
-local function fetchThumbnails(assetIds: { number }): { [number]: string }
-	local thumbnails: { [number]: string } = {}
-	for startIndex = 1, #assetIds, 100 do
-		local batch: { string } = {}
-		for index = startIndex, math.min(startIndex + 99, #assetIds) do
-			table.insert(batch, tostring(assetIds[index]))
-		end
-		local query: { [string]: string } = {
-			assetIds = table.concat(batch, ","),
-			returnPolicy = "PlaceHolder",
-			size = "420x420",
-			format = "Png",
-			isCircular = "false",
-		}
-		local ok, payload = pcall(requestJson, THUMBNAIL_URL, query)
-		if ok then
-			for _, image in payload.data or {} do
-				if image.state == "Completed" and image.imageUrl then
-					thumbnails[image.targetId] = image.imageUrl
-				end
-			end
-		else
-			warn(`Thumbnail batch at {startIndex} failed, continuing without it: {payload}`)
-		end
-		task.wait(0.2)
-	end
-	return thumbnails
-end
-
--- The API refreshes whatever it returns; ids it skips keep their stored values.
-local function loadCatalogStore(path: string?): { [number]: JsonObject }
-	local store: { [number]: JsonObject } = {}
-	if path == nil then
-		return store
-	end
-	if not fs.isFile(path) then
-		warn(`No catalog store at {path}, starting from empty`)
-		return store
-	end
-	local ok, decoded = pcall(readJson, path)
-	if not ok then
-		warn(`Could not read the catalog store at {path}: {decoded}`)
-		return store
-	end
-	for _, item in decoded.items or {} do
-		local itemId = tonumber(item.id)
-		if itemId then
-			store[itemId] = item
-		end
-	end
-	return store
-end
-
 local function sortedGearIds(): { string }
 	local ids: { string } = {}
 	for _, entry in fs.readDir(project.GEAR_PATH) do
@@ -371,9 +151,14 @@ local function sortedGearIds(): { string }
 	return ids
 end
 
+-- Half the catalog is enough to keep a lost artifact plus one --new-only
+-- batch from replacing the live site, without blocking the current store
+-- (~80% covered) or the later half of the first hourly rotation.
+local CATALOG_MIN_COVERED_RATIO = 0.5
+
 local output = "_site"
-local offline = false
 local storePath: string? = nil
+local offline = false
 local index = 1
 while index <= #process.args do
 	local argument = process.args[index]
@@ -391,6 +176,12 @@ while index <= #process.args do
 	index += 1
 end
 
+if offline then
+	if storePath ~= nil then
+		error("Cannot combine --store and --offline")
+	end
+end
+
 if fs.isDir(output) then
 	fs.removeDir(output)
 end
@@ -402,75 +193,29 @@ fs.writeDir(`{output}/data`)
 fs.writeDir(`{output}/data/gear`)
 
 local gearIds = sortedGearIds()
-local numericIds: { number } = {}
 for _, assetId in gearIds do
 	if gearNames[assetId] == nil then
 		error(`GearMap is missing dumped gear {assetId}`)
 	end
-	table.insert(numericIds, assert(tonumber(assetId)))
 end
 
-local catalogMetadata: { [number]: JsonObject } = {}
-local thumbnails: { [number]: string } = {}
-if not offline then
-	local metadataOk, metadataResult = pcall(fetchCatalogMetadata, numericIds)
-	if metadataOk then
-		catalogMetadata = metadataResult
-	else
-		warn(`Catalog metadata unavailable: {metadataResult}`)
-	end
-	local thumbnailsOk, thumbnailsResult = pcall(fetchThumbnails, numericIds)
-	if thumbnailsOk then
-		thumbnails = thumbnailsResult
-	else
-		warn(`Thumbnails unavailable: {thumbnailsResult}`)
-	end
-end
-
-local store = loadCatalogStore(storePath)
-local refreshed = 0
-for _, numericId in numericIds do
-	local apiItem = catalogMetadata[numericId]
-	local stored: JsonObject = store[numericId] or { id = numericId }
-	if apiItem then
-		stored = {
-			id = numericId,
-			name = apiItem.name,
-			description = apiItem.description,
-			creator = apiItem.creatorName,
-			created = apiItem.itemCreatedUtc,
-			priceStatus = apiItem.priceStatus,
-			price = apiItem.price,
-			favorites = apiItem.favoriteCount,
-			thumbnail = stored.thumbnail,
-		}
-		refreshed += 1
-	end
-	local thumbnail = thumbnails[numericId]
-	if thumbnail then
-		stored.thumbnail = thumbnail
-	end
-	if apiItem or thumbnail then
-		store[numericId] = stored
-	end
-end
-
+local store = catalogStore.load(storePath)
 local catalog: { CatalogEntry } = {}
 for _, assetId in gearIds do
 	local numericId = assert(tonumber(assetId))
 	local tree = gearTree(assetId)
 	local instanceCount, classes = summarizeTree(tree)
-	local stored: JsonObject = store[numericId] or {}
+	local stored = store.items[numericId]
 	local entry: CatalogEntry = {
 		id = numericId,
-		name = stored.name or catalogFallbacks[assetId] or friendlyName(gearNames[assetId] or assetId),
-		description = stored.description or "",
-		creator = stored.creator or "ROBLOX",
-		created = stored.created,
-		price = stored.price,
-		priceStatus = stored.priceStatus,
-		favorites = stored.favorites,
-		thumbnail = stored.thumbnail or "",
+		name = stored and stored.name or catalogFallbacks[assetId] or friendlyName(gearNames[assetId] or assetId),
+		description = if stored then stored.description or "" else "",
+		creator = if stored and stored.creator then stored.creator else "ROBLOX",
+		created = if stored then stored.created else nil,
+		price = if stored then stored.price else nil,
+		priceStatus = if stored then stored.priceStatus else nil,
+		favorites = if stored then stored.favorites else nil,
+		thumbnail = if stored and stored.thumbnail then stored.thumbnail else "",
 		instances = instanceCount,
 		classes = classes,
 	}
@@ -478,8 +223,6 @@ for _, assetId in gearIds do
 	fs.writeFile(`{output}/data/gear/{assetId}.json`, serde.encode("json", tree))
 end
 
--- Names starting with punctuation have no alphabetical position, so they sort
--- after everything else instead of ahead of A.
 local function isUnnamed(name: string): boolean
 	return name:match("^%s*%w") == nil
 end
@@ -497,16 +240,18 @@ end)
 
 local covered = 0
 for _, entry in catalog do
-	if store[entry.id] ~= nil then
+	if entry.created ~= nil then
 		covered += 1
 	end
 end
 
--- The deploy overwrites the whole site, so failing here keeps the last one up.
-if not offline and covered < #catalog * CATALOG_MIN_COVERED then
-	error(
-		`Only {covered} of {#catalog} items have catalog data, below the {CATALOG_MIN_COVERED * 100}% needed to publish`
-	)
+if storePath ~= nil then
+	local minimum = math.floor(#catalog * CATALOG_MIN_COVERED_RATIO)
+	if covered < minimum then
+		error(
+			`Catalog store at {storePath} covers {covered}/{#catalog} items (need {minimum}); refusing to publish fallback names`
+		)
+	end
 end
 
 fs.writeFile(
@@ -514,9 +259,9 @@ fs.writeFile(
 	serde.encode("json", {
 		generatedAt = os.date("!%Y-%m-%dT%H:%M:%SZ"),
 		count = #catalog,
-		refreshed = refreshed,
+		covered = covered,
 		items = catalog,
 	})
 )
 
-print(`Built {#catalog} gear pages ({covered} with catalog data, {refreshed} refreshed this run)`)
+print(`Built {#catalog} gear pages ({covered} with catalog metadata from the store)`)
