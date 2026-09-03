@@ -12,13 +12,16 @@ local function executeLuauTaskAsync(
 	placeId: string,
 	apiKey: string
 ): { any }
-	publishPlaceAsync(placePath, universeId, placeId, apiKey)
+	local placeVersion = publishPlaceAsync(placePath, universeId, placeId, apiKey)
 
 	local boundary = ("-"):rep(80)
 	print(`executing script content\n{boundary}\n{scriptContent}\n{boundary}`)
 
-	print("starting Luau task...")
-	local luauTask = createLuauTaskAsync(scriptContent, universeId, placeId, apiKey)
+	-- CI runs share a single test place, so pin the task to the version this run
+	-- just published rather than letting it pick up another run's upload.
+	print(`starting Luau task against place version {placeVersion}...`)
+	local luauTask =
+		createLuauTaskAsync(scriptContent, universeId, placeId, apiKey, if placeVersion > 0 then placeVersion else nil)
 	print(`task created: {luauTask.path}`)
 
 	print("waiting for task to complete...")
